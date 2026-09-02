@@ -1,0 +1,501 @@
+customer_id,signup_date,loyalty_tier,customer_segment,age_band,preferred_channel,home_suburb,prior_12m_orders,lifetime_value_before_period,marketing_consent,home_postcode,home_state,home_country,preferred_language,acquisition_source,account_status,preferred_device,email_domain,household_size_band,contact_frequency_preference
+CUS00001,2017-06-21,Silver,Value,45-54,Store,Northcote,19.0,14969.0,False,3070,VIC,Australia,ar,Paid Search,Active,Mobile,example.net,5+,Monthly
+CUS00002,2017-01-01,Bronze,Mainstream,45-54,Mobile,Docklands,0.0,850.97,True,3008,VIC,Australia,de,Paid Search,Active,Desktop,example.net,5+,Weekly
+CUS00003,2013-11-24,Silver,Value,55+,Mobile,Southbank,1.0,1006.7,False,3006,VIC,Australia,de,Referral,Dormant,Desktop,mail.test,5+,Essential only
+CUS00004,2013-10-26,Bronze,Premium,55+,Mobile,Hawthorn,15.0,2231.0,True,3122,VIC,Australia,ru,Store,Active,Mobile,example.net,3-4,Weekly
+CUS00005,2015-03-10,Bronze,Value,55+,Web,Docklands,14.0,6573.12,True,3008,VIC,Australia,es,Store,Active,Tablet,inbox.example,3-4,Essential only
+CUS00006,2013-03-27,Gold,Small Business,25-34,Web,Carlton,1.0,696.7,True,3053,VIC,Australia,pt,Referral,Active,Tablet,example.net,1,Essential only
+CUS00007,2017-06-15,Gold,Value,25-34,Store,Carlton,12.0,6877.79,True,3053,VIC,Australia,pl,Social,Active,Mobile,example.net,5+,Monthly
+CUS00008,2014-10-12,Bronze,Small Business,25-34,Store,Southbank,4.0,1889.24,True,3006,VIC,Australia,ar,Social,Active,Mobile,example.net,5+,Weekly
+CUS00009,2015-07-01,Bronze,Premium,35-44,Store,Southbank,3.0,3000.79,True,3006,VIC,Australia,it,Social,Active,Mobile,inbox.example,2,Quarterly
+CUS00010,2016-01-04,Gold,Value,55+,Mobile,Footscray,1.0,863.61,True,3011,VIC,Australia,fr,Paid Search,Active,Desktop,inbox.example,3-4,Weekly
+CUS00011,2013-06-22,Bronze,Small Business,35-44,Mobile,Southbank,2.0,609.42,True,3006,VIC,Australia,es,Organic,Active,Desktop,example.net,5+,Quarterly
+CUS00012,2015-12-18,Bronze,Value,55+,Store,Northcote,8.0,2062.65,True,3070,VIC,Australia,ja,Organic,Active,Tablet,example.net,2,Quarterly
+CUS00013,2014-09-27,Gold,Premium,35-44,Mobile,Northcote,6.0,5309.34,True,3070,VIC,Australia,ar,Social,Active,Mobile,example.net,3-4,Weekly
+CUS00014,2015-11-12,Silver,Premium,25-34,Web,Brunswick,10.0,7081.46,True,3056,VIC,Australia,pl,Referral,Active,Mobile,mail.test,5+,Essential only
+CUS00015,2014-11-15,Silver,Small Business,18-24,Web,Southbank,5.0,2560.71,True,3006,VIC,Australia,en,Paid Search,Active,Desktop,inbox.example,1,Monthly
+CUS00016,2013-12-14,Bronze,Value,45-54,Store,Brunswick,7.0,1380.35,True,3056,VIC,Australia,fr,Organic,Active,Desktop,inbox.example,1,Essential only
+CUS00017,2015-07-07,Silver,Small Business,35-44,Web,Carlton,0.0,839.43,True,3053,VIC,Australia,es,Store,Active,Tablet,mail.test,2,Monthly
+CUS00018,2015-01-23,Silver,Value,45-54,Mobile,Southbank,3.0,2637.99,True,3006,VIC,Australia,it,Paid Search,Active,Mobile,mail.test,2,Quarterly
+CUS00019,2016-01-16,Silver,Mainstream,18-24,Store,Southbank,3.0,2061.28,True,3006,VIC,Australia,ru,Social,Active,Tablet,example.net,1,Quarterly
+CUS00020,2014-06-11,Bronze,Premium,25-34,Store,Carlton,15.0,2032.8,True,3053,VIC,Australia,pl,Social,Dormant,Desktop,inbox.example,5+,Monthly
+CUS00021,2017-05-25,Bronze,Premium,25-34,Store,Carlton,17.0,6101.17,False,3053,VIC,Australia,en,Social,Active,Tablet,inbox.example,1,Monthly
+CUS00022,2017-10-20,Bronze,Premium,45-54,Web,Footscray,18.0,12519.11,True,3011,VIC,Australia,pt,Referral,Active,Tablet,inbox.example,5+,Weekly
+CUS00023,2015-07-08,Silver,Value,35-44,Mobile,Hawthorn,13.0,3898.6,True,3122,VIC,Australia,hi,Referral,Active,Mobile,mail.test,1,Monthly
+CUS00024,2015-11-15,Platinum,Mainstream,35-44,Mobile,Footscray,14.0,4267.9,True,3011,VIC,Australia,pl,Referral,Active,Desktop,inbox.example,5+,Quarterly
+CUS00025,2016-01-10,Gold,Value,55+,Mobile,Carlton,4.0,3997.81,True,3053,VIC,Australia,it,Social,Active,Tablet,example.net,1,Essential only
+CUS00026,2016-11-13,Bronze,Value,45-54,Store,Carlton,6.0,1985.01,True,3053,VIC,Australia,ar,Social,Active,Mobile,inbox.example,3-4,Quarterly
+CUS00027,2017-12-19,Bronze,Value,55+,Mobile,Brunswick,8.0,2030.15,True,3056,VIC,Australia,zh,Store,Active,Mobile,example.net,3-4,Monthly
+CUS00028,2013-03-01,Silver,Small Business,45-54,Web,Carlton,5.0,957.75,True,3053,VIC,Australia,en,Social,Active,Tablet,example.net,1,Quarterly
+CUS00029,2016-04-15,Bronze,Small Business,35-44,Mobile,Melbourne,14.0,3789.98,True,3000,VIC,Australia,hi,Social,Active,Desktop,example.net,5+,Essential only
+CUS00030,2015-07-22,Bronze,Premium,18-24,Web,Southbank,12.0,5250.13,True,3006,VIC,Australia,pt,Social,Active,Mobile,example.net,1,Weekly
+CUS00031,2017-03-10,Bronze,Mainstream,55+,Mobile,Northcote,20.0,16286.08,False,3070,VIC,Australia,de,Social,Active,Mobile,example.net,1,Quarterly
+CUS00032,2013-12-14,Bronze,Premium,25-34,Mobile,St Kilda,14.0,5162.62,True,3182,VIC,Australia,ja,Referral,Active,Mobile,mail.test,2,Essential only
+CUS00033,2013-08-10,Bronze,Mainstream,25-34,Store,Brunswick,1.0,543.27,True,3056,VIC,Australia,fr,Paid Search,Active,Desktop,example.net,3-4,Weekly
+CUS00034,2017-12-21,Silver,Small Business,25-34,Store,Brunswick,11.0,7398.56,True,3056,VIC,Australia,ar,Paid Search,Active,Tablet,inbox.example,3-4,Weekly
+CUS00035,2017-04-21,Bronze,Premium,18-24,Mobile,Carlton,2.0,2187.97,True,3053,VIC,Australia,it,Referral,Active,Mobile,inbox.example,3-4,Essential only
+CUS00036,2016-07-05,Gold,Small Business,18-24,Store,Hawthorn,17.0,14214.63,True,3122,VIC,Australia,es,Paid Search,Active,Tablet,mail.test,5+,Quarterly
+CUS00037,2015-06-07,Bronze,Mainstream,25-34,Web,Footscray,13.0,1614.48,True,3011,VIC,Australia,pt,Social,Dormant,Mobile,example.net,3-4,Weekly
+CUS00038,2016-02-09,Silver,Premium,55+,Store,Melbourne,1.0,1063.45,True,3000,VIC,Australia,zh,Paid Search,Active,Desktop,example.net,1,Weekly
+CUS00039,2014-07-06,Bronze,Value,25-34,Mobile,Southbank,10.0,1276.95,True,3006,VIC,Australia,zh,Paid Search,Active,Mobile,example.net,2,Weekly
+CUS00040,2017-07-08,Silver,Small Business,18-24,Web,Northcote,18.0,13192.46,False,3070,VIC,Australia,fr,Organic,Active,Desktop,inbox.example,5+,Quarterly
+CUS00041,2013-11-09,Silver,Mainstream,25-34,Web,St Kilda,5.0,1671.59,True,3182,VIC,Australia,pl,Store,Active,Desktop,inbox.example,1,Quarterly
+CUS00042,2017-05-21,Bronze,Small Business,55+,Web,Brunswick,19.0,6541.51,False,3056,VIC,Australia,ru,Organic,Active,Tablet,inbox.example,3-4,Weekly
+CUS00043,2017-07-07,Bronze,Mainstream,18-24,Web,Footscray,1.0,890.95,False,3011,VIC,Australia,pl,Store,Active,Tablet,example.net,1,Weekly
+CUS00044,2017-08-06,Bronze,Small Business,55+,Mobile,Footscray,13.0,7157.69,True,3011,VIC,Australia,it,Paid Search,Active,Tablet,example.net,3-4,Monthly
+CUS00045,2013-01-17,Gold,Premium,18-24,Store,St Kilda,18.0,5140.12,True,3182,VIC,Australia,it,Referral,Active,Tablet,inbox.example,1,Monthly
+CUS00046,2016-05-20,Silver,Value,25-34,Web,Hawthorn,13.0,8515.97,False,3122,VIC,Australia,es,Paid Search,Active,Tablet,mail.test,3-4,Monthly
+CUS00047,2016-09-24,Silver,Value,18-24,Web,Southbank,14.0,1914.29,False,3006,VIC,Australia,fr,Store,Active,Desktop,mail.test,2,Monthly
+CUS00048,2017-01-03,Gold,Small Business,18-24,Mobile,Brunswick,17.0,4493.84,True,3056,VIC,Australia,de,Referral,Active,Mobile,example.net,2,Monthly
+CUS00049,2017-01-12,Bronze,Small Business,18-24,Mobile,Richmond,13.0,7729.6,True,3121,VIC,Australia,it,Referral,Active,Tablet,example.net,1,Essential only
+CUS00050,2014-09-08,Bronze,Mainstream,18-24,Web,Northcote,13.0,7076.75,True,3070,VIC,Australia,nl,Organic,Active,Desktop,mail.test,2,Monthly
+CUS00051,2017-09-03,Bronze,Value,35-44,Store,Docklands,2.0,2645.29,True,3008,VIC,Australia,hi,Paid Search,Dormant,Tablet,inbox.example,2,Monthly
+CUS00052,2016-02-12,Gold,Premium,25-34,Mobile,Richmond,19.0,6954.32,True,3121,VIC,Australia,es,Referral,Active,Tablet,mail.test,1,Quarterly
+CUS00053,2013-03-19,Silver,Small Business,35-44,Mobile,Docklands,20.0,4135.81,True,3008,VIC,Australia,fr,Organic,Active,Tablet,inbox.example,3-4,Monthly
+CUS00054,2016-06-26,Bronze,Premium,55+,Mobile,Southbank,19.0,3119.05,False,3006,VIC,Australia,zh,Social,Active,Tablet,mail.test,2,Monthly
+CUS00055,2016-09-20,Platinum,Premium,35-44,Web,Brunswick,5.0,1091.1,True,3056,VIC,Australia,pt,Social,Active,Tablet,example.net,5+,Quarterly
+CUS00056,2014-04-10,Bronze,Value,18-24,Mobile,St Kilda,3.0,3022.62,True,3182,VIC,Australia,de,Paid Search,Dormant,Tablet,inbox.example,3-4,Essential only
+CUS00057,2014-09-13,Gold,Mainstream,45-54,Web,Southbank,3.0,3164.64,True,3006,VIC,Australia,pt,Social,Active,Mobile,example.net,1,Monthly
+CUS00058,2016-02-23,Gold,Mainstream,35-44,Mobile,Southbank,1.0,1246.9,False,3006,VIC,Australia,ru,Store,Review,Desktop,mail.test,5+,Quarterly
+CUS00059,2014-04-26,Platinum,Mainstream,35-44,Web,Northcote,7.0,5001.01,True,3070,VIC,Australia,en,Referral,Active,Mobile,mail.test,2,Essential only
+CUS00060,2016-01-23,Silver,Mainstream,55+,Store,Carlton,8.0,2430.56,True,3053,VIC,Australia,pt,Organic,Active,Desktop,example.net,3-4,Essential only
+CUS00061,2013-04-11,Silver,Small Business,18-24,Mobile,Brunswick,3.0,2842.11,True,3056,VIC,Australia,ar,Store,Dormant,Mobile,inbox.example,1,Weekly
+CUS00062,2013-07-11,Gold,Small Business,45-54,Mobile,Brunswick,21.0,1963.07,True,3056,VIC,Australia,pt,Organic,Active,Desktop,mail.test,5+,Weekly
+CUS00063,2016-06-09,Gold,Value,18-24,Mobile,Carlton,17.0,14804.94,False,3053,VIC,Australia,ar,Store,Active,Mobile,mail.test,5+,Quarterly
+CUS00064,2013-02-17,Silver,Small Business,35-44,Web,Carlton,2.0,1080.95,False,3053,VIC,Australia,it,Social,Active,Mobile,mail.test,1,Essential only
+CUS00065,2017-01-18,Silver,Premium,25-34,Web,Richmond,0.0,160.79,False,3121,VIC,Australia,fr,Organic,Active,Desktop,inbox.example,3-4,Weekly
+CUS00066,2013-01-05,Bronze,Mainstream,55+,Store,Footscray,5.0,4261.4,True,3011,VIC,Australia,pl,Social,Active,Desktop,mail.test,1,Weekly
+CUS00067,2014-01-21,Bronze,Value,25-34,Store,Hawthorn,6.0,5422.58,True,3122,VIC,Australia,fr,Organic,Active,Desktop,mail.test,2,Essential only
+CUS00068,2014-03-14,Silver,Mainstream,55+,Store,Northcote,11.0,3467.07,True,3070,VIC,Australia,fr,Social,Active,Tablet,inbox.example,3-4,Quarterly
+CUS00069,2013-09-07,Gold,Mainstream,25-34,Store,Carlton,17.0,11559.69,False,3053,VIC,Australia,it,Store,Active,Mobile,mail.test,3-4,Essential only
+CUS00070,2013-04-09,Bronze,Premium,55+,Mobile,Richmond,5.0,4107.59,False,3121,VIC,Australia,zh,Referral,Active,Tablet,inbox.example,5+,Monthly
+CUS00071,2017-07-09,Bronze,Premium,18-24,Store,Melbourne,18.0,8567.57,True,3000,VIC,Australia,ru,Store,Active,Desktop,mail.test,1,Weekly
+CUS00072,2015-08-24,Bronze,Small Business,25-34,Web,St Kilda,17.0,11077.24,True,3182,VIC,Australia,de,Organic,Dormant,Mobile,example.net,2,Quarterly
+CUS00073,2017-07-06,Silver,Premium,35-44,Web,Carlton,17.0,4075.02,False,3053,VIC,Australia,nl,Organic,Active,Desktop,example.net,3-4,Quarterly
+CUS00074,2017-10-09,Silver,Premium,25-34,Store,Carlton,0.0,848.04,True,3053,VIC,Australia,en,Referral,Active,Tablet,example.net,5+,Quarterly
+CUS00075,2015-09-06,Silver,Mainstream,35-44,Web,Hawthorn,17.0,7062.08,True,3122,VIC,Australia,zh,Social,Active,Mobile,mail.test,2,Quarterly
+CUS00076,2013-09-20,Bronze,Value,55+,Store,Hawthorn,21.0,17178.38,False,3122,VIC,Australia,zh,Social,Active,Desktop,example.net,2,Essential only
+CUS00077,2015-02-13,Bronze,Premium,18-24,Store,Northcote,7.0,6480.95,True,3070,VIC,Australia,es,Organic,Active,Mobile,inbox.example,1,Monthly
+CUS00078,2015-08-16,Bronze,Premium,25-34,Store,Northcote,16.0,6681.82,True,3070,VIC,Australia,zh,Store,Active,Mobile,inbox.example,5+,Monthly
+CUS00079,2017-09-15,Bronze,Value,25-34,Mobile,Footscray,21.0,10042.66,False,3011,VIC,Australia,ja,Organic,Active,Tablet,mail.test,1,Quarterly
+CUS00080,2015-04-02,Bronze,Small Business,25-34,Store,Brunswick,3.0,909.38,False,3056,VIC,Australia,en,Social,Active,Tablet,mail.test,5+,Essential only
+CUS00081,2015-08-21,Bronze,Mainstream,18-24,Store,Northcote,14.0,6634.66,True,3070,VIC,Australia,pl,Store,Active,Desktop,mail.test,3-4,Monthly
+CUS00082,2016-01-08,Silver,Small Business,35-44,Store,Richmond,16.0,4702.42,True,3121,VIC,Australia,fr,Referral,Active,Tablet,example.net,3-4,Monthly
+CUS00083,2016-12-08,Silver,Small Business,55+,Store,Carlton,16.0,13174.05,True,3053,VIC,Australia,ja,Store,Active,Desktop,example.net,1,Monthly
+CUS00084,2014-09-17,Bronze,Premium,18-24,Web,Melbourne,7.0,2303.73,True,3000,VIC,Australia,pl,Store,Active,Tablet,example.net,5+,Quarterly
+CUS00085,2016-08-20,Silver,Premium,45-54,Store,Northcote,11.0,3402.18,True,3070,VIC,Australia,en,Referral,Active,Tablet,mail.test,2,Quarterly
+CUS00086,2015-04-27,Bronze,Premium,35-44,Store,Carlton,8.0,7052.12,True,3053,VIC,Australia,zh,Social,Dormant,Mobile,example.net,1,Monthly
+CUS00087,2013-08-20,Silver,Value,45-54,Store,Southbank,5.0,2179.37,True,3006,VIC,Australia,pt,Store,Active,Mobile,example.net,5+,Weekly
+CUS00088,2014-11-19,Gold,Mainstream,25-34,Mobile,Richmond,2.0,452.15,False,3121,VIC,Australia,ru,Social,Active,Mobile,inbox.example,2,Quarterly
+CUS00089,2014-12-11,Bronze,Small Business,55+,Mobile,Footscray,5.0,1751.81,False,3011,VIC,Australia,hi,Referral,Active,Tablet,mail.test,1,Weekly
+CUS00090,2014-09-15,Silver,Small Business,25-34,Store,Hawthorn,6.0,4866.69,True,3122,VIC,Australia,pt,Referral,Active,Desktop,example.net,3-4,Quarterly
+CUS00091,2016-08-23,Bronze,Mainstream,45-54,Mobile,Hawthorn,0.0,860.75,True,3122,VIC,Australia,nl,Organic,Active,Desktop,example.net,2,Weekly
+CUS00092,2017-12-13,Silver,Mainstream,25-34,Mobile,Richmond,12.0,11474.0,False,3121,VIC,Australia,es,Organic,Active,Desktop,mail.test,1,Monthly
+CUS00093,2013-04-15,Bronze,Premium,25-34,Mobile,Northcote,13.0,10181.14,True,3070,VIC,Australia,es,Social,Active,Mobile,mail.test,3-4,Weekly
+CUS00094,2013-10-05,Platinum,Premium,45-54,Store,Footscray,2.0,2534.18,False,3011,VIC,Australia,nl,Store,Active,Mobile,example.net,3-4,Quarterly
+CUS00095,2015-09-10,Bronze,Value,45-54,Web,Footscray,2.0,394.1,True,3011,VIC,Australia,pt,Social,Active,Desktop,example.net,1,Quarterly
+CUS00096,2014-03-21,Platinum,Premium,35-44,Mobile,Melbourne,13.0,10463.58,True,3000,VIC,Australia,en,Store,Active,Tablet,inbox.example,3-4,Quarterly
+CUS00097,2015-09-27,Bronze,Premium,45-54,Web,Richmond,10.0,3017.54,False,3121,VIC,Australia,es,Organic,Dormant,Mobile,inbox.example,5+,Quarterly
+CUS00098,2017-07-22,Silver,Value,18-24,Web,Richmond,20.0,10152.88,True,3121,VIC,Australia,en,Social,Review,Mobile,inbox.example,1,Quarterly
+CUS00099,2014-11-06,Gold,Small Business,55+,Web,Brunswick,10.0,5357.39,False,3056,VIC,Australia,nl,Paid Search,Active,Desktop,mail.test,5+,Essential only
+CUS00100,2014-03-01,Bronze,Premium,18-24,Mobile,Richmond,5.0,4899.54,True,3121,VIC,Australia,pt,Referral,Active,Tablet,mail.test,3-4,Weekly
+CUS00101,2014-03-12,Gold,Premium,55+,Store,Footscray,2.0,850.41,True,3011,VIC,Australia,zh,Organic,Active,Desktop,example.net,3-4,Quarterly
+CUS00102,2015-12-08,Gold,Small Business,35-44,Web,Carlton,7.0,3979.35,False,3053,VIC,Australia,ru,Store,Active,Tablet,example.net,3-4,Quarterly
+CUS00103,2013-07-13,Gold,Mainstream,25-34,Mobile,Southbank,8.0,5191.6,True,3006,VIC,Australia,en,Organic,Active,Tablet,inbox.example,2,Essential only
+CUS00104,2016-01-27,Platinum,Mainstream,18-24,Mobile,Docklands,1.0,461.13,True,3008,VIC,Australia,zh,Organic,Active,Mobile,mail.test,1,Essential only
+CUS00105,2015-09-18,Silver,Mainstream,35-44,Mobile,Richmond,17.0,12793.47,True,3121,VIC,Australia,hi,Organic,Active,Mobile,mail.test,5+,Essential only
+CUS00106,2015-05-27,Silver,Mainstream,25-34,Store,St Kilda,4.0,1844.67,True,3182,VIC,Australia,ru,Paid Search,Active,Desktop,inbox.example,3-4,Weekly
+CUS00107,2014-04-14,Bronze,Small Business,55+,Store,Docklands,21.0,11333.93,True,3008,VIC,Australia,ja,Social,Active,Mobile,example.net,3-4,Quarterly
+CUS00108,2016-09-19,Platinum,Premium,18-24,Web,St Kilda,14.0,12251.4,False,3182,VIC,Australia,pt,Referral,Active,Tablet,mail.test,5+,Weekly
+CUS00109,2014-07-19,Bronze,Premium,45-54,Store,Southbank,12.0,5099.4,False,3006,VIC,Australia,ru,Organic,Active,Desktop,inbox.example,5+,Essential only
+CUS00110,2017-10-15,Silver,Mainstream,18-24,Mobile,Carlton,0.0,604.63,False,3053,VIC,Australia,it,Referral,Active,Mobile,example.net,2,Essential only
+CUS00111,2014-06-16,Silver,Premium,18-24,Mobile,Northcote,17.0,5325.71,False,3070,VIC,Australia,it,Store,Active,Desktop,inbox.example,1,Essential only
+CUS00112,2014-02-19,Silver,Small Business,18-24,Mobile,Footscray,2.0,1964.72,True,3011,VIC,Australia,ja,Social,Active,Mobile,example.net,2,Monthly
+CUS00113,2015-07-19,Gold,Premium,45-54,Store,Brunswick,13.0,11410.64,True,3056,VIC,Australia,ru,Store,Active,Mobile,mail.test,2,Monthly
+CUS00114,2015-11-27,Silver,Small Business,35-44,Mobile,Brunswick,4.0,2042.05,True,3056,VIC,Australia,pl,Store,Active,Mobile,inbox.example,2,Essential only
+CUS00115,2016-02-24,Bronze,Mainstream,35-44,Web,Carlton,13.0,5003.79,True,3053,VIC,Australia,hi,Social,Dormant,Tablet,example.net,1,Quarterly
+CUS00116,2015-10-23,Bronze,Premium,25-34,Store,Melbourne,16.0,8863.53,True,3000,VIC,Australia,ru,Paid Search,Active,Mobile,mail.test,2,Quarterly
+CUS00117,2013-04-08,Bronze,Value,18-24,Mobile,Northcote,10.0,3544.7,True,3070,VIC,Australia,ru,Store,Active,Desktop,inbox.example,3-4,Monthly
+CUS00118,2017-10-06,Gold,Mainstream,25-34,Mobile,Brunswick,5.0,1722.47,True,3056,VIC,Australia,pl,Store,Active,Mobile,mail.test,1,Quarterly
+CUS00119,2013-01-23,Gold,Premium,18-24,Mobile,Hawthorn,0.0,840.06,True,3122,VIC,Australia,es,Store,Active,Tablet,mail.test,5+,Weekly
+CUS00120,2014-07-18,Bronze,Mainstream,25-34,Web,Hawthorn,3.0,1042.25,True,3122,VIC,Australia,nl,Store,Active,Desktop,example.net,5+,Monthly
+CUS00121,2017-11-01,Gold,Mainstream,55+,Store,Brunswick,20.0,8409.58,True,3056,VIC,Australia,en,Social,Active,Desktop,example.net,2,Essential only
+CUS00122,2017-04-05,Silver,Small Business,45-54,Store,Hawthorn,4.0,2746.97,False,3122,VIC,Australia,ja,Paid Search,Active,Desktop,mail.test,3-4,Quarterly
+CUS00123,2016-10-13,Gold,Small Business,35-44,Mobile,Hawthorn,9.0,6771.48,True,3122,VIC,Australia,pl,Referral,Active,Desktop,example.net,2,Essential only
+CUS00124,2017-03-02,Platinum,Mainstream,25-34,Store,Northcote,15.0,7563.6,False,3070,VIC,Australia,pt,Referral,Active,Mobile,mail.test,3-4,Monthly
+CUS00125,2017-04-17,Silver,Mainstream,45-54,Web,Footscray,20.0,11259.44,True,3011,VIC,Australia,ru,Organic,Active,Desktop,inbox.example,2,Essential only
+CUS00126,2017-10-18,Gold,Mainstream,55+,Store,Southbank,1.0,1316.7,True,3006,VIC,Australia,nl,Paid Search,Active,Desktop,inbox.example,1,Quarterly
+CUS00127,2014-06-08,Bronze,Mainstream,35-44,Mobile,Brunswick,1.0,932.47,True,3056,VIC,Australia,ja,Store,Active,Mobile,example.net,3-4,Quarterly
+CUS00128,2017-10-19,Bronze,Small Business,18-24,Mobile,Southbank,13.0,9483.94,True,3006,VIC,Australia,zh,Organic,Active,Tablet,example.net,2,Essential only
+CUS00129,2017-07-20,Bronze,Small Business,25-34,Mobile,Brunswick,18.0,15399.12,True,3056,VIC,Australia,fr,Organic,Active,Tablet,mail.test,2,Monthly
+CUS00130,2015-01-07,Gold,Value,35-44,Mobile,Footscray,6.0,2785.03,True,3011,VIC,Australia,zh,Organic,Active,Tablet,inbox.example,3-4,Monthly
+CUS00131,2017-08-05,Gold,Premium,25-34,Web,Southbank,21.0,13238.53,True,3006,VIC,Australia,zh,Referral,Active,Mobile,mail.test,5+,Weekly
+CUS00132,2016-07-20,Bronze,Mainstream,35-44,Web,Hawthorn,0.0,709.06,False,3122,VIC,Australia,nl,Referral,Active,Desktop,example.net,1,Weekly
+CUS00133,2013-07-12,Bronze,Premium,45-54,Web,Melbourne,3.0,809.84,True,3000,VIC,Australia,ru,Referral,Active,Mobile,mail.test,2,Monthly
+CUS00134,2013-12-11,Bronze,Small Business,55+,Mobile,Richmond,21.0,4055.17,True,3121,VIC,Australia,pt,Social,Active,Desktop,example.net,5+,Quarterly
+CUS00135,2014-05-10,Silver,Mainstream,45-54,Store,Carlton,12.0,3318.49,False,3053,VIC,Australia,de,Social,Active,Mobile,example.net,5+,Weekly
+CUS00136,2014-05-24,Bronze,Mainstream,45-54,Web,Southbank,13.0,2054.76,True,3006,VIC,Australia,hi,Paid Search,Active,Mobile,mail.test,5+,Weekly
+CUS00137,2015-06-03,Silver,Value,18-24,Store,Melbourne,15.0,5250.07,False,3000,VIC,Australia,fr,Social,Active,Tablet,example.net,1,Quarterly
+CUS00138,2015-12-02,Gold,Premium,18-24,Web,St Kilda,7.0,2756.23,True,3182,VIC,Australia,hi,Referral,Dormant,Mobile,example.net,2,Weekly
+CUS00139,2015-04-21,Bronze,Mainstream,35-44,Store,Carlton,19.0,17868.06,True,3053,VIC,Australia,pt,Social,Dormant,Tablet,example.net,2,Essential only
+CUS00140,2013-08-19,Silver,Value,18-24,Store,Southbank,0.0,757.86,True,3006,VIC,Australia,pl,Social,Active,Desktop,example.net,2,Essential only
+CUS00141,2014-01-02,Silver,Mainstream,35-44,Mobile,Docklands,13.0,3767.42,True,3008,VIC,Australia,nl,Referral,Dormant,Desktop,example.net,1,Essential only
+CUS00142,2016-03-23,Platinum,Value,18-24,Mobile,Richmond,12.0,9695.77,False,3121,VIC,Australia,fr,Referral,Active,Desktop,inbox.example,5+,Monthly
+CUS00143,2017-05-11,Bronze,Value,45-54,Web,Southbank,2.0,1328.05,False,3006,VIC,Australia,pl,Referral,Active,Tablet,example.net,3-4,Quarterly
+CUS00144,2013-11-06,Silver,Premium,55+,Store,Brunswick,7.0,7112.3,True,3056,VIC,Australia,pt,Social,Active,Mobile,mail.test,1,Weekly
+CUS00145,2014-12-14,Bronze,Small Business,55+,Store,Northcote,14.0,11245.42,False,3070,VIC,Australia,pt,Social,Active,Desktop,mail.test,2,Weekly
+CUS00146,2015-09-07,Gold,Value,25-34,Mobile,Southbank,0.0,300.91,True,3006,VIC,Australia,zh,Store,Active,Tablet,inbox.example,1,Essential only
+CUS00147,2015-04-06,Gold,Mainstream,18-24,Web,Richmond,4.0,4368.62,True,3121,VIC,Australia,it,Social,Active,Desktop,mail.test,1,Essential only
+CUS00148,2016-03-18,Gold,Premium,25-34,Web,Carlton,10.0,2635.27,True,3053,VIC,Australia,ru,Organic,Active,Mobile,mail.test,1,Essential only
+CUS00149,2013-12-24,Bronze,Mainstream,35-44,Store,Docklands,15.0,13828.17,True,3008,VIC,Australia,es,Social,Active,Mobile,mail.test,2,Essential only
+CUS00150,2016-10-04,Silver,Mainstream,25-34,Web,St Kilda,16.0,14611.56,True,3182,VIC,Australia,en,Paid Search,Active,Tablet,inbox.example,2,Weekly
+CUS00151,2015-05-09,Gold,Small Business,35-44,Web,Richmond,6.0,2049.63,False,3121,VIC,Australia,pl,Paid Search,Active,Desktop,example.net,5+,Weekly
+CUS00152,2017-02-02,Silver,Value,45-54,Web,Richmond,21.0,11899.54,False,3121,VIC,Australia,fr,Referral,Active,Desktop,inbox.example,2,Weekly
+CUS00153,2014-06-17,Bronze,Small Business,25-34,Mobile,Footscray,3.0,425.16,True,3011,VIC,Australia,ar,Referral,Active,Mobile,example.net,2,Essential only
+CUS00154,2014-02-09,Bronze,Small Business,35-44,Store,Richmond,21.0,10564.65,True,3121,VIC,Australia,pl,Social,Active,Desktop,example.net,5+,Essential only
+CUS00155,2016-05-25,Silver,Mainstream,25-34,Mobile,Brunswick,7.0,1231.25,True,3056,VIC,Australia,en,Paid Search,Active,Mobile,example.net,2,Weekly
+CUS00156,2015-12-11,Gold,Premium,55+,Store,Southbank,2.0,1224.65,False,3006,VIC,Australia,it,Store,Active,Tablet,mail.test,5+,Essential only
+CUS00157,2014-11-15,Silver,Value,45-54,Store,Brunswick,10.0,3826.28,False,3056,VIC,Australia,ru,Store,Active,Desktop,example.net,3-4,Quarterly
+CUS00158,2013-03-19,Silver,Small Business,35-44,Web,Southbank,19.0,1756.74,False,3006,VIC,Australia,ru,Paid Search,Active,Mobile,inbox.example,2,Essential only
+CUS00159,2013-11-24,Bronze,Mainstream,18-24,Mobile,Carlton,3.0,2866.06,True,3053,VIC,Australia,zh,Organic,Active,Desktop,inbox.example,3-4,Essential only
+CUS00160,2015-07-23,Silver,Value,45-54,Web,Northcote,8.0,747.99,True,3070,VIC,Australia,zh,Referral,Active,Desktop,example.net,2,Essential only
+CUS00161,2017-10-24,Bronze,Mainstream,35-44,Web,Footscray,10.0,9505.14,True,3011,VIC,Australia,pl,Paid Search,Active,Mobile,inbox.example,1,Quarterly
+CUS00162,2017-05-05,Gold,Mainstream,45-54,Store,Richmond,2.0,1458.05,True,3121,VIC,Australia,pl,Organic,Active,Mobile,example.net,1,Monthly
+CUS00163,2017-03-11,Platinum,Mainstream,25-34,Mobile,Carlton,7.0,2610.52,True,3053,VIC,Australia,pl,Referral,Active,Desktop,mail.test,2,Monthly
+CUS00164,2013-07-02,Bronze,Mainstream,55+,Mobile,Southbank,0.0,617.5,False,3006,VIC,Australia,de,Store,Active,Mobile,example.net,2,Weekly
+CUS00165,2016-05-09,Bronze,Mainstream,18-24,Web,Richmond,1.0,589.14,True,3121,VIC,Australia,ar,Organic,Active,Desktop,inbox.example,5+,Monthly
+CUS00166,2015-06-22,Silver,Mainstream,45-54,Web,Brunswick,12.0,5604.97,True,3056,VIC,Australia,it,Social,Dormant,Tablet,example.net,5+,Weekly
+CUS00167,2013-04-06,Bronze,Premium,18-24,Web,Northcote,20.0,12702.98,True,3070,VIC,Australia,it,Store,Review,Mobile,mail.test,3-4,Monthly
+CUS00168,2016-11-13,Gold,Mainstream,55+,Mobile,St Kilda,18.0,2688.34,False,3182,VIC,Australia,pl,Social,Active,Tablet,mail.test,2,Monthly
+CUS00169,2015-02-25,Bronze,Small Business,45-54,Mobile,Northcote,17.0,11783.36,False,3070,VIC,Australia,pl,Social,Active,Desktop,mail.test,3-4,Quarterly
+CUS00170,2017-01-02,Silver,Small Business,18-24,Web,Brunswick,11.0,9262.32,True,3056,VIC,Australia,de,Organic,Active,Tablet,mail.test,1,Weekly
+CUS00171,2014-06-12,Bronze,Premium,55+,Store,Southbank,8.0,3307.23,True,3006,VIC,Australia,pt,Referral,Active,Mobile,mail.test,1,Monthly
+CUS00172,2016-09-08,Gold,Mainstream,55+,Web,Melbourne,20.0,10105.0,False,3000,VIC,Australia,hi,Store,Active,Desktop,inbox.example,3-4,Quarterly
+CUS00173,2014-12-15,Bronze,Premium,25-34,Mobile,Brunswick,15.0,1282.5,False,3056,VIC,Australia,pt,Store,Active,Tablet,mail.test,3-4,Essential only
+CUS00174,2015-12-11,Gold,Value,25-34,Mobile,Brunswick,1.0,964.65,True,3056,VIC,Australia,pt,Paid Search,Active,Mobile,example.net,2,Quarterly
+CUS00175,2013-08-02,Silver,Value,35-44,Mobile,Brunswick,11.0,10263.79,False,3056,VIC,Australia,es,Store,Active,Desktop,inbox.example,3-4,Weekly
+CUS00176,2015-11-07,Bronze,Value,45-54,Web,Docklands,12.0,9862.18,True,3008,VIC,Australia,it,Organic,Active,Mobile,inbox.example,5+,Monthly
+CUS00177,2016-11-07,Silver,Value,45-54,Web,Southbank,16.0,1647.12,True,3006,VIC,Australia,pt,Paid Search,Dormant,Mobile,example.net,5+,Quarterly
+CUS00178,2014-03-14,Bronze,Mainstream,18-24,Store,Hawthorn,16.0,3815.04,False,3122,VIC,Australia,zh,Social,Dormant,Desktop,inbox.example,3-4,Weekly
+CUS00179,2015-05-04,Silver,Premium,45-54,Store,Richmond,21.0,13364.12,True,3121,VIC,Australia,hi,Organic,Active,Tablet,example.net,1,Monthly
+CUS00180,2013-09-14,Bronze,Value,35-44,Store,St Kilda,20.0,10771.3,True,3182,VIC,Australia,hi,Organic,Active,Desktop,inbox.example,2,Essential only
+CUS00181,2013-02-06,Gold,Mainstream,45-54,Web,Southbank,17.0,11656.52,True,3006,VIC,Australia,ru,Paid Search,Active,Mobile,mail.test,5+,Monthly
+CUS00182,2015-12-09,Silver,Small Business,18-24,Store,Carlton,11.0,4428.83,True,3053,VIC,Australia,ru,Organic,Active,Mobile,inbox.example,2,Monthly
+CUS00183,2016-09-14,Bronze,Small Business,55+,Store,Northcote,17.0,7714.94,False,3070,VIC,Australia,ru,Social,Review,Tablet,inbox.example,2,Essential only
+CUS00184,2014-04-02,Silver,Mainstream,25-34,Web,Hawthorn,7.0,4885.32,False,3122,VIC,Australia,hi,Referral,Active,Tablet,example.net,1,Monthly
+CUS00185,2013-10-25,Silver,Premium,25-34,Store,Richmond,15.0,4412.98,True,3121,VIC,Australia,ru,Store,Active,Desktop,inbox.example,5+,Quarterly
+CUS00186,2015-05-20,Bronze,Premium,25-34,Store,St Kilda,2.0,1047.85,False,3182,VIC,Australia,pl,Social,Active,Mobile,example.net,5+,Weekly
+CUS00187,2013-03-12,Bronze,Value,35-44,Web,Hawthorn,1.0,338.71,True,3122,VIC,Australia,pt,Referral,Active,Mobile,inbox.example,5+,Quarterly
+CUS00188,2017-01-14,Bronze,Premium,25-34,Mobile,Melbourne,2.0,2427.88,True,3000,VIC,Australia,en,Organic,Active,Tablet,inbox.example,5+,Quarterly
+CUS00189,2017-12-03,Silver,Mainstream,18-24,Web,Melbourne,20.0,4600.21,False,3000,VIC,Australia,ar,Paid Search,Active,Tablet,mail.test,2,Weekly
+CUS00190,2016-06-01,Bronze,Premium,25-34,Store,Brunswick,4.0,3820.05,True,3056,VIC,Australia,es,Social,Active,Desktop,example.net,5+,Weekly
+CUS00191,2014-10-01,Gold,Premium,45-54,Mobile,Brunswick,1.0,998.53,True,3056,VIC,Australia,hi,Referral,Active,Mobile,example.net,3-4,Monthly
+CUS00192,2015-01-18,Silver,Premium,55+,Web,Docklands,14.0,7417.44,True,3008,VIC,Australia,hi,Social,Dormant,Desktop,mail.test,1,Essential only
+CUS00193,2015-03-21,Bronze,Small Business,55+,Store,Northcote,15.0,13398.67,True,3070,VIC,Australia,ru,Store,Active,Tablet,inbox.example,3-4,Weekly
+CUS00194,2013-12-20,Bronze,Mainstream,35-44,Store,Melbourne,9.0,3314.75,True,3000,VIC,Australia,ja,Referral,Active,Desktop,inbox.example,2,Weekly
+CUS00195,2014-10-07,Silver,Mainstream,18-24,Mobile,Richmond,4.0,2583.28,True,3121,VIC,Australia,it,Referral,Active,Desktop,example.net,5+,Monthly
+CUS00196,2016-06-19,Gold,Value,35-44,Store,Hawthorn,10.0,9199.87,True,3122,VIC,Australia,ja,Paid Search,Active,Mobile,mail.test,5+,Quarterly
+CUS00197,2013-08-13,Silver,Small Business,35-44,Mobile,Footscray,3.0,1962.97,True,3011,VIC,Australia,hi,Paid Search,Active,Tablet,inbox.example,5+,Essential only
+CUS00198,2014-01-25,Platinum,Premium,25-34,Web,Southbank,15.0,9229.14,True,3006,VIC,Australia,pt,Social,Active,Mobile,example.net,5+,Essential only
+CUS00199,2017-11-05,Silver,Premium,55+,Store,Brunswick,9.0,3830.38,True,3056,VIC,Australia,es,Social,Active,Mobile,example.net,1,Weekly
+CUS00200,2017-10-23,Platinum,Mainstream,35-44,Mobile,Northcote,13.0,1651.89,True,3070,VIC,Australia,de,Organic,Active,Tablet,example.net,5+,Quarterly
+CUS00201,2015-02-18,Bronze,Value,25-34,Mobile,Carlton,17.0,14155.45,True,3053,VIC,Australia,nl,Social,Active,Tablet,mail.test,2,Monthly
+CUS00202,2015-10-14,Silver,Small Business,55+,Store,Brunswick,15.0,12168.17,True,3056,VIC,Australia,zh,Paid Search,Active,Tablet,mail.test,3-4,Quarterly
+CUS00203,2016-12-24,Gold,Value,35-44,Store,Hawthorn,8.0,1210.28,True,3122,VIC,Australia,hi,Organic,Active,Mobile,example.net,1,Quarterly
+CUS00204,2013-10-08,Platinum,Value,45-54,Store,Richmond,5.0,3389.19,False,3121,VIC,Australia,en,Store,Active,Desktop,example.net,3-4,Weekly
+CUS00205,2015-02-17,Bronze,Value,45-54,Store,Melbourne,0.0,319.36,True,3000,VIC,Australia,fr,Store,Active,Desktop,example.net,3-4,Essential only
+CUS00206,2013-11-07,Silver,Premium,25-34,Store,Hawthorn,12.0,9938.77,True,3122,VIC,Australia,nl,Paid Search,Active,Desktop,mail.test,1,Essential only
+CUS00207,2014-02-17,Bronze,Premium,55+,Mobile,Carlton,18.0,7999.51,True,3053,VIC,Australia,nl,Organic,Active,Tablet,mail.test,3-4,Monthly
+CUS00208,2015-06-27,Bronze,Mainstream,35-44,Web,Footscray,11.0,9572.11,True,3011,VIC,Australia,es,Social,Active,Desktop,mail.test,2,Essential only
+CUS00209,2017-05-14,Bronze,Small Business,25-34,Mobile,Carlton,9.0,1704.0,False,3053,VIC,Australia,it,Organic,Active,Mobile,example.net,3-4,Quarterly
+CUS00210,2013-07-25,Bronze,Value,25-34,Web,Northcote,8.0,8040.89,True,3070,VIC,Australia,ru,Paid Search,Active,Tablet,inbox.example,2,Monthly
+CUS00211,2014-01-04,Platinum,Value,55+,Store,Carlton,2.0,927.12,True,3053,VIC,Australia,zh,Store,Active,Mobile,inbox.example,2,Monthly
+CUS00212,2016-01-24,Gold,Mainstream,45-54,Store,Northcote,5.0,1682.45,False,3070,VIC,Australia,ja,Store,Active,Desktop,inbox.example,2,Essential only
+CUS00213,2013-02-05,Silver,Mainstream,18-24,Mobile,Richmond,19.0,14647.81,True,3121,VIC,Australia,es,Organic,Active,Desktop,inbox.example,5+,Weekly
+CUS00214,2014-06-15,Bronze,Small Business,18-24,Web,Richmond,5.0,2529.95,False,3121,VIC,Australia,it,Organic,Active,Mobile,mail.test,5+,Quarterly
+CUS00215,2017-06-07,Gold,Mainstream,35-44,Mobile,Melbourne,21.0,12528.7,True,3000,VIC,Australia,nl,Referral,Active,Mobile,mail.test,1,Quarterly
+CUS00216,2013-12-16,Gold,Premium,45-54,Mobile,Footscray,2.0,318.08,True,3011,VIC,Australia,ja,Social,Active,Mobile,example.net,3-4,Weekly
+CUS00217,2017-05-05,Bronze,Small Business,18-24,Web,Hawthorn,5.0,4474.26,False,3122,VIC,Australia,pl,Store,Dormant,Mobile,example.net,2,Essential only
+CUS00218,2015-06-18,Bronze,Small Business,55+,Mobile,Carlton,6.0,2513.97,False,3053,VIC,Australia,ru,Paid Search,Active,Tablet,example.net,5+,Weekly
+CUS00219,2013-05-12,Silver,Premium,55+,Mobile,Northcote,17.0,8288.79,True,3070,VIC,Australia,pt,Store,Active,Tablet,example.net,2,Weekly
+CUS00220,2013-04-22,Gold,Mainstream,25-34,Store,Carlton,0.0,651.4,True,3053,VIC,Australia,es,Paid Search,Review,Mobile,inbox.example,2,Monthly
+CUS00221,2015-05-16,Gold,Mainstream,25-34,Web,Brunswick,2.0,719.81,True,3056,VIC,Australia,fr,Referral,Active,Mobile,inbox.example,2,Weekly
+CUS00222,2013-03-07,Bronze,Premium,45-54,Mobile,St Kilda,19.0,1919.71,True,3182,VIC,Australia,fr,Store,Active,Tablet,example.net,2,Weekly
+CUS00223,2017-05-13,Silver,Value,45-54,Mobile,Carlton,14.0,4164.35,True,3053,VIC,Australia,hi,Paid Search,Active,Mobile,inbox.example,5+,Weekly
+CUS00224,2016-05-07,Bronze,Small Business,45-54,Web,Northcote,19.0,6872.55,True,3070,VIC,Australia,hi,Store,Active,Tablet,example.net,2,Quarterly
+CUS00225,2017-05-16,Bronze,Small Business,25-34,Store,Southbank,20.0,3364.82,True,3006,VIC,Australia,hi,Referral,Active,Mobile,example.net,2,Quarterly
+CUS00226,2016-08-24,Bronze,Mainstream,25-34,Store,Southbank,17.0,6614.73,True,3006,VIC,Australia,nl,Paid Search,Active,Desktop,example.net,3-4,Weekly
+CUS00227,2017-07-17,Silver,Small Business,35-44,Web,Northcote,20.0,8865.67,True,3070,VIC,Australia,de,Referral,Active,Tablet,mail.test,5+,Essential only
+CUS00228,2015-01-02,Silver,Premium,18-24,Mobile,Southbank,8.0,2590.94,True,3006,VIC,Australia,de,Social,Active,Desktop,example.net,1,Essential only
+CUS00229,2017-01-17,Gold,Small Business,55+,Mobile,Richmond,14.0,2016.22,True,3121,VIC,Australia,zh,Organic,Active,Tablet,mail.test,3-4,Weekly
+CUS00230,2015-12-27,Silver,Premium,18-24,Mobile,Melbourne,19.0,2783.54,True,3000,VIC,Australia,es,Store,Active,Mobile,example.net,2,Monthly
+CUS00231,2014-06-16,Bronze,Small Business,18-24,Mobile,Hawthorn,17.0,12151.9,True,3122,VIC,Australia,pl,Paid Search,Active,Desktop,example.net,1,Monthly
+CUS00232,2013-07-05,Bronze,Mainstream,45-54,Store,Hawthorn,7.0,6820.01,True,3122,VIC,Australia,en,Store,Active,Desktop,inbox.example,2,Quarterly
+CUS00233,2015-09-12,Silver,Mainstream,18-24,Mobile,Docklands,12.0,10709.71,True,3008,VIC,Australia,it,Social,Active,Tablet,inbox.example,1,Weekly
+CUS00234,2015-08-25,Bronze,Value,25-34,Store,Richmond,17.0,15373.13,True,3121,VIC,Australia,pl,Referral,Active,Desktop,inbox.example,1,Essential only
+CUS00235,2015-08-04,Gold,Small Business,35-44,Mobile,Northcote,6.0,2772.99,True,3070,VIC,Australia,pt,Store,Active,Mobile,example.net,1,Weekly
+CUS00236,2016-11-11,Silver,Mainstream,18-24,Mobile,Docklands,19.0,12747.58,True,3008,VIC,Australia,de,Store,Active,Mobile,example.net,1,Weekly
+CUS00237,2016-11-13,Silver,Mainstream,18-24,Mobile,Southbank,11.0,1777.45,True,3006,VIC,Australia,es,Referral,Active,Tablet,example.net,5+,Monthly
+CUS00238,2017-11-24,Silver,Small Business,18-24,Store,Melbourne,9.0,5931.78,True,3000,VIC,Australia,es,Store,Active,Mobile,mail.test,3-4,Weekly
+CUS00239,2016-09-12,Gold,Value,35-44,Store,Richmond,19.0,3373.0,False,3121,VIC,Australia,pl,Paid Search,Active,Tablet,inbox.example,5+,Weekly
+CUS00240,2014-08-10,Bronze,Mainstream,25-34,Web,Brunswick,15.0,4675.6,True,3056,VIC,Australia,ru,Paid Search,Active,Desktop,mail.test,3-4,Quarterly
+CUS00241,2014-01-02,Silver,Mainstream,35-44,Store,St Kilda,1.0,649.86,True,3182,VIC,Australia,fr,Social,Active,Desktop,mail.test,2,Quarterly
+CUS00242,2014-09-10,Bronze,Small Business,18-24,Web,Docklands,10.0,7374.82,True,3008,VIC,Australia,es,Paid Search,Active,Desktop,inbox.example,2,Monthly
+CUS00243,2013-01-18,Silver,Small Business,35-44,Mobile,Brunswick,5.0,1005.2,True,3056,VIC,Australia,ru,Social,Active,Desktop,example.net,3-4,Quarterly
+CUS00244,2017-12-13,Gold,Small Business,35-44,Store,Richmond,17.0,10125.96,True,3121,VIC,Australia,de,Store,Active,Tablet,inbox.example,5+,Essential only
+CUS00245,2017-05-22,Gold,Premium,18-24,Store,Docklands,3.0,1334.77,False,3008,VIC,Australia,fr,Social,Active,Desktop,mail.test,3-4,Weekly
+CUS00246,2016-06-21,Platinum,Small Business,55+,Mobile,Melbourne,5.0,3110.94,True,3000,VIC,Australia,pl,Social,Active,Mobile,example.net,2,Monthly
+CUS00247,2013-02-27,Gold,Mainstream,35-44,Store,St Kilda,10.0,8403.3,True,3182,VIC,Australia,pl,Social,Dormant,Desktop,mail.test,1,Monthly
+CUS00248,2015-02-04,Silver,Premium,18-24,Store,Richmond,11.0,8854.56,True,3121,VIC,Australia,zh,Store,Active,Tablet,example.net,5+,Essential only
+CUS00249,2017-02-24,Bronze,Mainstream,55+,Mobile,Richmond,13.0,12355.54,True,3121,VIC,Australia,en,Paid Search,Active,Tablet,example.net,5+,Quarterly
+CUS00250,2016-05-06,Silver,Small Business,25-34,Store,Melbourne,13.0,2200.79,False,3000,VIC,Australia,en,Paid Search,Active,Tablet,example.net,1,Monthly
+CUS00251,2016-05-10,Bronze,Small Business,25-34,Store,Carlton,7.0,6231.54,True,3053,VIC,Australia,zh,Social,Active,Tablet,example.net,3-4,Quarterly
+CUS00252,2017-10-09,Silver,Value,45-54,Mobile,Brunswick,10.0,5531.82,False,3056,VIC,Australia,fr,Organic,Active,Desktop,example.net,3-4,Quarterly
+CUS00253,2017-02-03,Silver,Premium,18-24,Mobile,Northcote,19.0,11330.2,True,3070,VIC,Australia,ja,Organic,Active,Desktop,mail.test,1,Quarterly
+CUS00254,2015-12-16,Silver,Value,55+,Web,Northcote,10.0,6784.54,True,3070,VIC,Australia,es,Paid Search,Active,Mobile,mail.test,5+,Monthly
+CUS00255,2017-05-18,Bronze,Mainstream,45-54,Mobile,Melbourne,20.0,14821.51,True,3000,VIC,Australia,nl,Referral,Active,Mobile,inbox.example,3-4,Essential only
+CUS00256,2017-09-03,Bronze,Premium,45-54,Web,St Kilda,3.0,1476.2,True,3182,VIC,Australia,zh,Organic,Active,Tablet,example.net,5+,Essential only
+CUS00257,2016-01-24,Bronze,Small Business,25-34,Mobile,Hawthorn,19.0,1661.05,True,3122,VIC,Australia,pl,Organic,Active,Tablet,mail.test,1,Monthly
+CUS00258,2013-05-07,Gold,Value,18-24,Mobile,Docklands,0.0,448.21,True,3008,VIC,Australia,pl,Social,Active,Mobile,example.net,3-4,Essential only
+CUS00259,2017-07-14,Bronze,Mainstream,45-54,Web,Brunswick,8.0,950.6,True,3056,VIC,Australia,hi,Organic,Active,Desktop,example.net,3-4,Monthly
+CUS00260,2016-05-18,Bronze,Small Business,18-24,Web,Hawthorn,9.0,3930.08,True,3122,VIC,Australia,it,Social,Dormant,Tablet,example.net,1,Monthly
+CUS00261,2016-08-21,Silver,Mainstream,18-24,Store,Brunswick,0.0,584.04,True,3056,VIC,Australia,ja,Social,Active,Tablet,example.net,5+,Monthly
+CUS00262,2014-10-21,Bronze,Value,35-44,Mobile,Footscray,15.0,6072.86,False,3011,VIC,Australia,hi,Paid Search,Dormant,Desktop,example.net,5+,Essential only
+CUS00263,2014-03-19,Silver,Mainstream,25-34,Mobile,Northcote,15.0,7498.95,False,3070,VIC,Australia,zh,Paid Search,Active,Desktop,example.net,5+,Essential only
+CUS00264,2013-11-16,Silver,Premium,55+,Web,Carlton,13.0,4869.15,False,3053,VIC,Australia,zh,Store,Active,Tablet,inbox.example,3-4,Weekly
+CUS00265,2017-12-01,Bronze,Mainstream,35-44,Mobile,St Kilda,5.0,4671.12,True,3182,VIC,Australia,hi,Store,Active,Tablet,mail.test,2,Monthly
+CUS00266,2016-07-10,Bronze,Small Business,25-34,Web,Carlton,9.0,1863.44,True,3053,VIC,Australia,it,Organic,Active,Tablet,example.net,3-4,Essential only
+CUS00267,2016-03-01,Gold,Small Business,18-24,Web,Footscray,10.0,8706.66,True,3011,VIC,Australia,zh,Referral,Active,Desktop,example.net,1,Quarterly
+CUS00268,2017-12-01,Bronze,Small Business,25-34,Mobile,Docklands,10.0,1817.41,True,3008,VIC,Australia,pt,Referral,Active,Mobile,inbox.example,2,Weekly
+CUS00269,2016-03-15,Silver,Premium,18-24,Mobile,Northcote,2.0,1830.47,True,3070,VIC,Australia,hi,Store,Active,Desktop,example.net,2,Essential only
+CUS00270,2016-06-11,Silver,Small Business,55+,Mobile,Brunswick,0.0,454.35,True,3056,VIC,Australia,en,Social,Active,Mobile,inbox.example,1,Essential only
+CUS00271,2015-10-17,Silver,Mainstream,25-34,Store,Docklands,15.0,12629.6,True,3008,VIC,Australia,pl,Referral,Active,Tablet,example.net,2,Essential only
+CUS00272,2015-11-06,Bronze,Mainstream,35-44,Store,Northcote,11.0,5635.43,True,3070,VIC,Australia,pl,Social,Active,Tablet,example.net,5+,Quarterly
+CUS00273,2017-01-08,Gold,Premium,25-34,Store,Footscray,15.0,6693.96,True,3011,VIC,Australia,en,Store,Active,Tablet,example.net,3-4,Essential only
+CUS00274,2013-09-12,Bronze,Small Business,18-24,Mobile,Melbourne,7.0,4282.08,True,3000,VIC,Australia,hi,Store,Active,Mobile,mail.test,5+,Quarterly
+CUS00275,2017-11-17,Bronze,Mainstream,18-24,Web,Docklands,0.0,144.37,False,3008,VIC,Australia,zh,Referral,Dormant,Desktop,mail.test,5+,Essential only
+CUS00276,2013-12-06,Bronze,Small Business,45-54,Store,St Kilda,1.0,281.85,True,3182,VIC,Australia,ru,Paid Search,Dormant,Mobile,inbox.example,3-4,Quarterly
+CUS00277,2017-11-03,Bronze,Small Business,55+,Store,Footscray,8.0,7007.17,True,3011,VIC,Australia,pl,Referral,Active,Tablet,example.net,1,Quarterly
+CUS00278,2013-08-08,Gold,Value,55+,Mobile,Docklands,17.0,2085.09,True,3008,VIC,Australia,zh,Referral,Active,Desktop,mail.test,3-4,Quarterly
+CUS00279,2016-06-09,Bronze,Mainstream,45-54,Web,Brunswick,7.0,5687.05,True,3056,VIC,Australia,en,Referral,Active,Mobile,inbox.example,5+,Quarterly
+CUS00280,2014-03-10,Bronze,Small Business,18-24,Web,Carlton,6.0,1005.24,True,3053,VIC,Australia,ja,Store,Active,Mobile,inbox.example,2,Monthly
+CUS00281,2014-05-18,Bronze,Mainstream,35-44,Web,Southbank,4.0,3808.8,False,3006,VIC,Australia,fr,Referral,Active,Mobile,mail.test,5+,Monthly
+CUS00282,2016-03-04,Silver,Premium,45-54,Mobile,Footscray,6.0,2446.59,True,3011,VIC,Australia,fr,Store,Active,Desktop,example.net,1,Weekly
+CUS00283,2015-01-24,Silver,Value,18-24,Web,Carlton,8.0,5007.7,True,3053,VIC,Australia,es,Referral,Dormant,Desktop,mail.test,1,Weekly
+CUS00284,2014-06-09,Bronze,Small Business,25-34,Mobile,Brunswick,13.0,9441.25,True,3056,VIC,Australia,zh,Paid Search,Active,Tablet,inbox.example,5+,Quarterly
+CUS00285,2014-12-02,Gold,Mainstream,55+,Store,Melbourne,18.0,13794.47,True,3000,VIC,Australia,de,Store,Active,Tablet,example.net,3-4,Quarterly
+CUS00286,2017-11-10,Gold,Premium,35-44,Mobile,Southbank,8.0,5625.79,False,3006,VIC,Australia,ru,Referral,Active,Tablet,inbox.example,2,Monthly
+CUS00287,2015-10-24,Bronze,Small Business,18-24,Web,Melbourne,0.0,396.64,False,3000,VIC,Australia,zh,Store,Active,Tablet,example.net,3-4,Essential only
+CUS00288,2014-05-25,Bronze,Mainstream,25-34,Mobile,Northcote,12.0,4191.71,False,3070,VIC,Australia,ar,Store,Active,Tablet,inbox.example,1,Quarterly
+CUS00289,2017-10-25,Bronze,Small Business,55+,Mobile,Northcote,2.0,1554.99,False,3070,VIC,Australia,nl,Store,Active,Mobile,example.net,5+,Quarterly
+CUS00290,2017-12-06,Bronze,Small Business,18-24,Web,Footscray,20.0,8569.79,False,3011,VIC,Australia,de,Store,Active,Tablet,example.net,1,Quarterly
+CUS00291,2015-07-16,Gold,Premium,55+,Store,Southbank,6.0,4091.67,True,3006,VIC,Australia,pt,Store,Review,Mobile,mail.test,2,Monthly
+CUS00292,2013-04-19,Gold,Mainstream,55+,Store,Richmond,16.0,12012.65,False,3121,VIC,Australia,hi,Social,Active,Tablet,inbox.example,2,Essential only
+CUS00293,2017-01-01,Bronze,Mainstream,35-44,Web,Richmond,1.0,1770.09,False,3121,VIC,Australia,hi,Social,Active,Tablet,example.net,2,Monthly
+CUS00294,2013-06-24,Silver,Value,35-44,Web,Docklands,5.0,5152.77,True,3008,VIC,Australia,ja,Social,Active,Tablet,example.net,2,Essential only
+CUS00295,2013-12-03,Bronze,Small Business,55+,Web,Brunswick,13.0,3208.72,False,3056,VIC,Australia,pt,Social,Active,Mobile,mail.test,1,Quarterly
+CUS00296,2013-04-22,Gold,Small Business,35-44,Web,Hawthorn,10.0,6644.86,False,3122,VIC,Australia,pl,Paid Search,Active,Tablet,example.net,2,Quarterly
+CUS00297,2016-08-07,Silver,Premium,55+,Store,Richmond,2.0,1621.44,True,3121,VIC,Australia,ru,Referral,Active,Desktop,mail.test,3-4,Essential only
+CUS00298,2015-07-12,Silver,Mainstream,55+,Store,Richmond,9.0,4634.78,True,3121,VIC,Australia,nl,Paid Search,Dormant,Mobile,example.net,2,Monthly
+CUS00299,2016-10-25,Silver,Small Business,25-34,Web,Southbank,7.0,3105.27,True,3006,VIC,Australia,ar,Organic,Active,Mobile,mail.test,5+,Monthly
+CUS00300,2015-11-11,Gold,Mainstream,55+,Store,Melbourne,4.0,1577.73,False,3000,VIC,Australia,ar,Organic,Active,Desktop,example.net,3-4,Quarterly
+CUS00301,2013-09-26,Bronze,Premium,55+,Store,Footscray,8.0,5352.22,True,3011,VIC,Australia,en,Store,Active,Tablet,inbox.example,1,Quarterly
+CUS00302,2014-10-22,Silver,Mainstream,45-54,Mobile,Richmond,8.0,1948.5,False,3121,VIC,Australia,it,Referral,Review,Tablet,example.net,3-4,Essential only
+CUS00303,2014-06-14,Gold,Value,18-24,Store,Southbank,1.0,334.24,True,3006,VIC,Australia,ar,Paid Search,Dormant,Mobile,inbox.example,2,Weekly
+CUS00304,2013-02-08,Bronze,Value,55+,Store,St Kilda,0.0,659.94,True,3182,VIC,Australia,de,Store,Active,Mobile,inbox.example,1,Quarterly
+CUS00305,2016-02-20,Bronze,Premium,45-54,Mobile,Northcote,19.0,12553.3,True,3070,VIC,Australia,hi,Referral,Active,Desktop,mail.test,2,Weekly
+CUS00306,2016-06-07,Silver,Value,55+,Mobile,Northcote,9.0,4033.15,True,3070,VIC,Australia,hi,Referral,Dormant,Tablet,mail.test,1,Monthly
+CUS00307,2013-05-13,Silver,Value,18-24,Store,Hawthorn,20.0,5385.13,True,3122,VIC,Australia,it,Store,Active,Desktop,example.net,1,Essential only
+CUS00308,2017-10-09,Bronze,Value,45-54,Mobile,Richmond,15.0,11064.3,True,3121,VIC,Australia,hi,Paid Search,Active,Desktop,inbox.example,5+,Essential only
+CUS00309,2015-01-06,Gold,Mainstream,18-24,Mobile,Brunswick,14.0,7218.38,False,3056,VIC,Australia,ru,Paid Search,Active,Desktop,example.net,5+,Quarterly
+CUS00310,2013-02-23,Silver,Mainstream,55+,Web,Melbourne,0.0,233.06,False,3000,VIC,Australia,es,Referral,Active,Desktop,inbox.example,2,Monthly
+CUS00311,2013-04-13,Bronze,Small Business,55+,Web,Brunswick,15.0,4514.04,True,3056,VIC,Australia,fr,Organic,Active,Tablet,example.net,1,Quarterly
+CUS00312,2017-06-06,Bronze,Small Business,45-54,Store,Richmond,9.0,2860.2,False,3121,VIC,Australia,it,Social,Active,Mobile,inbox.example,2,Weekly
+CUS00313,2015-12-09,Bronze,Small Business,45-54,Store,Melbourne,21.0,2237.1,True,3000,VIC,Australia,en,Organic,Active,Tablet,inbox.example,2,Monthly
+CUS00314,2015-02-05,Bronze,Small Business,25-34,Mobile,Melbourne,20.0,15124.2,True,3000,VIC,Australia,nl,Referral,Active,Desktop,example.net,5+,Weekly
+CUS00315,2017-10-25,Platinum,Mainstream,45-54,Store,Southbank,4.0,3929.37,False,3006,VIC,Australia,hi,Paid Search,Active,Desktop,example.net,2,Quarterly
+CUS00316,2017-09-24,Bronze,Small Business,55+,Web,Docklands,13.0,3341.06,False,3008,VIC,Australia,en,Social,Review,Mobile,example.net,1,Quarterly
+CUS00317,2014-03-22,Bronze,Value,45-54,Mobile,Docklands,11.0,9279.23,True,3008,VIC,Australia,ar,Organic,Active,Mobile,inbox.example,1,Essential only
+CUS00318,2015-09-01,Bronze,Small Business,55+,Store,St Kilda,20.0,2837.44,True,3182,VIC,Australia,hi,Store,Active,Tablet,example.net,2,Quarterly
+CUS00319,2015-08-15,Gold,Premium,35-44,Store,Footscray,9.0,5126.73,False,3011,VIC,Australia,pl,Organic,Active,Mobile,mail.test,3-4,Monthly
+CUS00320,2016-11-10,Bronze,Mainstream,18-24,Mobile,Brunswick,13.0,10324.49,True,3056,VIC,Australia,en,Store,Active,Mobile,mail.test,2,Essential only
+CUS00321,2016-04-17,Silver,Premium,25-34,Store,Carlton,6.0,858.1,False,3053,VIC,Australia,zh,Referral,Active,Tablet,inbox.example,1,Monthly
+CUS00322,2016-01-13,Silver,Premium,55+,Mobile,St Kilda,18.0,7056.63,True,3182,VIC,Australia,pl,Social,Active,Desktop,example.net,3-4,Essential only
+CUS00323,2013-10-08,Silver,Mainstream,25-34,Web,Hawthorn,2.0,2447.18,True,3122,VIC,Australia,pt,Paid Search,Active,Desktop,example.net,3-4,Essential only
+CUS00324,2017-03-02,Bronze,Value,18-24,Mobile,St Kilda,2.0,2118.47,True,3182,VIC,Australia,en,Social,Active,Tablet,example.net,1,Weekly
+CUS00325,2014-10-11,Gold,Mainstream,25-34,Store,Southbank,15.0,6204.72,True,3006,VIC,Australia,pl,Paid Search,Active,Desktop,example.net,2,Monthly
+CUS00326,2014-03-18,Silver,Premium,18-24,Store,Docklands,4.0,886.9,True,3008,VIC,Australia,it,Store,Active,Mobile,example.net,3-4,Monthly
+CUS00327,2013-02-02,Bronze,Small Business,18-24,Mobile,Southbank,9.0,8980.91,True,3006,VIC,Australia,en,Referral,Active,Mobile,example.net,1,Quarterly
+CUS00328,2014-12-20,Bronze,Mainstream,55+,Mobile,Southbank,8.0,4854.7,True,3006,VIC,Australia,ja,Organic,Active,Mobile,mail.test,3-4,Quarterly
+CUS00329,2016-10-03,Gold,Value,25-34,Web,Carlton,19.0,13279.41,True,3053,VIC,Australia,it,Organic,Active,Mobile,mail.test,3-4,Weekly
+CUS00330,2015-11-24,Bronze,Premium,35-44,Web,Brunswick,10.0,4786.25,True,3056,VIC,Australia,ja,Organic,Active,Desktop,example.net,3-4,Quarterly
+CUS00331,2014-02-12,Silver,Mainstream,18-24,Mobile,Northcote,18.0,10515.9,False,3070,VIC,Australia,nl,Paid Search,Active,Desktop,example.net,2,Weekly
+CUS00332,2016-01-24,Silver,Mainstream,55+,Web,St Kilda,15.0,8121.6,True,3182,VIC,Australia,fr,Organic,Dormant,Desktop,mail.test,2,Weekly
+CUS00333,2017-05-10,Silver,Value,55+,Store,Southbank,3.0,822.37,True,3006,VIC,Australia,it,Social,Active,Tablet,inbox.example,3-4,Monthly
+CUS00334,2015-02-15,Silver,Small Business,25-34,Mobile,Docklands,21.0,4002.85,True,3008,VIC,Australia,ru,Referral,Active,Tablet,mail.test,5+,Monthly
+CUS00335,2015-10-24,Gold,Premium,45-54,Web,Northcote,13.0,7134.87,True,3070,VIC,Australia,it,Social,Active,Tablet,inbox.example,2,Weekly
+CUS00336,2014-06-05,Bronze,Value,35-44,Web,Footscray,3.0,477.36,True,3011,VIC,Australia,ru,Store,Active,Mobile,example.net,1,Essential only
+CUS00337,2014-03-17,Bronze,Small Business,25-34,Mobile,Brunswick,0.0,327.83,False,3056,VIC,Australia,ru,Referral,Dormant,Desktop,inbox.example,3-4,Weekly
+CUS00338,2017-08-25,Silver,Premium,55+,Web,Footscray,18.0,11409.57,True,3011,VIC,Australia,pt,Organic,Active,Mobile,example.net,2,Weekly
+CUS00339,2015-07-17,Gold,Premium,55+,Web,Docklands,16.0,8330.81,True,3008,VIC,Australia,it,Paid Search,Dormant,Mobile,mail.test,1,Essential only
+CUS00340,2014-08-13,Bronze,Mainstream,45-54,Mobile,Richmond,15.0,3724.76,True,3121,VIC,Australia,de,Social,Active,Desktop,example.net,3-4,Weekly
+CUS00341,2017-08-07,Gold,Premium,18-24,Store,Footscray,1.0,1469.87,False,3011,VIC,Australia,it,Store,Dormant,Mobile,inbox.example,1,Monthly
+CUS00342,2017-02-09,Silver,Premium,55+,Mobile,Southbank,21.0,15830.7,True,3006,VIC,Australia,pl,Organic,Active,Mobile,example.net,1,Monthly
+CUS00343,2016-10-03,Bronze,Value,18-24,Web,Northcote,2.0,510.48,True,3070,VIC,Australia,it,Social,Active,Mobile,example.net,2,Essential only
+CUS00344,2013-04-26,Silver,Premium,55+,Store,Northcote,18.0,7363.37,True,3070,VIC,Australia,hi,Referral,Active,Mobile,inbox.example,5+,Monthly
+CUS00345,2015-01-12,Silver,Premium,25-34,Mobile,Hawthorn,18.0,9551.76,True,3122,VIC,Australia,es,Organic,Active,Tablet,mail.test,5+,Quarterly
+CUS00346,2015-11-10,Gold,Small Business,45-54,Web,Southbank,14.0,7244.73,True,3006,VIC,Australia,en,Social,Active,Desktop,inbox.example,3-4,Weekly
+CUS00347,2015-10-21,Bronze,Premium,55+,Store,Docklands,6.0,2392.24,False,3008,VIC,Australia,de,Store,Active,Tablet,inbox.example,2,Essential only
+CUS00348,2017-08-22,Platinum,Value,25-34,Store,Richmond,9.0,4882.23,True,3121,VIC,Australia,ru,Store,Active,Desktop,inbox.example,2,Weekly
+CUS00349,2015-12-11,Bronze,Small Business,18-24,Store,Footscray,17.0,14197.05,False,3011,VIC,Australia,ar,Organic,Active,Tablet,example.net,1,Monthly
+CUS00350,2013-06-03,Silver,Value,25-34,Store,Carlton,20.0,3108.22,True,3053,VIC,Australia,en,Paid Search,Active,Mobile,mail.test,5+,Essential only
+CUS00351,2014-08-09,Gold,Small Business,35-44,Mobile,St Kilda,21.0,8311.31,False,3182,VIC,Australia,ja,Store,Active,Desktop,inbox.example,2,Weekly
+CUS00352,2013-05-09,Bronze,Small Business,35-44,Mobile,Melbourne,8.0,3739.8,True,3000,VIC,Australia,es,Paid Search,Active,Mobile,inbox.example,1,Essential only
+CUS00353,2017-10-04,Platinum,Value,35-44,Store,Southbank,9.0,5618.11,True,3006,VIC,Australia,it,Paid Search,Active,Mobile,example.net,2,Monthly
+CUS00354,2014-09-26,Platinum,Mainstream,18-24,Web,Footscray,4.0,4318.53,True,3011,VIC,Australia,pl,Store,Active,Tablet,example.net,5+,Weekly
+CUS00355,2014-08-18,Gold,Mainstream,25-34,Store,St Kilda,21.0,13392.67,True,3182,VIC,Australia,ru,Referral,Active,Mobile,example.net,1,Quarterly
+CUS00356,2017-09-10,Bronze,Premium,25-34,Store,Hawthorn,10.0,2408.64,False,3122,VIC,Australia,ja,Referral,Active,Mobile,example.net,3-4,Monthly
+CUS00357,2013-04-04,Bronze,Value,25-34,Store,Carlton,4.0,3370.24,True,3053,VIC,Australia,zh,Organic,Active,Desktop,example.net,1,Weekly
+CUS00358,2016-08-16,Platinum,Premium,18-24,Web,Northcote,16.0,15141.17,True,3070,VIC,Australia,pl,Paid Search,Active,Tablet,example.net,3-4,Monthly
+CUS00359,2016-02-13,Silver,Mainstream,55+,Mobile,Carlton,13.0,6359.45,False,3053,VIC,Australia,hi,Referral,Active,Mobile,example.net,2,Weekly
+CUS00360,2017-05-14,Bronze,Mainstream,18-24,Mobile,Melbourne,4.0,1051.68,False,3000,VIC,Australia,pl,Organic,Active,Desktop,mail.test,5+,Weekly
+CUS00361,2015-06-12,Silver,Mainstream,25-34,Mobile,Docklands,17.0,11026.67,True,3008,VIC,Australia,de,Paid Search,Active,Tablet,example.net,3-4,Weekly
+CUS00362,2017-03-13,Bronze,Premium,18-24,Web,St Kilda,17.0,8308.76,True,3182,VIC,Australia,hi,Paid Search,Active,Mobile,inbox.example,1,Weekly
+CUS00363,2015-08-21,Bronze,Value,45-54,Web,Hawthorn,19.0,13940.99,True,3122,VIC,Australia,ru,Referral,Active,Desktop,mail.test,3-4,Essential only
+CUS00364,2013-10-22,Gold,Value,18-24,Web,Hawthorn,0.0,104.31,True,3122,VIC,Australia,zh,Paid Search,Dormant,Tablet,inbox.example,3-4,Monthly
+CUS00365,2013-11-15,Silver,Mainstream,18-24,Mobile,Richmond,18.0,5884.86,True,3121,VIC,Australia,nl,Referral,Active,Tablet,example.net,1,Monthly
+CUS00366,2016-11-04,Platinum,Value,35-44,Mobile,Docklands,10.0,3616.96,True,3008,VIC,Australia,es,Organic,Active,Desktop,mail.test,3-4,Weekly
+CUS00367,2015-11-16,Bronze,Mainstream,55+,Web,Southbank,16.0,10875.16,True,3006,VIC,Australia,pt,Organic,Active,Mobile,mail.test,3-4,Quarterly
+CUS00368,2016-03-12,Bronze,Small Business,25-34,Web,Southbank,6.0,4097.0,True,3006,VIC,Australia,fr,Referral,Active,Desktop,inbox.example,2,Quarterly
+CUS00369,2013-04-11,Gold,Mainstream,25-34,Store,Hawthorn,16.0,2935.84,True,3122,VIC,Australia,it,Paid Search,Active,Desktop,inbox.example,5+,Quarterly
+CUS00370,2017-05-15,Bronze,Premium,25-34,Store,Hawthorn,18.0,2176.34,True,3122,VIC,Australia,ja,Store,Active,Tablet,mail.test,2,Weekly
+CUS00371,2014-09-03,Silver,Mainstream,35-44,Mobile,St Kilda,18.0,1812.79,True,3182,VIC,Australia,es,Social,Active,Desktop,example.net,3-4,Essential only
+CUS00372,2017-03-03,Bronze,Premium,45-54,Web,Northcote,21.0,18506.99,True,3070,VIC,Australia,pl,Paid Search,Active,Tablet,inbox.example,3-4,Essential only
+CUS00373,2017-02-16,Silver,Premium,55+,Web,Carlton,8.0,7114.52,True,3053,VIC,Australia,fr,Store,Active,Desktop,inbox.example,5+,Monthly
+CUS00374,2013-05-06,Bronze,Value,45-54,Web,Carlton,12.0,2483.45,True,3053,VIC,Australia,pt,Organic,Dormant,Mobile,example.net,5+,Monthly
+CUS00375,2015-09-06,Bronze,Small Business,45-54,Web,Brunswick,4.0,2766.3,True,3056,VIC,Australia,ar,Paid Search,Active,Desktop,inbox.example,5+,Monthly
+CUS00376,2017-06-12,Silver,Small Business,18-24,Mobile,Brunswick,4.0,3615.39,True,3056,VIC,Australia,pl,Social,Dormant,Tablet,example.net,1,Quarterly
+CUS00377,2013-02-06,Silver,Mainstream,55+,Mobile,Northcote,3.0,2029.02,False,3070,VIC,Australia,pl,Paid Search,Active,Tablet,inbox.example,1,Quarterly
+CUS00378,2014-10-25,Gold,Small Business,35-44,Mobile,Brunswick,21.0,4276.41,False,3056,VIC,Australia,fr,Store,Active,Desktop,example.net,1,Quarterly
+CUS00379,2014-06-09,Bronze,Mainstream,45-54,Mobile,Northcote,8.0,7594.44,False,3070,VIC,Australia,hi,Organic,Dormant,Desktop,mail.test,1,Essential only
+CUS00380,2013-09-23,Bronze,Premium,45-54,Store,Brunswick,6.0,2864.84,True,3056,VIC,Australia,ru,Referral,Active,Desktop,mail.test,3-4,Quarterly
+CUS00381,2014-08-26,Gold,Value,45-54,Mobile,Docklands,17.0,15909.2,True,3008,VIC,Australia,ja,Social,Active,Desktop,inbox.example,5+,Monthly
+CUS00382,2016-12-27,Bronze,Small Business,35-44,Web,St Kilda,7.0,6546.76,True,3182,VIC,Australia,en,Referral,Active,Mobile,example.net,3-4,Weekly
+CUS00383,2013-02-24,Silver,Premium,55+,Web,Docklands,18.0,3618.16,True,3008,VIC,Australia,ja,Paid Search,Active,Tablet,example.net,3-4,Essential only
+CUS00384,2016-11-18,Silver,Premium,35-44,Mobile,St Kilda,1.0,332.77,True,3182,VIC,Australia,ja,Organic,Active,Tablet,inbox.example,1,Weekly
+CUS00385,2015-07-03,Silver,Premium,55+,Mobile,Carlton,6.0,5243.76,True,3053,VIC,Australia,nl,Social,Active,Desktop,mail.test,1,Monthly
+CUS00386,2017-09-07,Silver,Value,25-34,Mobile,Southbank,6.0,5580.3,False,3006,VIC,Australia,ja,Paid Search,Active,Tablet,inbox.example,2,Weekly
+CUS00387,2016-02-14,Bronze,Mainstream,35-44,Mobile,Brunswick,20.0,11816.79,True,3056,VIC,Australia,ar,Store,Active,Desktop,mail.test,2,Quarterly
+CUS00388,2017-12-27,Bronze,Value,45-54,Web,Hawthorn,12.0,10924.17,True,3122,VIC,Australia,it,Organic,Active,Desktop,inbox.example,1,Weekly
+CUS00389,2014-04-25,Silver,Premium,35-44,Store,St Kilda,10.0,2902.11,False,3182,VIC,Australia,de,Organic,Active,Mobile,mail.test,2,Weekly
+CUS00390,2014-06-01,Bronze,Small Business,55+,Mobile,Brunswick,5.0,917.55,True,3056,VIC,Australia,zh,Paid Search,Active,Tablet,mail.test,3-4,Monthly
+CUS00391,2015-09-17,Bronze,Value,35-44,Store,Richmond,16.0,8419.61,True,3121,VIC,Australia,ja,Paid Search,Active,Tablet,example.net,5+,Quarterly
+CUS00392,2014-10-03,Silver,Small Business,25-34,Web,Northcote,19.0,4056.89,True,3070,VIC,Australia,pl,Social,Active,Tablet,mail.test,1,Monthly
+CUS00393,2013-07-22,Silver,Small Business,45-54,Mobile,Melbourne,5.0,3686.01,False,3000,VIC,Australia,hi,Store,Active,Tablet,inbox.example,2,Weekly
+CUS00394,2015-05-13,Silver,Mainstream,45-54,Web,Southbank,14.0,6539.97,True,3006,VIC,Australia,de,Referral,Active,Tablet,example.net,5+,Quarterly
+CUS00395,2017-05-25,Platinum,Value,45-54,Web,Melbourne,4.0,3771.58,True,3000,VIC,Australia,ar,Referral,Dormant,Tablet,inbox.example,5+,Weekly
+CUS00396,2016-09-10,Bronze,Value,45-54,Web,Footscray,12.0,3061.15,False,3011,VIC,Australia,nl,Store,Active,Tablet,example.net,3-4,Weekly
+CUS00397,2013-10-24,Platinum,Small Business,45-54,Store,Northcote,20.0,16276.6,True,3070,VIC,Australia,hi,Organic,Active,Desktop,mail.test,1,Essential only
+CUS00398,2014-06-22,Bronze,Small Business,55+,Store,St Kilda,1.0,940.78,True,3182,VIC,Australia,fr,Store,Active,Mobile,inbox.example,5+,Monthly
+CUS00399,2013-01-22,Gold,Value,45-54,Mobile,Southbank,14.0,10098.62,True,3006,VIC,Australia,pt,Referral,Active,Desktop,inbox.example,5+,Weekly
+CUS00400,2014-04-27,Bronze,Small Business,25-34,Mobile,Brunswick,4.0,1137.82,False,3056,VIC,Australia,pt,Organic,Active,Mobile,example.net,2,Weekly
+CUS00401,2016-01-27,Bronze,Value,45-54,Store,Brunswick,20.0,1819.89,False,3056,VIC,Australia,nl,Social,Active,Desktop,example.net,5+,Monthly
+CUS00402,2014-05-24,Silver,Mainstream,45-54,Mobile,Richmond,2.0,1198.94,True,3121,VIC,Australia,pt,Referral,Active,Mobile,inbox.example,2,Monthly
+CUS00403,2013-09-17,Bronze,Value,25-34,Mobile,Melbourne,10.0,4690.28,True,3000,VIC,Australia,fr,Referral,Active,Tablet,mail.test,3-4,Essential only
+CUS00404,2013-06-13,Silver,Value,18-24,Store,Footscray,6.0,3530.46,True,3011,VIC,Australia,pl,Referral,Active,Desktop,inbox.example,3-4,Essential only
+CUS00405,2016-05-23,Bronze,Mainstream,18-24,Mobile,Southbank,5.0,4215.89,False,3006,VIC,Australia,ru,Organic,Active,Mobile,mail.test,5+,Monthly
+CUS00406,2014-04-05,Bronze,Small Business,35-44,Web,Melbourne,20.0,10452.95,True,3000,VIC,Australia,nl,Social,Active,Tablet,inbox.example,5+,Monthly
+CUS00407,2013-01-24,Platinum,Premium,45-54,Store,Docklands,7.0,5322.86,True,3008,VIC,Australia,hi,Store,Active,Desktop,example.net,5+,Monthly
+CUS00408,2013-03-23,Silver,Premium,18-24,Web,Footscray,11.0,8816.57,True,3011,VIC,Australia,ja,Referral,Active,Desktop,inbox.example,3-4,Essential only
+CUS00409,2013-09-04,Bronze,Small Business,18-24,Mobile,Melbourne,3.0,3558.21,False,3000,VIC,Australia,es,Organic,Active,Desktop,inbox.example,1,Weekly
+CUS00410,2017-07-23,Bronze,Value,55+,Web,Hawthorn,4.0,3776.44,True,3122,VIC,Australia,pt,Social,Active,Tablet,example.net,1,Quarterly
+CUS00411,2014-01-10,Bronze,Small Business,35-44,Mobile,Docklands,3.0,1050.6,True,3008,VIC,Australia,zh,Referral,Active,Mobile,inbox.example,1,Essential only
+CUS00412,2016-01-23,Platinum,Mainstream,35-44,Web,Hawthorn,4.0,3301.83,True,3122,VIC,Australia,en,Store,Active,Tablet,example.net,2,Essential only
+CUS00413,2017-08-14,Gold,Premium,25-34,Mobile,Melbourne,13.0,12319.33,True,3000,VIC,Australia,es,Paid Search,Active,Desktop,mail.test,2,Weekly
+CUS00414,2017-05-13,Platinum,Small Business,55+,Web,Richmond,14.0,2125.7,True,3121,VIC,Australia,ar,Paid Search,Active,Desktop,mail.test,2,Weekly
+CUS00415,2015-04-07,Gold,Premium,55+,Mobile,Hawthorn,18.0,10223.22,True,3122,VIC,Australia,de,Paid Search,Active,Desktop,mail.test,2,Monthly
+CUS00416,2017-08-21,Bronze,Mainstream,25-34,Store,St Kilda,12.0,2847.11,False,3182,VIC,Australia,ru,Organic,Active,Mobile,inbox.example,1,Monthly
+CUS00417,2016-09-07,Platinum,Premium,55+,Mobile,St Kilda,8.0,3213.29,True,3182,VIC,Australia,zh,Social,Active,Desktop,example.net,5+,Monthly
+CUS00418,2016-03-20,Bronze,Value,55+,Mobile,Melbourne,10.0,1624.03,False,3000,VIC,Australia,fr,Store,Active,Desktop,mail.test,5+,Monthly
+CUS00419,2017-07-01,Silver,Mainstream,55+,Web,Footscray,16.0,1466.94,True,3011,VIC,Australia,de,Organic,Active,Mobile,example.net,1,Weekly
+CUS00420,2013-08-26,Gold,Mainstream,35-44,Mobile,Footscray,4.0,2721.02,False,3011,VIC,Australia,nl,Social,Active,Mobile,example.net,3-4,Weekly
+CUS00421,2016-11-19,Silver,Small Business,18-24,Store,Southbank,18.0,7838.11,True,3006,VIC,Australia,pl,Paid Search,Dormant,Desktop,example.net,3-4,Essential only
+CUS00422,2015-12-13,Bronze,Mainstream,35-44,Mobile,St Kilda,12.0,5997.79,True,3182,VIC,Australia,ru,Paid Search,Active,Mobile,inbox.example,5+,Monthly
+CUS00423,2013-06-05,Bronze,Mainstream,18-24,Store,Hawthorn,14.0,8452.13,True,3122,VIC,Australia,en,Organic,Active,Tablet,inbox.example,1,Monthly
+CUS00424,2013-04-13,Silver,Premium,45-54,Store,Hawthorn,11.0,1058.93,False,3122,VIC,Australia,ja,Organic,Active,Mobile,example.net,5+,Monthly
+CUS00425,2015-08-03,Silver,Value,35-44,Store,Footscray,11.0,3482.85,True,3011,VIC,Australia,en,Referral,Active,Mobile,inbox.example,3-4,Weekly
+CUS00426,2015-02-13,Bronze,Small Business,18-24,Web,Docklands,8.0,3148.78,False,3008,VIC,Australia,nl,Store,Active,Desktop,example.net,2,Monthly
+CUS00427,2017-10-08,Silver,Value,18-24,Web,Northcote,12.0,4242.72,True,3070,VIC,Australia,ru,Store,Active,Mobile,mail.test,2,Quarterly
+CUS00428,2015-11-13,Bronze,Small Business,25-34,Store,Footscray,8.0,2810.11,False,3011,VIC,Australia,it,Organic,Active,Mobile,inbox.example,2,Essential only
+CUS00429,2016-09-21,Silver,Value,18-24,Store,Carlton,14.0,8948.92,False,3053,VIC,Australia,de,Referral,Active,Desktop,example.net,3-4,Monthly
+CUS00430,2013-05-23,Gold,Premium,18-24,Mobile,Melbourne,19.0,17613.18,True,3000,VIC,Australia,en,Store,Active,Desktop,mail.test,5+,Weekly
+CUS00431,2016-04-13,Silver,Mainstream,25-34,Mobile,Docklands,15.0,10726.59,True,3008,VIC,Australia,ru,Referral,Active,Desktop,inbox.example,1,Monthly
+CUS00432,2014-09-04,Silver,Mainstream,35-44,Store,Southbank,11.0,6341.73,True,3006,VIC,Australia,hi,Social,Active,Mobile,example.net,1,Quarterly
+CUS00433,2015-04-08,Gold,Premium,18-24,Mobile,St Kilda,11.0,2001.66,True,3182,VIC,Australia,fr,Social,Active,Tablet,inbox.example,2,Monthly
+CUS00434,2013-06-11,Gold,Value,35-44,Web,Richmond,9.0,1991.4,True,3121,VIC,Australia,pt,Referral,Dormant,Tablet,inbox.example,3-4,Monthly
+CUS00435,2016-01-26,Silver,Mainstream,18-24,Web,Docklands,8.0,7443.78,True,3008,VIC,Australia,it,Organic,Active,Desktop,mail.test,2,Weekly
+CUS00436,2013-10-13,Bronze,Small Business,18-24,Store,Brunswick,0.0,257.59,False,3056,VIC,Australia,en,Social,Active,Mobile,inbox.example,2,Essential only
+CUS00437,2013-08-10,Bronze,Mainstream,35-44,Web,Carlton,2.0,544.52,True,3053,VIC,Australia,en,Organic,Active,Mobile,example.net,2,Weekly
+CUS00438,2016-03-14,Gold,Mainstream,45-54,Store,Hawthorn,15.0,8922.46,True,3122,VIC,Australia,ar,Social,Active,Tablet,inbox.example,3-4,Essential only
+CUS00439,2014-10-15,Silver,Value,55+,Web,Footscray,2.0,2515.49,False,3011,VIC,Australia,it,Referral,Active,Desktop,inbox.example,2,Monthly
+CUS00440,2017-04-10,Silver,Small Business,18-24,Mobile,Brunswick,6.0,2622.88,True,3056,VIC,Australia,hi,Social,Active,Desktop,inbox.example,5+,Monthly
+CUS00441,2016-08-23,Silver,Premium,25-34,Web,St Kilda,7.0,1293.77,False,3182,VIC,Australia,es,Store,Active,Desktop,inbox.example,2,Quarterly
+CUS00442,2017-09-27,Gold,Premium,35-44,Mobile,Carlton,13.0,7420.34,True,3053,VIC,Australia,es,Referral,Dormant,Mobile,mail.test,1,Monthly
+CUS00443,2013-05-01,Silver,Mainstream,55+,Mobile,Footscray,7.0,6986.78,True,3011,VIC,Australia,ja,Referral,Active,Desktop,mail.test,1,Monthly
+CUS00444,2014-04-12,Bronze,Premium,55+,Mobile,Richmond,1.0,1223.15,True,3121,VIC,Australia,zh,Referral,Active,Tablet,example.net,2,Monthly
+CUS00445,2017-03-18,Bronze,Premium,45-54,Web,Melbourne,2.0,626.23,False,3000,VIC,Australia,nl,Paid Search,Active,Mobile,mail.test,5+,Weekly
+CUS00446,2016-09-25,Silver,Small Business,18-24,Mobile,Northcote,18.0,11274.78,True,3070,VIC,Australia,ja,Organic,Active,Mobile,example.net,2,Monthly
+CUS00447,2013-10-01,Silver,Mainstream,45-54,Web,Hawthorn,12.0,1885.02,True,3122,VIC,Australia,ja,Social,Active,Tablet,inbox.example,5+,Quarterly
+CUS00448,2015-10-14,Bronze,Small Business,35-44,Web,Brunswick,5.0,1152.8,True,3056,VIC,Australia,it,Social,Active,Tablet,example.net,5+,Quarterly
+CUS00449,2013-11-13,Silver,Value,35-44,Mobile,Footscray,6.0,5119.55,True,3011,VIC,Australia,it,Store,Active,Mobile,example.net,3-4,Quarterly
+CUS00450,2014-10-26,Silver,Small Business,35-44,Store,Brunswick,9.0,3167.0,True,3056,VIC,Australia,ar,Store,Active,Mobile,mail.test,3-4,Quarterly
+CUS00451,2016-05-10,Bronze,Mainstream,18-24,Store,Melbourne,20.0,2912.91,True,3000,VIC,Australia,hi,Referral,Active,Desktop,inbox.example,1,Monthly
+CUS00452,2017-01-26,Platinum,Premium,25-34,Mobile,Docklands,12.0,1741.14,True,3008,VIC,Australia,ru,Store,Active,Tablet,mail.test,1,Essential only
+CUS00453,2016-04-17,Bronze,Value,35-44,Store,Brunswick,0.0,427.33,False,3056,VIC,Australia,zh,Social,Dormant,Mobile,mail.test,2,Weekly
+CUS00454,2015-09-18,Gold,Premium,45-54,Mobile,Richmond,10.0,7372.21,True,3121,VIC,Australia,ru,Store,Active,Tablet,mail.test,1,Monthly
+CUS00455,2014-04-16,Bronze,Mainstream,25-34,Web,Northcote,19.0,5784.01,False,3070,VIC,Australia,es,Paid Search,Active,Tablet,inbox.example,3-4,Weekly
+CUS00456,2014-02-09,Bronze,Value,18-24,Web,Southbank,11.0,2493.23,True,3006,VIC,Australia,es,Store,Active,Tablet,inbox.example,3-4,Weekly
+CUS00457,2017-08-11,Bronze,Mainstream,25-34,Store,Northcote,6.0,4331.41,True,3070,VIC,Australia,en,Referral,Active,Mobile,inbox.example,5+,Quarterly
+CUS00458,2013-09-15,Bronze,Mainstream,35-44,Web,Brunswick,4.0,2599.2,True,3056,VIC,Australia,pl,Referral,Active,Mobile,mail.test,1,Quarterly
+CUS00459,2014-02-07,Gold,Premium,55+,Mobile,Melbourne,1.0,447.55,True,3000,VIC,Australia,pl,Paid Search,Active,Desktop,inbox.example,3-4,Monthly
+CUS00460,2015-12-16,Gold,Small Business,35-44,Web,Carlton,7.0,2199.27,False,3053,VIC,Australia,it,Referral,Active,Mobile,inbox.example,3-4,Quarterly
+CUS00461,2014-08-08,Silver,Value,45-54,Web,Northcote,3.0,2649.51,False,3070,VIC,Australia,nl,Organic,Active,Desktop,inbox.example,5+,Monthly
+CUS00462,2016-08-25,Bronze,Premium,25-34,Web,St Kilda,14.0,6194.8,False,3182,VIC,Australia,de,Referral,Active,Mobile,example.net,2,Quarterly
+CUS00463,2013-02-09,Bronze,Mainstream,18-24,Mobile,Footscray,2.0,1710.91,True,3011,VIC,Australia,hi,Store,Active,Desktop,example.net,1,Quarterly
+CUS00464,2017-03-16,Gold,Premium,55+,Store,Richmond,4.0,4422.85,True,3121,VIC,Australia,hi,Organic,Active,Desktop,mail.test,3-4,Monthly
+CUS00465,2015-07-19,Bronze,Value,18-24,Store,Docklands,7.0,1743.1,False,3008,VIC,Australia,de,Social,Active,Desktop,mail.test,1,Weekly
+CUS00466,2015-07-11,Bronze,Small Business,18-24,Web,Melbourne,15.0,13149.29,True,3000,VIC,Australia,ru,Store,Active,Mobile,example.net,2,Quarterly
+CUS00467,2016-04-18,Gold,Premium,25-34,Web,Southbank,20.0,12459.4,False,3006,VIC,Australia,fr,Referral,Active,Tablet,example.net,5+,Monthly
+CUS00468,2016-12-24,Silver,Value,18-24,Store,Footscray,8.0,3933.63,True,3011,VIC,Australia,ru,Store,Active,Desktop,inbox.example,5+,Quarterly
+CUS00469,2017-06-06,Bronze,Premium,18-24,Mobile,Northcote,13.0,9649.39,True,3070,VIC,Australia,pl,Organic,Active,Tablet,inbox.example,1,Quarterly
+CUS00470,2013-10-15,Silver,Mainstream,35-44,Mobile,Hawthorn,7.0,1153.72,False,3122,VIC,Australia,zh,Social,Dormant,Tablet,mail.test,1,Monthly
+CUS00471,2015-10-15,Bronze,Small Business,25-34,Store,Richmond,17.0,7471.36,False,3121,VIC,Australia,hi,Organic,Active,Desktop,mail.test,5+,Weekly
+CUS00472,2015-09-22,Bronze,Small Business,55+,Mobile,Footscray,3.0,1057.89,True,3011,VIC,Australia,ar,Store,Active,Desktop,mail.test,2,Monthly
+CUS00473,2014-02-05,Silver,Small Business,45-54,Mobile,Southbank,10.0,5666.2,True,3006,VIC,Australia,fr,Store,Active,Tablet,inbox.example,3-4,Quarterly
+CUS00474,2016-09-04,Bronze,Value,45-54,Web,Southbank,0.0,568.39,True,3006,VIC,Australia,es,Social,Active,Desktop,mail.test,3-4,Essential only
+CUS00475,2014-04-04,Silver,Premium,25-34,Web,Brunswick,19.0,7269.42,True,3056,VIC,Australia,hi,Store,Active,Mobile,inbox.example,1,Monthly
+CUS00476,2015-10-05,Silver,Mainstream,35-44,Mobile,Hawthorn,1.0,953.76,True,3122,VIC,Australia,zh,Referral,Active,Tablet,example.net,3-4,Quarterly
+CUS00477,2013-06-03,Gold,Value,45-54,Web,Hawthorn,7.0,5638.14,True,3122,VIC,Australia,ru,Paid Search,Active,Desktop,mail.test,2,Weekly
+CUS00478,2014-10-17,Silver,Value,45-54,Web,Northcote,12.0,9957.33,True,3070,VIC,Australia,hi,Paid Search,Active,Desktop,example.net,5+,Quarterly
+CUS00479,2016-01-22,Gold,Premium,55+,Store,Footscray,19.0,15881.27,True,3011,VIC,Australia,ja,Organic,Active,Desktop,example.net,5+,Monthly
+CUS00480,2017-04-18,Bronze,Small Business,55+,Mobile,Carlton,15.0,5635.08,False,3053,VIC,Australia,ja,Referral,Active,Tablet,example.net,2,Weekly
+CUS00481,2016-05-10,Bronze,Small Business,35-44,Mobile,Hawthorn,13.0,11251.34,True,3122,VIC,Australia,ru,Organic,Active,Desktop,inbox.example,2,Quarterly
+CUS00482,2015-10-08,Silver,Premium,35-44,Store,Melbourne,1.0,1556.85,True,3000,VIC,Australia,pl,Paid Search,Active,Tablet,inbox.example,5+,Weekly
+CUS00483,2015-03-06,Bronze,Value,18-24,Mobile,Carlton,17.0,5462.92,False,3053,VIC,Australia,pt,Social,Active,Mobile,example.net,5+,Weekly
+CUS00484,2015-03-27,Silver,Value,25-34,Web,Northcote,14.0,4149.9,True,3070,VIC,Australia,ar,Organic,Active,Desktop,example.net,2,Weekly
+CUS00485,2016-02-14,Gold,Small Business,18-24,Web,Docklands,2.0,1018.3,True,3008,VIC,Australia,pt,Organic,Review,Tablet,inbox.example,3-4,Weekly
+CUS00486,2015-05-22,Silver,Small Business,55+,Store,Brunswick,17.0,15236.73,False,3056,VIC,Australia,nl,Social,Active,Mobile,mail.test,2,Monthly
+CUS00487,2013-11-21,Platinum,Value,55+,Store,Docklands,6.0,3016.72,False,3008,VIC,Australia,es,Organic,Dormant,Mobile,inbox.example,5+,Weekly
+CUS00488,2014-05-09,Bronze,Mainstream,25-34,Mobile,Hawthorn,6.0,4597.22,True,3122,VIC,Australia,zh,Social,Dormant,Tablet,inbox.example,3-4,Weekly
+CUS00489,2015-03-11,Bronze,Premium,55+,Mobile,Southbank,12.0,10249.21,True,3006,VIC,Australia,pl,Referral,Dormant,Tablet,example.net,1,Quarterly
+CUS00490,2014-01-25,Gold,Mainstream,18-24,Store,Richmond,16.0,14088.55,True,3121,VIC,Australia,en,Social,Active,Mobile,example.net,3-4,Weekly
+CUS00491,2016-10-05,Bronze,Premium,35-44,Web,Docklands,12.0,2211.86,True,3008,VIC,Australia,ja,Paid Search,Dormant,Tablet,example.net,5+,Weekly
+CUS00492,2014-10-21,Bronze,Value,18-24,Web,St Kilda,13.0,4307.16,True,3182,VIC,Australia,pt,Referral,Active,Mobile,example.net,2,Weekly
+CUS00493,2013-10-07,Bronze,Premium,55+,Store,Docklands,18.0,2270.19,True,3008,VIC,Australia,hi,Paid Search,Active,Desktop,example.net,2,Essential only
+CUS00494,2017-12-24,Gold,Mainstream,55+,Web,St Kilda,17.0,9012.98,True,3182,VIC,Australia,fr,Organic,Dormant,Desktop,mail.test,3-4,Essential only
+CUS00495,2013-11-07,Gold,Premium,18-24,Web,Northcote,5.0,4324.64,True,3070,VIC,Australia,nl,Referral,Active,Mobile,example.net,2,Quarterly
+CUS00496,2014-05-07,Bronze,Premium,35-44,Store,Northcote,1.0,1263.32,True,3070,VIC,Australia,ar,Referral,Active,Tablet,inbox.example,2,Essential only
+CUS00497,2013-04-08,Bronze,Value,45-54,Web,Footscray,11.0,4325.59,True,3011,VIC,Australia,nl,Paid Search,Active,Desktop,example.net,2,Monthly
+CUS00498,2013-05-04,Platinum,Value,25-34,Store,St Kilda,8.0,2270.09,False,3182,VIC,Australia,hi,Store,Active,Tablet,example.net,5+,Weekly
+CUS00499,2015-08-21,Gold,Small Business,45-54,Web,Northcote,14.0,6773.7,False,3070,VIC,Australia,nl,Store,Review,Tablet,example.net,1,Essential only
+CUS00500,2013-06-08,Bronze,Value,35-44,Store,Carlton,9.0,2298.41,True,3053,VIC,Australia,it,Paid Search,Active,Mobile,mail.test,2,Monthly

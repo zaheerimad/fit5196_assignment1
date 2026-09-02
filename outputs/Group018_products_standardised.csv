@@ -1,0 +1,1001 @@
+product_id,product_name,category,brand,unit_price,unit_cost,launch_year,warranty_months,weight_kg,product_sku,subcategory,model_family,colour,supplier_id,supplier_country,launch_date,tax_category,package_type,recyclable_packaging,active_flag
+PRD0001,Candle Bloom 100,Laptop,Candle,942.83,596.63,2015.0,24.0,1.281,SKU-CAN00001,Ultrabook,Arc,Red,SUP001,Korea,2015-01-25,GST_STANDARD,Recycled box,True,True
+PRD0002,Vela Halo 101,Smartphone,Vela,684.63,485.48,2012.0,24.0,0.276,SKU-VEL00002,5G Smartphone,Atlas,Red,SUP002,Malaysia,2012-04-06,GST_STANDARD,Recycled box,True,True
+PRD0003,Candle Quest 102,Tablet,Candle,745.86,411.3,2012.0,24.0,0.479,SKU-CAN00003,Productivity Tablet,Bloom,Black,SUP003,Vietnam,2012-04-17,GST_STANDARD,Protective case,True,True
+PRD0004,Vela Wave 103,Home Entertainment,Vela,466.88,243.71,2013.0,24.0,7.232,SKU-VEL00004,Smart Display,Core,Graphite,SUP004,Korea,2013-01-26,GST_STANDARD,Protective case,True,True
+PRD0005,Candle Edge 104,Audio,Candle,450.36,247.02,2015.0,12.0,0.645,SKU-CAN00005,Wireless Audio,Edge,Graphite,SUP005,Japan,2015-08-15,GST_STANDARD,Protective case,False,True
+PRD0006,Vela Nova 105,Smart Home,Vela,813.94,492.41,2015.0,12.0,0.467,SKU-VEL00006,Home Automation,Echo,Black,SUP006,Japan,2015-01-13,GST_STANDARD,Box,True,True
+PRD0007,Candle Shift 106,Gaming,Candle,775.64,374.69,2017.0,24.0,1.56,SKU-CAN00007,Gaming Hardware,Flux,Gold,SUP007,Malaysia,2017-06-23,GST_STANDARD,Recycled box,False,True
+PRD0008,Vela Atlas 107,Wearable,Vela,799.44,468.8,2017.0,12.0,0.093,SKU-VEL00008,Health Wearable,Halo,Gold,SUP008,China,2017-07-17,GST_STANDARD,Box,True,True
+PRD0009,Candle Flux 108,Networking,Candle,1102.1,628.91,2015.0,24.0,0.636,SKU-CAN00009,Connected Network,Lumen,Green,SUP009,Vietnam,2015-03-01,GST_STANDARD,Protective case,True,True
+PRD0010,Vela Pulse 109,Accessory,Vela,15.97,10.15,2016.0,12.0,0.16,SKU-VEL00010,Mobile Accessory,Nova,Green,SUP010,China,2016-04-14,GST_STANDARD,Recycled box,False,True
+PRD0011,Candle Vista 110,Laptop,Candle,1706.96,1181.78,2015.0,24.0,1.233,SKU-CAN00011,Ultrabook,Orbit,Gold,SUP011,Malaysia,2015-02-12,GST_STANDARD,Recycled box,True,True
+PRD0012,Vela Core 111,Smartphone,Vela,1367.99,682.84,2015.0,24.0,0.272,SKU-VEL00012,5G Smartphone,Pulse,Blue,SUP012,Australia,2015-09-15,GST_STANDARD,Box,True,True
+PRD0013,Candle Lumen 112,Tablet,Candle,1194.01,671.48,2015.0,24.0,0.62,SKU-CAN00013,Productivity Tablet,Quest,Silver,SUP013,Malaysia,2015-12-01,GST_STANDARD,Recycled box,True,True
+PRD0014,Vela Ridge 113,Home Entertainment,Vela,2953.53,1907.4,2016.0,24.0,10.05,SKU-VEL00014,Smart Display,Ridge,Green,SUP014,Japan,2016-04-06,GST_STANDARD,Protective case,True,True
+PRD0015,Candle Arc 114,Audio,Candle,184.83,119.12,2016.0,12.0,0.45,SKU-CAN00015,Wireless Audio,Shift,Gold,SUP015,Australia,2016-08-14,GST_STANDARD,Protective case,True,True
+PRD0016,Vela Echo 115,Smart Home,Vela,348.79,198.64,2012.0,12.0,0.366,SKU-VEL00016,Home Automation,Spark,Gold,SUP016,Malaysia,2012-10-12,GST_STANDARD,Protective case,True,True
+PRD0017,Candle Orbit 116,Gaming,Candle,1860.35,1246.72,2013.0,24.0,1.293,SKU-CAN00017,Gaming Hardware,Vista,White,SUP017,Vietnam,2013-03-24,GST_STANDARD,Recycled box,True,True
+PRD0018,Vela Spark 117,Wearable,Vela,112.62,54.52,2016.0,12.0,0.094,SKU-VEL00018,Health Wearable,Wave,Black,SUP018,Japan,2016-10-03,GST_STANDARD,Recycled box,True,True
+PRD0019,Candle Bloom 118,Networking,Candle,741.78,466.12,2015.0,24.0,0.721,SKU-CAN00019,Connected Network,Arc,Gold,SUP019,Japan,2015-11-26,GST_STANDARD,Box,True,True
+PRD0020,Vela Halo 119,Accessory,Vela,153.47,78.77,2013.0,12.0,0.234,SKU-VEL00020,Mobile Accessory,Atlas,Black,SUP020,Malaysia,2013-07-11,GST_STANDARD,Box,True,True
+PRD0021,Candle Quest 120,Laptop,Candle,2242.17,1084.58,2013.0,24.0,1.305,SKU-CAN00021,Ultrabook,Bloom,Black,SUP021,Japan,2013-02-01,GST_STANDARD,Box,True,True
+PRD0022,Vela Wave 121,Smartphone,Vela,1200.0,755.68,2016.0,24.0,0.295,SKU-VEL00022,5G Smartphone,Core,Gold,SUP022,China,2016-06-11,GST_STANDARD,Box,True,True
+PRD0023,Candle Edge 122,Tablet,Candle,965.26,690.29,2014.0,24.0,0.834,SKU-CAN00023,Productivity Tablet,Edge,Silver,SUP023,Japan,2014-05-24,GST_STANDARD,Recycled box,True,True
+PRD0024,Vela Nova 123,Home Entertainment,Vela,1506.88,1010.4,2013.0,24.0,8.83,SKU-VEL00024,Smart Display,Echo,Black,SUP024,Japan,2013-11-27,GST_STANDARD,Box,False,True
+PRD0025,Candle Shift 124,Audio,Candle,403.1,304.82,2017.0,12.0,0.553,SKU-CAN00025,Wireless Audio,Flux,Blue,SUP025,Malaysia,2017-01-01,GST_STANDARD,Recycled box,False,True
+PRD0026,Vela Atlas 125,Smart Home,Vela,304.81,200.59,2013.0,12.0,0.465,SKU-VEL00026,Home Automation,Halo,Silver,SUP026,Australia,2013-06-18,GST_STANDARD,Protective case,False,True
+PRD0027,Candle Flux 126,Gaming,Candle,1635.42,1033.54,2013.0,24.0,1.632,SKU-CAN00027,Gaming Hardware,Lumen,Gold,SUP027,Korea,2013-11-26,GST_STANDARD,Box,True,True
+PRD0028,Vela Pulse 127,Wearable,Vela,364.14,194.06,2014.0,12.0,0.127,SKU-VEL00028,Health Wearable,Nova,Black,SUP028,Korea,2014-05-18,GST_STANDARD,Protective case,True,True
+PRD0029,Candle Vista 128,Networking,Candle,1109.68,700.08,2012.0,24.0,0.825,SKU-CAN00029,Connected Network,Orbit,Blue,SUP029,Vietnam,2012-04-01,GST_STANDARD,Recycled box,False,True
+PRD0030,Vela Core 129,Accessory,Vela,159.51,89.01,2015.0,12.0,0.225,SKU-VEL00030,Mobile Accessory,Pulse,Black,SUP030,Vietnam,2015-05-03,GST_STANDARD,Box,False,True
+PRD0031,Candle Lumen 130,Laptop,Candle,2166.94,1623.78,2013.0,24.0,1.886,SKU-CAN00031,Ultrabook,Quest,Graphite,SUP031,Vietnam,2013-04-20,GST_STANDARD,Protective case,True,True
+PRD0032,Vela Ridge 131,Smartphone,Vela,417.41,302.45,2014.0,24.0,0.253,SKU-VEL00032,5G Smartphone,Ridge,Black,SUP032,China,2014-06-01,GST_STANDARD,Protective case,True,True
+PRD0033,Candle Arc 132,Tablet,Candle,1186.21,859.19,2013.0,24.0,0.566,SKU-CAN00033,Productivity Tablet,Shift,Blue,SUP033,Malaysia,2013-06-27,GST_STANDARD,Recycled box,True,True
+PRD0034,Vela Echo 133,Home Entertainment,Vela,1865.66,1163.29,2013.0,24.0,6.011,SKU-VEL00034,Smart Display,Spark,Blue,SUP034,Malaysia,2013-04-20,GST_STANDARD,Box,True,True
+PRD0035,Candle Orbit 134,Audio,Candle,410.43,253.05,2013.0,12.0,0.378,SKU-CAN00035,Wireless Audio,Vista,Graphite,SUP035,Japan,2013-09-21,GST_STANDARD,Recycled box,True,True
+PRD0036,Vela Spark 135,Smart Home,Vela,116.11,62.47,2016.0,12.0,0.4,SKU-VEL00036,Home Automation,Wave,Graphite,SUP036,Korea,2016-10-12,GST_STANDARD,Box,True,True
+PRD0037,Candle Bloom 136,Gaming,Candle,109.69,62.67,2015.0,24.0,1.328,SKU-CAN00037,Gaming Hardware,Arc,Silver,SUP037,Malaysia,2015-12-01,GST_STANDARD,Recycled box,False,True
+PRD0038,Vela Halo 137,Wearable,Vela,829.21,594.96,2016.0,12.0,0.101,SKU-VEL00038,Health Wearable,Atlas,Red,SUP001,Korea,2016-02-18,GST_STANDARD,Protective case,False,True
+PRD0039,Candle Quest 138,Networking,Candle,980.04,517.39,2012.0,24.0,0.59,SKU-CAN00039,Connected Network,Bloom,Gold,SUP002,Vietnam,2012-11-21,GST_STANDARD,Box,True,False
+PRD0040,Vela Wave 139,Accessory,Vela,208.06,110.13,2012.0,12.0,0.248,SKU-VEL00040,Mobile Accessory,Core,Red,SUP003,China,2012-09-15,GST_STANDARD,Protective case,True,True
+PRD0041,Candle Edge 140,Laptop,Candle,2120.5,1545.66,2013.0,24.0,1.173,SKU-CAN00041,Ultrabook,Edge,Silver,SUP004,Vietnam,2013-08-25,GST_STANDARD,Box,False,True
+PRD0042,Vela Nova 141,Smartphone,Vela,1230.08,761.51,2013.0,24.0,0.2,SKU-VEL00042,5G Smartphone,Echo,Green,SUP005,Japan,2013-08-10,GST_STANDARD,Box,False,True
+PRD0043,Candle Shift 142,Tablet,Candle,1106.1,687.01,2014.0,24.0,0.798,SKU-CAN00043,Productivity Tablet,Flux,Green,SUP006,Australia,2014-02-22,GST_STANDARD,Recycled box,True,True
+PRD0044,Vela Atlas 143,Home Entertainment,Vela,3554.03,1756.93,2012.0,24.0,6.604,SKU-VEL00044,Smart Display,Halo,Gold,SUP007,China,2012-06-11,GST_STANDARD,Box,True,True
+PRD0045,Candle Flux 144,Audio,Candle,70.08,44.9,2013.0,12.0,0.353,SKU-CAN00045,Wireless Audio,Lumen,Green,SUP008,Korea,2013-01-16,GST_STANDARD,Box,True,True
+PRD0046,Vela Pulse 145,Smart Home,Vela,690.5,491.22,2016.0,12.0,0.403,SKU-VEL00046,Home Automation,Nova,Silver,SUP009,Korea,2016-12-15,GST_STANDARD,Protective case,False,True
+PRD0047,Candle Vista 146,Gaming,Candle,1258.28,882.53,2015.0,24.0,1.588,SKU-CAN00047,Gaming Hardware,Orbit,White,SUP010,Korea,2015-07-13,GST_STANDARD,Box,True,False
+PRD0048,Vela Core 147,Wearable,Vela,1075.72,553.27,2014.0,12.0,0.089,SKU-VEL00048,Health Wearable,Pulse,Green,SUP011,Australia,2014-12-10,GST_STANDARD,Protective case,False,True
+PRD0049,Candle Lumen 148,Networking,Candle,149.55,86.7,2012.0,24.0,0.514,SKU-CAN00049,Connected Network,Quest,Green,SUP012,China,2012-08-12,GST_STANDARD,Protective case,True,True
+PRD0050,Vela Ridge 149,Accessory,Vela,202.62,150.06,2014.0,12.0,0.246,SKU-VEL00050,Mobile Accessory,Ridge,Green,SUP013,Japan,2014-01-15,GST_STANDARD,Protective case,True,True
+PRD0051,Candle Arc 150,Laptop,Candle,1650.3,1056.1,2014.0,24.0,2.028,SKU-CAN00051,Ultrabook,Shift,Green,SUP014,Japan,2014-08-12,GST_STANDARD,Recycled box,True,True
+PRD0052,Vela Echo 151,Smartphone,Vela,1188.55,706.11,2016.0,24.0,0.254,SKU-VEL00052,5G Smartphone,Spark,Silver,SUP015,Korea,2016-12-17,GST_STANDARD,Recycled box,False,True
+PRD0053,Candle Orbit 152,Tablet,Candle,482.7,327.9,2012.0,24.0,0.68,SKU-CAN00053,Productivity Tablet,Vista,Gold,SUP016,Japan,2012-12-15,GST_STANDARD,Box,False,True
+PRD0054,Vela Spark 153,Home Entertainment,Vela,3965.82,2827.32,2016.0,24.0,8.532,SKU-VEL00054,Smart Display,Wave,Gold,SUP017,Japan,2016-12-02,GST_STANDARD,Recycled box,True,True
+PRD0055,Candle Bloom 154,Audio,Candle,1172.72,676.64,2017.0,12.0,0.553,SKU-CAN00055,Wireless Audio,Arc,White,SUP018,Japan,2017-03-03,GST_STANDARD,Protective case,True,True
+PRD0056,Vela Halo 155,Smart Home,Vela,318.87,182.75,2013.0,12.0,0.492,SKU-VEL00056,Home Automation,Atlas,Red,SUP019,Vietnam,2013-03-12,GST_STANDARD,Box,False,True
+PRD0057,Candle Quest 156,Gaming,Candle,1403.88,1066.89,2014.0,24.0,1.304,SKU-CAN00057,Gaming Hardware,Bloom,White,SUP020,Korea,2014-12-07,GST_STANDARD,Protective case,True,False
+PRD0058,Vela Wave 157,Wearable,Vela,660.96,381.86,2015.0,12.0,0.09,SKU-VEL00058,Health Wearable,Core,White,SUP021,Australia,2015-02-26,GST_STANDARD,Protective case,True,True
+PRD0059,Candle Edge 158,Networking,Candle,721.08,365.89,2013.0,24.0,0.749,SKU-CAN00059,Connected Network,Edge,Green,SUP022,Korea,2013-07-08,GST_STANDARD,Protective case,True,True
+PRD0060,Vela Nova 159,Accessory,Vela,97.23,64.05,2017.0,12.0,0.153,SKU-VEL00060,Mobile Accessory,Echo,Gold,SUP023,Malaysia,2017-03-25,GST_STANDARD,Recycled box,True,False
+PRD0061,Candle Shift 160,Laptop,Candle,2524.66,1420.91,2015.0,24.0,1.749,SKU-CAN00061,Ultrabook,Flux,Graphite,SUP024,Japan,2015-08-12,GST_STANDARD,Protective case,True,True
+PRD0062,Vela Atlas 161,Smartphone,Vela,1554.42,1025.42,2012.0,24.0,0.262,SKU-VEL00062,5G Smartphone,Halo,Silver,SUP025,Japan,2012-12-03,GST_STANDARD,Box,True,True
+PRD0063,Candle Flux 162,Tablet,Candle,1124.17,769.21,2017.0,24.0,0.73,SKU-CAN00063,Productivity Tablet,Lumen,Graphite,SUP026,Vietnam,2017-03-16,GST_STANDARD,Box,True,True
+PRD0064,Vela Pulse 163,Home Entertainment,Vela,3819.98,2874.14,2016.0,24.0,6.341,SKU-VEL00064,Smart Display,Nova,Blue,SUP027,Malaysia,2016-04-07,GST_STANDARD,Recycled box,True,True
+PRD0065,Candle Vista 164,Audio,Candle,729.67,518.23,2016.0,12.0,0.659,SKU-CAN00065,Wireless Audio,Orbit,White,SUP028,China,2016-03-21,GST_STANDARD,Box,False,True
+PRD0066,Vela Core 165,Smart Home,Vela,331.96,168.13,2017.0,12.0,0.446,SKU-VEL00066,Home Automation,Pulse,Green,SUP029,Korea,2017-05-19,GST_STANDARD,Box,True,True
+PRD0067,Candle Lumen 166,Gaming,Candle,638.19,396.21,2012.0,24.0,1.107,SKU-CAN00067,Gaming Hardware,Quest,Silver,SUP030,Vietnam,2012-04-01,GST_STANDARD,Box,True,True
+PRD0068,Vela Ridge 167,Wearable,Vela,190.2,125.33,2014.0,12.0,0.132,SKU-VEL00068,Health Wearable,Ridge,Graphite,SUP031,Korea,2014-11-10,GST_STANDARD,Box,True,True
+PRD0069,Candle Arc 168,Networking,Candle,850.31,501.75,2017.0,24.0,0.765,SKU-CAN00069,Connected Network,Shift,Red,SUP032,Malaysia,2017-08-13,GST_STANDARD,Protective case,True,True
+PRD0070,Vela Echo 169,Accessory,Vela,283.3,188.21,2012.0,12.0,0.141,SKU-VEL00070,Mobile Accessory,Spark,Gold,SUP033,China,2012-06-12,GST_STANDARD,Protective case,True,True
+PRD0071,Candle Orbit 170,Laptop,Candle,2347.4,1657.2,2016.0,24.0,1.584,SKU-CAN00071,Ultrabook,Vista,Green,SUP034,Japan,2016-09-11,GST_STANDARD,Protective case,True,True
+PRD0072,Vela Spark 171,Smartphone,Vela,1390.27,742.04,2012.0,24.0,0.283,SKU-VEL00072,5G Smartphone,Wave,Silver,SUP035,Australia,2012-05-04,GST_STANDARD,Protective case,True,True
+PRD0073,Candle Bloom 172,Tablet,Candle,1110.47,601.54,2014.0,24.0,0.782,SKU-CAN00073,Productivity Tablet,Arc,White,SUP036,Vietnam,2014-07-21,GST_STANDARD,Box,False,True
+PRD0074,Vela Halo 173,Home Entertainment,Vela,2480.38,1368.88,2013.0,24.0,9.615,SKU-VEL00074,Smart Display,Atlas,Gold,SUP037,Japan,2013-04-15,GST_STANDARD,Box,False,True
+PRD0075,Candle Quest 174,Audio,Candle,227.56,126.38,2017.0,12.0,0.479,SKU-CAN00075,Wireless Audio,Bloom,White,SUP001,Malaysia,2017-07-11,GST_STANDARD,Protective case,True,True
+PRD0076,Vela Wave 175,Smart Home,Vela,588.36,292.95,2013.0,12.0,0.325,SKU-VEL00076,Home Automation,Core,Green,SUP002,Japan,2013-04-04,GST_STANDARD,Recycled box,True,True
+PRD0077,Candle Edge 176,Gaming,Candle,966.88,573.99,2013.0,24.0,0.954,SKU-CAN00077,Gaming Hardware,Edge,Green,SUP003,Australia,2013-09-12,GST_STANDARD,Recycled box,True,True
+PRD0078,Vela Nova 177,Wearable,Vela,166.61,121.99,2016.0,12.0,0.117,SKU-VEL00078,Health Wearable,Echo,Red,SUP004,Korea,2016-01-17,GST_STANDARD,Protective case,True,True
+PRD0079,Candle Shift 178,Networking,Candle,994.48,550.48,2016.0,24.0,0.921,SKU-CAN00079,Connected Network,Flux,Black,SUP005,Japan,2016-02-05,GST_STANDARD,Recycled box,False,True
+PRD0080,Vela Atlas 179,Accessory,Vela,390.63,254.4,2014.0,12.0,0.153,SKU-VEL00080,Mobile Accessory,Halo,Gold,SUP006,Australia,2014-09-18,GST_STANDARD,Protective case,True,True
+PRD0081,Candle Flux 180,Laptop,Candle,2768.19,1746.47,2013.0,24.0,1.33,SKU-CAN00081,Ultrabook,Lumen,Green,SUP007,Korea,2013-04-14,GST_STANDARD,Protective case,False,True
+PRD0082,Vela Pulse 181,Smartphone,Vela,383.13,212.17,2014.0,24.0,0.16,SKU-VEL00082,5G Smartphone,Nova,Blue,SUP008,Vietnam,2014-03-22,GST_STANDARD,Recycled box,True,True
+PRD0083,Candle Vista 182,Tablet,Candle,719.56,483.28,2015.0,24.0,0.477,SKU-CAN00083,Productivity Tablet,Orbit,Graphite,SUP009,Korea,2015-01-09,GST_STANDARD,Box,True,True
+PRD0084,Vela Core 183,Home Entertainment,Vela,3113.17,2347.0,2015.0,24.0,9.507,SKU-VEL00084,Smart Display,Pulse,Silver,SUP010,Vietnam,2015-09-20,GST_STANDARD,Recycled box,False,True
+PRD0085,Candle Lumen 184,Audio,Candle,304.21,158.13,2016.0,12.0,0.488,SKU-CAN00085,Wireless Audio,Quest,Green,SUP011,Japan,2016-03-25,GST_STANDARD,Box,True,True
+PRD0086,Vela Ridge 185,Smart Home,Vela,248.61,119.48,2013.0,12.0,0.373,SKU-VEL00086,Home Automation,Ridge,White,SUP012,Korea,2013-11-04,GST_STANDARD,Box,True,True
+PRD0087,Candle Arc 186,Gaming,Candle,2140.71,1088.63,2012.0,24.0,1.277,SKU-CAN00087,Gaming Hardware,Shift,Silver,SUP013,Malaysia,2012-03-18,GST_STANDARD,Protective case,False,True
+PRD0088,Vela Echo 187,Wearable,Vela,835.18,538.46,2014.0,12.0,0.15,SKU-VEL00088,Health Wearable,Spark,Red,SUP014,Korea,2014-04-04,GST_STANDARD,Recycled box,True,True
+PRD0089,Candle Orbit 188,Networking,Candle,865.25,482.07,2015.0,24.0,0.557,SKU-CAN00089,Connected Network,Vista,Silver,SUP015,Japan,2015-08-18,GST_STANDARD,Protective case,True,True
+PRD0090,Vela Spark 189,Accessory,Vela,166.35,111.2,2016.0,12.0,0.136,SKU-VEL00090,Mobile Accessory,Wave,Gold,SUP016,China,2016-12-13,GST_STANDARD,Protective case,True,True
+PRD0091,Candle Bloom 190,Laptop,Candle,1559.91,1136.53,2017.0,24.0,1.748,SKU-CAN00091,Ultrabook,Arc,Red,SUP017,Malaysia,2017-04-07,GST_STANDARD,Box,True,True
+PRD0092,Vela Halo 191,Smartphone,Vela,1623.69,979.6,2015.0,24.0,0.238,SKU-VEL00092,5G Smartphone,Atlas,Graphite,SUP018,Australia,2015-06-24,GST_STANDARD,Recycled box,True,True
+PRD0093,Candle Quest 192,Tablet,Candle,1015.33,713.28,2013.0,24.0,0.512,SKU-CAN00093,Productivity Tablet,Bloom,Gold,SUP019,Australia,2013-09-07,GST_STANDARD,Protective case,True,True
+PRD0094,Vela Wave 193,Home Entertainment,Vela,1376.89,977.5,2016.0,24.0,9.71,SKU-VEL00094,Smart Display,Core,Red,SUP020,Malaysia,2016-08-10,GST_STANDARD,Box,True,True
+PRD0095,Candle Edge 194,Audio,Candle,857.11,633.28,2015.0,12.0,0.586,SKU-CAN00095,Wireless Audio,Edge,Red,SUP021,Japan,2015-11-07,GST_STANDARD,Protective case,False,True
+PRD0096,Vela Nova 195,Smart Home,Vela,329.23,233.98,2013.0,12.0,0.374,SKU-VEL00096,Home Automation,Echo,Black,SUP022,Vietnam,2013-08-23,GST_STANDARD,Recycled box,True,True
+PRD0097,Candle Shift 196,Gaming,Candle,673.56,378.91,2014.0,24.0,1.004,SKU-CAN00097,Gaming Hardware,Flux,Black,SUP023,China,2014-01-01,GST_STANDARD,Box,False,False
+PRD0098,Vela Atlas 197,Wearable,Vela,149.72,73.85,2016.0,12.0,0.105,SKU-VEL00098,Health Wearable,Halo,Gold,SUP024,Japan,2016-08-22,GST_STANDARD,Box,True,True
+PRD0099,Candle Flux 198,Networking,Candle,469.56,339.96,2012.0,24.0,0.714,SKU-CAN00099,Connected Network,Lumen,Green,SUP025,Korea,2012-07-12,GST_STANDARD,Box,True,True
+PRD0100,Vela Pulse 199,Accessory,Vela,122.42,73.78,2015.0,12.0,0.244,SKU-VEL00100,Mobile Accessory,Nova,Graphite,SUP026,Malaysia,2015-05-24,GST_STANDARD,Protective case,True,True
+PRD0101,Candle Vista 200,Laptop,Candle,1447.07,1016.17,2013.0,24.0,1.464,SKU-CAN00101,Ultrabook,Orbit,Gold,SUP027,Australia,2013-04-05,GST_STANDARD,Recycled box,True,True
+PRD0102,Vela Core 201,Smartphone,Vela,786.59,395.22,2014.0,24.0,0.213,SKU-VEL00102,5G Smartphone,Pulse,Graphite,SUP028,Australia,2014-01-14,GST_STANDARD,Protective case,False,True
+PRD0103,Candle Lumen 202,Tablet,Candle,540.65,280.56,2017.0,24.0,0.552,SKU-CAN00103,Productivity Tablet,Quest,Red,SUP029,Malaysia,2017-04-12,GST_STANDARD,Box,True,True
+PRD0104,Vela Ridge 203,Home Entertainment,Vela,3735.61,2543.64,2015.0,24.0,5.907,SKU-VEL00104,Smart Display,Ridge,Blue,SUP030,Australia,2015-04-20,GST_STANDARD,Box,False,True
+PRD0105,Candle Arc 204,Audio,Candle,275.3,199.44,2012.0,12.0,0.488,SKU-CAN00105,Wireless Audio,Shift,Green,SUP031,China,2012-04-24,GST_STANDARD,Box,True,True
+PRD0106,Vela Echo 205,Smart Home,Vela,217.23,147.12,2017.0,12.0,0.43,SKU-VEL00106,Home Automation,Spark,White,SUP032,Korea,2017-04-16,GST_STANDARD,Protective case,True,True
+PRD0107,Candle Orbit 206,Gaming,Candle,1500.51,940.15,2013.0,24.0,1.568,SKU-CAN00107,Gaming Hardware,Vista,Green,SUP033,Malaysia,2013-09-09,GST_STANDARD,Protective case,True,True
+PRD0108,Vela Spark 207,Wearable,Vela,186.84,109.78,2017.0,12.0,0.115,SKU-VEL00108,Health Wearable,Wave,Green,SUP034,Korea,2017-04-09,GST_STANDARD,Recycled box,False,True
+PRD0109,Candle Bloom 208,Networking,Candle,516.32,306.48,2016.0,24.0,0.546,SKU-CAN00109,Connected Network,Arc,Graphite,SUP035,Australia,2016-05-08,GST_STANDARD,Recycled box,True,True
+PRD0110,Vela Halo 209,Accessory,Vela,250.51,138.83,2016.0,12.0,0.216,SKU-VEL00110,Mobile Accessory,Atlas,White,SUP036,China,2016-06-24,GST_STANDARD,Recycled box,False,False
+PRD0111,Candle Quest 210,Laptop,Candle,1802.88,1277.26,2017.0,24.0,1.51,SKU-CAN00111,Ultrabook,Bloom,Gold,SUP037,China,2017-10-26,GST_STANDARD,Recycled box,True,True
+PRD0112,Vela Wave 211,Smartphone,Vela,1193.81,632.24,2016.0,24.0,0.207,SKU-VEL00112,5G Smartphone,Core,White,SUP001,Malaysia,2016-11-12,GST_STANDARD,Protective case,True,True
+PRD0113,Candle Edge 212,Tablet,Candle,605.4,411.96,2013.0,24.0,0.519,SKU-CAN00113,Productivity Tablet,Edge,Gold,SUP002,China,2013-07-11,GST_STANDARD,Protective case,True,True
+PRD0114,Vela Nova 213,Home Entertainment,Vela,2615.62,1599.99,2016.0,24.0,5.596,SKU-VEL00114,Smart Display,Echo,Green,SUP003,Japan,2016-08-01,GST_STANDARD,Box,False,True
+PRD0115,Candle Shift 214,Audio,Candle,895.49,678.25,2016.0,12.0,0.408,SKU-CAN00115,Wireless Audio,Flux,Green,SUP004,China,2016-11-02,GST_STANDARD,Box,True,True
+PRD0116,Vela Atlas 215,Smart Home,Vela,466.48,331.06,2013.0,12.0,0.382,SKU-VEL00116,Home Automation,Halo,White,SUP005,Malaysia,2013-07-10,GST_STANDARD,Box,True,True
+PRD0117,Candle Flux 216,Gaming,Candle,1153.53,855.34,2015.0,24.0,1.308,SKU-CAN00117,Gaming Hardware,Lumen,Blue,SUP006,Malaysia,2015-09-02,GST_STANDARD,Box,True,True
+PRD0118,Vela Pulse 217,Wearable,Vela,461.86,263.55,2014.0,12.0,0.128,SKU-VEL00118,Health Wearable,Nova,Gold,SUP007,Korea,2014-08-25,GST_STANDARD,Protective case,True,True
+PRD0119,Candle Vista 218,Networking,Candle,844.43,415.65,2017.0,24.0,0.686,SKU-CAN00119,Connected Network,Orbit,White,SUP008,China,2017-02-25,GST_STANDARD,Recycled box,True,True
+PRD0120,Vela Core 219,Accessory,Vela,319.18,184.28,2013.0,12.0,0.191,SKU-VEL00120,Mobile Accessory,Pulse,Black,SUP009,Japan,2013-02-14,GST_STANDARD,Protective case,True,True
+PRD0121,Candle Lumen 220,Laptop,Candle,3098.72,1863.6,2013.0,24.0,1.694,SKU-CAN00121,Ultrabook,Quest,Gold,SUP010,Vietnam,2013-10-01,GST_STANDARD,Recycled box,False,True
+PRD0122,Vela Ridge 221,Smartphone,Vela,1755.78,950.0,2017.0,24.0,0.16,SKU-VEL00122,5G Smartphone,Ridge,Black,SUP011,Vietnam,2017-07-11,GST_STANDARD,Recycled box,False,True
+PRD0123,Candle Arc 222,Tablet,Candle,322.81,176.19,2017.0,24.0,0.66,SKU-CAN00123,Productivity Tablet,Shift,Graphite,SUP012,Japan,2017-09-24,GST_STANDARD,Recycled box,False,True
+PRD0124,Vela Echo 223,Home Entertainment,Vela,2036.87,1055.69,2015.0,24.0,9.861,SKU-VEL00124,Smart Display,Spark,Graphite,SUP013,Malaysia,2015-11-11,GST_STANDARD,Protective case,True,True
+PRD0125,Candle Orbit 224,Audio,Candle,1004.47,718.97,2012.0,12.0,0.648,SKU-CAN00125,Wireless Audio,Vista,Black,SUP014,Australia,2012-01-17,GST_STANDARD,Recycled box,True,True
+PRD0126,Vela Spark 225,Smart Home,Vela,652.43,369.02,2012.0,12.0,0.271,SKU-VEL00126,Home Automation,Wave,Graphite,SUP015,China,2012-07-21,GST_STANDARD,Recycled box,True,True
+PRD0127,Candle Bloom 226,Gaming,Candle,1805.09,908.8,2012.0,24.0,1.372,SKU-CAN00127,Gaming Hardware,Arc,White,SUP016,Vietnam,2012-02-22,GST_STANDARD,Box,True,True
+PRD0128,Vela Halo 227,Wearable,Vela,396.23,263.8,2013.0,12.0,0.131,SKU-VEL00128,Health Wearable,Atlas,Gold,SUP017,Vietnam,2013-05-17,GST_STANDARD,Recycled box,True,True
+PRD0129,Candle Quest 228,Networking,Candle,416.68,288.24,2014.0,24.0,0.748,SKU-CAN00129,Connected Network,Bloom,Green,SUP018,Korea,2014-12-26,GST_STANDARD,Recycled box,True,True
+PRD0130,Vela Wave 229,Accessory,Vela,128.78,94.6,2014.0,12.0,0.175,SKU-VEL00130,Mobile Accessory,Core,Graphite,SUP019,China,2014-01-05,GST_STANDARD,Recycled box,True,True
+PRD0131,Candle Edge 230,Laptop,Candle,1214.27,836.6,2017.0,24.0,1.125,SKU-CAN00131,Ultrabook,Edge,Black,SUP020,Korea,2017-04-10,GST_STANDARD,Protective case,False,True
+PRD0132,Vela Nova 231,Smartphone,Vela,713.61,356.21,2014.0,24.0,0.171,SKU-VEL00132,5G Smartphone,Echo,Blue,SUP021,China,2014-02-01,GST_STANDARD,Recycled box,True,True
+PRD0133,Candle Shift 232,Tablet,Candle,289.57,213.4,2016.0,24.0,0.611,SKU-CAN00133,Productivity Tablet,Flux,Silver,SUP022,Japan,2016-06-06,GST_STANDARD,Recycled box,True,True
+PRD0134,Vela Atlas 233,Home Entertainment,Vela,3468.51,1677.97,2012.0,24.0,8.584,SKU-VEL00134,Smart Display,Halo,White,SUP023,Korea,2012-09-27,GST_STANDARD,Protective case,True,True
+PRD0135,Candle Flux 234,Audio,Candle,800.53,463.98,2014.0,12.0,0.614,SKU-CAN00135,Wireless Audio,Lumen,Gold,SUP024,Vietnam,2014-03-25,GST_STANDARD,Protective case,True,True
+PRD0136,Vela Pulse 235,Smart Home,Vela,107.5,67.85,2012.0,12.0,0.483,SKU-VEL00136,Home Automation,Nova,Red,SUP025,Vietnam,2012-10-03,GST_STANDARD,Protective case,True,True
+PRD0137,Candle Vista 236,Gaming,Candle,598.84,290.97,2013.0,24.0,1.645,SKU-CAN00137,Gaming Hardware,Orbit,Gold,SUP026,Australia,2013-08-25,GST_STANDARD,Protective case,True,True
+PRD0138,Vela Core 237,Wearable,Vela,316.0,188.71,2015.0,12.0,0.125,SKU-VEL00138,Health Wearable,Pulse,Green,SUP027,Japan,2015-06-10,GST_STANDARD,Recycled box,False,True
+PRD0139,Candle Lumen 238,Networking,Candle,1414.96,745.84,2012.0,24.0,0.506,SKU-CAN00139,Connected Network,Quest,Green,SUP028,China,2012-02-09,GST_STANDARD,Protective case,True,True
+PRD0140,Vela Ridge 239,Accessory,Vela,54.35,40.72,2014.0,12.0,0.178,SKU-VEL00140,Mobile Accessory,Ridge,Silver,SUP029,Australia,2014-05-17,GST_STANDARD,Recycled box,True,True
+PRD0141,Candle Arc 240,Laptop,Candle,2490.91,1421.63,2017.0,24.0,1.203,SKU-CAN00141,Ultrabook,Shift,Black,SUP030,Malaysia,2017-07-02,GST_STANDARD,Recycled box,True,True
+PRD0142,Vela Echo 241,Smartphone,Vela,1815.54,1253.87,2013.0,24.0,0.297,SKU-VEL00142,5G Smartphone,Spark,Silver,SUP031,China,2013-11-21,GST_STANDARD,Box,True,True
+PRD0143,Candle Orbit 242,Tablet,Candle,1501.79,964.47,2015.0,24.0,0.543,SKU-CAN00143,Productivity Tablet,Vista,Red,SUP032,Vietnam,2015-01-10,GST_STANDARD,Box,True,True
+PRD0144,Vela Spark 243,Home Entertainment,Vela,1126.55,664.07,2017.0,24.0,6.048,SKU-VEL00144,Smart Display,Wave,Black,SUP033,Japan,2017-01-16,GST_STANDARD,Box,True,True
+PRD0145,Candle Bloom 244,Audio,Candle,1050.7,576.62,2012.0,12.0,0.352,SKU-CAN00145,Wireless Audio,Arc,Graphite,SUP034,Japan,2012-03-12,GST_STANDARD,Protective case,True,True
+PRD0146,Vela Halo 245,Smart Home,Vela,795.49,510.3,2013.0,12.0,0.37,SKU-VEL00146,Home Automation,Atlas,White,SUP035,Korea,2013-11-24,GST_STANDARD,Box,True,True
+PRD0147,Candle Quest 246,Gaming,Candle,94.45,64.01,2013.0,24.0,1.229,SKU-CAN00147,Gaming Hardware,Bloom,Red,SUP036,Korea,2013-01-13,GST_STANDARD,Box,True,True
+PRD0148,Vela Wave 247,Wearable,Vela,784.78,397.65,2012.0,12.0,0.144,SKU-VEL00148,Health Wearable,Core,Gold,SUP037,Japan,2012-05-09,GST_STANDARD,Recycled box,True,True
+PRD0149,Candle Edge 248,Networking,Candle,217.37,104.67,2013.0,24.0,0.801,SKU-CAN00149,Connected Network,Edge,Green,SUP001,Australia,2013-09-20,GST_STANDARD,Box,True,True
+PRD0150,Vela Nova 249,Accessory,Vela,27.72,14.8,2017.0,12.0,0.18,SKU-VEL00150,Mobile Accessory,Echo,Blue,SUP002,China,2017-12-07,GST_STANDARD,Box,True,True
+PRD0151,Candle Shift 250,Laptop,Candle,1779.3,1205.47,2014.0,24.0,1.432,SKU-CAN00151,Ultrabook,Flux,Gold,SUP003,Vietnam,2014-11-10,GST_STANDARD,Box,True,True
+PRD0152,Vela Atlas 251,Smartphone,Vela,476.3,277.0,2016.0,24.0,0.195,SKU-VEL00152,5G Smartphone,Halo,Red,SUP004,Malaysia,2016-08-23,GST_STANDARD,Recycled box,False,True
+PRD0153,Candle Flux 252,Tablet,Candle,926.23,693.84,2013.0,24.0,0.805,SKU-CAN00153,Productivity Tablet,Lumen,Green,SUP005,Malaysia,2013-07-16,GST_STANDARD,Protective case,True,True
+PRD0154,Vela Pulse 253,Home Entertainment,Vela,1575.91,942.95,2016.0,24.0,7.766,SKU-VEL00154,Smart Display,Nova,Green,SUP006,Malaysia,2016-04-12,GST_STANDARD,Protective case,True,True
+PRD0155,Candle Vista 254,Audio,Candle,237.13,171.41,2017.0,12.0,0.441,SKU-CAN00155,Wireless Audio,Orbit,Green,SUP007,China,2017-11-04,GST_STANDARD,Box,False,True
+PRD0156,Vela Core 255,Smart Home,Vela,681.59,397.56,2017.0,12.0,0.36,SKU-VEL00156,Home Automation,Pulse,Black,SUP008,Vietnam,2017-01-09,GST_STANDARD,Protective case,True,True
+PRD0157,Candle Lumen 256,Gaming,Candle,2583.38,1327.95,2016.0,24.0,1.366,SKU-CAN00157,Gaming Hardware,Quest,Green,SUP009,Malaysia,2016-04-03,GST_STANDARD,Protective case,True,True
+PRD0158,Vela Ridge 257,Wearable,Vela,464.07,261.8,2015.0,12.0,0.127,SKU-VEL00158,Health Wearable,Ridge,Black,SUP010,Japan,2015-03-22,GST_STANDARD,Box,True,True
+PRD0159,Candle Arc 258,Networking,Candle,1165.58,822.67,2014.0,24.0,0.74,SKU-CAN00159,Connected Network,Shift,Blue,SUP011,Malaysia,2014-10-21,GST_STANDARD,Protective case,True,True
+PRD0160,Vela Echo 259,Accessory,Vela,263.81,191.6,2017.0,12.0,0.244,SKU-VEL00160,Mobile Accessory,Spark,Blue,SUP012,Australia,2017-05-13,GST_STANDARD,Box,False,True
+PRD0161,Candle Orbit 260,Laptop,Candle,1014.36,665.15,2013.0,24.0,1.913,SKU-CAN00161,Ultrabook,Vista,Silver,SUP013,Australia,2013-04-05,GST_STANDARD,Box,True,True
+PRD0162,Vela Spark 261,Smartphone,Vela,441.75,309.63,2015.0,24.0,0.174,SKU-VEL00162,5G Smartphone,Wave,Silver,SUP014,Malaysia,2015-02-26,GST_STANDARD,Protective case,True,True
+PRD0163,Candle Bloom 262,Tablet,Candle,1539.62,865.33,2013.0,24.0,0.491,SKU-CAN00163,Productivity Tablet,Arc,Green,SUP015,China,2013-10-23,GST_STANDARD,Protective case,True,True
+PRD0164,Vela Halo 263,Home Entertainment,Vela,1852.48,1046.9,2015.0,24.0,7.49,SKU-VEL00164,Smart Display,Atlas,Green,SUP016,Australia,2015-06-09,GST_STANDARD,Recycled box,True,True
+PRD0165,Candle Quest 264,Audio,Candle,722.38,357.67,2012.0,12.0,0.602,SKU-CAN00165,Wireless Audio,Bloom,Graphite,SUP017,Vietnam,2012-03-25,GST_STANDARD,Box,False,True
+PRD0166,Vela Wave 265,Smart Home,Vela,833.21,424.28,2017.0,12.0,0.357,SKU-VEL00166,Home Automation,Core,White,SUP018,China,2017-08-13,GST_STANDARD,Recycled box,True,True
+PRD0167,Candle Edge 266,Gaming,Candle,1781.84,1317.09,2017.0,24.0,1.288,SKU-CAN00167,Gaming Hardware,Edge,White,SUP019,Australia,2017-08-17,GST_STANDARD,Box,True,True
+PRD0168,Vela Nova 267,Wearable,Vela,325.2,178.89,2014.0,12.0,0.134,SKU-VEL00168,Health Wearable,Echo,Red,SUP020,Japan,2014-08-06,GST_STANDARD,Recycled box,True,True
+PRD0169,Candle Shift 268,Networking,Candle,1057.68,790.09,2013.0,24.0,0.561,SKU-CAN00169,Connected Network,Flux,Blue,SUP021,Korea,2013-07-24,GST_STANDARD,Protective case,False,True
+PRD0170,Vela Atlas 269,Accessory,Vela,71.95,44.46,2012.0,12.0,0.177,SKU-VEL00170,Mobile Accessory,Halo,Silver,SUP022,China,2012-08-02,GST_STANDARD,Protective case,True,True
+PRD0171,Candle Flux 270,Laptop,Candle,1187.41,673.65,2013.0,24.0,1.194,SKU-CAN00171,Ultrabook,Lumen,Graphite,SUP023,Japan,2013-06-15,GST_STANDARD,Box,False,True
+PRD0172,Vela Pulse 271,Smartphone,Vela,1821.63,1043.48,2017.0,24.0,0.189,SKU-VEL00172,5G Smartphone,Nova,Gold,SUP024,Malaysia,2017-11-03,GST_STANDARD,Protective case,True,True
+PRD0173,Candle Vista 272,Tablet,Candle,1377.08,904.03,2013.0,24.0,0.662,SKU-CAN00173,Productivity Tablet,Orbit,Gold,SUP025,Vietnam,2013-05-19,GST_STANDARD,Box,True,True
+PRD0174,Vela Core 273,Home Entertainment,Vela,3910.58,2780.52,2014.0,24.0,7.618,SKU-VEL00174,Smart Display,Pulse,Red,SUP026,Korea,2014-02-13,GST_STANDARD,Recycled box,True,True
+PRD0175,Candle Lumen 274,Audio,Candle,760.09,467.24,2014.0,12.0,0.42,SKU-CAN00175,Wireless Audio,Quest,Red,SUP027,Vietnam,2014-04-27,GST_STANDARD,Box,True,True
+PRD0176,Vela Ridge 275,Smart Home,Vela,796.11,536.88,2017.0,12.0,0.474,SKU-VEL00176,Home Automation,Ridge,Silver,SUP028,Vietnam,2017-02-26,GST_STANDARD,Box,True,True
+PRD0177,Candle Arc 276,Gaming,Candle,500.75,266.29,2016.0,24.0,0.884,SKU-CAN00177,Gaming Hardware,Shift,Gold,SUP029,China,2016-06-05,GST_STANDARD,Recycled box,False,True
+PRD0178,Vela Echo 277,Wearable,Vela,317.56,195.45,2016.0,12.0,0.138,SKU-VEL00178,Health Wearable,Spark,Red,SUP030,Australia,2016-12-01,GST_STANDARD,Protective case,True,True
+PRD0179,Candle Orbit 278,Networking,Candle,1156.54,806.19,2017.0,24.0,0.787,SKU-CAN00179,Connected Network,Vista,White,SUP031,Korea,2017-03-07,GST_STANDARD,Protective case,True,True
+PRD0180,Vela Spark 279,Accessory,Vela,24.86,17.68,2014.0,12.0,0.18,SKU-VEL00180,Mobile Accessory,Wave,Green,SUP032,Japan,2014-06-20,GST_STANDARD,Protective case,True,True
+PRD0181,Candle Bloom 280,Laptop,Candle,3070.56,2198.39,2013.0,24.0,1.555,SKU-CAN00181,Ultrabook,Arc,Black,SUP033,Malaysia,2013-10-24,GST_STANDARD,Box,True,True
+PRD0182,Vela Halo 281,Smartphone,Vela,589.1,382.08,2014.0,24.0,0.188,SKU-VEL00182,5G Smartphone,Atlas,Graphite,SUP034,Japan,2014-09-24,GST_STANDARD,Recycled box,True,True
+PRD0183,Candle Quest 282,Tablet,Candle,880.19,533.61,2015.0,24.0,0.738,SKU-CAN00183,Productivity Tablet,Bloom,Black,SUP035,Australia,2015-04-05,GST_STANDARD,Protective case,True,True
+PRD0184,Vela Wave 283,Home Entertainment,Vela,3159.58,2298.5,2017.0,24.0,9.233,SKU-VEL00184,Smart Display,Core,Graphite,SUP036,Korea,2017-02-17,GST_STANDARD,Recycled box,False,True
+PRD0185,Candle Edge 284,Audio,Candle,575.43,320.46,2016.0,12.0,0.385,SKU-CAN00185,Wireless Audio,Edge,White,SUP037,Vietnam,2016-05-01,GST_STANDARD,Protective case,True,True
+PRD0186,Vela Nova 285,Smart Home,Vela,223.64,148.51,2012.0,12.0,0.402,SKU-VEL00186,Home Automation,Echo,Gold,SUP001,Malaysia,2012-06-19,GST_STANDARD,Protective case,False,True
+PRD0187,Candle Shift 286,Gaming,Candle,1290.47,948.05,2016.0,24.0,1.491,SKU-CAN00187,Gaming Hardware,Flux,Green,SUP002,Korea,2016-09-10,GST_STANDARD,Protective case,True,True
+PRD0188,Vela Atlas 287,Wearable,Vela,604.15,296.0,2015.0,12.0,0.146,SKU-VEL00188,Health Wearable,Halo,Silver,SUP003,Malaysia,2015-02-26,GST_STANDARD,Recycled box,True,True
+PRD0189,Candle Flux 288,Networking,Candle,1154.51,699.75,2012.0,24.0,0.878,SKU-CAN00189,Connected Network,Lumen,Green,SUP004,Australia,2012-07-10,GST_STANDARD,Box,True,True
+PRD0190,Vela Pulse 289,Accessory,Vela,417.54,207.11,2015.0,12.0,0.223,SKU-VEL00190,Mobile Accessory,Nova,Black,SUP005,Japan,2015-03-19,GST_STANDARD,Box,True,True
+PRD0191,Candle Vista 290,Laptop,Candle,1045.12,793.52,2017.0,24.0,1.436,SKU-CAN00191,Ultrabook,Orbit,White,SUP006,Australia,2017-03-12,GST_STANDARD,Recycled box,True,True
+PRD0192,Vela Core 291,Smartphone,Vela,1199.68,651.22,2013.0,24.0,0.212,SKU-VEL00192,5G Smartphone,Pulse,Gold,SUP007,Malaysia,2013-04-26,GST_STANDARD,Recycled box,True,True
+PRD0193,Candle Lumen 292,Tablet,Candle,609.21,409.19,2016.0,24.0,0.821,SKU-CAN00193,Productivity Tablet,Quest,Gold,SUP008,Australia,2016-03-20,GST_STANDARD,Recycled box,True,True
+PRD0194,Vela Ridge 293,Home Entertainment,Vela,1326.23,660.78,2012.0,24.0,7.776,SKU-VEL00194,Smart Display,Ridge,Black,SUP009,Malaysia,2012-09-17,GST_STANDARD,Protective case,True,True
+PRD0195,Candle Arc 294,Audio,Candle,337.11,184.91,2015.0,12.0,0.618,SKU-CAN00195,Wireless Audio,Shift,Blue,SUP010,Malaysia,2015-09-27,GST_STANDARD,Box,True,True
+PRD0196,Vela Echo 295,Smart Home,Vela,437.6,289.24,2015.0,12.0,0.356,SKU-VEL00196,Home Automation,Spark,Silver,SUP011,Australia,2015-09-18,GST_STANDARD,Recycled box,True,True
+PRD0197,Candle Orbit 296,Gaming,Candle,1349.02,800.87,2015.0,24.0,1.353,SKU-CAN00197,Gaming Hardware,Vista,Blue,SUP012,Malaysia,2015-06-22,GST_STANDARD,Protective case,True,True
+PRD0198,Vela Spark 297,Wearable,Vela,155.28,100.35,2017.0,12.0,0.146,SKU-VEL00198,Health Wearable,Wave,Red,SUP013,Korea,2017-12-26,GST_STANDARD,Box,False,True
+PRD0199,Candle Bloom 298,Networking,Candle,290.9,211.66,2012.0,24.0,0.792,SKU-CAN00199,Connected Network,Arc,Gold,SUP014,China,2012-02-18,GST_STANDARD,Recycled box,True,True
+PRD0200,Vela Halo 299,Accessory,Vela,279.99,150.57,2013.0,12.0,0.143,SKU-VEL00200,Mobile Accessory,Atlas,Green,SUP015,Korea,2013-02-06,GST_STANDARD,Box,False,True
+PRD0201,Candle Quest 300,Laptop,Candle,2007.57,1478.2,2016.0,24.0,1.127,SKU-CAN00201,Ultrabook,Bloom,Silver,SUP016,China,2016-04-19,GST_STANDARD,Box,True,True
+PRD0202,Vela Wave 301,Smartphone,Vela,1243.06,852.45,2013.0,24.0,0.294,SKU-VEL00202,5G Smartphone,Core,Red,SUP017,Japan,2013-09-19,GST_STANDARD,Protective case,True,True
+PRD0203,Candle Edge 302,Tablet,Candle,910.47,532.09,2013.0,24.0,0.672,SKU-CAN00203,Productivity Tablet,Edge,Gold,SUP018,Malaysia,2013-05-26,GST_STANDARD,Protective case,True,True
+PRD0204,Vela Nova 303,Home Entertainment,Vela,1433.35,706.44,2014.0,24.0,7.817,SKU-VEL00204,Smart Display,Echo,Gold,SUP019,Australia,2014-05-10,GST_STANDARD,Protective case,False,True
+PRD0205,Candle Shift 304,Audio,Candle,1189.79,781.85,2015.0,12.0,0.426,SKU-CAN00205,Wireless Audio,Flux,Blue,SUP020,Malaysia,2015-09-23,GST_STANDARD,Box,False,True
+PRD0206,Vela Atlas 305,Smart Home,Vela,673.8,480.11,2015.0,12.0,0.344,SKU-VEL00206,Home Automation,Halo,White,SUP021,Vietnam,2015-09-25,GST_STANDARD,Recycled box,True,True
+PRD0207,Candle Flux 306,Gaming,Candle,1299.41,734.44,2013.0,24.0,1.348,SKU-CAN00207,Gaming Hardware,Lumen,Graphite,SUP022,Japan,2013-01-11,GST_STANDARD,Box,True,True
+PRD0208,Vela Pulse 307,Wearable,Vela,373.86,231.23,2015.0,12.0,0.153,SKU-VEL00208,Health Wearable,Nova,Gold,SUP023,Vietnam,2015-02-22,GST_STANDARD,Box,True,True
+PRD0209,Candle Vista 308,Networking,Candle,1090.92,752.67,2014.0,24.0,0.665,SKU-CAN00209,Connected Network,Orbit,Black,SUP024,Vietnam,2014-01-09,GST_STANDARD,Recycled box,True,True
+PRD0210,Vela Core 309,Accessory,Vela,91.62,67.83,2014.0,12.0,0.211,SKU-VEL00210,Mobile Accessory,Pulse,Graphite,SUP025,China,2014-07-13,GST_STANDARD,Protective case,True,True
+PRD0211,Candle Lumen 310,Laptop,Candle,2411.53,1301.11,2012.0,24.0,1.703,SKU-CAN00211,Ultrabook,Quest,White,SUP026,Japan,2012-04-17,GST_STANDARD,Box,True,True
+PRD0212,Vela Ridge 311,Smartphone,Vela,736.5,501.91,2014.0,24.0,0.199,SKU-VEL00212,5G Smartphone,Ridge,Silver,SUP027,China,2014-07-18,GST_STANDARD,Box,True,True
+PRD0213,Candle Arc 312,Tablet,Candle,1561.73,1043.25,2015.0,24.0,0.73,SKU-CAN00213,Productivity Tablet,Shift,Graphite,SUP028,Korea,2015-05-02,GST_STANDARD,Protective case,True,True
+PRD0214,Vela Echo 313,Home Entertainment,Vela,2414.54,1263.45,2015.0,24.0,9.903,SKU-VEL00214,Smart Display,Spark,White,SUP029,China,2015-08-17,GST_STANDARD,Recycled box,True,True
+PRD0215,Candle Orbit 314,Audio,Candle,915.08,624.76,2015.0,12.0,0.408,SKU-CAN00215,Wireless Audio,Vista,Red,SUP030,China,2015-10-21,GST_STANDARD,Box,True,True
+PRD0216,Vela Spark 315,Smart Home,Vela,56.76,42.62,2015.0,12.0,0.487,SKU-VEL00216,Home Automation,Wave,Graphite,SUP031,China,2015-01-17,GST_STANDARD,Protective case,True,True
+PRD0217,Candle Bloom 316,Gaming,Candle,2044.02,1481.89,2016.0,24.0,1.388,SKU-CAN00217,Gaming Hardware,Arc,Silver,SUP032,Korea,2016-06-09,GST_STANDARD,Recycled box,True,True
+PRD0218,Vela Halo 317,Wearable,Vela,838.07,560.23,2015.0,12.0,0.1,SKU-VEL00218,Health Wearable,Atlas,White,SUP033,Japan,2015-10-15,GST_STANDARD,Box,True,True
+PRD0219,Candle Quest 318,Networking,Candle,374.02,267.89,2012.0,24.0,0.937,SKU-CAN00219,Connected Network,Bloom,Silver,SUP034,Korea,2012-06-03,GST_STANDARD,Protective case,False,True
+PRD0220,Vela Wave 319,Accessory,Vela,369.39,280.26,2016.0,12.0,0.246,SKU-VEL00220,Mobile Accessory,Core,Green,SUP035,Korea,2016-01-07,GST_STANDARD,Box,False,True
+PRD0221,Candle Edge 320,Laptop,Candle,1714.89,1159.03,2016.0,24.0,2.065,SKU-CAN00221,Ultrabook,Edge,Gold,SUP036,Japan,2016-03-11,GST_STANDARD,Box,False,True
+PRD0222,Vela Nova 321,Smartphone,Vela,1106.86,739.37,2015.0,24.0,0.193,SKU-VEL00222,5G Smartphone,Echo,Graphite,SUP037,Korea,2015-09-15,GST_STANDARD,Protective case,False,True
+PRD0223,Candle Shift 322,Tablet,Candle,427.66,296.97,2015.0,24.0,0.811,SKU-CAN00223,Productivity Tablet,Flux,Blue,SUP001,Australia,2015-11-02,GST_STANDARD,Recycled box,False,True
+PRD0224,Vela Atlas 323,Home Entertainment,Vela,1301.36,828.0,2015.0,24.0,8.571,SKU-VEL00224,Smart Display,Halo,White,SUP002,China,2015-08-09,GST_STANDARD,Box,True,True
+PRD0225,Candle Flux 324,Audio,Candle,213.62,130.72,2013.0,12.0,0.517,SKU-CAN00225,Wireless Audio,Lumen,Black,SUP003,Vietnam,2013-12-14,GST_STANDARD,Recycled box,True,True
+PRD0226,Vela Pulse 325,Smart Home,Vela,155.94,78.07,2013.0,12.0,0.331,SKU-VEL00226,Home Automation,Nova,Silver,SUP004,Australia,2013-04-08,GST_STANDARD,Protective case,True,True
+PRD0227,Candle Vista 326,Gaming,Candle,2395.1,1677.48,2013.0,24.0,0.902,SKU-CAN00227,Gaming Hardware,Orbit,Gold,SUP005,Vietnam,2013-05-13,GST_STANDARD,Recycled box,True,True
+PRD0228,Vela Core 327,Wearable,Vela,148.71,98.47,2014.0,12.0,0.109,SKU-VEL00228,Health Wearable,Pulse,Silver,SUP006,Malaysia,2014-06-09,GST_STANDARD,Recycled box,True,True
+PRD0229,Candle Lumen 328,Networking,Candle,412.68,233.55,2016.0,24.0,0.865,SKU-CAN00229,Connected Network,Quest,White,SUP007,Japan,2016-10-22,GST_STANDARD,Box,False,True
+PRD0230,Vela Ridge 329,Accessory,Vela,266.68,146.39,2014.0,12.0,0.221,SKU-VEL00230,Mobile Accessory,Ridge,Green,SUP008,Japan,2014-12-20,GST_STANDARD,Protective case,False,True
+PRD0231,Candle Arc 330,Laptop,Candle,2034.99,1052.68,2013.0,24.0,1.371,SKU-CAN00231,Ultrabook,Shift,Graphite,SUP009,Malaysia,2013-11-17,GST_STANDARD,Box,True,True
+PRD0232,Vela Echo 331,Smartphone,Vela,306.48,219.69,2015.0,24.0,0.208,SKU-VEL00232,5G Smartphone,Spark,White,SUP010,Korea,2015-05-10,GST_STANDARD,Recycled box,True,True
+PRD0233,Candle Orbit 332,Tablet,Candle,1406.02,706.65,2012.0,24.0,0.554,SKU-CAN00233,Productivity Tablet,Vista,Blue,SUP011,Korea,2012-09-05,GST_STANDARD,Recycled box,True,True
+PRD0234,Vela Spark 333,Home Entertainment,Vela,3839.41,2206.96,2012.0,24.0,9.006,SKU-VEL00234,Smart Display,Wave,Red,SUP012,China,2012-05-03,GST_STANDARD,Protective case,True,True
+PRD0235,Candle Bloom 334,Audio,Candle,510.44,245.1,2012.0,12.0,0.554,SKU-CAN00235,Wireless Audio,Arc,Green,SUP013,Japan,2012-03-24,GST_STANDARD,Protective case,True,True
+PRD0236,Vela Halo 335,Smart Home,Vela,590.33,306.19,2017.0,12.0,0.27,SKU-VEL00236,Home Automation,Atlas,Red,SUP014,Australia,2017-10-26,GST_STANDARD,Protective case,False,True
+PRD0237,Candle Quest 336,Gaming,Candle,2346.84,1208.59,2013.0,24.0,1.198,SKU-CAN00237,Gaming Hardware,Bloom,Silver,SUP015,Australia,2013-08-10,GST_STANDARD,Recycled box,True,True
+PRD0238,Vela Wave 337,Wearable,Vela,690.75,506.6,2016.0,12.0,0.115,SKU-VEL00238,Health Wearable,Core,Red,SUP016,Malaysia,2016-12-16,GST_STANDARD,Recycled box,False,True
+PRD0239,Candle Edge 338,Networking,Candle,1256.88,910.76,2012.0,24.0,0.814,SKU-CAN00239,Connected Network,Edge,Blue,SUP017,Vietnam,2012-01-15,GST_STANDARD,Protective case,False,True
+PRD0240,Vela Nova 339,Accessory,Vela,113.94,55.0,2013.0,12.0,0.189,SKU-VEL00240,Mobile Accessory,Echo,White,SUP018,Australia,2013-06-16,GST_STANDARD,Protective case,True,True
+PRD0241,Candle Shift 340,Laptop,Candle,1271.03,888.75,2012.0,24.0,1.285,SKU-CAN00241,Ultrabook,Flux,Green,SUP019,Malaysia,2012-01-22,GST_STANDARD,Protective case,True,True
+PRD0242,Vela Atlas 341,Smartphone,Vela,1257.76,609.43,2012.0,24.0,0.187,SKU-VEL00242,5G Smartphone,Halo,Blue,SUP020,China,2012-10-01,GST_STANDARD,Recycled box,True,True
+PRD0243,Candle Flux 342,Tablet,Candle,1380.67,859.26,2012.0,24.0,0.467,SKU-CAN00243,Productivity Tablet,Lumen,Red,SUP021,Malaysia,2012-03-03,GST_STANDARD,Box,True,True
+PRD0244,Vela Pulse 343,Home Entertainment,Vela,3425.92,2181.65,2017.0,24.0,5.379,SKU-VEL00244,Smart Display,Nova,Blue,SUP022,Korea,2017-06-09,GST_STANDARD,Recycled box,True,True
+PRD0245,Candle Vista 344,Audio,Candle,653.23,334.34,2015.0,12.0,0.438,SKU-CAN00245,Wireless Audio,Orbit,Graphite,SUP023,Australia,2015-06-05,GST_STANDARD,Protective case,True,True
+PRD0246,Vela Core 345,Smart Home,Vela,733.57,511.69,2016.0,12.0,0.451,SKU-VEL00246,Home Automation,Pulse,White,SUP024,Malaysia,2016-02-01,GST_STANDARD,Box,False,True
+PRD0247,Candle Lumen 346,Gaming,Candle,968.98,706.05,2012.0,24.0,0.902,SKU-CAN00247,Gaming Hardware,Quest,Graphite,SUP025,Malaysia,2012-06-15,GST_STANDARD,Recycled box,True,True
+PRD0248,Vela Ridge 347,Wearable,Vela,494.67,313.71,2015.0,12.0,0.123,SKU-VEL00248,Health Wearable,Ridge,Silver,SUP026,Malaysia,2015-07-05,GST_STANDARD,Recycled box,True,True
+PRD0249,Candle Arc 348,Networking,Candle,380.08,259.2,2012.0,24.0,0.513,SKU-CAN00249,Connected Network,Shift,White,SUP027,Korea,2012-04-01,GST_STANDARD,Recycled box,True,True
+PRD0250,Vela Echo 349,Accessory,Vela,335.17,174.85,2016.0,12.0,0.181,SKU-VEL00250,Mobile Accessory,Spark,Green,SUP028,Japan,2016-04-15,GST_STANDARD,Box,True,True
+PRD0251,Candle Orbit 350,Laptop,Candle,954.37,466.96,2012.0,24.0,1.248,SKU-CAN00251,Ultrabook,Vista,Silver,SUP029,Vietnam,2012-02-23,GST_STANDARD,Box,False,True
+PRD0252,Vela Spark 351,Smartphone,Vela,1577.09,1118.74,2013.0,24.0,0.254,SKU-VEL00252,5G Smartphone,Wave,Gold,SUP030,Korea,2013-09-16,GST_STANDARD,Box,True,True
+PRD0253,Candle Bloom 352,Tablet,Candle,1081.02,648.87,2015.0,24.0,0.756,SKU-CAN00253,Productivity Tablet,Arc,Silver,SUP031,China,2015-05-09,GST_STANDARD,Recycled box,True,True
+PRD0254,Vela Halo 353,Home Entertainment,Vela,1660.0,1125.12,2014.0,24.0,8.84,SKU-VEL00254,Smart Display,Atlas,Silver,SUP032,Australia,2014-05-14,GST_STANDARD,Protective case,False,True
+PRD0255,Candle Quest 354,Audio,Candle,783.42,595.31,2017.0,12.0,0.577,SKU-CAN00255,Wireless Audio,Bloom,Green,SUP033,China,2017-02-08,GST_STANDARD,Box,False,True
+PRD0256,Vela Wave 355,Smart Home,Vela,336.19,238.1,2012.0,12.0,0.278,SKU-VEL00256,Home Automation,Core,Silver,SUP034,Vietnam,2012-01-06,GST_STANDARD,Recycled box,True,True
+PRD0257,Candle Edge 356,Gaming,Candle,2532.59,1787.19,2012.0,24.0,0.975,SKU-CAN00257,Gaming Hardware,Edge,White,SUP035,Korea,2012-09-27,GST_STANDARD,Recycled box,False,True
+PRD0258,Vela Nova 357,Wearable,Vela,171.41,104.68,2017.0,12.0,0.088,SKU-VEL00258,Health Wearable,Echo,White,SUP036,China,2017-03-23,GST_STANDARD,Box,True,True
+PRD0259,Candle Shift 358,Networking,Candle,1302.81,647.35,2015.0,24.0,0.855,SKU-CAN00259,Connected Network,Flux,Black,SUP037,China,2015-12-15,GST_STANDARD,Box,True,True
+PRD0260,Vela Atlas 359,Accessory,Vela,73.31,47.47,2016.0,12.0,0.234,SKU-VEL00260,Mobile Accessory,Halo,Gold,SUP001,Vietnam,2016-08-19,GST_STANDARD,Box,True,True
+PRD0261,Candle Flux 360,Laptop,Candle,2476.88,1712.71,2016.0,24.0,1.437,SKU-CAN00261,Ultrabook,Lumen,Silver,SUP002,China,2016-08-26,GST_STANDARD,Box,True,True
+PRD0262,Vela Pulse 361,Smartphone,Vela,1522.38,865.41,2017.0,24.0,0.262,SKU-VEL00262,5G Smartphone,Nova,Red,SUP003,China,2017-07-27,GST_STANDARD,Recycled box,True,True
+PRD0263,Candle Vista 362,Tablet,Candle,1272.94,703.77,2014.0,24.0,0.655,SKU-CAN00263,Productivity Tablet,Orbit,Red,SUP004,Vietnam,2014-12-21,GST_STANDARD,Protective case,True,True
+PRD0264,Vela Core 363,Home Entertainment,Vela,721.82,483.87,2017.0,24.0,5.622,SKU-VEL00264,Smart Display,Pulse,White,SUP005,Vietnam,2017-01-12,GST_STANDARD,Recycled box,True,True
+PRD0265,Candle Lumen 364,Audio,Candle,255.41,168.36,2013.0,12.0,0.625,SKU-CAN00265,Wireless Audio,Quest,Black,SUP006,Vietnam,2013-05-03,GST_STANDARD,Box,True,True
+PRD0266,Vela Ridge 365,Smart Home,Vela,424.49,318.26,2017.0,12.0,0.432,SKU-VEL00266,Home Automation,Ridge,Red,SUP007,China,2017-11-11,GST_STANDARD,Protective case,True,True
+PRD0267,Candle Arc 366,Gaming,Candle,1252.5,670.12,2015.0,24.0,1.396,SKU-CAN00267,Gaming Hardware,Shift,Graphite,SUP008,Vietnam,2015-03-12,GST_STANDARD,Box,False,False
+PRD0268,Vela Echo 367,Wearable,Vela,944.09,642.92,2015.0,12.0,0.142,SKU-VEL00268,Health Wearable,Spark,Gold,SUP009,Japan,2015-05-23,GST_STANDARD,Recycled box,True,True
+PRD0269,Candle Orbit 368,Networking,Candle,514.16,326.26,2012.0,24.0,0.815,SKU-CAN00269,Connected Network,Vista,Red,SUP010,Malaysia,2012-03-03,GST_STANDARD,Recycled box,False,True
+PRD0270,Vela Spark 369,Accessory,Vela,145.44,80.14,2013.0,12.0,0.217,SKU-VEL00270,Mobile Accessory,Wave,Green,SUP011,Korea,2013-08-04,GST_STANDARD,Protective case,True,True
+PRD0271,Candle Bloom 370,Laptop,Candle,1115.7,777.38,2015.0,24.0,1.62,SKU-CAN00271,Ultrabook,Arc,Red,SUP012,Japan,2015-07-15,GST_STANDARD,Recycled box,True,True
+PRD0272,Vela Halo 371,Smartphone,Vela,721.72,409.53,2013.0,24.0,0.201,SKU-VEL00272,5G Smartphone,Atlas,Gold,SUP013,Korea,2013-01-25,GST_STANDARD,Box,False,True
+PRD0273,Candle Quest 372,Tablet,Candle,1515.39,1127.16,2014.0,24.0,0.834,SKU-CAN00273,Productivity Tablet,Bloom,Gold,SUP014,Japan,2014-10-09,GST_STANDARD,Box,True,True
+PRD0274,Vela Wave 373,Home Entertainment,Vela,2383.39,1427.7,2016.0,24.0,5.659,SKU-VEL00274,Smart Display,Core,Graphite,SUP015,Vietnam,2016-03-23,GST_STANDARD,Box,True,True
+PRD0275,Candle Edge 374,Audio,Candle,182.18,96.51,2017.0,12.0,0.481,SKU-CAN00275,Wireless Audio,Edge,Green,SUP016,Vietnam,2017-12-21,GST_STANDARD,Recycled box,True,True
+PRD0276,Vela Nova 375,Smart Home,Vela,586.47,436.76,2015.0,12.0,0.358,SKU-VEL00276,Home Automation,Echo,Graphite,SUP017,China,2015-04-23,GST_STANDARD,Box,False,True
+PRD0277,Candle Shift 376,Gaming,Candle,2592.52,1353.5,2017.0,24.0,1.162,SKU-CAN00277,Gaming Hardware,Flux,White,SUP018,China,2017-02-07,GST_STANDARD,Protective case,True,True
+PRD0278,Vela Atlas 377,Wearable,Vela,100.15,49.98,2014.0,12.0,0.088,SKU-VEL00278,Health Wearable,Halo,Graphite,SUP019,Australia,2014-08-17,GST_STANDARD,Recycled box,True,True
+PRD0279,Candle Flux 378,Networking,Candle,250.57,184.68,2013.0,24.0,0.668,SKU-CAN00279,Connected Network,Lumen,Gold,SUP020,Korea,2013-06-22,GST_STANDARD,Box,True,True
+PRD0280,Vela Pulse 379,Accessory,Vela,34.27,16.74,2013.0,12.0,0.168,SKU-VEL00280,Mobile Accessory,Nova,Green,SUP021,Japan,2013-10-21,GST_STANDARD,Box,False,True
+PRD0281,Candle Vista 380,Laptop,Candle,1660.11,1235.21,2015.0,24.0,1.716,SKU-CAN00281,Ultrabook,Orbit,Blue,SUP022,Japan,2015-09-02,GST_STANDARD,Recycled box,False,True
+PRD0282,Vela Core 381,Smartphone,Vela,1401.95,1057.3,2015.0,24.0,0.241,SKU-VEL00282,5G Smartphone,Pulse,Graphite,SUP023,Australia,2015-12-26,GST_STANDARD,Protective case,False,True
+PRD0283,Candle Lumen 382,Tablet,Candle,733.77,485.82,2017.0,24.0,0.693,SKU-CAN00283,Productivity Tablet,Quest,Gold,SUP024,Vietnam,2017-03-02,GST_STANDARD,Recycled box,True,True
+PRD0284,Vela Ridge 383,Home Entertainment,Vela,4071.02,2447.64,2014.0,24.0,6.527,SKU-VEL00284,Smart Display,Ridge,Green,SUP025,Vietnam,2014-07-06,GST_STANDARD,Protective case,True,True
+PRD0285,Candle Arc 384,Audio,Candle,136.65,77.78,2014.0,12.0,0.479,SKU-CAN00285,Wireless Audio,Shift,Blue,SUP026,Australia,2014-08-11,GST_STANDARD,Protective case,True,True
+PRD0286,Vela Echo 385,Smart Home,Vela,841.61,536.48,2017.0,12.0,0.307,SKU-VEL00286,Home Automation,Spark,Silver,SUP027,China,2017-12-15,GST_STANDARD,Protective case,False,True
+PRD0287,Candle Orbit 386,Gaming,Candle,1873.36,924.28,2013.0,24.0,1.618,SKU-CAN00287,Gaming Hardware,Vista,Green,SUP028,Korea,2013-04-16,GST_STANDARD,Protective case,True,True
+PRD0288,Vela Spark 387,Wearable,Vela,171.9,102.88,2015.0,12.0,0.148,SKU-VEL00288,Health Wearable,Wave,Red,SUP029,Japan,2015-10-26,GST_STANDARD,Box,True,True
+PRD0289,Candle Bloom 388,Networking,Candle,721.6,428.24,2015.0,24.0,0.76,SKU-CAN00289,Connected Network,Arc,Blue,SUP030,Vietnam,2015-02-23,GST_STANDARD,Box,False,True
+PRD0290,Vela Halo 389,Accessory,Vela,61.51,34.52,2015.0,12.0,0.214,SKU-VEL00290,Mobile Accessory,Atlas,Black,SUP031,Malaysia,2015-03-15,GST_STANDARD,Box,True,True
+PRD0291,Candle Quest 390,Laptop,Candle,1079.47,641.16,2016.0,24.0,1.147,SKU-CAN00291,Ultrabook,Bloom,Red,SUP032,Korea,2016-01-13,GST_STANDARD,Protective case,True,True
+PRD0292,Vela Wave 391,Smartphone,Vela,324.37,163.32,2015.0,24.0,0.171,SKU-VEL00292,5G Smartphone,Core,Red,SUP033,China,2015-02-01,GST_STANDARD,Box,True,True
+PRD0293,Candle Edge 392,Tablet,Candle,399.18,254.8,2016.0,24.0,0.712,SKU-CAN00293,Productivity Tablet,Edge,Blue,SUP034,Vietnam,2016-12-20,GST_STANDARD,Protective case,False,False
+PRD0294,Vela Nova 393,Home Entertainment,Vela,1781.81,1120.06,2016.0,24.0,9.317,SKU-VEL00294,Smart Display,Echo,Gold,SUP035,Korea,2016-01-01,GST_STANDARD,Box,True,True
+PRD0295,Candle Shift 394,Audio,Candle,606.51,375.77,2017.0,12.0,0.441,SKU-CAN00295,Wireless Audio,Flux,Red,SUP036,Australia,2017-06-23,GST_STANDARD,Protective case,True,True
+PRD0296,Vela Atlas 395,Smart Home,Vela,366.63,278.18,2015.0,12.0,0.465,SKU-VEL00296,Home Automation,Halo,Gold,SUP037,Vietnam,2015-10-02,GST_STANDARD,Protective case,True,True
+PRD0297,Candle Flux 396,Gaming,Candle,1540.93,808.43,2014.0,24.0,1.494,SKU-CAN00297,Gaming Hardware,Lumen,Green,SUP001,Japan,2014-02-06,GST_STANDARD,Recycled box,False,True
+PRD0298,Vela Pulse 397,Wearable,Vela,565.35,358.83,2017.0,12.0,0.143,SKU-VEL00298,Health Wearable,Nova,Green,SUP002,China,2017-03-27,GST_STANDARD,Protective case,True,True
+PRD0299,Candle Vista 398,Networking,Candle,658.78,424.23,2015.0,24.0,0.585,SKU-CAN00299,Connected Network,Orbit,Green,SUP003,Japan,2015-03-22,GST_STANDARD,Box,True,True
+PRD0300,Vela Core 399,Accessory,Vela,30.76,15.15,2016.0,12.0,0.133,SKU-VEL00300,Mobile Accessory,Pulse,Black,SUP004,Vietnam,2016-01-08,GST_STANDARD,Recycled box,True,True
+PRD0301,Candle Lumen 400,Laptop,Candle,1847.23,1379.3,2014.0,24.0,1.912,SKU-CAN00301,Ultrabook,Quest,Silver,SUP005,Japan,2014-11-21,GST_STANDARD,Box,False,True
+PRD0302,Vela Ridge 401,Smartphone,Vela,1232.1,819.7,2012.0,24.0,0.286,SKU-VEL00302,5G Smartphone,Ridge,Silver,SUP006,China,2012-03-13,GST_STANDARD,Box,True,True
+PRD0303,Candle Arc 402,Tablet,Candle,961.05,597.01,2017.0,24.0,0.592,SKU-CAN00303,Productivity Tablet,Shift,Green,SUP007,Australia,2017-10-03,GST_STANDARD,Recycled box,True,True
+PRD0304,Vela Echo 403,Home Entertainment,Vela,524.3,269.84,2017.0,24.0,10.153,SKU-VEL00304,Smart Display,Spark,Red,SUP008,China,2017-08-07,GST_STANDARD,Box,True,True
+PRD0305,Candle Orbit 404,Audio,Candle,662.05,471.86,2013.0,12.0,0.636,SKU-CAN00305,Wireless Audio,Vista,Blue,SUP009,Korea,2013-10-01,GST_STANDARD,Box,False,True
+PRD0306,Vela Spark 405,Smart Home,Vela,643.72,377.41,2017.0,12.0,0.457,SKU-VEL00306,Home Automation,Wave,Red,SUP010,Korea,2017-11-24,GST_STANDARD,Protective case,True,True
+PRD0307,Candle Bloom 406,Gaming,Candle,2171.11,1499.4,2016.0,24.0,1.505,SKU-CAN00307,Gaming Hardware,Arc,Green,SUP011,Japan,2016-12-09,GST_STANDARD,Protective case,True,True
+PRD0308,Vela Halo 407,Wearable,Vela,1053.94,516.84,2015.0,12.0,0.132,SKU-VEL00308,Health Wearable,Atlas,Blue,SUP012,China,2015-07-11,GST_STANDARD,Protective case,True,True
+PRD0309,Candle Quest 408,Networking,Candle,335.12,199.12,2014.0,24.0,0.799,SKU-CAN00309,Connected Network,Bloom,White,SUP013,Vietnam,2014-06-07,GST_STANDARD,Protective case,False,True
+PRD0310,Vela Wave 409,Accessory,Vela,318.45,203.6,2017.0,12.0,0.209,SKU-VEL00310,Mobile Accessory,Core,Silver,SUP014,Australia,2017-01-02,GST_STANDARD,Box,True,True
+PRD0311,Candle Edge 410,Laptop,Candle,1105.19,772.69,2014.0,24.0,1.861,SKU-CAN00311,Ultrabook,Edge,Gold,SUP015,Vietnam,2014-01-27,GST_STANDARD,Protective case,True,True
+PRD0312,Vela Nova 411,Smartphone,Vela,845.47,525.82,2017.0,24.0,0.257,SKU-VEL00312,5G Smartphone,Echo,Black,SUP016,Australia,2017-04-08,GST_STANDARD,Box,True,True
+PRD0313,Candle Shift 412,Tablet,Candle,695.88,421.39,2013.0,24.0,0.6,SKU-CAN00313,Productivity Tablet,Flux,Black,SUP017,Australia,2013-12-14,GST_STANDARD,Recycled box,False,True
+PRD0314,Vela Atlas 413,Home Entertainment,Vela,2377.47,1143.29,2013.0,24.0,6.662,SKU-VEL00314,Smart Display,Halo,Blue,SUP018,Korea,2013-03-05,GST_STANDARD,Box,True,True
+PRD0315,Candle Flux 414,Audio,Candle,1099.77,730.72,2015.0,12.0,0.497,SKU-CAN00315,Wireless Audio,Lumen,Green,SUP019,Korea,2015-03-11,GST_STANDARD,Recycled box,False,True
+PRD0316,Vela Pulse 415,Smart Home,Vela,28.93,21.03,2016.0,12.0,0.383,SKU-VEL00316,Home Automation,Nova,Green,SUP020,Japan,2016-01-14,GST_STANDARD,Recycled box,True,True
+PRD0317,Candle Vista 416,Gaming,Candle,1875.46,1066.79,2016.0,24.0,0.99,SKU-CAN00317,Gaming Hardware,Orbit,Black,SUP021,Vietnam,2016-09-18,GST_STANDARD,Protective case,True,True
+PRD0318,Vela Core 417,Wearable,Vela,913.52,467.85,2016.0,12.0,0.152,SKU-VEL00318,Health Wearable,Pulse,White,SUP022,Australia,2016-08-12,GST_STANDARD,Recycled box,True,True
+PRD0319,Candle Lumen 418,Networking,Candle,1203.94,746.41,2015.0,24.0,0.914,SKU-CAN00319,Connected Network,Quest,Gold,SUP023,Malaysia,2015-01-27,GST_STANDARD,Box,True,True
+PRD0320,Vela Ridge 419,Accessory,Vela,289.98,167.08,2016.0,12.0,0.242,SKU-VEL00320,Mobile Accessory,Ridge,Red,SUP024,China,2016-09-11,GST_STANDARD,Box,False,True
+PRD0321,Candle Arc 420,Laptop,Candle,2990.61,1810.72,2016.0,24.0,1.852,SKU-CAN00321,Ultrabook,Shift,Silver,SUP025,Vietnam,2016-07-22,GST_STANDARD,Box,True,True
+PRD0322,Vela Echo 421,Smartphone,Vela,719.5,473.86,2012.0,24.0,0.206,SKU-VEL00322,5G Smartphone,Spark,Gold,SUP026,Vietnam,2012-09-13,GST_STANDARD,Protective case,True,True
+PRD0323,Candle Orbit 422,Tablet,Candle,786.71,477.47,2015.0,24.0,0.742,SKU-CAN00323,Productivity Tablet,Vista,Blue,SUP027,China,2015-01-12,GST_STANDARD,Box,False,True
+PRD0324,Vela Spark 423,Home Entertainment,Vela,3625.94,2120.88,2012.0,24.0,10.01,SKU-VEL00324,Smart Display,Wave,Gold,SUP028,Malaysia,2012-12-25,GST_STANDARD,Box,True,True
+PRD0325,Candle Bloom 424,Audio,Candle,54.61,40.46,2016.0,12.0,0.359,SKU-CAN00325,Wireless Audio,Arc,Green,SUP029,Vietnam,2016-09-25,GST_STANDARD,Protective case,True,True
+PRD0326,Vela Halo 425,Smart Home,Vela,791.27,477.99,2015.0,12.0,0.389,SKU-VEL00326,Home Automation,Atlas,Graphite,SUP030,Australia,2015-11-01,GST_STANDARD,Recycled box,True,True
+PRD0327,Candle Quest 426,Gaming,Candle,783.26,444.65,2017.0,24.0,1.101,SKU-CAN00327,Gaming Hardware,Bloom,Graphite,SUP031,Japan,2017-08-14,GST_STANDARD,Protective case,False,True
+PRD0328,Vela Wave 427,Wearable,Vela,728.97,435.38,2016.0,12.0,0.129,SKU-VEL00328,Health Wearable,Core,Blue,SUP032,Malaysia,2016-05-01,GST_STANDARD,Box,True,True
+PRD0329,Candle Edge 428,Networking,Candle,1082.5,559.58,2013.0,24.0,0.876,SKU-CAN00329,Connected Network,Edge,Graphite,SUP033,China,2013-04-11,GST_STANDARD,Protective case,True,True
+PRD0330,Vela Nova 429,Accessory,Vela,184.25,129.76,2013.0,12.0,0.156,SKU-VEL00330,Mobile Accessory,Echo,Blue,SUP034,Malaysia,2013-01-12,GST_STANDARD,Box,True,True
+PRD0331,Candle Shift 430,Laptop,Candle,1711.06,1184.3,2014.0,24.0,1.397,SKU-CAN00331,Ultrabook,Flux,Black,SUP035,China,2014-05-16,GST_STANDARD,Box,False,True
+PRD0332,Vela Atlas 431,Smartphone,Vela,560.39,286.67,2015.0,24.0,0.275,SKU-VEL00332,5G Smartphone,Halo,Black,SUP036,Vietnam,2015-12-01,GST_STANDARD,Box,False,True
+PRD0333,Candle Flux 432,Tablet,Candle,419.02,286.5,2015.0,24.0,0.71,SKU-CAN00333,Productivity Tablet,Lumen,Red,SUP037,Australia,2015-06-26,GST_STANDARD,Protective case,True,True
+PRD0334,Vela Pulse 433,Home Entertainment,Vela,2364.45,1398.69,2012.0,24.0,9.962,SKU-VEL00334,Smart Display,Nova,Gold,SUP001,Korea,2012-08-10,GST_STANDARD,Box,True,True
+PRD0335,Candle Vista 434,Audio,Candle,424.96,258.04,2014.0,12.0,0.39,SKU-CAN00335,Wireless Audio,Orbit,Black,SUP002,Malaysia,2014-01-16,GST_STANDARD,Box,True,True
+PRD0336,Vela Core 435,Smart Home,Vela,823.14,407.59,2014.0,12.0,0.476,SKU-VEL00336,Home Automation,Pulse,Gold,SUP003,Australia,2014-03-23,GST_STANDARD,Box,True,True
+PRD0337,Candle Lumen 436,Gaming,Candle,92.59,47.4,2016.0,24.0,1.079,SKU-CAN00337,Gaming Hardware,Quest,Red,SUP004,Korea,2016-03-16,GST_STANDARD,Box,False,True
+PRD0338,Vela Ridge 437,Wearable,Vela,950.04,517.18,2012.0,12.0,0.164,SKU-VEL00338,Health Wearable,Ridge,Gold,SUP005,Malaysia,2012-12-19,GST_STANDARD,Box,False,True
+PRD0339,Candle Arc 438,Networking,Candle,427.29,309.5,2017.0,24.0,0.656,SKU-CAN00339,Connected Network,Shift,Graphite,SUP006,Vietnam,2017-06-19,GST_STANDARD,Recycled box,True,True
+PRD0340,Vela Echo 439,Accessory,Vela,68.17,38.1,2012.0,12.0,0.195,SKU-VEL00340,Mobile Accessory,Spark,Green,SUP007,Australia,2012-05-17,GST_STANDARD,Box,True,True
+PRD0341,Candle Orbit 440,Laptop,Candle,3051.59,2276.6,2016.0,24.0,2.004,SKU-CAN00341,Ultrabook,Vista,Black,SUP008,Australia,2016-03-26,GST_STANDARD,Protective case,True,True
+PRD0342,Vela Spark 441,Smartphone,Vela,1733.12,1047.01,2012.0,24.0,0.176,SKU-VEL00342,5G Smartphone,Wave,Graphite,SUP009,Korea,2012-04-14,GST_STANDARD,Recycled box,True,True
+PRD0343,Candle Bloom 442,Tablet,Candle,1244.05,638.14,2015.0,24.0,0.652,SKU-CAN00343,Productivity Tablet,Arc,Silver,SUP010,Korea,2015-07-23,GST_STANDARD,Box,False,True
+PRD0344,Vela Halo 443,Home Entertainment,Vela,3507.24,1938.32,2015.0,24.0,6.386,SKU-VEL00344,Smart Display,Atlas,Blue,SUP011,Vietnam,2015-01-17,GST_STANDARD,Recycled box,True,True
+PRD0345,Candle Quest 444,Audio,Candle,927.23,566.17,2013.0,12.0,0.391,SKU-CAN00345,Wireless Audio,Bloom,Graphite,SUP012,Vietnam,2013-07-21,GST_STANDARD,Recycled box,True,True
+PRD0346,Vela Wave 445,Smart Home,Vela,692.97,337.24,2016.0,12.0,0.36,SKU-VEL00346,Home Automation,Core,Graphite,SUP013,Japan,2016-12-20,GST_STANDARD,Recycled box,False,True
+PRD0347,Candle Edge 446,Gaming,Candle,1107.53,639.19,2015.0,24.0,0.988,SKU-CAN00347,Gaming Hardware,Edge,Silver,SUP014,Australia,2015-09-10,GST_STANDARD,Box,True,True
+PRD0348,Vela Nova 447,Wearable,Vela,1003.34,492.38,2014.0,12.0,0.138,SKU-VEL00348,Health Wearable,Echo,Green,SUP015,Korea,2014-09-06,GST_STANDARD,Box,True,True
+PRD0349,Candle Shift 448,Networking,Candle,986.72,689.86,2016.0,24.0,0.554,SKU-CAN00349,Connected Network,Flux,Red,SUP016,Japan,2016-10-27,GST_STANDARD,Protective case,False,True
+PRD0350,Vela Atlas 449,Accessory,Vela,294.0,162.86,2016.0,12.0,0.157,SKU-VEL00350,Mobile Accessory,Halo,Graphite,SUP017,Vietnam,2016-07-25,GST_STANDARD,Recycled box,False,True
+PRD0351,Candle Flux 450,Laptop,Candle,1873.03,1350.12,2015.0,24.0,1.734,SKU-CAN00351,Ultrabook,Lumen,Silver,SUP018,China,2015-10-20,GST_STANDARD,Recycled box,True,True
+PRD0352,Vela Pulse 451,Smartphone,Vela,1479.5,1077.78,2017.0,24.0,0.277,SKU-VEL00352,5G Smartphone,Nova,Red,SUP019,China,2017-03-09,GST_STANDARD,Box,True,False
+PRD0353,Candle Vista 452,Tablet,Candle,526.39,369.78,2016.0,24.0,0.739,SKU-CAN00353,Productivity Tablet,Orbit,Gold,SUP020,Korea,2016-02-08,GST_STANDARD,Protective case,False,True
+PRD0354,Vela Core 453,Home Entertainment,Vela,2306.23,1309.29,2014.0,24.0,9.113,SKU-VEL00354,Smart Display,Pulse,Green,SUP021,Korea,2014-03-08,GST_STANDARD,Recycled box,True,True
+PRD0355,Candle Lumen 454,Audio,Candle,535.15,375.28,2016.0,12.0,0.555,SKU-CAN00355,Wireless Audio,Quest,Red,SUP022,Australia,2016-05-24,GST_STANDARD,Recycled box,True,True
+PRD0356,Vela Ridge 455,Smart Home,Vela,302.84,176.94,2016.0,12.0,0.43,SKU-VEL00356,Home Automation,Ridge,Red,SUP023,Vietnam,2016-05-13,GST_STANDARD,Box,True,True
+PRD0357,Candle Arc 456,Gaming,Candle,193.87,118.81,2017.0,24.0,1.568,SKU-CAN00357,Gaming Hardware,Shift,Green,SUP024,Japan,2017-04-11,GST_STANDARD,Recycled box,True,True
+PRD0358,Vela Echo 457,Wearable,Vela,67.02,48.97,2013.0,12.0,0.102,SKU-VEL00358,Health Wearable,Spark,Blue,SUP025,Japan,2013-09-16,GST_STANDARD,Box,True,True
+PRD0359,Candle Orbit 458,Networking,Candle,169.12,81.85,2012.0,24.0,0.78,SKU-CAN00359,Connected Network,Vista,Black,SUP026,Vietnam,2012-10-27,GST_STANDARD,Protective case,True,True
+PRD0360,Vela Spark 459,Accessory,Vela,14.71,10.98,2014.0,12.0,0.163,SKU-VEL00360,Mobile Accessory,Wave,Blue,SUP027,Japan,2014-07-15,GST_STANDARD,Protective case,False,True
+PRD0361,Candle Bloom 460,Laptop,Candle,3013.48,1722.27,2016.0,24.0,1.893,SKU-CAN00361,Ultrabook,Arc,Green,SUP028,Korea,2016-08-06,GST_STANDARD,Box,True,True
+PRD0362,Vela Halo 461,Smartphone,Vela,1501.87,1011.15,2012.0,24.0,0.234,SKU-VEL00362,5G Smartphone,Atlas,Graphite,SUP029,Korea,2012-05-09,GST_STANDARD,Recycled box,True,True
+PRD0363,Candle Quest 462,Tablet,Candle,1523.75,916.14,2013.0,24.0,0.566,SKU-CAN00363,Productivity Tablet,Bloom,Gold,SUP030,Japan,2013-10-24,GST_STANDARD,Protective case,True,True
+PRD0364,Vela Wave 463,Home Entertainment,Vela,1836.13,1057.44,2012.0,24.0,9.705,SKU-VEL00364,Smart Display,Core,Black,SUP031,Vietnam,2012-08-20,GST_STANDARD,Box,True,True
+PRD0365,Candle Edge 464,Audio,Candle,884.05,568.81,2015.0,12.0,0.367,SKU-CAN00365,Wireless Audio,Edge,Gold,SUP032,Korea,2015-10-27,GST_STANDARD,Box,True,True
+PRD0366,Vela Nova 465,Smart Home,Vela,496.46,289.3,2012.0,12.0,0.27,SKU-VEL00366,Home Automation,Echo,Silver,SUP033,Japan,2012-01-06,GST_STANDARD,Recycled box,True,True
+PRD0367,Candle Shift 466,Gaming,Candle,1853.15,905.65,2013.0,24.0,1.648,SKU-CAN00367,Gaming Hardware,Flux,Red,SUP034,Vietnam,2013-01-27,GST_STANDARD,Recycled box,False,True
+PRD0368,Vela Atlas 467,Wearable,Vela,807.79,497.45,2014.0,12.0,0.145,SKU-VEL00368,Health Wearable,Halo,Blue,SUP035,Korea,2014-09-24,GST_STANDARD,Protective case,True,True
+PRD0369,Candle Flux 468,Networking,Candle,462.08,242.3,2016.0,24.0,0.859,SKU-CAN00369,Connected Network,Lumen,Black,SUP036,Japan,2016-06-03,GST_STANDARD,Box,False,True
+PRD0370,Vela Pulse 469,Accessory,Vela,143.48,80.34,2015.0,12.0,0.194,SKU-VEL00370,Mobile Accessory,Nova,Black,SUP037,China,2015-04-08,GST_STANDARD,Box,True,True
+PRD0371,Candle Vista 470,Laptop,Candle,1060.97,677.03,2015.0,24.0,1.516,SKU-CAN00371,Ultrabook,Orbit,Black,SUP001,Japan,2015-12-27,GST_STANDARD,Protective case,True,True
+PRD0372,Vela Core 471,Smartphone,Vela,763.17,568.46,2016.0,24.0,0.169,SKU-VEL00372,5G Smartphone,Pulse,White,SUP002,Vietnam,2016-12-07,GST_STANDARD,Box,False,True
+PRD0373,Candle Lumen 472,Tablet,Candle,572.77,283.69,2016.0,24.0,0.601,SKU-CAN00373,Productivity Tablet,Quest,Graphite,SUP003,Vietnam,2016-05-18,GST_STANDARD,Recycled box,True,True
+PRD0374,Vela Ridge 473,Home Entertainment,Vela,1059.26,609.54,2016.0,24.0,9.731,SKU-VEL00374,Smart Display,Ridge,Graphite,SUP004,Vietnam,2016-03-26,GST_STANDARD,Protective case,True,True
+PRD0375,Candle Arc 474,Audio,Candle,302.41,176.77,2017.0,12.0,0.425,SKU-CAN00375,Wireless Audio,Shift,White,SUP005,Australia,2017-01-12,GST_STANDARD,Protective case,True,True
+PRD0376,Vela Echo 475,Smart Home,Vela,804.1,529.59,2016.0,12.0,0.36,SKU-VEL00376,Home Automation,Spark,Black,SUP006,China,2016-12-19,GST_STANDARD,Box,False,True
+PRD0377,Candle Orbit 476,Gaming,Candle,1672.48,832.49,2017.0,24.0,1.394,SKU-CAN00377,Gaming Hardware,Vista,Green,SUP007,Japan,2017-09-03,GST_STANDARD,Protective case,True,True
+PRD0378,Vela Spark 477,Wearable,Vela,110.97,61.64,2013.0,12.0,0.111,SKU-VEL00378,Health Wearable,Wave,Red,SUP008,Vietnam,2013-10-01,GST_STANDARD,Box,False,True
+PRD0379,Candle Bloom 478,Networking,Candle,759.43,457.2,2014.0,24.0,0.632,SKU-CAN00379,Connected Network,Arc,Red,SUP009,Korea,2014-05-10,GST_STANDARD,Protective case,True,True
+PRD0380,Vela Halo 479,Accessory,Vela,117.36,78.36,2015.0,12.0,0.197,SKU-VEL00380,Mobile Accessory,Atlas,Red,SUP010,China,2015-09-02,GST_STANDARD,Recycled box,True,True
+PRD0381,Candle Quest 480,Laptop,Candle,1910.84,1072.89,2016.0,24.0,1.488,SKU-CAN00381,Ultrabook,Bloom,Red,SUP011,China,2016-02-25,GST_STANDARD,Recycled box,True,True
+PRD0382,Vela Wave 481,Smartphone,Vela,453.52,323.45,2014.0,24.0,0.197,SKU-VEL00382,5G Smartphone,Core,Silver,SUP012,China,2014-10-03,GST_STANDARD,Recycled box,True,True
+PRD0383,Candle Edge 482,Tablet,Candle,1343.47,685.43,2016.0,24.0,0.468,SKU-CAN00383,Productivity Tablet,Edge,Silver,SUP013,Malaysia,2016-12-19,GST_STANDARD,Box,True,True
+PRD0384,Vela Nova 483,Home Entertainment,Vela,3587.6,1728.11,2016.0,24.0,5.683,SKU-VEL00384,Smart Display,Echo,Gold,SUP014,Vietnam,2016-02-15,GST_STANDARD,Recycled box,True,True
+PRD0385,Candle Shift 484,Audio,Candle,699.4,497.47,2013.0,12.0,0.354,SKU-CAN00385,Wireless Audio,Flux,Graphite,SUP015,Malaysia,2013-01-09,GST_STANDARD,Protective case,True,True
+PRD0386,Vela Atlas 485,Smart Home,Vela,109.17,80.04,2016.0,12.0,0.383,SKU-VEL00386,Home Automation,Halo,Silver,SUP016,Japan,2016-12-10,GST_STANDARD,Recycled box,True,False
+PRD0387,Candle Flux 486,Gaming,Candle,2587.59,1877.36,2013.0,24.0,1.143,SKU-CAN00387,Gaming Hardware,Lumen,Black,SUP017,Vietnam,2013-10-20,GST_STANDARD,Box,True,True
+PRD0388,Vela Pulse 487,Wearable,Vela,269.65,203.09,2014.0,12.0,0.133,SKU-VEL00388,Health Wearable,Nova,Green,SUP018,China,2014-04-07,GST_STANDARD,Recycled box,True,True
+PRD0389,Candle Vista 488,Networking,Candle,197.05,129.15,2016.0,24.0,0.818,SKU-CAN00389,Connected Network,Orbit,Gold,SUP019,Korea,2016-01-21,GST_STANDARD,Box,False,True
+PRD0390,Vela Core 489,Accessory,Vela,27.7,13.56,2012.0,12.0,0.134,SKU-VEL00390,Mobile Accessory,Pulse,Black,SUP020,Korea,2012-06-11,GST_STANDARD,Box,True,True
+PRD0391,Candle Lumen 490,Laptop,Candle,1089.38,734.72,2012.0,24.0,1.985,SKU-CAN00391,Ultrabook,Quest,Graphite,SUP021,China,2012-03-23,GST_STANDARD,Box,True,True
+PRD0392,Vela Ridge 491,Smartphone,Vela,930.86,451.19,2012.0,24.0,0.177,SKU-VEL00392,5G Smartphone,Ridge,Red,SUP022,Vietnam,2012-01-01,GST_STANDARD,Box,True,True
+PRD0393,Candle Arc 492,Tablet,Candle,307.2,148.19,2016.0,24.0,0.753,SKU-CAN00393,Productivity Tablet,Shift,Blue,SUP023,China,2016-01-20,GST_STANDARD,Protective case,True,False
+PRD0394,Vela Echo 493,Home Entertainment,Vela,3284.35,2308.73,2013.0,24.0,9.055,SKU-VEL00394,Smart Display,Spark,White,SUP024,Korea,2013-09-22,GST_STANDARD,Protective case,True,True
+PRD0395,Candle Orbit 494,Audio,Candle,404.44,259.89,2017.0,12.0,0.561,SKU-CAN00395,Wireless Audio,Vista,Graphite,SUP025,Australia,2017-11-16,GST_STANDARD,Box,True,True
+PRD0396,Vela Spark 495,Smart Home,Vela,120.07,65.36,2015.0,12.0,0.351,SKU-VEL00396,Home Automation,Wave,Blue,SUP026,Korea,2015-04-15,GST_STANDARD,Box,True,True
+PRD0397,Candle Bloom 496,Gaming,Candle,1953.43,954.67,2017.0,24.0,1.209,SKU-CAN00397,Gaming Hardware,Arc,White,SUP027,Australia,2017-05-25,GST_STANDARD,Box,True,True
+PRD0398,Vela Halo 497,Wearable,Vela,413.35,243.51,2013.0,12.0,0.156,SKU-VEL00398,Health Wearable,Atlas,Black,SUP028,Japan,2013-02-21,GST_STANDARD,Recycled box,True,True
+PRD0399,Candle Quest 498,Networking,Candle,628.54,454.12,2016.0,24.0,0.579,SKU-CAN00399,Connected Network,Bloom,Blue,SUP029,China,2016-03-18,GST_STANDARD,Recycled box,True,True
+PRD0400,Vela Wave 499,Accessory,Vela,286.55,180.81,2016.0,12.0,0.204,SKU-VEL00400,Mobile Accessory,Core,Gold,SUP030,Vietnam,2016-02-10,GST_STANDARD,Recycled box,True,True
+PRD0401,Candle Edge 500,Laptop,Candle,1541.92,758.73,2012.0,24.0,1.589,SKU-CAN00401,Ultrabook,Edge,Graphite,SUP031,Vietnam,2012-04-03,GST_STANDARD,Protective case,True,True
+PRD0402,Vela Nova 501,Smartphone,Vela,1191.53,868.83,2012.0,24.0,0.182,SKU-VEL00402,5G Smartphone,Echo,Graphite,SUP032,Australia,2012-07-09,GST_STANDARD,Box,True,True
+PRD0403,Candle Shift 502,Tablet,Candle,1465.36,857.47,2016.0,24.0,0.536,SKU-CAN00403,Productivity Tablet,Flux,Blue,SUP033,Malaysia,2016-08-04,GST_STANDARD,Recycled box,False,True
+PRD0404,Vela Atlas 503,Home Entertainment,Vela,3995.8,2114.86,2014.0,24.0,7.037,SKU-VEL00404,Smart Display,Halo,Red,SUP034,Malaysia,2014-12-04,GST_STANDARD,Recycled box,False,True
+PRD0405,Candle Flux 504,Audio,Candle,774.44,511.89,2015.0,12.0,0.613,SKU-CAN00405,Wireless Audio,Lumen,White,SUP035,Australia,2015-11-16,GST_STANDARD,Recycled box,False,True
+PRD0406,Vela Pulse 505,Smart Home,Vela,241.97,162.39,2013.0,12.0,0.394,SKU-VEL00406,Home Automation,Nova,Black,SUP036,Korea,2013-02-26,GST_STANDARD,Box,True,True
+PRD0407,Candle Vista 506,Gaming,Candle,1547.38,1063.35,2016.0,24.0,1.475,SKU-CAN00407,Gaming Hardware,Orbit,White,SUP037,Japan,2016-04-08,GST_STANDARD,Box,True,True
+PRD0408,Vela Core 507,Wearable,Vela,680.47,391.48,2017.0,12.0,0.155,SKU-VEL00408,Health Wearable,Pulse,Black,SUP001,China,2017-02-14,GST_STANDARD,Box,True,True
+PRD0409,Candle Lumen 508,Networking,Candle,1192.0,903.13,2015.0,24.0,0.656,SKU-CAN00409,Connected Network,Quest,Gold,SUP002,Australia,2015-04-23,GST_STANDARD,Protective case,True,False
+PRD0410,Vela Ridge 509,Accessory,Vela,328.86,204.29,2013.0,12.0,0.149,SKU-VEL00410,Mobile Accessory,Ridge,Green,SUP003,Vietnam,2013-06-24,GST_STANDARD,Recycled box,True,True
+PRD0411,Candle Arc 510,Laptop,Candle,1649.5,1007.1,2013.0,24.0,1.739,SKU-CAN00411,Ultrabook,Shift,Silver,SUP004,Australia,2013-08-01,GST_STANDARD,Protective case,True,True
+PRD0412,Vela Echo 511,Smartphone,Vela,1184.31,824.38,2014.0,24.0,0.266,SKU-VEL00412,5G Smartphone,Spark,Blue,SUP005,Malaysia,2014-06-25,GST_STANDARD,Box,True,True
+PRD0413,Candle Orbit 512,Tablet,Candle,699.79,352.75,2015.0,24.0,0.679,SKU-CAN00413,Productivity Tablet,Vista,Blue,SUP006,Vietnam,2015-09-04,GST_STANDARD,Recycled box,True,True
+PRD0414,Vela Spark 513,Home Entertainment,Vela,2790.14,1381.6,2012.0,24.0,8.03,SKU-VEL00414,Smart Display,Wave,Red,SUP007,Vietnam,2012-02-16,GST_STANDARD,Protective case,True,True
+PRD0415,Candle Bloom 514,Audio,Candle,921.87,506.49,2012.0,12.0,0.625,SKU-CAN00415,Wireless Audio,Arc,Red,SUP008,Korea,2012-12-19,GST_STANDARD,Recycled box,True,True
+PRD0416,Vela Halo 515,Smart Home,Vela,753.43,467.7,2015.0,12.0,0.278,SKU-VEL00416,Home Automation,Atlas,Gold,SUP009,Australia,2015-08-21,GST_STANDARD,Recycled box,True,True
+PRD0417,Candle Quest 516,Gaming,Candle,318.04,223.32,2012.0,24.0,0.971,SKU-CAN00417,Gaming Hardware,Bloom,Blue,SUP010,Korea,2012-10-08,GST_STANDARD,Recycled box,False,True
+PRD0418,Vela Wave 517,Wearable,Vela,513.88,382.63,2012.0,12.0,0.15,SKU-VEL00418,Health Wearable,Core,Gold,SUP011,Korea,2012-03-27,GST_STANDARD,Protective case,True,True
+PRD0419,Candle Edge 518,Networking,Candle,1223.67,871.4,2016.0,24.0,0.753,SKU-CAN00419,Connected Network,Edge,Blue,SUP012,Vietnam,2016-12-15,GST_STANDARD,Recycled box,False,True
+PRD0420,Vela Nova 519,Accessory,Vela,202.02,141.59,2014.0,12.0,0.171,SKU-VEL00420,Mobile Accessory,Echo,Silver,SUP013,Korea,2014-12-03,GST_STANDARD,Box,False,True
+PRD0421,Candle Shift 520,Laptop,Candle,2504.26,1769.28,2016.0,24.0,1.363,SKU-CAN00421,Ultrabook,Flux,Silver,SUP014,Australia,2016-10-06,GST_STANDARD,Protective case,True,True
+PRD0422,Vela Atlas 521,Smartphone,Vela,1749.99,958.94,2014.0,24.0,0.17,SKU-VEL00422,5G Smartphone,Halo,Green,SUP015,Australia,2014-01-06,GST_STANDARD,Protective case,True,True
+PRD0423,Candle Flux 522,Tablet,Candle,731.87,427.04,2016.0,24.0,0.622,SKU-CAN00423,Productivity Tablet,Lumen,White,SUP016,Japan,2016-05-24,GST_STANDARD,Protective case,False,True
+PRD0424,Vela Pulse 523,Home Entertainment,Vela,1571.65,1114.34,2016.0,24.0,5.348,SKU-VEL00424,Smart Display,Nova,Blue,SUP017,Japan,2016-05-17,GST_STANDARD,Box,True,True
+PRD0425,Candle Vista 524,Audio,Candle,514.7,278.25,2012.0,12.0,0.657,SKU-CAN00425,Wireless Audio,Orbit,Red,SUP018,Vietnam,2012-08-22,GST_STANDARD,Protective case,True,True
+PRD0426,Vela Core 525,Smart Home,Vela,284.68,212.76,2012.0,12.0,0.412,SKU-VEL00426,Home Automation,Pulse,Gold,SUP019,China,2012-10-15,GST_STANDARD,Recycled box,True,True
+PRD0427,Candle Lumen 526,Gaming,Candle,1807.66,947.35,2012.0,24.0,0.924,SKU-CAN00427,Gaming Hardware,Quest,Gold,SUP020,Japan,2012-09-27,GST_STANDARD,Box,False,True
+PRD0428,Vela Ridge 527,Wearable,Vela,621.91,357.2,2014.0,12.0,0.125,SKU-VEL00428,Health Wearable,Ridge,Green,SUP021,China,2014-04-17,GST_STANDARD,Box,False,True
+PRD0429,Candle Arc 528,Networking,Candle,1382.07,968.18,2015.0,24.0,0.697,SKU-CAN00429,Connected Network,Shift,Gold,SUP022,Japan,2015-11-27,GST_STANDARD,Recycled box,True,True
+PRD0430,Vela Echo 529,Accessory,Vela,214.75,154.07,2015.0,12.0,0.14,SKU-VEL00430,Mobile Accessory,Spark,Blue,SUP023,Korea,2015-07-10,GST_STANDARD,Recycled box,True,True
+PRD0431,Candle Orbit 530,Laptop,Candle,2253.8,1405.67,2014.0,24.0,1.106,SKU-CAN00431,Ultrabook,Vista,Black,SUP024,China,2014-10-21,GST_STANDARD,Box,True,True
+PRD0432,Vela Spark 531,Smartphone,Vela,1225.0,669.74,2013.0,24.0,0.237,SKU-VEL00432,5G Smartphone,Wave,Silver,SUP025,Korea,2013-01-18,GST_STANDARD,Protective case,True,True
+PRD0433,Candle Bloom 532,Tablet,Candle,1358.38,1031.34,2015.0,24.0,0.795,SKU-CAN00433,Productivity Tablet,Arc,Gold,SUP026,China,2015-05-21,GST_STANDARD,Box,False,True
+PRD0434,Vela Halo 533,Home Entertainment,Vela,2443.59,1565.31,2014.0,24.0,9.79,SKU-VEL00434,Smart Display,Atlas,Graphite,SUP027,China,2014-11-15,GST_STANDARD,Recycled box,True,True
+PRD0435,Candle Quest 534,Audio,Candle,540.59,396.08,2013.0,12.0,0.6,SKU-CAN00435,Wireless Audio,Bloom,Blue,SUP028,China,2013-04-12,GST_STANDARD,Box,True,True
+PRD0436,Vela Wave 535,Smart Home,Vela,99.16,58.32,2017.0,12.0,0.342,SKU-VEL00436,Home Automation,Core,Black,SUP029,Japan,2017-09-01,GST_STANDARD,Protective case,True,True
+PRD0437,Candle Edge 536,Gaming,Candle,1241.03,649.33,2016.0,24.0,1.097,SKU-CAN00437,Gaming Hardware,Edge,White,SUP030,Australia,2016-07-15,GST_STANDARD,Recycled box,True,True
+PRD0438,Vela Nova 537,Wearable,Vela,246.04,166.21,2015.0,12.0,0.11,SKU-VEL00438,Health Wearable,Echo,Blue,SUP031,Vietnam,2015-02-16,GST_STANDARD,Box,True,True
+PRD0439,Candle Shift 538,Networking,Candle,1119.95,626.98,2013.0,24.0,0.573,SKU-CAN00439,Connected Network,Flux,White,SUP032,China,2013-01-22,GST_STANDARD,Protective case,True,True
+PRD0440,Vela Atlas 539,Accessory,Vela,292.13,196.14,2015.0,12.0,0.209,SKU-VEL00440,Mobile Accessory,Halo,Blue,SUP033,China,2015-11-23,GST_STANDARD,Protective case,True,True
+PRD0441,Candle Flux 540,Laptop,Candle,1117.87,561.47,2013.0,24.0,1.215,SKU-CAN00441,Ultrabook,Lumen,Graphite,SUP034,Australia,2013-07-02,GST_STANDARD,Protective case,True,True
+PRD0442,Vela Pulse 541,Smartphone,Vela,1625.44,782.74,2017.0,24.0,0.19,SKU-VEL00442,5G Smartphone,Nova,Green,SUP035,Vietnam,2017-06-05,GST_STANDARD,Box,True,True
+PRD0443,Candle Vista 542,Tablet,Candle,667.38,387.8,2012.0,24.0,0.58,SKU-CAN00443,Productivity Tablet,Orbit,White,SUP036,Vietnam,2012-06-06,GST_STANDARD,Recycled box,False,True
+PRD0444,Vela Core 543,Home Entertainment,Vela,636.31,479.95,2016.0,24.0,5.545,SKU-VEL00444,Smart Display,Pulse,Green,SUP037,Malaysia,2016-06-15,GST_STANDARD,Protective case,True,True
+PRD0445,Candle Lumen 544,Audio,Candle,1141.73,696.66,2014.0,12.0,0.355,SKU-CAN00445,Wireless Audio,Quest,Graphite,SUP001,Vietnam,2014-11-21,GST_STANDARD,Protective case,True,True
+PRD0446,Vela Ridge 545,Smart Home,Vela,546.41,273.9,2015.0,12.0,0.439,SKU-VEL00446,Home Automation,Ridge,Red,SUP002,Vietnam,2015-08-16,GST_STANDARD,Protective case,True,True
+PRD0447,Candle Arc 546,Gaming,Candle,79.94,48.32,2016.0,24.0,1.153,SKU-CAN00447,Gaming Hardware,Shift,Gold,SUP003,China,2016-09-09,GST_STANDARD,Recycled box,True,True
+PRD0448,Vela Echo 547,Wearable,Vela,67.35,43.19,2012.0,12.0,0.113,SKU-VEL00448,Health Wearable,Spark,Black,SUP004,Korea,2012-10-23,GST_STANDARD,Protective case,True,True
+PRD0449,Candle Orbit 548,Networking,Candle,227.09,148.25,2014.0,24.0,0.751,SKU-CAN00449,Connected Network,Vista,Black,SUP005,Australia,2014-07-11,GST_STANDARD,Protective case,False,True
+PRD0450,Vela Spark 549,Accessory,Vela,138.07,85.06,2015.0,12.0,0.146,SKU-VEL00450,Mobile Accessory,Wave,Green,SUP006,China,2015-08-18,GST_STANDARD,Protective case,False,True
+PRD0451,Candle Bloom 550,Laptop,Candle,2097.21,1105.12,2015.0,24.0,1.936,SKU-CAN00451,Ultrabook,Arc,Green,SUP007,Korea,2015-11-20,GST_STANDARD,Recycled box,False,True
+PRD0452,Vela Halo 551,Smartphone,Vela,318.36,163.62,2014.0,24.0,0.193,SKU-VEL00452,5G Smartphone,Atlas,Blue,SUP008,Vietnam,2014-09-21,GST_STANDARD,Box,True,True
+PRD0453,Candle Quest 552,Tablet,Candle,934.48,568.96,2014.0,24.0,0.776,SKU-CAN00453,Productivity Tablet,Bloom,Red,SUP009,Japan,2014-08-08,GST_STANDARD,Box,False,True
+PRD0454,Vela Wave 553,Home Entertainment,Vela,561.82,331.11,2016.0,24.0,9.568,SKU-VEL00454,Smart Display,Core,Graphite,SUP010,Japan,2016-08-05,GST_STANDARD,Box,True,True
+PRD0455,Candle Edge 554,Audio,Candle,329.34,180.41,2012.0,12.0,0.474,SKU-CAN00455,Wireless Audio,Edge,White,SUP011,Australia,2012-11-09,GST_STANDARD,Protective case,True,True
+PRD0456,Vela Nova 555,Smart Home,Vela,417.01,280.14,2016.0,12.0,0.315,SKU-VEL00456,Home Automation,Echo,White,SUP012,Japan,2016-11-01,GST_STANDARD,Protective case,True,True
+PRD0457,Candle Shift 556,Gaming,Candle,2260.61,1484.6,2014.0,24.0,1.244,SKU-CAN00457,Gaming Hardware,Flux,Silver,SUP013,Vietnam,2014-09-03,GST_STANDARD,Protective case,True,True
+PRD0458,Vela Atlas 557,Wearable,Vela,721.39,434.83,2013.0,12.0,0.125,SKU-VEL00458,Health Wearable,Halo,Blue,SUP014,China,2013-06-03,GST_STANDARD,Protective case,False,True
+PRD0459,Candle Flux 558,Networking,Candle,1138.25,658.04,2017.0,24.0,0.769,SKU-CAN00459,Connected Network,Lumen,Graphite,SUP015,Malaysia,2017-08-11,GST_STANDARD,Protective case,True,True
+PRD0460,Vela Pulse 559,Accessory,Vela,99.79,74.5,2014.0,12.0,0.163,SKU-VEL00460,Mobile Accessory,Nova,White,SUP016,Vietnam,2014-10-03,GST_STANDARD,Box,True,True
+PRD0461,Candle Vista 560,Laptop,Candle,2080.96,1170.53,2013.0,24.0,1.645,SKU-CAN00461,Ultrabook,Orbit,Black,SUP017,Vietnam,2013-02-08,GST_STANDARD,Protective case,True,True
+PRD0462,Vela Core 561,Smartphone,Vela,1259.7,610.48,2012.0,24.0,0.174,SKU-VEL00462,5G Smartphone,Pulse,White,SUP018,Vietnam,2012-09-13,GST_STANDARD,Recycled box,True,True
+PRD0463,Candle Lumen 562,Tablet,Candle,533.33,400.87,2017.0,24.0,0.447,SKU-CAN00463,Productivity Tablet,Quest,Silver,SUP019,Korea,2017-09-02,GST_STANDARD,Protective case,True,True
+PRD0464,Vela Ridge 563,Home Entertainment,Vela,1572.44,805.06,2013.0,24.0,5.722,SKU-VEL00464,Smart Display,Ridge,Red,SUP020,Korea,2013-01-13,GST_STANDARD,Protective case,True,True
+PRD0465,Candle Arc 564,Audio,Candle,1026.13,701.75,2015.0,12.0,0.357,SKU-CAN00465,Wireless Audio,Shift,Gold,SUP021,Japan,2015-09-22,GST_STANDARD,Protective case,False,True
+PRD0466,Vela Echo 565,Smart Home,Vela,283.41,191.18,2014.0,12.0,0.447,SKU-VEL00466,Home Automation,Spark,Graphite,SUP022,Japan,2014-05-24,GST_STANDARD,Recycled box,True,True
+PRD0467,Candle Orbit 566,Gaming,Candle,1705.11,1159.9,2014.0,24.0,1.077,SKU-CAN00467,Gaming Hardware,Vista,White,SUP023,Japan,2014-12-20,GST_STANDARD,Box,True,True
+PRD0468,Vela Spark 567,Wearable,Vela,990.56,556.9,2015.0,12.0,0.093,SKU-VEL00468,Health Wearable,Wave,Gold,SUP024,Australia,2015-06-27,GST_STANDARD,Recycled box,False,True
+PRD0469,Candle Bloom 568,Networking,Candle,1472.12,998.09,2016.0,24.0,0.828,SKU-CAN00469,Connected Network,Arc,Green,SUP025,Australia,2016-09-27,GST_STANDARD,Recycled box,True,True
+PRD0470,Vela Halo 569,Accessory,Vela,290.42,155.59,2014.0,12.0,0.177,SKU-VEL00470,Mobile Accessory,Atlas,Red,SUP026,Japan,2014-01-03,GST_STANDARD,Box,False,True
+PRD0471,Candle Quest 570,Laptop,Candle,2346.96,1355.66,2013.0,24.0,1.513,SKU-CAN00471,Ultrabook,Bloom,Black,SUP027,Japan,2013-02-26,GST_STANDARD,Recycled box,True,True
+PRD0472,Vela Wave 571,Smartphone,Vela,1096.23,787.37,2014.0,24.0,0.225,SKU-VEL00472,5G Smartphone,Core,White,SUP028,Vietnam,2014-07-07,GST_STANDARD,Box,True,True
+PRD0473,Candle Edge 572,Tablet,Candle,576.89,374.67,2016.0,24.0,0.785,SKU-CAN00473,Productivity Tablet,Edge,White,SUP029,Australia,2016-12-15,GST_STANDARD,Protective case,True,True
+PRD0474,Vela Nova 573,Home Entertainment,Vela,1023.76,499.8,2014.0,24.0,5.889,SKU-VEL00474,Smart Display,Echo,White,SUP030,Malaysia,2014-09-04,GST_STANDARD,Protective case,True,True
+PRD0475,Candle Shift 574,Audio,Candle,304.73,173.96,2014.0,12.0,0.407,SKU-CAN00475,Wireless Audio,Flux,Red,SUP031,Japan,2014-10-19,GST_STANDARD,Recycled box,True,True
+PRD0476,Vela Atlas 575,Smart Home,Vela,59.63,34.29,2014.0,12.0,0.414,SKU-VEL00476,Home Automation,Halo,Graphite,SUP032,Australia,2014-10-15,GST_STANDARD,Recycled box,True,True
+PRD0477,Candle Flux 576,Gaming,Candle,791.3,434.93,2016.0,24.0,1.111,SKU-CAN00477,Gaming Hardware,Lumen,White,SUP033,China,2016-05-08,GST_STANDARD,Recycled box,True,True
+PRD0478,Vela Pulse 577,Wearable,Vela,111.87,73.34,2013.0,12.0,0.117,SKU-VEL00478,Health Wearable,Nova,Black,SUP034,Australia,2013-10-08,GST_STANDARD,Protective case,False,True
+PRD0479,Candle Vista 578,Networking,Candle,785.34,384.22,2014.0,24.0,0.8,SKU-CAN00479,Connected Network,Orbit,Blue,SUP035,Korea,2014-09-13,GST_STANDARD,Protective case,True,True
+PRD0480,Vela Core 579,Accessory,Vela,37.46,28.0,2013.0,12.0,0.23,SKU-VEL00480,Mobile Accessory,Pulse,Black,SUP036,Australia,2013-11-06,GST_STANDARD,Recycled box,True,True
+PRD0481,Candle Lumen 580,Laptop,Candle,1297.53,761.58,2013.0,24.0,2.063,SKU-CAN00481,Ultrabook,Quest,Gold,SUP037,Australia,2013-06-06,GST_STANDARD,Recycled box,True,True
+PRD0482,Vela Ridge 581,Smartphone,Vela,653.2,320.7,2015.0,24.0,0.189,SKU-VEL00482,5G Smartphone,Ridge,Blue,SUP001,Vietnam,2015-05-27,GST_STANDARD,Recycled box,False,True
+PRD0483,Candle Arc 582,Tablet,Candle,1343.25,671.2,2017.0,24.0,0.547,SKU-CAN00483,Productivity Tablet,Shift,Blue,SUP002,Korea,2017-07-17,GST_STANDARD,Box,False,True
+PRD0484,Vela Echo 583,Home Entertainment,Vela,1275.63,778.65,2012.0,24.0,9.587,SKU-VEL00484,Smart Display,Spark,Black,SUP003,Japan,2012-07-14,GST_STANDARD,Protective case,True,True
+PRD0485,Candle Orbit 584,Audio,Candle,518.63,355.2,2012.0,12.0,0.537,SKU-CAN00485,Wireless Audio,Vista,Gold,SUP004,China,2012-04-07,GST_STANDARD,Box,False,True
+PRD0486,Vela Spark 585,Smart Home,Vela,825.47,425.86,2014.0,12.0,0.359,SKU-VEL00486,Home Automation,Wave,Graphite,SUP005,Malaysia,2014-07-07,GST_STANDARD,Protective case,True,True
+PRD0487,Candle Bloom 586,Gaming,Candle,1262.93,717.76,2014.0,24.0,1.235,SKU-CAN00487,Gaming Hardware,Arc,Silver,SUP006,Vietnam,2014-09-02,GST_STANDARD,Protective case,True,False
+PRD0488,Vela Halo 587,Wearable,Vela,482.8,339.15,2016.0,12.0,0.144,SKU-VEL00488,Health Wearable,Atlas,Graphite,SUP007,Japan,2016-10-16,GST_STANDARD,Recycled box,True,True
+PRD0489,Candle Quest 588,Networking,Candle,264.6,136.51,2012.0,24.0,0.601,SKU-CAN00489,Connected Network,Bloom,Red,SUP008,China,2012-11-07,GST_STANDARD,Box,False,True
+PRD0490,Vela Wave 589,Accessory,Vela,20.66,12.89,2016.0,12.0,0.136,SKU-VEL00490,Mobile Accessory,Core,Graphite,SUP009,Vietnam,2016-11-06,GST_STANDARD,Protective case,True,True
+PRD0491,Candle Edge 590,Laptop,Candle,1093.0,797.19,2013.0,24.0,1.626,SKU-CAN00491,Ultrabook,Edge,Red,SUP010,China,2013-11-26,GST_STANDARD,Box,True,True
+PRD0492,Vela Nova 591,Smartphone,Vela,1490.94,839.11,2014.0,24.0,0.263,SKU-VEL00492,5G Smartphone,Echo,Silver,SUP011,Korea,2014-07-05,GST_STANDARD,Protective case,True,True
+PRD0493,Candle Shift 592,Tablet,Candle,1550.96,1043.86,2015.0,24.0,0.852,SKU-CAN00493,Productivity Tablet,Flux,Graphite,SUP012,Vietnam,2015-10-21,GST_STANDARD,Recycled box,True,True
+PRD0494,Vela Atlas 593,Home Entertainment,Vela,780.48,420.78,2013.0,24.0,8.623,SKU-VEL00494,Smart Display,Halo,Silver,SUP013,Malaysia,2013-06-05,GST_STANDARD,Protective case,True,True
+PRD0495,Candle Flux 594,Audio,Candle,617.55,444.54,2015.0,12.0,0.535,SKU-CAN00495,Wireless Audio,Lumen,Gold,SUP014,Australia,2015-12-26,GST_STANDARD,Box,True,False
+PRD0496,Vela Pulse 595,Smart Home,Vela,176.22,92.43,2017.0,12.0,0.48,SKU-VEL00496,Home Automation,Nova,Blue,SUP015,Korea,2017-08-14,GST_STANDARD,Protective case,True,True
+PRD0497,Candle Vista 596,Gaming,Candle,1686.58,1164.2,2012.0,24.0,1.342,SKU-CAN00497,Gaming Hardware,Orbit,White,SUP016,Australia,2012-08-04,GST_STANDARD,Protective case,False,True
+PRD0498,Vela Core 597,Wearable,Vela,753.34,566.26,2012.0,12.0,0.099,SKU-VEL00498,Health Wearable,Pulse,White,SUP017,Japan,2012-03-21,GST_STANDARD,Protective case,True,True
+PRD0499,Candle Lumen 598,Networking,Candle,1327.93,844.84,2016.0,24.0,0.583,SKU-CAN00499,Connected Network,Quest,Green,SUP018,Australia,2016-08-07,GST_STANDARD,Recycled box,True,True
+PRD0500,Vela Ridge 599,Accessory,Vela,352.58,214.94,2012.0,12.0,0.218,SKU-VEL00500,Mobile Accessory,Ridge,Blue,SUP019,Vietnam,2012-10-12,GST_STANDARD,Protective case,True,True
+PRD0501,Candle Arc 600,Laptop,Candle,1207.42,633.53,2017.0,24.0,1.32,SKU-CAN00501,Ultrabook,Shift,White,SUP020,China,2017-11-10,GST_STANDARD,Box,False,True
+PRD0502,Vela Echo 601,Smartphone,Vela,1894.29,968.34,2015.0,24.0,0.285,SKU-VEL00502,5G Smartphone,Spark,Red,SUP021,Japan,2015-07-02,GST_STANDARD,Recycled box,True,True
+PRD0503,Candle Orbit 602,Tablet,Candle,866.27,475.84,2013.0,24.0,0.719,SKU-CAN00503,Productivity Tablet,Vista,Gold,SUP022,Australia,2013-07-12,GST_STANDARD,Box,True,True
+PRD0504,Vela Spark 603,Home Entertainment,Vela,3837.7,2110.53,2013.0,24.0,7.697,SKU-VEL00504,Smart Display,Wave,Gold,SUP023,Malaysia,2013-05-19,GST_STANDARD,Protective case,True,True
+PRD0505,Candle Bloom 604,Audio,Candle,1083.53,707.67,2016.0,12.0,0.526,SKU-CAN00505,Wireless Audio,Arc,Green,SUP024,Malaysia,2016-04-08,GST_STANDARD,Recycled box,True,True
+PRD0506,Vela Halo 605,Smart Home,Vela,309.66,153.78,2017.0,12.0,0.41,SKU-VEL00506,Home Automation,Atlas,Green,SUP025,Australia,2017-07-06,GST_STANDARD,Recycled box,False,True
+PRD0507,Candle Quest 606,Gaming,Candle,2300.74,1591.85,2012.0,24.0,0.973,SKU-CAN00507,Gaming Hardware,Bloom,Silver,SUP026,Vietnam,2012-12-07,GST_STANDARD,Recycled box,True,True
+PRD0508,Vela Wave 607,Wearable,Vela,637.75,324.87,2015.0,12.0,0.163,SKU-VEL00508,Health Wearable,Core,Gold,SUP027,Vietnam,2015-04-07,GST_STANDARD,Recycled box,True,True
+PRD0509,Candle Edge 608,Networking,Candle,866.14,469.12,2015.0,24.0,0.642,SKU-CAN00509,Connected Network,Edge,Silver,SUP028,Japan,2015-08-19,GST_STANDARD,Recycled box,False,True
+PRD0510,Vela Nova 609,Accessory,Vela,71.92,36.94,2017.0,12.0,0.184,SKU-VEL00510,Mobile Accessory,Echo,Silver,SUP029,Malaysia,2017-01-25,GST_STANDARD,Recycled box,False,True
+PRD0511,Candle Shift 610,Laptop,Candle,1305.5,974.83,2013.0,24.0,1.906,SKU-CAN00511,Ultrabook,Flux,Gold,SUP030,Korea,2013-01-21,GST_STANDARD,Protective case,True,True
+PRD0512,Vela Atlas 611,Smartphone,Vela,1597.11,1036.07,2012.0,24.0,0.16,SKU-VEL00512,5G Smartphone,Halo,Blue,SUP031,Australia,2012-04-08,GST_STANDARD,Protective case,False,True
+PRD0513,Candle Flux 612,Tablet,Candle,1454.2,732.44,2017.0,24.0,0.784,SKU-CAN00513,Productivity Tablet,Lumen,Blue,SUP032,Vietnam,2017-11-04,GST_STANDARD,Box,True,True
+PRD0514,Vela Pulse 613,Home Entertainment,Vela,2353.19,1210.05,2016.0,24.0,8.743,SKU-VEL00514,Smart Display,Nova,Gold,SUP033,Vietnam,2016-09-06,GST_STANDARD,Protective case,False,True
+PRD0515,Candle Vista 614,Audio,Candle,421.93,287.06,2017.0,12.0,0.387,SKU-CAN00515,Wireless Audio,Orbit,Green,SUP034,Australia,2017-11-14,GST_STANDARD,Protective case,True,True
+PRD0516,Vela Core 615,Smart Home,Vela,565.33,392.9,2014.0,12.0,0.469,SKU-VEL00516,Home Automation,Pulse,Black,SUP035,Korea,2014-10-12,GST_STANDARD,Box,True,True
+PRD0517,Candle Lumen 616,Gaming,Candle,1366.6,692.49,2012.0,24.0,1.455,SKU-CAN00517,Gaming Hardware,Quest,Silver,SUP036,China,2012-12-13,GST_STANDARD,Box,True,True
+PRD0518,Vela Ridge 617,Wearable,Vela,614.84,408.63,2014.0,12.0,0.107,SKU-VEL00518,Health Wearable,Ridge,Green,SUP037,Korea,2014-12-03,GST_STANDARD,Protective case,True,True
+PRD0519,Candle Arc 618,Networking,Candle,1101.57,613.07,2015.0,24.0,0.956,SKU-CAN00519,Connected Network,Shift,Red,SUP001,Japan,2015-10-14,GST_STANDARD,Recycled box,True,True
+PRD0520,Vela Echo 619,Accessory,Vela,93.98,58.64,2013.0,12.0,0.137,SKU-VEL00520,Mobile Accessory,Spark,Blue,SUP002,Australia,2013-04-11,GST_STANDARD,Box,True,True
+PRD0521,Candle Orbit 620,Laptop,Candle,1486.1,1095.2,2014.0,24.0,1.225,SKU-CAN00521,Ultrabook,Vista,Silver,SUP003,China,2014-09-07,GST_STANDARD,Protective case,True,True
+PRD0522,Vela Spark 621,Smartphone,Vela,942.08,456.19,2014.0,24.0,0.267,SKU-VEL00522,5G Smartphone,Wave,Silver,SUP004,China,2014-01-11,GST_STANDARD,Protective case,False,True
+PRD0523,Candle Bloom 622,Tablet,Candle,1192.94,760.53,2015.0,24.0,0.715,SKU-CAN00523,Productivity Tablet,Arc,Green,SUP005,Malaysia,2015-02-24,GST_STANDARD,Box,True,True
+PRD0524,Vela Halo 623,Home Entertainment,Vela,1527.37,969.52,2014.0,24.0,9.519,SKU-VEL00524,Smart Display,Atlas,Green,SUP006,Korea,2014-11-03,GST_STANDARD,Protective case,True,False
+PRD0525,Candle Quest 624,Audio,Candle,904.72,472.68,2015.0,12.0,0.38,SKU-CAN00525,Wireless Audio,Bloom,Gold,SUP007,China,2015-10-27,GST_STANDARD,Protective case,False,True
+PRD0526,Vela Wave 625,Smart Home,Vela,149.19,93.69,2017.0,12.0,0.393,SKU-VEL00526,Home Automation,Core,Red,SUP008,Australia,2017-07-12,GST_STANDARD,Box,False,True
+PRD0527,Candle Edge 626,Gaming,Candle,1359.21,903.57,2017.0,24.0,1.008,SKU-CAN00527,Gaming Hardware,Edge,Gold,SUP009,Malaysia,2017-06-22,GST_STANDARD,Protective case,True,True
+PRD0528,Vela Nova 627,Wearable,Vela,821.66,580.31,2016.0,12.0,0.093,SKU-VEL00528,Health Wearable,Echo,Blue,SUP010,Malaysia,2016-05-05,GST_STANDARD,Protective case,False,True
+PRD0529,Candle Shift 628,Networking,Candle,1448.34,848.76,2012.0,24.0,0.754,SKU-CAN00529,Connected Network,Flux,Green,SUP011,Vietnam,2012-04-26,GST_STANDARD,Recycled box,True,True
+PRD0530,Vela Atlas 629,Accessory,Vela,376.94,285.87,2012.0,12.0,0.16,SKU-VEL00530,Mobile Accessory,Halo,Graphite,SUP012,Vietnam,2012-08-11,GST_STANDARD,Recycled box,True,True
+PRD0531,Candle Flux 630,Laptop,Candle,2758.01,1813.88,2015.0,24.0,1.293,SKU-CAN00531,Ultrabook,Lumen,Black,SUP013,Japan,2015-08-23,GST_STANDARD,Box,True,True
+PRD0532,Vela Pulse 631,Smartphone,Vela,894.27,587.97,2016.0,24.0,0.16,SKU-VEL00532,5G Smartphone,Nova,White,SUP014,Malaysia,2016-07-11,GST_STANDARD,Protective case,True,True
+PRD0533,Candle Vista 632,Tablet,Candle,1215.39,729.65,2013.0,24.0,0.481,SKU-CAN00533,Productivity Tablet,Orbit,Blue,SUP015,Australia,2013-05-11,GST_STANDARD,Box,True,False
+PRD0534,Vela Core 633,Home Entertainment,Vela,3276.91,2326.91,2013.0,24.0,6.196,SKU-VEL00534,Smart Display,Pulse,Silver,SUP016,Vietnam,2013-05-07,GST_STANDARD,Protective case,True,True
+PRD0535,Candle Lumen 634,Audio,Candle,976.79,673.09,2016.0,12.0,0.585,SKU-CAN00535,Wireless Audio,Quest,Graphite,SUP017,China,2016-01-13,GST_STANDARD,Recycled box,True,True
+PRD0536,Vela Ridge 635,Smart Home,Vela,616.08,359.82,2012.0,12.0,0.355,SKU-VEL00536,Home Automation,Ridge,Gold,SUP018,Malaysia,2012-05-26,GST_STANDARD,Recycled box,False,True
+PRD0537,Candle Arc 636,Gaming,Candle,2543.03,1457.35,2013.0,24.0,1.21,SKU-CAN00537,Gaming Hardware,Shift,Blue,SUP019,Australia,2013-04-02,GST_STANDARD,Recycled box,True,True
+PRD0538,Vela Echo 637,Wearable,Vela,930.3,693.25,2014.0,12.0,0.118,SKU-VEL00538,Health Wearable,Spark,Silver,SUP020,Australia,2014-08-18,GST_STANDARD,Protective case,True,True
+PRD0539,Candle Orbit 638,Networking,Candle,125.14,74.34,2012.0,24.0,0.761,SKU-CAN00539,Connected Network,Vista,White,SUP021,Korea,2012-04-08,GST_STANDARD,Protective case,True,True
+PRD0540,Vela Spark 639,Accessory,Vela,255.66,155.22,2017.0,12.0,0.206,SKU-VEL00540,Mobile Accessory,Wave,White,SUP022,Vietnam,2017-12-12,GST_STANDARD,Box,True,True
+PRD0541,Candle Bloom 640,Laptop,Candle,1837.92,1070.69,2015.0,24.0,1.519,SKU-CAN00541,Ultrabook,Arc,Gold,SUP023,Vietnam,2015-03-20,GST_STANDARD,Recycled box,True,True
+PRD0542,Vela Halo 641,Smartphone,Vela,720.22,526.75,2016.0,24.0,0.218,SKU-VEL00542,5G Smartphone,Atlas,Green,SUP024,Australia,2016-02-11,GST_STANDARD,Box,False,True
+PRD0543,Candle Quest 642,Tablet,Candle,398.13,212.52,2012.0,24.0,0.553,SKU-CAN00543,Productivity Tablet,Bloom,Blue,SUP025,Japan,2012-09-10,GST_STANDARD,Box,True,True
+PRD0544,Vela Wave 643,Home Entertainment,Vela,1918.0,1400.4,2015.0,24.0,8.282,SKU-VEL00544,Smart Display,Core,Graphite,SUP026,Vietnam,2015-01-13,GST_STANDARD,Recycled box,True,True
+PRD0545,Candle Edge 644,Audio,Candle,879.28,589.38,2017.0,12.0,0.648,SKU-CAN00545,Wireless Audio,Edge,White,SUP027,Korea,2017-06-15,GST_STANDARD,Protective case,False,True
+PRD0546,Vela Nova 645,Smart Home,Vela,426.68,246.12,2017.0,12.0,0.311,SKU-VEL00546,Home Automation,Echo,Black,SUP028,Australia,2017-06-12,GST_STANDARD,Box,True,True
+PRD0547,Candle Shift 646,Gaming,Candle,2376.82,1646.64,2012.0,24.0,1.103,SKU-CAN00547,Gaming Hardware,Flux,Red,SUP029,Australia,2012-07-22,GST_STANDARD,Box,True,True
+PRD0548,Vela Atlas 647,Wearable,Vela,181.04,92.14,2012.0,12.0,0.092,SKU-VEL00548,Health Wearable,Halo,White,SUP030,Malaysia,2012-10-25,GST_STANDARD,Recycled box,True,True
+PRD0549,Candle Flux 648,Networking,Candle,1361.68,714.6,2016.0,24.0,0.775,SKU-CAN00549,Connected Network,Lumen,Green,SUP031,Vietnam,2016-07-02,GST_STANDARD,Box,False,True
+PRD0550,Vela Pulse 649,Accessory,Vela,184.97,129.27,2017.0,12.0,0.177,SKU-VEL00550,Mobile Accessory,Nova,Black,SUP032,China,2017-07-17,GST_STANDARD,Recycled box,True,False
+PRD0551,Candle Vista 650,Laptop,Candle,2626.22,1490.8,2015.0,24.0,1.223,SKU-CAN00551,Ultrabook,Orbit,Blue,SUP033,Australia,2015-11-09,GST_STANDARD,Box,False,True
+PRD0552,Vela Core 651,Smartphone,Vela,1832.39,1250.67,2015.0,24.0,0.161,SKU-VEL00552,5G Smartphone,Pulse,Gold,SUP034,Malaysia,2015-04-18,GST_STANDARD,Box,True,True
+PRD0553,Candle Lumen 652,Tablet,Candle,722.16,524.88,2014.0,24.0,0.768,SKU-CAN00553,Productivity Tablet,Quest,Green,SUP035,Japan,2014-09-23,GST_STANDARD,Protective case,True,True
+PRD0554,Vela Ridge 653,Home Entertainment,Vela,1619.69,793.75,2013.0,24.0,8.214,SKU-VEL00554,Smart Display,Ridge,Silver,SUP036,Malaysia,2013-03-11,GST_STANDARD,Recycled box,False,True
+PRD0555,Candle Arc 654,Audio,Candle,407.18,284.84,2014.0,12.0,0.383,SKU-CAN00555,Wireless Audio,Shift,Gold,SUP037,China,2014-11-08,GST_STANDARD,Protective case,False,True
+PRD0556,Vela Echo 655,Smart Home,Vela,303.66,171.72,2014.0,12.0,0.287,SKU-VEL00556,Home Automation,Spark,Blue,SUP001,China,2014-08-01,GST_STANDARD,Box,True,True
+PRD0557,Candle Orbit 656,Gaming,Candle,1855.06,990.54,2017.0,24.0,1.324,SKU-CAN00557,Gaming Hardware,Vista,Gold,SUP002,Australia,2017-07-13,GST_STANDARD,Box,True,True
+PRD0558,Vela Spark 657,Wearable,Vela,603.01,305.95,2016.0,12.0,0.1,SKU-VEL00558,Health Wearable,Wave,Gold,SUP003,China,2016-11-16,GST_STANDARD,Recycled box,True,True
+PRD0559,Candle Bloom 658,Networking,Candle,899.23,607.79,2013.0,24.0,0.769,SKU-CAN00559,Connected Network,Arc,Red,SUP004,China,2013-10-10,GST_STANDARD,Protective case,False,True
+PRD0560,Vela Halo 659,Accessory,Vela,230.25,167.52,2012.0,12.0,0.196,SKU-VEL00560,Mobile Accessory,Atlas,Gold,SUP005,Australia,2012-01-10,GST_STANDARD,Recycled box,True,True
+PRD0561,Candle Quest 660,Laptop,Candle,2439.38,1269.43,2017.0,24.0,1.613,SKU-CAN00561,Ultrabook,Bloom,Silver,SUP006,Vietnam,2017-09-07,GST_STANDARD,Recycled box,False,True
+PRD0562,Vela Wave 661,Smartphone,Vela,536.89,268.65,2013.0,24.0,0.181,SKU-VEL00562,5G Smartphone,Core,Silver,SUP007,Australia,2013-04-18,GST_STANDARD,Recycled box,True,True
+PRD0563,Candle Edge 662,Tablet,Candle,270.8,202.28,2017.0,24.0,0.452,SKU-CAN00563,Productivity Tablet,Edge,Blue,SUP008,Korea,2017-09-08,GST_STANDARD,Box,True,True
+PRD0564,Vela Nova 663,Home Entertainment,Vela,1250.64,853.46,2016.0,24.0,5.55,SKU-VEL00564,Smart Display,Echo,Red,SUP009,Vietnam,2016-06-03,GST_STANDARD,Recycled box,False,True
+PRD0565,Candle Shift 664,Audio,Candle,1060.41,537.6,2016.0,12.0,0.624,SKU-CAN00565,Wireless Audio,Flux,White,SUP010,Australia,2016-04-21,GST_STANDARD,Protective case,True,True
+PRD0566,Vela Atlas 665,Smart Home,Vela,47.51,32.92,2015.0,12.0,0.366,SKU-VEL00566,Home Automation,Halo,Red,SUP011,Australia,2015-01-03,GST_STANDARD,Box,False,True
+PRD0567,Candle Flux 666,Gaming,Candle,383.28,271.02,2014.0,24.0,1.304,SKU-CAN00567,Gaming Hardware,Lumen,Silver,SUP012,Malaysia,2014-03-10,GST_STANDARD,Protective case,True,True
+PRD0568,Vela Pulse 667,Wearable,Vela,272.51,152.1,2017.0,12.0,0.156,SKU-VEL00568,Health Wearable,Nova,Blue,SUP013,Japan,2017-04-07,GST_STANDARD,Recycled box,True,True
+PRD0569,Candle Vista 668,Networking,Candle,965.49,711.65,2012.0,24.0,0.614,SKU-CAN00569,Connected Network,Orbit,Red,SUP014,Malaysia,2012-06-20,GST_STANDARD,Recycled box,True,True
+PRD0570,Vela Core 669,Accessory,Vela,98.43,56.05,2012.0,12.0,0.141,SKU-VEL00570,Mobile Accessory,Pulse,Graphite,SUP015,Japan,2012-07-23,GST_STANDARD,Recycled box,True,True
+PRD0571,Candle Lumen 670,Laptop,Candle,3138.88,1713.81,2015.0,24.0,1.86,SKU-CAN00571,Ultrabook,Quest,Black,SUP016,Australia,2015-05-10,GST_STANDARD,Protective case,False,True
+PRD0572,Vela Ridge 671,Smartphone,Vela,483.42,325.64,2013.0,24.0,0.292,SKU-VEL00572,5G Smartphone,Ridge,White,SUP017,Korea,2013-07-05,GST_STANDARD,Box,True,True
+PRD0573,Candle Arc 672,Tablet,Candle,394.67,214.26,2014.0,24.0,0.591,SKU-CAN00573,Productivity Tablet,Shift,Black,SUP018,Australia,2014-03-16,GST_STANDARD,Box,True,True
+PRD0574,Vela Echo 673,Home Entertainment,Vela,2255.24,1630.38,2012.0,24.0,9.753,SKU-VEL00574,Smart Display,Spark,Green,SUP019,Malaysia,2012-10-07,GST_STANDARD,Protective case,True,True
+PRD0575,Candle Orbit 674,Audio,Candle,357.22,200.17,2015.0,12.0,0.434,SKU-CAN00575,Wireless Audio,Vista,White,SUP020,China,2015-04-07,GST_STANDARD,Protective case,True,True
+PRD0576,Vela Spark 675,Smart Home,Vela,136.9,100.86,2017.0,12.0,0.312,SKU-VEL00576,Home Automation,Wave,Black,SUP021,Korea,2017-01-09,GST_STANDARD,Box,True,True
+PRD0577,Candle Bloom 676,Gaming,Candle,941.97,536.65,2012.0,24.0,1.623,SKU-CAN00577,Gaming Hardware,Arc,Silver,SUP022,China,2012-01-16,GST_STANDARD,Box,True,True
+PRD0578,Vela Halo 677,Wearable,Vela,856.24,532.68,2012.0,12.0,0.106,SKU-VEL00578,Health Wearable,Atlas,White,SUP023,Korea,2012-05-02,GST_STANDARD,Protective case,True,True
+PRD0579,Candle Quest 678,Networking,Candle,878.27,600.27,2015.0,24.0,0.748,SKU-CAN00579,Connected Network,Bloom,Silver,SUP024,Korea,2015-04-10,GST_STANDARD,Recycled box,False,True
+PRD0580,Vela Wave 679,Accessory,Vela,76.83,45.64,2017.0,12.0,0.199,SKU-VEL00580,Mobile Accessory,Core,Red,SUP025,China,2017-01-09,GST_STANDARD,Protective case,True,True
+PRD0581,Candle Edge 680,Laptop,Candle,2654.25,1869.27,2016.0,24.0,1.297,SKU-CAN00581,Ultrabook,Edge,Black,SUP026,Vietnam,2016-12-27,GST_STANDARD,Protective case,True,True
+PRD0582,Vela Nova 681,Smartphone,Vela,1682.59,1238.04,2015.0,24.0,0.288,SKU-VEL00582,5G Smartphone,Echo,White,SUP027,Vietnam,2015-12-03,GST_STANDARD,Recycled box,False,True
+PRD0583,Candle Shift 682,Tablet,Candle,981.15,509.47,2013.0,24.0,0.844,SKU-CAN00583,Productivity Tablet,Flux,Red,SUP028,Malaysia,2013-12-23,GST_STANDARD,Protective case,True,True
+PRD0584,Vela Atlas 683,Home Entertainment,Vela,2076.86,1257.53,2016.0,24.0,8.644,SKU-VEL00584,Smart Display,Halo,Blue,SUP029,Malaysia,2016-03-19,GST_STANDARD,Box,True,True
+PRD0585,Candle Flux 684,Audio,Candle,557.31,350.36,2015.0,12.0,0.346,SKU-CAN00585,Wireless Audio,Lumen,Blue,SUP030,Australia,2015-05-16,GST_STANDARD,Recycled box,True,False
+PRD0586,Vela Pulse 685,Smart Home,Vela,450.26,297.6,2012.0,12.0,0.334,SKU-VEL00586,Home Automation,Nova,Black,SUP031,Korea,2012-07-20,GST_STANDARD,Protective case,True,True
+PRD0587,Candle Vista 686,Gaming,Candle,103.55,67.21,2016.0,24.0,1.394,SKU-CAN00587,Gaming Hardware,Orbit,White,SUP032,China,2016-09-27,GST_STANDARD,Recycled box,True,True
+PRD0588,Vela Core 687,Wearable,Vela,597.66,360.42,2012.0,12.0,0.157,SKU-VEL00588,Health Wearable,Pulse,Green,SUP033,Korea,2012-11-03,GST_STANDARD,Protective case,False,True
+PRD0589,Candle Lumen 688,Networking,Candle,675.7,433.04,2013.0,24.0,0.567,SKU-CAN00589,Connected Network,Quest,Gold,SUP034,Malaysia,2013-01-06,GST_STANDARD,Recycled box,False,True
+PRD0590,Vela Ridge 689,Accessory,Vela,268.79,157.73,2012.0,12.0,0.163,SKU-VEL00590,Mobile Accessory,Ridge,Green,SUP035,China,2012-01-01,GST_STANDARD,Recycled box,True,True
+PRD0591,Candle Arc 690,Laptop,Candle,2794.24,1714.79,2016.0,24.0,1.26,SKU-CAN00591,Ultrabook,Shift,White,SUP036,China,2016-02-18,GST_STANDARD,Protective case,False,True
+PRD0592,Vela Echo 691,Smartphone,Vela,748.49,520.82,2014.0,24.0,0.204,SKU-VEL00592,5G Smartphone,Spark,Gold,SUP037,China,2014-10-10,GST_STANDARD,Recycled box,True,True
+PRD0593,Candle Orbit 692,Tablet,Candle,1331.28,906.89,2012.0,24.0,0.763,SKU-CAN00593,Productivity Tablet,Vista,Black,SUP001,Malaysia,2012-03-15,GST_STANDARD,Protective case,True,True
+PRD0594,Vela Spark 693,Home Entertainment,Vela,3645.51,2694.09,2013.0,24.0,7.747,SKU-VEL00594,Smart Display,Wave,Gold,SUP002,Japan,2013-04-01,GST_STANDARD,Protective case,True,True
+PRD0595,Candle Bloom 694,Audio,Candle,521.69,311.45,2017.0,12.0,0.623,SKU-CAN00595,Wireless Audio,Arc,White,SUP003,Korea,2017-06-18,GST_STANDARD,Protective case,True,True
+PRD0596,Vela Halo 695,Smart Home,Vela,741.69,382.37,2013.0,12.0,0.404,SKU-VEL00596,Home Automation,Atlas,Green,SUP004,Vietnam,2013-04-01,GST_STANDARD,Protective case,False,True
+PRD0597,Candle Quest 696,Gaming,Candle,1093.56,695.11,2017.0,24.0,0.988,SKU-CAN00597,Gaming Hardware,Bloom,Black,SUP005,Vietnam,2017-01-08,GST_STANDARD,Recycled box,True,True
+PRD0598,Vela Wave 697,Wearable,Vela,929.85,658.26,2017.0,12.0,0.088,SKU-VEL00598,Health Wearable,Core,White,SUP006,China,2017-10-23,GST_STANDARD,Protective case,True,True
+PRD0599,Candle Edge 698,Networking,Candle,1206.34,873.38,2012.0,24.0,0.713,SKU-CAN00599,Connected Network,Edge,Green,SUP007,Japan,2012-04-26,GST_STANDARD,Recycled box,False,True
+PRD0600,Vela Nova 699,Accessory,Vela,394.0,228.27,2016.0,12.0,0.134,SKU-VEL00600,Mobile Accessory,Echo,Red,SUP008,Japan,2016-12-23,GST_STANDARD,Protective case,True,True
+PRD0601,Candle Shift 700,Laptop,Candle,1666.52,968.44,2014.0,24.0,1.882,SKU-CAN00601,Ultrabook,Flux,Black,SUP009,Australia,2014-05-12,GST_STANDARD,Recycled box,True,True
+PRD0602,Vela Atlas 701,Smartphone,Vela,1279.42,814.57,2016.0,24.0,0.298,SKU-VEL00602,5G Smartphone,Halo,Silver,SUP010,Australia,2016-08-13,GST_STANDARD,Box,True,True
+PRD0603,Candle Flux 702,Tablet,Candle,671.51,463.37,2017.0,24.0,0.612,SKU-CAN00603,Productivity Tablet,Lumen,Green,SUP011,China,2017-11-13,GST_STANDARD,Box,True,True
+PRD0604,Vela Pulse 703,Home Entertainment,Vela,1327.89,779.0,2014.0,24.0,6.305,SKU-VEL00604,Smart Display,Nova,Graphite,SUP012,Japan,2014-06-05,GST_STANDARD,Protective case,False,True
+PRD0605,Candle Vista 704,Audio,Candle,845.14,471.48,2016.0,12.0,0.51,SKU-CAN00605,Wireless Audio,Orbit,Silver,SUP013,Vietnam,2016-07-15,GST_STANDARD,Box,True,True
+PRD0606,Vela Core 705,Smart Home,Vela,721.57,353.41,2013.0,12.0,0.375,SKU-VEL00606,Home Automation,Pulse,White,SUP014,Korea,2013-04-13,GST_STANDARD,Box,True,True
+PRD0607,Candle Lumen 706,Gaming,Candle,1460.76,1032.97,2013.0,24.0,1.41,SKU-CAN00607,Gaming Hardware,Quest,Graphite,SUP015,Vietnam,2013-03-07,GST_STANDARD,Protective case,False,True
+PRD0608,Vela Ridge 707,Wearable,Vela,772.25,512.26,2012.0,12.0,0.098,SKU-VEL00608,Health Wearable,Ridge,Black,SUP016,Australia,2012-10-25,GST_STANDARD,Protective case,True,True
+PRD0609,Candle Arc 708,Networking,Candle,138.47,91.2,2017.0,24.0,0.88,SKU-CAN00609,Connected Network,Shift,Silver,SUP017,Australia,2017-08-17,GST_STANDARD,Protective case,False,True
+PRD0610,Vela Echo 709,Accessory,Vela,21.93,13.24,2016.0,12.0,0.192,SKU-VEL00610,Mobile Accessory,Spark,Green,SUP018,Korea,2016-11-23,GST_STANDARD,Protective case,True,True
+PRD0611,Candle Orbit 710,Laptop,Candle,1602.37,875.05,2012.0,24.0,1.878,SKU-CAN00611,Ultrabook,Vista,Red,SUP019,China,2012-11-18,GST_STANDARD,Protective case,True,True
+PRD0612,Vela Spark 711,Smartphone,Vela,471.59,356.37,2012.0,24.0,0.218,SKU-VEL00612,5G Smartphone,Wave,Gold,SUP020,Vietnam,2012-09-02,GST_STANDARD,Recycled box,False,True
+PRD0613,Candle Bloom 712,Tablet,Candle,990.18,548.37,2016.0,24.0,0.541,SKU-CAN00613,Productivity Tablet,Arc,Red,SUP021,Malaysia,2016-08-03,GST_STANDARD,Box,True,True
+PRD0614,Vela Halo 713,Home Entertainment,Vela,3562.62,2461.39,2014.0,24.0,6.19,SKU-VEL00614,Smart Display,Atlas,Gold,SUP022,Japan,2014-10-04,GST_STANDARD,Protective case,True,True
+PRD0615,Candle Quest 714,Audio,Candle,196.23,103.05,2017.0,12.0,0.425,SKU-CAN00615,Wireless Audio,Bloom,Black,SUP023,Malaysia,2017-12-21,GST_STANDARD,Recycled box,False,True
+PRD0616,Vela Wave 715,Smart Home,Vela,644.96,365.54,2013.0,12.0,0.385,SKU-VEL00616,Home Automation,Core,Blue,SUP024,Korea,2013-05-03,GST_STANDARD,Protective case,True,True
+PRD0617,Candle Edge 716,Gaming,Candle,1897.96,1008.28,2014.0,24.0,1.242,SKU-CAN00617,Gaming Hardware,Edge,Blue,SUP025,Vietnam,2014-12-01,GST_STANDARD,Protective case,False,True
+PRD0618,Vela Nova 717,Wearable,Vela,1068.97,564.43,2015.0,12.0,0.123,SKU-VEL00618,Health Wearable,Echo,Black,SUP026,Korea,2015-06-25,GST_STANDARD,Recycled box,True,True
+PRD0619,Candle Shift 718,Networking,Candle,180.89,95.45,2016.0,24.0,0.966,SKU-CAN00619,Connected Network,Flux,Blue,SUP027,Japan,2016-09-20,GST_STANDARD,Box,False,True
+PRD0620,Vela Atlas 719,Accessory,Vela,123.89,59.81,2017.0,12.0,0.233,SKU-VEL00620,Mobile Accessory,Halo,Black,SUP028,Japan,2017-04-17,GST_STANDARD,Protective case,True,True
+PRD0621,Candle Flux 720,Laptop,Candle,1720.44,954.86,2017.0,24.0,1.71,SKU-CAN00621,Ultrabook,Lumen,Graphite,SUP029,Malaysia,2017-07-26,GST_STANDARD,Recycled box,True,True
+PRD0622,Vela Pulse 721,Smartphone,Vela,1882.1,1418.43,2017.0,24.0,0.266,SKU-VEL00622,5G Smartphone,Nova,Green,SUP030,Japan,2017-08-07,GST_STANDARD,Box,True,True
+PRD0623,Candle Vista 722,Tablet,Candle,292.46,201.46,2012.0,24.0,0.58,SKU-CAN00623,Productivity Tablet,Orbit,Graphite,SUP031,Korea,2012-04-26,GST_STANDARD,Recycled box,True,True
+PRD0624,Vela Core 723,Home Entertainment,Vela,4074.77,2860.84,2015.0,24.0,6.294,SKU-VEL00624,Smart Display,Pulse,Graphite,SUP032,Korea,2015-12-26,GST_STANDARD,Recycled box,True,True
+PRD0625,Candle Lumen 724,Audio,Candle,1041.53,561.6,2014.0,12.0,0.361,SKU-CAN00625,Wireless Audio,Quest,Blue,SUP033,Australia,2014-05-02,GST_STANDARD,Recycled box,True,True
+PRD0626,Vela Ridge 725,Smart Home,Vela,502.49,337.13,2013.0,12.0,0.459,SKU-VEL00626,Home Automation,Ridge,Gold,SUP034,Malaysia,2013-06-04,GST_STANDARD,Box,True,True
+PRD0627,Candle Arc 726,Gaming,Candle,2451.16,1451.95,2015.0,24.0,1.121,SKU-CAN00627,Gaming Hardware,Shift,Green,SUP035,Malaysia,2015-09-13,GST_STANDARD,Box,True,True
+PRD0628,Vela Echo 727,Wearable,Vela,306.06,178.6,2013.0,12.0,0.088,SKU-VEL00628,Health Wearable,Spark,Graphite,SUP036,Vietnam,2013-03-24,GST_STANDARD,Recycled box,True,True
+PRD0629,Candle Orbit 728,Networking,Candle,270.17,146.77,2012.0,24.0,0.807,SKU-CAN00629,Connected Network,Vista,Gold,SUP037,China,2012-12-18,GST_STANDARD,Recycled box,True,True
+PRD0630,Vela Spark 729,Accessory,Vela,59.46,37.21,2016.0,12.0,0.227,SKU-VEL00630,Mobile Accessory,Wave,Green,SUP001,Australia,2016-06-23,GST_STANDARD,Protective case,False,True
+PRD0631,Candle Bloom 730,Laptop,Candle,2799.14,1804.4,2015.0,24.0,1.77,SKU-CAN00631,Ultrabook,Arc,White,SUP002,Korea,2015-09-17,GST_STANDARD,Protective case,True,True
+PRD0632,Vela Halo 731,Smartphone,Vela,1094.69,583.51,2014.0,24.0,0.217,SKU-VEL00632,5G Smartphone,Atlas,White,SUP003,Japan,2014-10-03,GST_STANDARD,Recycled box,True,True
+PRD0633,Candle Quest 732,Tablet,Candle,809.48,407.03,2016.0,24.0,0.747,SKU-CAN00633,Productivity Tablet,Bloom,Black,SUP004,Malaysia,2016-04-22,GST_STANDARD,Recycled box,True,True
+PRD0634,Vela Wave 733,Home Entertainment,Vela,405.16,198.4,2012.0,24.0,8.408,SKU-VEL00634,Smart Display,Core,Gold,SUP005,Korea,2012-06-10,GST_STANDARD,Protective case,True,True
+PRD0635,Candle Edge 734,Audio,Candle,626.79,412.99,2015.0,12.0,0.534,SKU-CAN00635,Wireless Audio,Edge,Red,SUP006,Japan,2015-01-20,GST_STANDARD,Protective case,True,True
+PRD0636,Vela Nova 735,Smart Home,Vela,63.83,35.96,2012.0,12.0,0.479,SKU-VEL00636,Home Automation,Echo,Gold,SUP007,Vietnam,2012-01-10,GST_STANDARD,Recycled box,True,True
+PRD0637,Candle Shift 736,Gaming,Candle,1717.71,1188.99,2017.0,24.0,1.388,SKU-CAN00637,Gaming Hardware,Flux,Gold,SUP008,Japan,2017-10-09,GST_STANDARD,Box,False,True
+PRD0638,Vela Atlas 737,Wearable,Vela,248.57,121.06,2014.0,12.0,0.115,SKU-VEL00638,Health Wearable,Halo,Black,SUP009,Australia,2014-10-08,GST_STANDARD,Recycled box,False,False
+PRD0639,Candle Flux 738,Networking,Candle,1043.97,728.38,2014.0,24.0,0.658,SKU-CAN00639,Connected Network,Lumen,Silver,SUP010,China,2014-05-12,GST_STANDARD,Box,True,True
+PRD0640,Vela Pulse 739,Accessory,Vela,153.76,114.82,2015.0,12.0,0.24,SKU-VEL00640,Mobile Accessory,Nova,White,SUP011,Vietnam,2015-12-09,GST_STANDARD,Recycled box,True,True
+PRD0641,Candle Vista 740,Laptop,Candle,934.18,473.27,2017.0,24.0,1.417,SKU-CAN00641,Ultrabook,Orbit,Red,SUP012,Japan,2017-04-14,GST_STANDARD,Protective case,True,True
+PRD0642,Vela Core 741,Smartphone,Vela,790.1,524.54,2014.0,24.0,0.266,SKU-VEL00642,5G Smartphone,Pulse,Blue,SUP013,China,2014-04-19,GST_STANDARD,Box,True,False
+PRD0643,Candle Lumen 742,Tablet,Candle,809.36,397.14,2017.0,24.0,0.499,SKU-CAN00643,Productivity Tablet,Quest,Red,SUP014,Malaysia,2017-04-02,GST_STANDARD,Box,True,True
+PRD0644,Vela Ridge 743,Home Entertainment,Vela,3489.22,2326.21,2013.0,24.0,8.994,SKU-VEL00644,Smart Display,Ridge,Gold,SUP015,Malaysia,2013-01-12,GST_STANDARD,Protective case,True,True
+PRD0645,Candle Arc 744,Audio,Candle,886.19,450.07,2013.0,12.0,0.576,SKU-CAN00645,Wireless Audio,Shift,Black,SUP016,Malaysia,2013-07-15,GST_STANDARD,Protective case,True,True
+PRD0646,Vela Echo 745,Smart Home,Vela,98.45,60.12,2015.0,12.0,0.275,SKU-VEL00646,Home Automation,Spark,White,SUP017,Korea,2015-10-05,GST_STANDARD,Protective case,True,True
+PRD0647,Candle Orbit 746,Gaming,Candle,1397.05,816.89,2013.0,24.0,1.567,SKU-CAN00647,Gaming Hardware,Vista,Black,SUP018,Vietnam,2013-05-27,GST_STANDARD,Protective case,True,True
+PRD0648,Vela Spark 747,Wearable,Vela,210.67,147.86,2015.0,12.0,0.159,SKU-VEL00648,Health Wearable,Wave,White,SUP019,Malaysia,2015-01-13,GST_STANDARD,Recycled box,True,True
+PRD0649,Candle Bloom 748,Networking,Candle,915.45,659.6,2017.0,24.0,0.693,SKU-CAN00649,Connected Network,Arc,Silver,SUP020,Korea,2017-05-07,GST_STANDARD,Recycled box,True,True
+PRD0650,Vela Halo 749,Accessory,Vela,367.95,274.72,2016.0,12.0,0.23,SKU-VEL00650,Mobile Accessory,Atlas,Red,SUP021,China,2016-09-27,GST_STANDARD,Recycled box,False,True
+PRD0651,Candle Quest 750,Laptop,Candle,929.1,696.42,2017.0,24.0,1.189,SKU-CAN00651,Ultrabook,Bloom,Blue,SUP022,Japan,2017-10-04,GST_STANDARD,Recycled box,False,True
+PRD0652,Vela Wave 751,Smartphone,Vela,1465.81,932.3,2012.0,24.0,0.293,SKU-VEL00652,5G Smartphone,Core,Black,SUP023,Malaysia,2012-12-10,GST_STANDARD,Recycled box,True,True
+PRD0653,Candle Edge 752,Tablet,Candle,1533.48,870.98,2017.0,24.0,0.575,SKU-CAN00653,Productivity Tablet,Edge,Black,SUP024,Korea,2017-03-05,GST_STANDARD,Recycled box,True,True
+PRD0654,Vela Nova 753,Home Entertainment,Vela,4124.98,3033.2,2017.0,24.0,9.728,SKU-VEL00654,Smart Display,Echo,Gold,SUP025,Korea,2017-03-21,GST_STANDARD,Recycled box,True,True
+PRD0655,Candle Shift 754,Audio,Candle,444.01,298.13,2012.0,12.0,0.631,SKU-CAN00655,Wireless Audio,Flux,Graphite,SUP026,China,2012-05-19,GST_STANDARD,Recycled box,True,True
+PRD0656,Vela Atlas 755,Smart Home,Vela,820.33,583.57,2014.0,12.0,0.297,SKU-VEL00656,Home Automation,Halo,Gold,SUP027,Australia,2014-09-27,GST_STANDARD,Recycled box,False,True
+PRD0657,Candle Flux 756,Gaming,Candle,91.2,66.46,2017.0,24.0,1.44,SKU-CAN00657,Gaming Hardware,Lumen,White,SUP028,Malaysia,2017-05-12,GST_STANDARD,Protective case,True,True
+PRD0658,Vela Pulse 757,Wearable,Vela,140.48,92.78,2013.0,12.0,0.11,SKU-VEL00658,Health Wearable,Nova,Gold,SUP029,Korea,2013-07-04,GST_STANDARD,Box,False,True
+PRD0659,Candle Vista 758,Networking,Candle,293.62,184.6,2014.0,24.0,0.627,SKU-CAN00659,Connected Network,Orbit,White,SUP030,Japan,2014-02-20,GST_STANDARD,Box,False,True
+PRD0660,Vela Core 759,Accessory,Vela,351.34,196.03,2016.0,12.0,0.248,SKU-VEL00660,Mobile Accessory,Pulse,Red,SUP031,Malaysia,2016-11-04,GST_STANDARD,Recycled box,True,True
+PRD0661,Candle Lumen 760,Laptop,Candle,1397.85,1011.11,2012.0,24.0,1.98,SKU-CAN00661,Ultrabook,Quest,Blue,SUP032,Vietnam,2012-12-06,GST_STANDARD,Box,True,True
+PRD0662,Vela Ridge 761,Smartphone,Vela,1253.13,831.56,2015.0,24.0,0.27,SKU-VEL00662,5G Smartphone,Ridge,Graphite,SUP033,Malaysia,2015-06-25,GST_STANDARD,Box,True,True
+PRD0663,Candle Arc 762,Tablet,Candle,1546.5,1073.14,2012.0,24.0,0.744,SKU-CAN00663,Productivity Tablet,Shift,Silver,SUP034,Japan,2012-02-26,GST_STANDARD,Recycled box,False,True
+PRD0664,Vela Echo 763,Home Entertainment,Vela,2839.43,1629.23,2014.0,24.0,5.721,SKU-VEL00664,Smart Display,Spark,White,SUP035,Australia,2014-03-10,GST_STANDARD,Box,True,True
+PRD0665,Candle Orbit 764,Audio,Candle,215.81,157.1,2013.0,12.0,0.646,SKU-CAN00665,Wireless Audio,Vista,White,SUP036,Australia,2013-06-23,GST_STANDARD,Box,True,True
+PRD0666,Vela Spark 765,Smart Home,Vela,108.17,60.9,2015.0,12.0,0.375,SKU-VEL00666,Home Automation,Wave,Green,SUP037,Australia,2015-02-06,GST_STANDARD,Protective case,True,True
+PRD0667,Candle Bloom 766,Gaming,Candle,424.48,239.51,2016.0,24.0,1.037,SKU-CAN00667,Gaming Hardware,Arc,Gold,SUP001,China,2016-03-09,GST_STANDARD,Box,False,True
+PRD0668,Vela Halo 767,Wearable,Vela,658.68,424.85,2014.0,12.0,0.151,SKU-VEL00668,Health Wearable,Atlas,Black,SUP002,Vietnam,2014-08-17,GST_STANDARD,Protective case,False,True
+PRD0669,Candle Quest 768,Networking,Candle,1077.89,797.35,2012.0,24.0,0.64,SKU-CAN00669,Connected Network,Bloom,Silver,SUP003,Malaysia,2012-04-09,GST_STANDARD,Box,True,True
+PRD0670,Vela Wave 769,Accessory,Vela,85.16,44.21,2013.0,12.0,0.179,SKU-VEL00670,Mobile Accessory,Core,Gold,SUP004,Australia,2013-02-01,GST_STANDARD,Protective case,False,True
+PRD0671,Candle Edge 770,Laptop,Candle,1948.38,1244.99,2014.0,24.0,1.747,SKU-CAN00671,Ultrabook,Edge,White,SUP005,Japan,2014-01-19,GST_STANDARD,Protective case,True,True
+PRD0672,Vela Nova 771,Smartphone,Vela,527.46,298.18,2015.0,24.0,0.289,SKU-VEL00672,5G Smartphone,Echo,Red,SUP006,China,2015-02-26,GST_STANDARD,Box,False,True
+PRD0673,Candle Shift 772,Tablet,Candle,1324.45,714.77,2017.0,24.0,0.557,SKU-CAN00673,Productivity Tablet,Flux,Silver,SUP007,Malaysia,2017-11-09,GST_STANDARD,Box,False,True
+PRD0674,Vela Atlas 773,Home Entertainment,Vela,2346.31,1691.18,2016.0,24.0,6.986,SKU-VEL00674,Smart Display,Halo,Green,SUP008,Korea,2016-09-14,GST_STANDARD,Protective case,True,True
+PRD0675,Candle Flux 774,Audio,Candle,898.47,554.75,2014.0,12.0,0.432,SKU-CAN00675,Wireless Audio,Lumen,Red,SUP009,Australia,2014-06-14,GST_STANDARD,Recycled box,False,True
+PRD0676,Vela Pulse 775,Smart Home,Vela,444.48,301.38,2013.0,12.0,0.355,SKU-VEL00676,Home Automation,Nova,Graphite,SUP010,Australia,2013-07-19,GST_STANDARD,Box,False,True
+PRD0677,Candle Vista 776,Gaming,Candle,2307.95,1547.87,2015.0,24.0,1.471,SKU-CAN00677,Gaming Hardware,Orbit,Graphite,SUP011,Vietnam,2015-02-05,GST_STANDARD,Box,True,False
+PRD0678,Vela Core 777,Wearable,Vela,653.14,374.09,2013.0,12.0,0.158,SKU-VEL00678,Health Wearable,Pulse,Green,SUP012,Korea,2013-03-03,GST_STANDARD,Protective case,True,True
+PRD0679,Candle Lumen 778,Networking,Candle,1147.59,574.31,2015.0,24.0,0.923,SKU-CAN00679,Connected Network,Quest,Black,SUP013,Vietnam,2015-10-17,GST_STANDARD,Protective case,True,False
+PRD0680,Vela Ridge 779,Accessory,Vela,46.75,26.08,2014.0,12.0,0.213,SKU-VEL00680,Mobile Accessory,Ridge,Silver,SUP014,Japan,2014-11-05,GST_STANDARD,Recycled box,True,True
+PRD0681,Candle Arc 780,Laptop,Candle,2498.26,1855.88,2014.0,24.0,1.576,SKU-CAN00681,Ultrabook,Shift,Green,SUP015,Australia,2014-05-19,GST_STANDARD,Protective case,True,True
+PRD0682,Vela Echo 781,Smartphone,Vela,1121.22,556.68,2012.0,24.0,0.284,SKU-VEL00682,5G Smartphone,Spark,Black,SUP016,Korea,2012-08-10,GST_STANDARD,Protective case,True,True
+PRD0683,Candle Orbit 782,Tablet,Candle,1384.61,818.46,2014.0,24.0,0.57,SKU-CAN00683,Productivity Tablet,Vista,Graphite,SUP017,Korea,2014-01-04,GST_STANDARD,Box,True,True
+PRD0684,Vela Spark 783,Home Entertainment,Vela,1584.7,1015.36,2016.0,24.0,8.931,SKU-VEL00684,Smart Display,Wave,Red,SUP018,Vietnam,2016-01-08,GST_STANDARD,Box,False,True
+PRD0685,Candle Bloom 784,Audio,Candle,367.73,210.28,2013.0,12.0,0.639,SKU-CAN00685,Wireless Audio,Arc,Black,SUP019,Japan,2013-06-23,GST_STANDARD,Protective case,False,True
+PRD0686,Vela Halo 785,Smart Home,Vela,791.36,568.72,2014.0,12.0,0.473,SKU-VEL00686,Home Automation,Atlas,Red,SUP020,Korea,2014-02-09,GST_STANDARD,Recycled box,True,True
+PRD0687,Candle Quest 786,Gaming,Candle,2401.89,1784.14,2012.0,24.0,1.009,SKU-CAN00687,Gaming Hardware,Bloom,Silver,SUP021,Malaysia,2012-05-02,GST_STANDARD,Protective case,True,True
+PRD0688,Vela Wave 787,Wearable,Vela,231.65,150.57,2012.0,12.0,0.132,SKU-VEL00688,Health Wearable,Core,Red,SUP022,Malaysia,2012-10-21,GST_STANDARD,Recycled box,True,True
+PRD0689,Candle Edge 788,Networking,Candle,1240.98,751.99,2017.0,24.0,0.726,SKU-CAN00689,Connected Network,Edge,Black,SUP023,Japan,2017-02-01,GST_STANDARD,Recycled box,True,True
+PRD0690,Vela Nova 789,Accessory,Vela,306.64,232.46,2014.0,12.0,0.194,SKU-VEL00690,Mobile Accessory,Echo,White,SUP024,China,2014-10-12,GST_STANDARD,Recycled box,False,True
+PRD0691,Candle Shift 790,Laptop,Candle,1850.74,1183.9,2016.0,24.0,1.401,SKU-CAN00691,Ultrabook,Flux,Gold,SUP025,Malaysia,2016-01-15,GST_STANDARD,Recycled box,True,True
+PRD0692,Vela Atlas 791,Smartphone,Vela,959.48,542.28,2017.0,24.0,0.281,SKU-VEL00692,5G Smartphone,Halo,Graphite,SUP026,Malaysia,2017-04-20,GST_STANDARD,Recycled box,True,True
+PRD0693,Candle Flux 792,Tablet,Candle,1160.83,862.64,2017.0,24.0,0.569,SKU-CAN00693,Productivity Tablet,Lumen,Red,SUP027,Japan,2017-01-03,GST_STANDARD,Protective case,False,True
+PRD0694,Vela Pulse 793,Home Entertainment,Vela,3973.34,2449.28,2014.0,24.0,8.224,SKU-VEL00694,Smart Display,Nova,Silver,SUP028,China,2014-06-24,GST_STANDARD,Recycled box,False,True
+PRD0695,Candle Vista 794,Audio,Candle,809.88,398.15,2017.0,12.0,0.411,SKU-CAN00695,Wireless Audio,Orbit,Green,SUP029,Japan,2017-03-19,GST_STANDARD,Recycled box,True,True
+PRD0696,Vela Core 795,Smart Home,Vela,107.86,66.64,2016.0,12.0,0.279,SKU-VEL00696,Home Automation,Pulse,Red,SUP030,Malaysia,2016-12-13,GST_STANDARD,Box,True,True
+PRD0697,Candle Lumen 796,Gaming,Candle,1104.18,822.53,2014.0,24.0,1.159,SKU-CAN00697,Gaming Hardware,Quest,Red,SUP031,Korea,2014-08-26,GST_STANDARD,Protective case,False,True
+PRD0698,Vela Ridge 797,Wearable,Vela,1038.35,585.9,2012.0,12.0,0.103,SKU-VEL00698,Health Wearable,Ridge,Graphite,SUP032,Japan,2012-04-18,GST_STANDARD,Protective case,False,True
+PRD0699,Candle Arc 798,Networking,Candle,1495.41,1058.68,2015.0,24.0,0.935,SKU-CAN00699,Connected Network,Shift,Red,SUP033,China,2015-08-03,GST_STANDARD,Recycled box,False,True
+PRD0700,Vela Echo 799,Accessory,Vela,258.76,147.17,2013.0,12.0,0.215,SKU-VEL00700,Mobile Accessory,Spark,Green,SUP034,Australia,2013-07-26,GST_STANDARD,Protective case,True,True
+PRD0701,Candle Orbit 800,Laptop,Candle,2361.18,1772.93,2017.0,24.0,1.925,SKU-CAN00701,Ultrabook,Vista,Black,SUP035,Australia,2017-01-26,GST_STANDARD,Box,True,True
+PRD0702,Vela Spark 801,Smartphone,Vela,768.26,568.97,2017.0,24.0,0.18,SKU-VEL00702,5G Smartphone,Wave,Graphite,SUP036,Australia,2017-01-25,GST_STANDARD,Box,True,True
+PRD0703,Candle Bloom 802,Tablet,Candle,299.48,154.9,2012.0,24.0,0.846,SKU-CAN00703,Productivity Tablet,Arc,Gold,SUP037,Australia,2012-01-22,GST_STANDARD,Protective case,False,True
+PRD0704,Vela Halo 803,Home Entertainment,Vela,2221.12,1475.94,2016.0,24.0,7.766,SKU-VEL00704,Smart Display,Atlas,Black,SUP001,Korea,2016-03-27,GST_STANDARD,Protective case,True,True
+PRD0705,Candle Quest 804,Audio,Candle,1103.54,583.66,2014.0,12.0,0.548,SKU-CAN00705,Wireless Audio,Bloom,Black,SUP002,China,2014-10-22,GST_STANDARD,Box,True,True
+PRD0706,Vela Wave 805,Smart Home,Vela,746.72,362.05,2013.0,12.0,0.427,SKU-VEL00706,Home Automation,Core,Graphite,SUP003,China,2013-08-20,GST_STANDARD,Box,False,True
+PRD0707,Candle Edge 806,Gaming,Candle,1911.85,1368.29,2012.0,24.0,1.396,SKU-CAN00707,Gaming Hardware,Edge,Green,SUP004,Australia,2012-06-06,GST_STANDARD,Recycled box,True,True
+PRD0708,Vela Nova 807,Wearable,Vela,720.36,422.7,2013.0,12.0,0.111,SKU-VEL00708,Health Wearable,Echo,Silver,SUP005,Australia,2013-10-14,GST_STANDARD,Recycled box,True,True
+PRD0709,Candle Shift 808,Networking,Candle,1423.26,697.4,2016.0,24.0,0.795,SKU-CAN00709,Connected Network,Flux,White,SUP006,Vietnam,2016-04-26,GST_STANDARD,Box,True,True
+PRD0710,Vela Atlas 809,Accessory,Vela,302.55,196.98,2013.0,12.0,0.243,SKU-VEL00710,Mobile Accessory,Halo,Gold,SUP007,China,2013-05-14,GST_STANDARD,Protective case,False,True
+PRD0711,Candle Flux 810,Laptop,Candle,2921.29,1731.5,2013.0,24.0,1.897,SKU-CAN00711,Ultrabook,Lumen,Graphite,SUP008,Japan,2013-04-03,GST_STANDARD,Box,False,True
+PRD0712,Vela Pulse 811,Smartphone,Vela,1113.98,726.22,2017.0,24.0,0.296,SKU-VEL00712,5G Smartphone,Nova,Graphite,SUP009,China,2017-09-20,GST_STANDARD,Recycled box,False,True
+PRD0713,Candle Vista 812,Tablet,Candle,1533.07,999.47,2013.0,24.0,0.672,SKU-CAN00713,Productivity Tablet,Orbit,Graphite,SUP010,Japan,2013-12-05,GST_STANDARD,Box,True,True
+PRD0714,Vela Core 813,Home Entertainment,Vela,3569.58,2364.02,2012.0,24.0,8.625,SKU-VEL00714,Smart Display,Pulse,Silver,SUP011,China,2012-06-24,GST_STANDARD,Box,True,True
+PRD0715,Candle Lumen 814,Audio,Candle,343.66,181.2,2012.0,12.0,0.517,SKU-CAN00715,Wireless Audio,Quest,Black,SUP012,Japan,2012-05-15,GST_STANDARD,Protective case,False,True
+PRD0716,Vela Ridge 815,Smart Home,Vela,242.32,163.12,2015.0,12.0,0.37,SKU-VEL00716,Home Automation,Ridge,Red,SUP013,Malaysia,2015-04-14,GST_STANDARD,Recycled box,False,True
+PRD0717,Candle Arc 816,Gaming,Candle,615.2,391.79,2017.0,24.0,0.929,SKU-CAN00717,Gaming Hardware,Shift,Blue,SUP014,Japan,2017-07-19,GST_STANDARD,Protective case,True,True
+PRD0718,Vela Echo 817,Wearable,Vela,1045.66,745.35,2012.0,12.0,0.111,SKU-VEL00718,Health Wearable,Spark,White,SUP015,China,2012-08-27,GST_STANDARD,Protective case,True,True
+PRD0719,Candle Orbit 818,Networking,Candle,659.02,340.72,2015.0,24.0,0.599,SKU-CAN00719,Connected Network,Vista,White,SUP016,China,2015-05-25,GST_STANDARD,Box,False,True
+PRD0720,Vela Spark 819,Accessory,Vela,261.71,170.49,2012.0,12.0,0.237,SKU-VEL00720,Mobile Accessory,Wave,Gold,SUP017,Japan,2012-08-08,GST_STANDARD,Box,True,True
+PRD0721,Candle Bloom 820,Laptop,Candle,1812.9,897.7,2015.0,24.0,1.452,SKU-CAN00721,Ultrabook,Arc,Green,SUP018,China,2015-05-17,GST_STANDARD,Box,True,True
+PRD0722,Vela Halo 821,Smartphone,Vela,909.76,526.72,2013.0,24.0,0.224,SKU-VEL00722,5G Smartphone,Atlas,Green,SUP019,China,2013-07-03,GST_STANDARD,Recycled box,False,True
+PRD0723,Candle Quest 822,Tablet,Candle,1236.33,654.17,2016.0,24.0,0.647,SKU-CAN00723,Productivity Tablet,Bloom,Blue,SUP020,Vietnam,2016-09-15,GST_STANDARD,Recycled box,True,True
+PRD0724,Vela Wave 823,Home Entertainment,Vela,1250.76,868.58,2013.0,24.0,9.73,SKU-VEL00724,Smart Display,Core,Black,SUP021,Japan,2013-07-09,GST_STANDARD,Box,True,False
+PRD0725,Candle Edge 824,Audio,Candle,821.74,425.2,2017.0,12.0,0.357,SKU-CAN00725,Wireless Audio,Edge,White,SUP022,China,2017-03-13,GST_STANDARD,Recycled box,True,True
+PRD0726,Vela Nova 825,Smart Home,Vela,620.57,438.55,2012.0,12.0,0.279,SKU-VEL00726,Home Automation,Echo,Black,SUP023,Japan,2012-06-18,GST_STANDARD,Box,True,True
+PRD0727,Candle Shift 826,Gaming,Candle,1546.58,908.7,2016.0,24.0,1.511,SKU-CAN00727,Gaming Hardware,Flux,Red,SUP024,Malaysia,2016-01-01,GST_STANDARD,Protective case,True,True
+PRD0728,Vela Atlas 827,Wearable,Vela,188.05,131.42,2016.0,12.0,0.157,SKU-VEL00728,Health Wearable,Halo,Silver,SUP025,Malaysia,2016-01-11,GST_STANDARD,Recycled box,False,True
+PRD0729,Candle Flux 828,Networking,Candle,1008.84,676.83,2016.0,24.0,0.847,SKU-CAN00729,Connected Network,Lumen,Blue,SUP026,Japan,2016-11-16,GST_STANDARD,Protective case,True,True
+PRD0730,Vela Pulse 829,Accessory,Vela,394.42,285.65,2017.0,12.0,0.235,SKU-VEL00730,Mobile Accessory,Nova,Gold,SUP027,Korea,2017-05-11,GST_STANDARD,Protective case,True,True
+PRD0731,Candle Vista 830,Laptop,Candle,1790.91,898.22,2014.0,24.0,1.758,SKU-CAN00731,Ultrabook,Orbit,Blue,SUP028,China,2014-08-09,GST_STANDARD,Recycled box,False,True
+PRD0732,Vela Core 831,Smartphone,Vela,685.95,451.73,2012.0,24.0,0.271,SKU-VEL00732,5G Smartphone,Pulse,Red,SUP029,Australia,2012-11-08,GST_STANDARD,Protective case,False,True
+PRD0733,Candle Lumen 832,Tablet,Candle,894.02,451.86,2016.0,24.0,0.766,SKU-CAN00733,Productivity Tablet,Quest,Red,SUP030,Australia,2016-04-22,GST_STANDARD,Box,True,True
+PRD0734,Vela Ridge 833,Home Entertainment,Vela,2197.09,1586.29,2016.0,24.0,8.643,SKU-VEL00734,Smart Display,Ridge,Gold,SUP031,Vietnam,2016-06-13,GST_STANDARD,Protective case,True,True
+PRD0735,Candle Arc 834,Audio,Candle,606.53,367.74,2012.0,12.0,0.449,SKU-CAN00735,Wireless Audio,Shift,Green,SUP032,Vietnam,2012-04-22,GST_STANDARD,Box,True,True
+PRD0736,Vela Echo 835,Smart Home,Vela,829.44,515.48,2016.0,12.0,0.408,SKU-VEL00736,Home Automation,Spark,Blue,SUP033,Korea,2016-01-12,GST_STANDARD,Recycled box,True,True
+PRD0737,Candle Orbit 836,Gaming,Candle,1942.18,948.52,2013.0,24.0,1.58,SKU-CAN00737,Gaming Hardware,Vista,Green,SUP034,Vietnam,2013-12-20,GST_STANDARD,Recycled box,False,True
+PRD0738,Vela Spark 837,Wearable,Vela,306.26,169.22,2017.0,12.0,0.131,SKU-VEL00738,Health Wearable,Wave,Blue,SUP035,Vietnam,2017-08-26,GST_STANDARD,Box,False,True
+PRD0739,Candle Bloom 838,Networking,Candle,408.6,286.63,2017.0,24.0,0.565,SKU-CAN00739,Connected Network,Arc,Silver,SUP036,Malaysia,2017-10-10,GST_STANDARD,Box,False,True
+PRD0740,Vela Halo 839,Accessory,Vela,194.14,107.09,2015.0,12.0,0.236,SKU-VEL00740,Mobile Accessory,Atlas,Black,SUP037,Australia,2015-04-11,GST_STANDARD,Protective case,True,True
+PRD0741,Candle Quest 840,Laptop,Candle,2451.18,1816.92,2014.0,24.0,1.5,SKU-CAN00741,Ultrabook,Bloom,Silver,SUP001,Malaysia,2014-04-11,GST_STANDARD,Recycled box,True,True
+PRD0742,Vela Wave 841,Smartphone,Vela,1512.78,852.69,2015.0,24.0,0.246,SKU-VEL00742,5G Smartphone,Core,Gold,SUP002,Malaysia,2015-06-22,GST_STANDARD,Recycled box,True,True
+PRD0743,Candle Edge 842,Tablet,Candle,1161.24,708.94,2017.0,24.0,0.484,SKU-CAN00743,Productivity Tablet,Edge,Silver,SUP003,Japan,2017-05-07,GST_STANDARD,Box,True,True
+PRD0744,Vela Nova 843,Home Entertainment,Vela,3966.03,2174.26,2013.0,24.0,6.666,SKU-VEL00744,Smart Display,Echo,Silver,SUP004,China,2013-04-12,GST_STANDARD,Box,True,True
+PRD0745,Candle Shift 844,Audio,Candle,805.9,522.83,2015.0,12.0,0.438,SKU-CAN00745,Wireless Audio,Flux,Gold,SUP005,Japan,2015-11-07,GST_STANDARD,Box,False,True
+PRD0746,Vela Atlas 845,Smart Home,Vela,130.44,73.2,2014.0,12.0,0.453,SKU-VEL00746,Home Automation,Halo,White,SUP006,Japan,2014-09-07,GST_STANDARD,Recycled box,False,True
+PRD0747,Candle Flux 846,Gaming,Candle,1984.91,1271.28,2012.0,24.0,1.017,SKU-CAN00747,Gaming Hardware,Lumen,Gold,SUP007,Japan,2012-02-25,GST_STANDARD,Protective case,False,False
+PRD0748,Vela Pulse 847,Wearable,Vela,176.05,124.65,2013.0,12.0,0.101,SKU-VEL00748,Health Wearable,Nova,Silver,SUP008,Vietnam,2013-05-19,GST_STANDARD,Box,False,True
+PRD0749,Candle Vista 848,Networking,Candle,633.27,379.25,2016.0,24.0,0.918,SKU-CAN00749,Connected Network,Orbit,Gold,SUP009,Australia,2016-05-07,GST_STANDARD,Recycled box,True,True
+PRD0750,Vela Core 849,Accessory,Vela,203.37,112.68,2017.0,12.0,0.229,SKU-VEL00750,Mobile Accessory,Pulse,Graphite,SUP010,Malaysia,2017-08-09,GST_STANDARD,Box,False,True
+PRD0751,Candle Lumen 850,Laptop,Candle,1210.18,641.21,2015.0,24.0,2.064,SKU-CAN00751,Ultrabook,Quest,Red,SUP011,Japan,2015-06-09,GST_STANDARD,Protective case,True,True
+PRD0752,Vela Ridge 851,Smartphone,Vela,1353.89,700.79,2013.0,24.0,0.222,SKU-VEL00752,5G Smartphone,Ridge,Blue,SUP012,China,2013-05-14,GST_STANDARD,Recycled box,True,True
+PRD0753,Candle Arc 852,Tablet,Candle,497.57,318.24,2017.0,24.0,0.448,SKU-CAN00753,Productivity Tablet,Shift,White,SUP013,Korea,2017-01-25,GST_STANDARD,Recycled box,False,True
+PRD0754,Vela Echo 853,Home Entertainment,Vela,3612.65,2125.88,2013.0,24.0,5.987,SKU-VEL00754,Smart Display,Spark,Gold,SUP014,China,2013-10-16,GST_STANDARD,Protective case,True,True
+PRD0755,Candle Orbit 854,Audio,Candle,683.65,340.69,2017.0,12.0,0.366,SKU-CAN00755,Wireless Audio,Vista,Silver,SUP015,China,2017-11-24,GST_STANDARD,Protective case,False,True
+PRD0756,Vela Spark 855,Smart Home,Vela,244.21,135.44,2016.0,12.0,0.34,SKU-VEL00756,Home Automation,Wave,Green,SUP016,Korea,2016-04-03,GST_STANDARD,Protective case,True,True
+PRD0757,Candle Bloom 856,Gaming,Candle,2401.56,1260.06,2014.0,24.0,0.905,SKU-CAN00757,Gaming Hardware,Arc,Graphite,SUP017,Malaysia,2014-09-15,GST_STANDARD,Box,True,True
+PRD0758,Vela Halo 857,Wearable,Vela,688.14,433.57,2017.0,12.0,0.089,SKU-VEL00758,Health Wearable,Atlas,Silver,SUP018,Australia,2017-08-01,GST_STANDARD,Protective case,False,True
+PRD0759,Candle Quest 858,Networking,Candle,943.47,455.26,2013.0,24.0,0.515,SKU-CAN00759,Connected Network,Bloom,Silver,SUP019,Australia,2013-07-23,GST_STANDARD,Box,False,True
+PRD0760,Vela Wave 859,Accessory,Vela,405.95,225.18,2017.0,12.0,0.169,SKU-VEL00760,Mobile Accessory,Core,Graphite,SUP020,Malaysia,2017-07-10,GST_STANDARD,Box,True,True
+PRD0761,Candle Edge 860,Laptop,Candle,965.07,539.26,2016.0,24.0,1.837,SKU-CAN00761,Ultrabook,Edge,Silver,SUP021,Korea,2016-07-17,GST_STANDARD,Protective case,True,True
+PRD0762,Vela Nova 861,Smartphone,Vela,1654.61,1210.78,2012.0,24.0,0.294,SKU-VEL00762,5G Smartphone,Echo,Gold,SUP022,Malaysia,2012-04-09,GST_STANDARD,Box,True,True
+PRD0763,Candle Shift 862,Tablet,Candle,1426.88,985.5,2012.0,24.0,0.576,SKU-CAN00763,Productivity Tablet,Flux,Silver,SUP023,Vietnam,2012-11-04,GST_STANDARD,Box,True,True
+PRD0764,Vela Atlas 863,Home Entertainment,Vela,3444.81,2326.12,2013.0,24.0,6.533,SKU-VEL00764,Smart Display,Halo,White,SUP024,China,2013-12-07,GST_STANDARD,Recycled box,True,True
+PRD0765,Candle Flux 864,Audio,Candle,126.56,71.02,2012.0,12.0,0.402,SKU-CAN00765,Wireless Audio,Lumen,Blue,SUP025,Malaysia,2012-03-11,GST_STANDARD,Protective case,True,True
+PRD0766,Vela Pulse 865,Smart Home,Vela,551.34,418.51,2017.0,12.0,0.479,SKU-VEL00766,Home Automation,Nova,Silver,SUP026,Australia,2017-02-03,GST_STANDARD,Protective case,True,True
+PRD0767,Candle Vista 866,Gaming,Candle,122.05,65.27,2013.0,24.0,1.243,SKU-CAN00767,Gaming Hardware,Orbit,Gold,SUP027,Japan,2013-08-05,GST_STANDARD,Box,True,True
+PRD0768,Vela Core 867,Wearable,Vela,912.93,439.01,2014.0,12.0,0.135,SKU-VEL00768,Health Wearable,Pulse,White,SUP028,Japan,2014-11-07,GST_STANDARD,Protective case,True,True
+PRD0769,Candle Lumen 868,Networking,Candle,809.07,515.34,2015.0,24.0,0.958,SKU-CAN00769,Connected Network,Quest,Red,SUP029,Vietnam,2015-02-26,GST_STANDARD,Protective case,True,False
+PRD0770,Vela Ridge 869,Accessory,Vela,254.66,130.55,2013.0,12.0,0.18,SKU-VEL00770,Mobile Accessory,Ridge,Black,SUP030,Japan,2013-03-04,GST_STANDARD,Protective case,True,True
+PRD0771,Candle Arc 870,Laptop,Candle,1968.01,1095.12,2013.0,24.0,1.928,SKU-CAN00771,Ultrabook,Shift,Blue,SUP031,Korea,2013-08-07,GST_STANDARD,Box,True,True
+PRD0772,Vela Echo 871,Smartphone,Vela,546.46,383.33,2012.0,24.0,0.277,SKU-VEL00772,5G Smartphone,Spark,Red,SUP032,Japan,2012-11-24,GST_STANDARD,Box,True,True
+PRD0773,Candle Orbit 872,Tablet,Candle,429.44,240.64,2015.0,24.0,0.643,SKU-CAN00773,Productivity Tablet,Vista,Green,SUP033,Korea,2015-04-01,GST_STANDARD,Box,True,True
+PRD0774,Vela Spark 873,Home Entertainment,Vela,4016.42,2320.12,2017.0,24.0,9.979,SKU-VEL00774,Smart Display,Wave,Gold,SUP034,Australia,2017-09-19,GST_STANDARD,Recycled box,False,True
+PRD0775,Candle Bloom 874,Audio,Candle,376.86,190.44,2016.0,12.0,0.404,SKU-CAN00775,Wireless Audio,Arc,Gold,SUP035,Vietnam,2016-05-15,GST_STANDARD,Recycled box,True,True
+PRD0776,Vela Halo 875,Smart Home,Vela,486.13,262.36,2012.0,12.0,0.392,SKU-VEL00776,Home Automation,Atlas,Graphite,SUP036,Vietnam,2012-06-14,GST_STANDARD,Box,True,True
+PRD0777,Candle Quest 876,Gaming,Candle,2527.82,1335.7,2012.0,24.0,1.374,SKU-CAN00777,Gaming Hardware,Bloom,Silver,SUP037,China,2012-03-20,GST_STANDARD,Recycled box,False,True
+PRD0778,Vela Wave 877,Wearable,Vela,981.57,580.75,2013.0,12.0,0.132,SKU-VEL00778,Health Wearable,Core,Blue,SUP001,Japan,2013-01-19,GST_STANDARD,Box,True,True
+PRD0779,Candle Edge 878,Networking,Candle,296.88,224.04,2012.0,24.0,0.738,SKU-CAN00779,Connected Network,Edge,Black,SUP002,Vietnam,2012-01-17,GST_STANDARD,Recycled box,True,True
+PRD0780,Vela Nova 879,Accessory,Vela,191.96,97.55,2012.0,12.0,0.243,SKU-VEL00780,Mobile Accessory,Echo,Red,SUP003,Malaysia,2012-02-11,GST_STANDARD,Box,False,True
+PRD0781,Candle Shift 880,Laptop,Candle,1410.25,977.02,2016.0,24.0,1.343,SKU-CAN00781,Ultrabook,Flux,Silver,SUP004,Vietnam,2016-08-12,GST_STANDARD,Recycled box,True,True
+PRD0782,Vela Atlas 881,Smartphone,Vela,1330.98,766.57,2015.0,24.0,0.3,SKU-VEL00782,5G Smartphone,Halo,Silver,SUP005,Malaysia,2015-12-19,GST_STANDARD,Recycled box,False,True
+PRD0783,Candle Flux 882,Tablet,Candle,516.28,296.35,2013.0,24.0,0.518,SKU-CAN00783,Productivity Tablet,Lumen,Graphite,SUP006,Japan,2013-03-13,GST_STANDARD,Recycled box,True,False
+PRD0784,Vela Pulse 883,Home Entertainment,Vela,3454.65,2570.67,2015.0,24.0,9.162,SKU-VEL00784,Smart Display,Nova,Gold,SUP007,Malaysia,2015-01-18,GST_STANDARD,Protective case,True,True
+PRD0785,Candle Vista 884,Audio,Candle,611.01,395.14,2017.0,12.0,0.354,SKU-CAN00785,Wireless Audio,Orbit,Black,SUP008,Korea,2017-03-08,GST_STANDARD,Box,False,True
+PRD0786,Vela Core 885,Smart Home,Vela,211.68,143.26,2015.0,12.0,0.451,SKU-VEL00786,Home Automation,Pulse,Silver,SUP009,Malaysia,2015-11-01,GST_STANDARD,Recycled box,True,True
+PRD0787,Candle Lumen 886,Gaming,Candle,1706.85,917.58,2017.0,24.0,1.13,SKU-CAN00787,Gaming Hardware,Quest,Graphite,SUP010,Japan,2017-04-07,GST_STANDARD,Recycled box,True,True
+PRD0788,Vela Ridge 887,Wearable,Vela,934.58,659.35,2017.0,12.0,0.143,SKU-VEL00788,Health Wearable,Ridge,Green,SUP011,Japan,2017-05-10,GST_STANDARD,Protective case,True,True
+PRD0789,Candle Arc 888,Networking,Candle,106.8,77.97,2014.0,24.0,0.718,SKU-CAN00789,Connected Network,Shift,Graphite,SUP012,Malaysia,2014-08-10,GST_STANDARD,Box,False,True
+PRD0790,Vela Echo 889,Accessory,Vela,25.52,14.97,2012.0,12.0,0.246,SKU-VEL00790,Mobile Accessory,Spark,White,SUP013,Japan,2012-06-02,GST_STANDARD,Protective case,True,True
+PRD0791,Candle Orbit 890,Laptop,Candle,1863.17,1279.71,2013.0,24.0,1.216,SKU-CAN00791,Ultrabook,Vista,Black,SUP014,Malaysia,2013-10-16,GST_STANDARD,Box,True,True
+PRD0792,Vela Spark 891,Smartphone,Vela,1745.87,1315.44,2016.0,24.0,0.191,SKU-VEL00792,5G Smartphone,Wave,Silver,SUP015,Malaysia,2016-10-02,GST_STANDARD,Box,False,True
+PRD0793,Candle Bloom 892,Tablet,Candle,1185.37,734.52,2012.0,24.0,0.732,SKU-CAN00793,Productivity Tablet,Arc,Silver,SUP016,Vietnam,2012-04-19,GST_STANDARD,Recycled box,True,True
+PRD0794,Vela Halo 893,Home Entertainment,Vela,3227.51,1623.52,2015.0,24.0,7.928,SKU-VEL00794,Smart Display,Atlas,Silver,SUP017,Australia,2015-09-04,GST_STANDARD,Box,False,True
+PRD0795,Candle Quest 894,Audio,Candle,808.42,605.13,2013.0,12.0,0.458,SKU-CAN00795,Wireless Audio,Bloom,Silver,SUP018,Australia,2013-12-19,GST_STANDARD,Recycled box,True,True
+PRD0796,Vela Wave 895,Smart Home,Vela,830.56,491.77,2016.0,12.0,0.318,SKU-VEL00796,Home Automation,Core,Silver,SUP019,Malaysia,2016-08-15,GST_STANDARD,Protective case,False,True
+PRD0797,Candle Edge 896,Gaming,Candle,2454.69,1715.87,2016.0,24.0,1.098,SKU-CAN00797,Gaming Hardware,Edge,Green,SUP020,Vietnam,2016-08-20,GST_STANDARD,Box,True,True
+PRD0798,Vela Nova 897,Wearable,Vela,902.25,625.13,2016.0,12.0,0.104,SKU-VEL00798,Health Wearable,Echo,Blue,SUP021,Malaysia,2016-02-20,GST_STANDARD,Recycled box,True,True
+PRD0799,Candle Shift 898,Networking,Candle,373.98,195.13,2013.0,24.0,0.917,SKU-CAN00799,Connected Network,Flux,Graphite,SUP022,Australia,2013-11-27,GST_STANDARD,Box,True,True
+PRD0800,Vela Atlas 899,Accessory,Vela,235.68,166.78,2015.0,12.0,0.232,SKU-VEL00800,Mobile Accessory,Halo,Graphite,SUP023,Korea,2015-11-07,GST_STANDARD,Recycled box,True,True
+PRD0801,Candle Flux 900,Laptop,Candle,1245.32,767.44,2016.0,24.0,1.59,SKU-CAN00801,Ultrabook,Lumen,Black,SUP024,Australia,2016-10-17,GST_STANDARD,Protective case,True,True
+PRD0802,Vela Pulse 901,Smartphone,Vela,1342.26,788.84,2014.0,24.0,0.185,SKU-VEL00802,5G Smartphone,Nova,Silver,SUP025,Australia,2014-12-16,GST_STANDARD,Box,True,False
+PRD0803,Candle Vista 902,Tablet,Candle,788.9,574.17,2012.0,24.0,0.834,SKU-CAN00803,Productivity Tablet,Orbit,Graphite,SUP026,Vietnam,2012-12-17,GST_STANDARD,Recycled box,True,True
+PRD0804,Vela Core 903,Home Entertainment,Vela,1164.25,777.45,2013.0,24.0,5.539,SKU-VEL00804,Smart Display,Pulse,White,SUP027,Korea,2013-10-01,GST_STANDARD,Protective case,False,True
+PRD0805,Candle Lumen 904,Audio,Candle,151.93,107.56,2012.0,12.0,0.593,SKU-CAN00805,Wireless Audio,Quest,Green,SUP028,Australia,2012-09-24,GST_STANDARD,Protective case,False,True
+PRD0806,Vela Ridge 905,Smart Home,Vela,43.45,23.36,2013.0,12.0,0.292,SKU-VEL00806,Home Automation,Ridge,Silver,SUP029,Malaysia,2013-11-04,GST_STANDARD,Protective case,True,True
+PRD0807,Candle Arc 906,Gaming,Candle,1536.27,1105.84,2015.0,24.0,1.024,SKU-CAN00807,Gaming Hardware,Shift,Green,SUP030,Korea,2015-03-15,GST_STANDARD,Recycled box,True,True
+PRD0808,Vela Echo 907,Wearable,Vela,830.41,425.27,2015.0,12.0,0.164,SKU-VEL00808,Health Wearable,Spark,Silver,SUP031,Australia,2015-03-25,GST_STANDARD,Protective case,True,True
+PRD0809,Candle Orbit 908,Networking,Candle,929.49,485.85,2014.0,24.0,0.808,SKU-CAN00809,Connected Network,Vista,Blue,SUP032,China,2014-02-08,GST_STANDARD,Protective case,True,True
+PRD0810,Vela Spark 909,Accessory,Vela,224.68,163.61,2017.0,12.0,0.208,SKU-VEL00810,Mobile Accessory,Wave,White,SUP033,Korea,2017-06-16,GST_STANDARD,Protective case,True,True
+PRD0811,Candle Bloom 910,Laptop,Candle,1292.11,654.6,2017.0,24.0,1.91,SKU-CAN00811,Ultrabook,Arc,Silver,SUP034,Korea,2017-07-16,GST_STANDARD,Recycled box,False,True
+PRD0812,Vela Halo 911,Smartphone,Vela,1836.96,1341.58,2014.0,24.0,0.293,SKU-VEL00812,5G Smartphone,Atlas,Red,SUP035,Australia,2014-11-05,GST_STANDARD,Protective case,True,True
+PRD0813,Candle Quest 912,Tablet,Candle,1381.91,928.12,2013.0,24.0,0.565,SKU-CAN00813,Productivity Tablet,Bloom,Gold,SUP036,Malaysia,2013-05-24,GST_STANDARD,Protective case,False,True
+PRD0814,Vela Wave 913,Home Entertainment,Vela,2358.42,1495.28,2015.0,24.0,7.916,SKU-VEL00814,Smart Display,Core,Blue,SUP037,China,2015-05-05,GST_STANDARD,Protective case,False,True
+PRD0815,Candle Edge 914,Audio,Candle,446.57,218.27,2016.0,12.0,0.602,SKU-CAN00815,Wireless Audio,Edge,Gold,SUP001,Japan,2016-11-23,GST_STANDARD,Recycled box,True,True
+PRD0816,Vela Nova 915,Smart Home,Vela,354.93,187.34,2012.0,12.0,0.268,SKU-VEL00816,Home Automation,Echo,Silver,SUP002,Australia,2012-10-14,GST_STANDARD,Recycled box,True,True
+PRD0817,Candle Shift 916,Gaming,Candle,1746.37,942.89,2013.0,24.0,0.988,SKU-CAN00817,Gaming Hardware,Flux,Blue,SUP003,Malaysia,2013-01-17,GST_STANDARD,Recycled box,True,True
+PRD0818,Vela Atlas 917,Wearable,Vela,510.62,380.92,2014.0,12.0,0.097,SKU-VEL00818,Health Wearable,Halo,Blue,SUP004,Malaysia,2014-07-09,GST_STANDARD,Recycled box,True,True
+PRD0819,Candle Flux 918,Networking,Candle,647.95,476.61,2012.0,24.0,0.535,SKU-CAN00819,Connected Network,Lumen,White,SUP005,Australia,2012-03-05,GST_STANDARD,Box,True,False
+PRD0820,Vela Pulse 919,Accessory,Vela,95.58,69.13,2016.0,12.0,0.17,SKU-VEL00820,Mobile Accessory,Nova,Silver,SUP006,Malaysia,2016-12-09,GST_STANDARD,Box,True,True
+PRD0821,Candle Vista 920,Laptop,Candle,1191.59,821.59,2016.0,24.0,1.755,SKU-CAN00821,Ultrabook,Orbit,Gold,SUP007,Korea,2016-11-12,GST_STANDARD,Recycled box,False,True
+PRD0822,Vela Core 921,Smartphone,Vela,1127.28,836.0,2016.0,24.0,0.186,SKU-VEL00822,5G Smartphone,Pulse,Silver,SUP008,Malaysia,2016-12-20,GST_STANDARD,Box,False,True
+PRD0823,Candle Lumen 922,Tablet,Candle,1081.67,712.08,2012.0,24.0,0.852,SKU-CAN00823,Productivity Tablet,Quest,Graphite,SUP009,Australia,2012-04-21,GST_STANDARD,Protective case,True,True
+PRD0824,Vela Ridge 923,Home Entertainment,Vela,1637.86,863.28,2012.0,24.0,9.101,SKU-VEL00824,Smart Display,Ridge,Gold,SUP010,Malaysia,2012-02-12,GST_STANDARD,Box,True,True
+PRD0825,Candle Arc 924,Audio,Candle,289.25,177.98,2016.0,12.0,0.656,SKU-CAN00825,Wireless Audio,Shift,White,SUP011,Vietnam,2016-05-14,GST_STANDARD,Box,True,True
+PRD0826,Vela Echo 925,Smart Home,Vela,272.89,195.23,2014.0,12.0,0.341,SKU-VEL00826,Home Automation,Spark,Blue,SUP012,Australia,2014-05-16,GST_STANDARD,Protective case,False,True
+PRD0827,Candle Orbit 926,Gaming,Candle,2008.13,1356.56,2016.0,24.0,1.217,SKU-CAN00827,Gaming Hardware,Vista,Gold,SUP013,Korea,2016-07-03,GST_STANDARD,Box,False,True
+PRD0828,Vela Spark 927,Wearable,Vela,125.24,87.01,2013.0,12.0,0.137,SKU-VEL00828,Health Wearable,Wave,Red,SUP014,Australia,2013-05-02,GST_STANDARD,Recycled box,True,True
+PRD0829,Candle Bloom 928,Networking,Candle,385.82,239.95,2017.0,24.0,0.505,SKU-CAN00829,Connected Network,Arc,Green,SUP015,Korea,2017-03-17,GST_STANDARD,Box,True,True
+PRD0830,Vela Halo 929,Accessory,Vela,87.0,59.08,2015.0,12.0,0.13,SKU-VEL00830,Mobile Accessory,Atlas,Red,SUP016,Vietnam,2015-03-08,GST_STANDARD,Protective case,False,True
+PRD0831,Candle Quest 930,Laptop,Candle,1201.57,586.69,2014.0,24.0,1.308,SKU-CAN00831,Ultrabook,Bloom,Silver,SUP017,Vietnam,2014-02-14,GST_STANDARD,Box,True,True
+PRD0832,Vela Wave 931,Smartphone,Vela,646.88,431.69,2014.0,24.0,0.161,SKU-VEL00832,5G Smartphone,Core,Graphite,SUP018,Australia,2014-11-06,GST_STANDARD,Protective case,False,True
+PRD0833,Candle Edge 932,Tablet,Candle,1413.97,1074.52,2015.0,24.0,0.67,SKU-CAN00833,Productivity Tablet,Edge,Gold,SUP019,Australia,2015-09-21,GST_STANDARD,Box,False,True
+PRD0834,Vela Nova 933,Home Entertainment,Vela,2476.82,1550.16,2013.0,24.0,9.25,SKU-VEL00834,Smart Display,Echo,Black,SUP020,Japan,2013-03-14,GST_STANDARD,Box,True,True
+PRD0835,Candle Shift 934,Audio,Candle,427.39,284.53,2015.0,12.0,0.576,SKU-CAN00835,Wireless Audio,Flux,Blue,SUP021,Japan,2015-01-18,GST_STANDARD,Recycled box,False,True
+PRD0836,Vela Atlas 935,Smart Home,Vela,726.47,366.08,2012.0,12.0,0.437,SKU-VEL00836,Home Automation,Halo,Red,SUP022,Japan,2012-09-08,GST_STANDARD,Protective case,True,False
+PRD0837,Candle Flux 936,Gaming,Candle,333.32,197.96,2017.0,24.0,1.225,SKU-CAN00837,Gaming Hardware,Lumen,Red,SUP023,Japan,2017-09-24,GST_STANDARD,Box,False,True
+PRD0838,Vela Pulse 937,Wearable,Vela,1007.36,570.22,2015.0,12.0,0.11,SKU-VEL00838,Health Wearable,Nova,Green,SUP024,Korea,2015-10-02,GST_STANDARD,Recycled box,True,True
+PRD0839,Candle Vista 938,Networking,Candle,706.25,390.87,2013.0,24.0,0.727,SKU-CAN00839,Connected Network,Orbit,Graphite,SUP025,Australia,2013-07-10,GST_STANDARD,Box,True,False
+PRD0840,Vela Core 939,Accessory,Vela,148.97,85.42,2013.0,12.0,0.21,SKU-VEL00840,Mobile Accessory,Pulse,Silver,SUP026,Japan,2013-08-02,GST_STANDARD,Box,True,True
+PRD0841,Candle Lumen 940,Laptop,Candle,2181.2,1520.53,2014.0,24.0,2.063,SKU-CAN00841,Ultrabook,Quest,Graphite,SUP027,Vietnam,2014-11-06,GST_STANDARD,Box,False,True
+PRD0842,Vela Ridge 941,Smartphone,Vela,1682.83,864.43,2013.0,24.0,0.187,SKU-VEL00842,5G Smartphone,Ridge,Gold,SUP028,Vietnam,2013-11-17,GST_STANDARD,Recycled box,True,True
+PRD0843,Candle Arc 942,Tablet,Candle,1142.85,737.91,2015.0,24.0,0.661,SKU-CAN00843,Productivity Tablet,Shift,Silver,SUP029,Australia,2015-11-26,GST_STANDARD,Box,False,True
+PRD0844,Vela Echo 943,Home Entertainment,Vela,1996.67,1077.12,2013.0,24.0,6.337,SKU-VEL00844,Smart Display,Spark,Blue,SUP030,Australia,2013-01-09,GST_STANDARD,Box,True,True
+PRD0845,Candle Orbit 944,Audio,Candle,242.25,182.66,2015.0,12.0,0.543,SKU-CAN00845,Wireless Audio,Vista,Red,SUP031,Australia,2015-08-14,GST_STANDARD,Recycled box,True,True
+PRD0846,Vela Spark 945,Smart Home,Vela,808.25,447.97,2012.0,12.0,0.395,SKU-VEL00846,Home Automation,Wave,Black,SUP032,Japan,2012-11-23,GST_STANDARD,Protective case,False,True
+PRD0847,Candle Bloom 946,Gaming,Candle,940.4,677.33,2017.0,24.0,1.654,SKU-CAN00847,Gaming Hardware,Arc,Silver,SUP033,Korea,2017-01-21,GST_STANDARD,Box,False,True
+PRD0848,Vela Halo 947,Wearable,Vela,503.4,345.23,2015.0,12.0,0.098,SKU-VEL00848,Health Wearable,Atlas,Blue,SUP034,Korea,2015-03-13,GST_STANDARD,Recycled box,True,True
+PRD0849,Candle Quest 948,Networking,Candle,1011.98,661.22,2015.0,24.0,0.711,SKU-CAN00849,Connected Network,Bloom,Silver,SUP035,Australia,2015-05-11,GST_STANDARD,Recycled box,True,True
+PRD0850,Vela Wave 949,Accessory,Vela,308.86,170.94,2016.0,12.0,0.247,SKU-VEL00850,Mobile Accessory,Core,Green,SUP036,Korea,2016-02-10,GST_STANDARD,Box,True,True
+PRD0851,Candle Edge 950,Laptop,Candle,1384.1,853.28,2014.0,24.0,1.432,SKU-CAN00851,Ultrabook,Edge,Silver,SUP037,Vietnam,2014-08-23,GST_STANDARD,Recycled box,False,True
+PRD0852,Vela Nova 951,Smartphone,Vela,516.19,336.87,2013.0,24.0,0.191,SKU-VEL00852,5G Smartphone,Echo,Red,SUP001,China,2013-02-23,GST_STANDARD,Box,True,True
+PRD0853,Candle Shift 952,Tablet,Candle,1456.04,722.72,2013.0,24.0,0.626,SKU-CAN00853,Productivity Tablet,Flux,Red,SUP002,Australia,2013-01-22,GST_STANDARD,Recycled box,False,True
+PRD0854,Vela Atlas 953,Home Entertainment,Vela,386.3,252.14,2017.0,24.0,9.308,SKU-VEL00854,Smart Display,Halo,Silver,SUP003,Australia,2017-09-09,GST_STANDARD,Recycled box,False,True
+PRD0855,Candle Flux 954,Audio,Candle,1099.26,725.02,2017.0,12.0,0.484,SKU-CAN00855,Wireless Audio,Lumen,Green,SUP004,Malaysia,2017-02-01,GST_STANDARD,Box,False,True
+PRD0856,Vela Pulse 955,Smart Home,Vela,415.09,256.7,2013.0,12.0,0.28,SKU-VEL00856,Home Automation,Nova,Black,SUP005,Vietnam,2013-06-16,GST_STANDARD,Protective case,False,True
+PRD0857,Candle Vista 956,Gaming,Candle,371.03,272.55,2012.0,24.0,0.881,SKU-CAN00857,Gaming Hardware,Orbit,Gold,SUP006,Japan,2012-06-07,GST_STANDARD,Protective case,False,True
+PRD0858,Vela Core 957,Wearable,Vela,251.31,148.33,2014.0,12.0,0.147,SKU-VEL00858,Health Wearable,Pulse,Silver,SUP007,Korea,2014-05-16,GST_STANDARD,Recycled box,False,True
+PRD0859,Candle Lumen 958,Networking,Candle,870.26,654.99,2014.0,24.0,0.54,SKU-CAN00859,Connected Network,Quest,Graphite,SUP008,Malaysia,2014-05-13,GST_STANDARD,Recycled box,False,True
+PRD0860,Vela Ridge 959,Accessory,Vela,148.71,98.42,2017.0,12.0,0.154,SKU-VEL00860,Mobile Accessory,Ridge,Red,SUP009,China,2017-06-26,GST_STANDARD,Box,True,True
+PRD0861,Candle Arc 960,Laptop,Candle,2320.68,1731.91,2016.0,24.0,1.719,SKU-CAN00861,Ultrabook,Shift,Blue,SUP010,Japan,2016-02-23,GST_STANDARD,Recycled box,True,True
+PRD0862,Vela Echo 961,Smartphone,Vela,1387.19,910.05,2017.0,24.0,0.191,SKU-VEL00862,5G Smartphone,Spark,White,SUP011,Japan,2017-02-01,GST_STANDARD,Protective case,True,True
+PRD0863,Candle Orbit 962,Tablet,Candle,1009.18,754.23,2014.0,24.0,0.451,SKU-CAN00863,Productivity Tablet,Vista,Red,SUP012,China,2014-09-02,GST_STANDARD,Recycled box,False,True
+PRD0864,Vela Spark 963,Home Entertainment,Vela,2617.37,1449.09,2013.0,24.0,6.553,SKU-VEL00864,Smart Display,Wave,Gold,SUP013,Japan,2013-09-10,GST_STANDARD,Box,True,True
+PRD0865,Candle Bloom 964,Audio,Candle,558.87,368.5,2013.0,12.0,0.58,SKU-CAN00865,Wireless Audio,Arc,Red,SUP014,Korea,2013-11-27,GST_STANDARD,Protective case,True,True
+PRD0866,Vela Halo 965,Smart Home,Vela,328.46,188.63,2017.0,12.0,0.437,SKU-VEL00866,Home Automation,Atlas,Silver,SUP015,China,2017-06-23,GST_STANDARD,Recycled box,True,True
+PRD0867,Candle Quest 966,Gaming,Candle,2280.38,1249.2,2013.0,24.0,1.411,SKU-CAN00867,Gaming Hardware,Bloom,Blue,SUP016,Malaysia,2013-01-14,GST_STANDARD,Protective case,False,True
+PRD0868,Vela Wave 967,Wearable,Vela,869.51,433.76,2015.0,12.0,0.138,SKU-VEL00868,Health Wearable,Core,Blue,SUP017,China,2015-06-10,GST_STANDARD,Protective case,False,True
+PRD0869,Candle Edge 968,Networking,Candle,1409.61,763.45,2017.0,24.0,0.886,SKU-CAN00869,Connected Network,Edge,Green,SUP018,Vietnam,2017-02-21,GST_STANDARD,Recycled box,True,True
+PRD0870,Vela Nova 969,Accessory,Vela,285.87,174.83,2013.0,12.0,0.15,SKU-VEL00870,Mobile Accessory,Echo,Green,SUP019,Vietnam,2013-05-06,GST_STANDARD,Protective case,True,True
+PRD0871,Candle Shift 970,Laptop,Candle,2970.68,1819.08,2015.0,24.0,1.091,SKU-CAN00871,Ultrabook,Flux,Graphite,SUP020,Australia,2015-12-21,GST_STANDARD,Recycled box,False,True
+PRD0872,Vela Atlas 971,Smartphone,Vela,1715.8,882.72,2017.0,24.0,0.215,SKU-VEL00872,5G Smartphone,Halo,Silver,SUP021,Australia,2017-06-01,GST_STANDARD,Box,True,False
+PRD0873,Candle Flux 972,Tablet,Candle,1287.46,871.12,2013.0,24.0,0.732,SKU-CAN00873,Productivity Tablet,Lumen,Silver,SUP022,Malaysia,2013-09-23,GST_STANDARD,Recycled box,True,True
+PRD0874,Vela Pulse 973,Home Entertainment,Vela,2267.23,1254.19,2013.0,24.0,8.109,SKU-VEL00874,Smart Display,Nova,White,SUP023,Japan,2013-12-22,GST_STANDARD,Recycled box,True,True
+PRD0875,Candle Vista 974,Audio,Candle,916.11,560.26,2014.0,12.0,0.527,SKU-CAN00875,Wireless Audio,Orbit,Graphite,SUP024,Korea,2014-11-20,GST_STANDARD,Protective case,True,True
+PRD0876,Vela Core 975,Smart Home,Vela,786.05,433.82,2017.0,12.0,0.334,SKU-VEL00876,Home Automation,Pulse,Black,SUP025,Australia,2017-03-26,GST_STANDARD,Recycled box,False,True
+PRD0877,Candle Lumen 976,Gaming,Candle,1300.22,912.71,2014.0,24.0,1.183,SKU-CAN00877,Gaming Hardware,Quest,Gold,SUP026,Australia,2014-09-22,GST_STANDARD,Recycled box,True,True
+PRD0878,Vela Ridge 977,Wearable,Vela,919.03,516.33,2016.0,12.0,0.096,SKU-VEL00878,Health Wearable,Ridge,Gold,SUP027,Korea,2016-01-17,GST_STANDARD,Recycled box,True,True
+PRD0879,Candle Arc 978,Networking,Candle,746.36,557.01,2013.0,24.0,0.653,SKU-CAN00879,Connected Network,Shift,Silver,SUP028,China,2013-09-22,GST_STANDARD,Box,True,True
+PRD0880,Vela Echo 979,Accessory,Vela,263.31,174.19,2016.0,12.0,0.233,SKU-VEL00880,Mobile Accessory,Spark,Graphite,SUP029,Malaysia,2016-10-03,GST_STANDARD,Recycled box,True,True
+PRD0881,Candle Orbit 980,Laptop,Candle,1292.47,865.2,2012.0,24.0,1.894,SKU-CAN00881,Ultrabook,Vista,Blue,SUP030,Australia,2012-12-25,GST_STANDARD,Recycled box,True,True
+PRD0882,Vela Spark 981,Smartphone,Vela,366.62,266.76,2017.0,24.0,0.202,SKU-VEL00882,5G Smartphone,Wave,Gold,SUP031,Malaysia,2017-08-27,GST_STANDARD,Recycled box,True,True
+PRD0883,Candle Bloom 982,Tablet,Candle,1065.61,671.64,2017.0,24.0,0.665,SKU-CAN00883,Productivity Tablet,Arc,Graphite,SUP032,Japan,2017-05-23,GST_STANDARD,Recycled box,False,True
+PRD0884,Vela Halo 983,Home Entertainment,Vela,586.48,421.11,2017.0,24.0,9.354,SKU-VEL00884,Smart Display,Atlas,Black,SUP033,China,2017-11-01,GST_STANDARD,Protective case,True,True
+PRD0885,Candle Quest 984,Audio,Candle,510.35,307.71,2015.0,12.0,0.661,SKU-CAN00885,Wireless Audio,Bloom,Gold,SUP034,Australia,2015-06-21,GST_STANDARD,Box,True,True
+PRD0886,Vela Wave 985,Smart Home,Vela,688.19,354.93,2016.0,12.0,0.48,SKU-VEL00886,Home Automation,Core,White,SUP035,Malaysia,2016-02-17,GST_STANDARD,Recycled box,True,True
+PRD0887,Candle Edge 986,Gaming,Candle,111.87,84.42,2016.0,24.0,1.639,SKU-CAN00887,Gaming Hardware,Edge,Blue,SUP036,Australia,2016-05-15,GST_STANDARD,Box,False,True
+PRD0888,Vela Nova 987,Wearable,Vela,183.72,116.28,2014.0,12.0,0.12,SKU-VEL00888,Health Wearable,Echo,Gold,SUP037,Japan,2014-03-17,GST_STANDARD,Protective case,True,True
+PRD0889,Candle Shift 988,Networking,Candle,252.57,121.26,2013.0,24.0,0.856,SKU-CAN00889,Connected Network,Flux,Graphite,SUP001,China,2013-05-04,GST_STANDARD,Box,False,True
+PRD0890,Vela Atlas 989,Accessory,Vela,273.8,147.31,2014.0,12.0,0.155,SKU-VEL00890,Mobile Accessory,Halo,Green,SUP002,Malaysia,2014-11-25,GST_STANDARD,Box,True,True
+PRD0891,Candle Flux 990,Laptop,Candle,1480.65,872.94,2015.0,24.0,1.291,SKU-CAN00891,Ultrabook,Lumen,Blue,SUP003,Malaysia,2015-08-11,GST_STANDARD,Box,True,True
+PRD0892,Vela Pulse 991,Smartphone,Vela,324.59,183.27,2015.0,24.0,0.256,SKU-VEL00892,5G Smartphone,Nova,Graphite,SUP004,Vietnam,2015-02-27,GST_STANDARD,Box,True,True
+PRD0893,Candle Vista 992,Tablet,Candle,434.15,233.35,2013.0,24.0,0.745,SKU-CAN00893,Productivity Tablet,Orbit,Graphite,SUP005,Vietnam,2013-11-14,GST_STANDARD,Box,True,True
+PRD0894,Vela Core 993,Home Entertainment,Vela,1604.45,1188.41,2014.0,24.0,6.97,SKU-VEL00894,Smart Display,Pulse,Graphite,SUP006,Japan,2014-08-18,GST_STANDARD,Protective case,False,True
+PRD0895,Candle Lumen 994,Audio,Candle,862.99,621.38,2012.0,12.0,0.358,SKU-CAN00895,Wireless Audio,Quest,Green,SUP007,Vietnam,2012-09-24,GST_STANDARD,Protective case,True,True
+PRD0896,Vela Ridge 995,Smart Home,Vela,502.67,334.17,2017.0,12.0,0.296,SKU-VEL00896,Home Automation,Ridge,Blue,SUP008,Vietnam,2017-03-24,GST_STANDARD,Protective case,True,True
+PRD0897,Candle Arc 996,Gaming,Candle,2339.09,1195.76,2012.0,24.0,1.161,SKU-CAN00897,Gaming Hardware,Shift,Gold,SUP009,Vietnam,2012-08-23,GST_STANDARD,Recycled box,False,True
+PRD0898,Vela Echo 997,Wearable,Vela,236.36,124.29,2013.0,12.0,0.154,SKU-VEL00898,Health Wearable,Spark,Green,SUP010,Korea,2013-07-23,GST_STANDARD,Box,True,True
+PRD0899,Candle Orbit 998,Networking,Candle,1401.94,1006.92,2015.0,24.0,0.725,SKU-CAN00899,Connected Network,Vista,Silver,SUP011,Malaysia,2015-11-03,GST_STANDARD,Protective case,True,True
+PRD0900,Vela Spark 999,Accessory,Vela,274.2,172.25,2013.0,12.0,0.212,SKU-VEL00900,Mobile Accessory,Wave,Red,SUP012,Malaysia,2013-10-22,GST_STANDARD,Box,True,True
+PRD0901,Candle Bloom 1000,Laptop,Candle,1477.12,929.3,2016.0,24.0,1.723,SKU-CAN00901,Ultrabook,Arc,Graphite,SUP013,Korea,2016-05-21,GST_STANDARD,Recycled box,True,True
+PRD0902,Vela Halo 1001,Smartphone,Vela,678.89,418.42,2015.0,24.0,0.212,SKU-VEL00902,5G Smartphone,Atlas,Green,SUP014,Australia,2015-09-25,GST_STANDARD,Box,True,True
+PRD0903,Candle Quest 1002,Tablet,Candle,368.54,252.94,2012.0,24.0,0.71,SKU-CAN00903,Productivity Tablet,Bloom,Gold,SUP015,Malaysia,2012-06-20,GST_STANDARD,Recycled box,True,True
+PRD0904,Vela Wave 1003,Home Entertainment,Vela,673.64,341.82,2014.0,24.0,9.564,SKU-VEL00904,Smart Display,Core,Silver,SUP016,China,2014-04-02,GST_STANDARD,Protective case,True,True
+PRD0905,Candle Edge 1004,Audio,Candle,760.24,570.8,2014.0,12.0,0.509,SKU-CAN00905,Wireless Audio,Edge,Silver,SUP017,Malaysia,2014-06-24,GST_STANDARD,Protective case,True,True
+PRD0906,Vela Nova 1005,Smart Home,Vela,58.83,40.44,2017.0,12.0,0.282,SKU-VEL00906,Home Automation,Echo,Graphite,SUP018,China,2017-04-17,GST_STANDARD,Recycled box,True,True
+PRD0907,Candle Shift 1006,Gaming,Candle,1869.43,970.23,2015.0,24.0,1.375,SKU-CAN00907,Gaming Hardware,Flux,Green,SUP019,Japan,2015-06-20,GST_STANDARD,Protective case,False,True
+PRD0908,Vela Atlas 1007,Wearable,Vela,857.77,527.73,2013.0,12.0,0.137,SKU-VEL00908,Health Wearable,Halo,White,SUP020,Australia,2013-05-03,GST_STANDARD,Protective case,False,True
+PRD0909,Candle Flux 1008,Networking,Candle,1137.09,614.12,2015.0,24.0,0.642,SKU-CAN00909,Connected Network,Lumen,Black,SUP021,Korea,2015-05-25,GST_STANDARD,Protective case,True,True
+PRD0910,Vela Pulse 1009,Accessory,Vela,202.66,103.44,2015.0,12.0,0.201,SKU-VEL00910,Mobile Accessory,Nova,Graphite,SUP022,Australia,2015-11-15,GST_STANDARD,Protective case,True,True
+PRD0911,Candle Vista 1010,Laptop,Candle,1436.52,813.31,2012.0,24.0,1.235,SKU-CAN00911,Ultrabook,Orbit,Red,SUP023,Korea,2012-12-08,GST_STANDARD,Recycled box,True,True
+PRD0912,Vela Core 1011,Smartphone,Vela,1809.29,1368.55,2013.0,24.0,0.164,SKU-VEL00912,5G Smartphone,Pulse,White,SUP024,China,2013-06-20,GST_STANDARD,Protective case,True,True
+PRD0913,Candle Lumen 1012,Tablet,Candle,645.54,449.71,2016.0,24.0,0.483,SKU-CAN00913,Productivity Tablet,Quest,Graphite,SUP025,Korea,2016-06-17,GST_STANDARD,Recycled box,True,True
+PRD0914,Vela Ridge 1013,Home Entertainment,Vela,3839.74,2300.86,2012.0,24.0,8.189,SKU-VEL00914,Smart Display,Ridge,Silver,SUP026,Korea,2012-07-12,GST_STANDARD,Recycled box,True,False
+PRD0915,Candle Arc 1014,Audio,Candle,763.7,442.61,2012.0,12.0,0.602,SKU-CAN00915,Wireless Audio,Shift,Green,SUP027,Korea,2012-11-01,GST_STANDARD,Protective case,True,True
+PRD0916,Vela Echo 1015,Smart Home,Vela,265.34,179.4,2015.0,12.0,0.466,SKU-VEL00916,Home Automation,Spark,Silver,SUP028,Japan,2015-08-07,GST_STANDARD,Recycled box,False,True
+PRD0917,Candle Orbit 1016,Gaming,Candle,1550.77,1039.24,2015.0,24.0,1.153,SKU-CAN00917,Gaming Hardware,Vista,Silver,SUP029,Australia,2015-09-25,GST_STANDARD,Recycled box,False,True
+PRD0918,Vela Spark 1017,Wearable,Vela,342.99,190.13,2015.0,12.0,0.095,SKU-VEL00918,Health Wearable,Wave,Black,SUP030,Malaysia,2015-08-21,GST_STANDARD,Box,False,True
+PRD0919,Candle Bloom 1018,Networking,Candle,1151.13,557.89,2014.0,24.0,0.813,SKU-CAN00919,Connected Network,Arc,Green,SUP031,Korea,2014-02-18,GST_STANDARD,Protective case,False,True
+PRD0920,Vela Halo 1019,Accessory,Vela,129.86,94.84,2013.0,12.0,0.21,SKU-VEL00920,Mobile Accessory,Atlas,Silver,SUP032,China,2013-09-12,GST_STANDARD,Recycled box,False,True
+PRD0921,Candle Quest 1020,Laptop,Candle,1711.96,1173.97,2015.0,24.0,1.288,SKU-CAN00921,Ultrabook,Bloom,White,SUP033,Japan,2015-08-15,GST_STANDARD,Protective case,True,True
+PRD0922,Vela Wave 1021,Smartphone,Vela,1416.33,1061.42,2015.0,24.0,0.202,SKU-VEL00922,5G Smartphone,Core,Green,SUP034,Malaysia,2015-05-23,GST_STANDARD,Recycled box,False,True
+PRD0923,Candle Edge 1022,Tablet,Candle,283.84,169.41,2014.0,24.0,0.796,SKU-CAN00923,Productivity Tablet,Edge,Black,SUP035,Malaysia,2014-04-10,GST_STANDARD,Box,True,True
+PRD0924,Vela Nova 1023,Home Entertainment,Vela,1614.34,902.81,2012.0,24.0,7.526,SKU-VEL00924,Smart Display,Echo,Graphite,SUP036,Japan,2012-03-26,GST_STANDARD,Box,True,True
+PRD0925,Candle Shift 1024,Audio,Candle,976.66,524.5,2016.0,12.0,0.438,SKU-CAN00925,Wireless Audio,Flux,Silver,SUP037,Vietnam,2016-09-26,GST_STANDARD,Box,True,True
+PRD0926,Vela Atlas 1025,Smart Home,Vela,711.69,469.25,2017.0,12.0,0.413,SKU-VEL00926,Home Automation,Halo,Green,SUP001,Australia,2017-11-14,GST_STANDARD,Box,True,True
+PRD0927,Candle Flux 1026,Gaming,Candle,867.79,492.56,2014.0,24.0,0.937,SKU-CAN00927,Gaming Hardware,Lumen,Blue,SUP002,Malaysia,2014-04-12,GST_STANDARD,Box,True,True
+PRD0928,Vela Pulse 1027,Wearable,Vela,739.11,471.22,2012.0,12.0,0.13,SKU-VEL00928,Health Wearable,Nova,Graphite,SUP003,Vietnam,2012-07-06,GST_STANDARD,Recycled box,True,True
+PRD0929,Candle Vista 1028,Networking,Candle,1084.81,738.33,2015.0,24.0,0.59,SKU-CAN00929,Connected Network,Orbit,Gold,SUP004,Malaysia,2015-09-25,GST_STANDARD,Protective case,False,False
+PRD0930,Vela Core 1029,Accessory,Vela,371.97,196.36,2015.0,12.0,0.176,SKU-VEL00930,Mobile Accessory,Pulse,Green,SUP005,Japan,2015-12-10,GST_STANDARD,Recycled box,False,True
+PRD0931,Candle Lumen 1030,Laptop,Candle,2080.26,1241.83,2012.0,24.0,1.995,SKU-CAN00931,Ultrabook,Quest,Blue,SUP006,China,2012-10-06,GST_STANDARD,Recycled box,True,True
+PRD0932,Vela Ridge 1031,Smartphone,Vela,1316.49,928.81,2013.0,24.0,0.199,SKU-VEL00932,5G Smartphone,Ridge,Graphite,SUP007,Vietnam,2013-05-25,GST_STANDARD,Protective case,True,True
+PRD0933,Candle Arc 1032,Tablet,Candle,1263.06,741.51,2015.0,24.0,0.449,SKU-CAN00933,Productivity Tablet,Shift,Blue,SUP008,Australia,2015-04-22,GST_STANDARD,Protective case,True,True
+PRD0934,Vela Echo 1033,Home Entertainment,Vela,3943.07,2762.36,2017.0,24.0,7.38,SKU-VEL00934,Smart Display,Spark,White,SUP009,Australia,2017-08-05,GST_STANDARD,Box,True,True
+PRD0935,Candle Orbit 1034,Audio,Candle,249.9,158.65,2016.0,12.0,0.468,SKU-CAN00935,Wireless Audio,Vista,White,SUP010,China,2016-05-12,GST_STANDARD,Box,False,True
+PRD0936,Vela Spark 1035,Smart Home,Vela,808.97,420.91,2014.0,12.0,0.46,SKU-VEL00936,Home Automation,Wave,Gold,SUP011,Malaysia,2014-12-21,GST_STANDARD,Box,True,True
+PRD0937,Candle Bloom 1036,Gaming,Candle,983.99,482.4,2017.0,24.0,1.017,SKU-CAN00937,Gaming Hardware,Arc,Red,SUP012,Korea,2017-03-27,GST_STANDARD,Protective case,True,False
+PRD0938,Vela Halo 1037,Wearable,Vela,857.34,453.28,2013.0,12.0,0.1,SKU-VEL00938,Health Wearable,Atlas,Gold,SUP013,Korea,2013-05-09,GST_STANDARD,Box,True,True
+PRD0939,Candle Quest 1038,Networking,Candle,1091.13,707.7,2013.0,24.0,0.731,SKU-CAN00939,Connected Network,Bloom,Blue,SUP014,Japan,2013-09-25,GST_STANDARD,Box,True,True
+PRD0940,Vela Wave 1039,Accessory,Vela,139.21,94.39,2012.0,12.0,0.219,SKU-VEL00940,Mobile Accessory,Core,Blue,SUP015,Korea,2012-07-22,GST_STANDARD,Box,True,True
+PRD0941,Candle Edge 1040,Laptop,Candle,2905.2,1459.65,2014.0,24.0,1.746,SKU-CAN00941,Ultrabook,Edge,Black,SUP016,Malaysia,2014-10-23,GST_STANDARD,Recycled box,True,True
+PRD0942,Vela Nova 1041,Smartphone,Vela,646.79,479.15,2017.0,24.0,0.21,SKU-VEL00942,5G Smartphone,Echo,Green,SUP017,Japan,2017-02-04,GST_STANDARD,Recycled box,False,True
+PRD0943,Candle Shift 1042,Tablet,Candle,940.81,458.75,2013.0,24.0,0.537,SKU-CAN00943,Productivity Tablet,Flux,Black,SUP018,Japan,2013-04-05,GST_STANDARD,Box,False,True
+PRD0944,Vela Atlas 1043,Home Entertainment,Vela,2277.06,1110.54,2016.0,24.0,9.597,SKU-VEL00944,Smart Display,Halo,Blue,SUP019,Vietnam,2016-07-16,GST_STANDARD,Box,True,True
+PRD0945,Candle Flux 1044,Audio,Candle,888.88,528.16,2016.0,12.0,0.608,SKU-CAN00945,Wireless Audio,Lumen,Red,SUP020,China,2016-11-06,GST_STANDARD,Recycled box,True,True
+PRD0946,Vela Pulse 1045,Smart Home,Vela,553.66,351.35,2015.0,12.0,0.263,SKU-VEL00946,Home Automation,Nova,Red,SUP021,Malaysia,2015-05-03,GST_STANDARD,Protective case,True,False
+PRD0947,Candle Vista 1046,Gaming,Candle,1897.91,1361.13,2015.0,24.0,1.215,SKU-CAN00947,Gaming Hardware,Orbit,White,SUP022,Malaysia,2015-04-14,GST_STANDARD,Recycled box,True,True
+PRD0948,Vela Core 1047,Wearable,Vela,889.57,656.63,2012.0,12.0,0.128,SKU-VEL00948,Health Wearable,Pulse,White,SUP023,Vietnam,2012-04-24,GST_STANDARD,Protective case,True,True
+PRD0949,Candle Lumen 1048,Networking,Candle,221.57,147.02,2014.0,24.0,0.726,SKU-CAN00949,Connected Network,Quest,Graphite,SUP024,China,2014-08-11,GST_STANDARD,Recycled box,False,True
+PRD0950,Vela Ridge 1049,Accessory,Vela,321.18,236.71,2014.0,12.0,0.147,SKU-VEL00950,Mobile Accessory,Ridge,Green,SUP025,China,2014-10-03,GST_STANDARD,Recycled box,True,True
+PRD0951,Candle Arc 1050,Laptop,Candle,1234.66,614.06,2016.0,24.0,1.586,SKU-CAN00951,Ultrabook,Shift,Silver,SUP026,Australia,2016-08-17,GST_STANDARD,Box,True,True
+PRD0952,Vela Echo 1051,Smartphone,Vela,982.79,535.19,2016.0,24.0,0.256,SKU-VEL00952,5G Smartphone,Spark,Green,SUP027,Malaysia,2016-09-16,GST_STANDARD,Recycled box,True,True
+PRD0953,Candle Orbit 1052,Tablet,Candle,367.94,232.89,2015.0,24.0,0.573,SKU-CAN00953,Productivity Tablet,Vista,Silver,SUP028,Japan,2015-12-16,GST_STANDARD,Recycled box,True,True
+PRD0954,Vela Spark 1053,Home Entertainment,Vela,3030.23,2237.49,2015.0,24.0,9.538,SKU-VEL00954,Smart Display,Wave,Red,SUP029,Korea,2015-08-13,GST_STANDARD,Box,True,True
+PRD0955,Candle Bloom 1054,Audio,Candle,418.8,285.32,2015.0,12.0,0.609,SKU-CAN00955,Wireless Audio,Arc,Gold,SUP030,Australia,2015-06-04,GST_STANDARD,Protective case,True,True
+PRD0956,Vela Halo 1055,Smart Home,Vela,301.52,228.19,2013.0,12.0,0.34,SKU-VEL00956,Home Automation,Atlas,White,SUP031,Korea,2013-05-20,GST_STANDARD,Recycled box,True,True
+PRD0957,Candle Quest 1056,Gaming,Candle,2168.33,1533.18,2014.0,24.0,1.426,SKU-CAN00957,Gaming Hardware,Bloom,Blue,SUP032,China,2014-08-24,GST_STANDARD,Box,True,True
+PRD0958,Vela Wave 1057,Wearable,Vela,655.23,337.12,2012.0,12.0,0.14,SKU-VEL00958,Health Wearable,Core,Silver,SUP033,Japan,2012-09-16,GST_STANDARD,Box,True,True
+PRD0959,Candle Edge 1058,Networking,Candle,198.15,98.35,2013.0,24.0,0.695,SKU-CAN00959,Connected Network,Edge,Red,SUP034,China,2013-12-13,GST_STANDARD,Protective case,True,True
+PRD0960,Vela Nova 1059,Accessory,Vela,103.86,73.31,2016.0,12.0,0.165,SKU-VEL00960,Mobile Accessory,Echo,Silver,SUP035,Korea,2016-03-25,GST_STANDARD,Protective case,True,True
+PRD0961,Candle Shift 1060,Laptop,Candle,1724.67,937.46,2017.0,24.0,1.395,SKU-CAN00961,Ultrabook,Flux,Graphite,SUP036,Korea,2017-07-08,GST_STANDARD,Box,True,True
+PRD0962,Vela Atlas 1061,Smartphone,Vela,1519.3,1095.66,2017.0,24.0,0.173,SKU-VEL00962,5G Smartphone,Halo,Silver,SUP037,China,2017-09-14,GST_STANDARD,Box,True,True
+PRD0963,Candle Flux 1062,Tablet,Candle,488.16,323.7,2017.0,24.0,0.466,SKU-CAN00963,Productivity Tablet,Lumen,Red,SUP001,Korea,2017-05-22,GST_STANDARD,Recycled box,True,True
+PRD0964,Vela Pulse 1063,Home Entertainment,Vela,1397.93,984.17,2017.0,24.0,9.968,SKU-VEL00964,Smart Display,Nova,Black,SUP002,Malaysia,2017-05-21,GST_STANDARD,Box,False,True
+PRD0965,Candle Vista 1064,Audio,Candle,271.51,162.67,2012.0,12.0,0.586,SKU-CAN00965,Wireless Audio,Orbit,Green,SUP003,Japan,2012-10-15,GST_STANDARD,Box,True,True
+PRD0966,Vela Core 1065,Smart Home,Vela,340.4,237.75,2016.0,12.0,0.404,SKU-VEL00966,Home Automation,Pulse,Silver,SUP004,China,2016-05-10,GST_STANDARD,Box,True,True
+PRD0967,Candle Lumen 1066,Gaming,Candle,571.48,282.73,2012.0,24.0,1.415,SKU-CAN00967,Gaming Hardware,Quest,Gold,SUP005,China,2012-08-13,GST_STANDARD,Recycled box,False,True
+PRD0968,Vela Ridge 1067,Wearable,Vela,607.18,378.99,2014.0,12.0,0.095,SKU-VEL00968,Health Wearable,Ridge,Black,SUP006,Korea,2014-10-02,GST_STANDARD,Recycled box,True,True
+PRD0969,Candle Arc 1068,Networking,Candle,1459.43,862.87,2016.0,24.0,0.888,SKU-CAN00969,Connected Network,Shift,White,SUP007,Australia,2016-02-10,GST_STANDARD,Box,True,True
+PRD0970,Vela Echo 1069,Accessory,Vela,71.64,41.18,2014.0,12.0,0.143,SKU-VEL00970,Mobile Accessory,Spark,Red,SUP008,Japan,2014-01-08,GST_STANDARD,Recycled box,False,True
+PRD0971,Candle Orbit 1070,Laptop,Candle,1416.11,698.59,2017.0,24.0,1.575,SKU-CAN00971,Ultrabook,Vista,Red,SUP009,Vietnam,2017-05-26,GST_STANDARD,Box,True,True
+PRD0972,Vela Spark 1071,Smartphone,Vela,903.07,470.15,2013.0,24.0,0.283,SKU-VEL00972,5G Smartphone,Wave,White,SUP010,China,2013-04-04,GST_STANDARD,Box,False,True
+PRD0973,Candle Bloom 1072,Tablet,Candle,1395.47,885.8,2015.0,24.0,0.84,SKU-CAN00973,Productivity Tablet,Arc,Red,SUP011,Malaysia,2015-03-16,GST_STANDARD,Recycled box,True,True
+PRD0974,Vela Halo 1073,Home Entertainment,Vela,2468.26,1817.42,2016.0,24.0,5.357,SKU-VEL00974,Smart Display,Atlas,Black,SUP012,Australia,2016-03-10,GST_STANDARD,Recycled box,False,True
+PRD0975,Candle Quest 1074,Audio,Candle,977.14,507.4,2012.0,12.0,0.642,SKU-CAN00975,Wireless Audio,Bloom,Green,SUP013,Vietnam,2012-05-10,GST_STANDARD,Protective case,True,True
+PRD0976,Vela Wave 1075,Smart Home,Vela,348.6,234.31,2014.0,12.0,0.324,SKU-VEL00976,Home Automation,Core,Gold,SUP014,Australia,2014-07-09,GST_STANDARD,Box,False,True
+PRD0977,Candle Edge 1076,Gaming,Candle,352.01,171.07,2012.0,24.0,1.626,SKU-CAN00977,Gaming Hardware,Edge,Gold,SUP015,Malaysia,2012-06-22,GST_STANDARD,Protective case,True,False
+PRD0978,Vela Nova 1077,Wearable,Vela,710.35,388.27,2014.0,12.0,0.136,SKU-VEL00978,Health Wearable,Echo,White,SUP016,Australia,2014-01-17,GST_STANDARD,Box,True,True
+PRD0979,Candle Shift 1078,Networking,Candle,1102.97,688.29,2013.0,24.0,0.739,SKU-CAN00979,Connected Network,Flux,Red,SUP017,Malaysia,2013-05-10,GST_STANDARD,Protective case,False,True
+PRD0980,Vela Atlas 1079,Accessory,Vela,334.19,204.53,2017.0,12.0,0.206,SKU-VEL00980,Mobile Accessory,Halo,Silver,SUP018,Malaysia,2017-07-17,GST_STANDARD,Recycled box,True,True
+PRD0981,Candle Flux 1080,Laptop,Candle,2272.24,1355.93,2015.0,24.0,1.28,SKU-CAN00981,Ultrabook,Lumen,Red,SUP019,Malaysia,2015-07-07,GST_STANDARD,Box,False,True
+PRD0982,Vela Pulse 1081,Smartphone,Vela,921.88,453.06,2017.0,24.0,0.249,SKU-VEL00982,5G Smartphone,Nova,Silver,SUP020,Korea,2017-10-03,GST_STANDARD,Box,True,True
+PRD0983,Candle Vista 1082,Tablet,Candle,493.01,338.11,2014.0,24.0,0.503,SKU-CAN00983,Productivity Tablet,Orbit,Black,SUP021,Malaysia,2014-07-05,GST_STANDARD,Box,True,True
+PRD0984,Vela Core 1083,Home Entertainment,Vela,759.8,560.26,2016.0,24.0,7.967,SKU-VEL00984,Smart Display,Pulse,Blue,SUP022,Vietnam,2016-05-10,GST_STANDARD,Recycled box,True,True
+PRD0985,Candle Lumen 1084,Audio,Candle,750.86,409.85,2016.0,12.0,0.645,SKU-CAN00985,Wireless Audio,Quest,Green,SUP023,Australia,2016-10-13,GST_STANDARD,Protective case,True,True
+PRD0986,Vela Ridge 1085,Smart Home,Vela,748.03,520.78,2015.0,12.0,0.396,SKU-VEL00986,Home Automation,Ridge,Silver,SUP024,Malaysia,2015-03-21,GST_STANDARD,Recycled box,True,True
+PRD0987,Candle Arc 1086,Gaming,Candle,925.55,573.23,2014.0,24.0,1.575,SKU-CAN00987,Gaming Hardware,Shift,Gold,SUP025,Australia,2014-05-26,GST_STANDARD,Recycled box,True,True
+PRD0988,Vela Echo 1087,Wearable,Vela,470.37,281.6,2016.0,12.0,0.112,SKU-VEL00988,Health Wearable,Spark,Gold,SUP026,Malaysia,2016-11-04,GST_STANDARD,Recycled box,True,True
+PRD0989,Candle Orbit 1088,Networking,Candle,961.78,481.35,2014.0,24.0,0.85,SKU-CAN00989,Connected Network,Vista,Green,SUP027,Japan,2014-05-04,GST_STANDARD,Protective case,True,True
+PRD0990,Vela Spark 1089,Accessory,Vela,373.23,228.79,2017.0,12.0,0.199,SKU-VEL00990,Mobile Accessory,Wave,Red,SUP028,Malaysia,2017-09-20,GST_STANDARD,Box,False,True
+PRD0991,Candle Bloom 1090,Laptop,Candle,1637.29,847.52,2015.0,24.0,1.286,SKU-CAN00991,Ultrabook,Arc,Black,SUP029,Malaysia,2015-05-16,GST_STANDARD,Box,False,True
+PRD0992,Vela Halo 1091,Smartphone,Vela,1778.47,889.39,2012.0,24.0,0.201,SKU-VEL00992,5G Smartphone,Atlas,Green,SUP030,China,2012-05-06,GST_STANDARD,Protective case,True,True
+PRD0993,Candle Quest 1092,Tablet,Candle,489.97,277.74,2013.0,24.0,0.799,SKU-CAN00993,Productivity Tablet,Bloom,Gold,SUP031,China,2013-01-22,GST_STANDARD,Protective case,True,True
+PRD0994,Vela Wave 1093,Home Entertainment,Vela,1974.93,1218.14,2016.0,24.0,8.095,SKU-VEL00994,Smart Display,Core,Gold,SUP032,Vietnam,2016-01-24,GST_STANDARD,Protective case,False,True
+PRD0995,Candle Edge 1094,Audio,Candle,855.97,505.7,2014.0,12.0,0.426,SKU-CAN00995,Wireless Audio,Edge,Gold,SUP033,China,2014-01-20,GST_STANDARD,Box,True,True
+PRD0996,Vela Nova 1095,Smart Home,Vela,654.73,460.94,2013.0,12.0,0.455,SKU-VEL00996,Home Automation,Echo,Green,SUP034,Vietnam,2013-04-18,GST_STANDARD,Box,True,True
+PRD0997,Candle Shift 1096,Gaming,Candle,995.85,710.3,2017.0,24.0,1.101,SKU-CAN00997,Gaming Hardware,Flux,Gold,SUP035,Korea,2017-06-27,GST_STANDARD,Box,True,True
+PRD0998,Vela Atlas 1097,Wearable,Vela,546.63,282.44,2015.0,12.0,0.092,SKU-VEL00998,Health Wearable,Halo,Black,SUP036,Malaysia,2015-06-26,GST_STANDARD,Box,True,True
+PRD0999,Candle Flux 1098,Networking,Candle,464.57,303.24,2013.0,24.0,0.641,SKU-CAN00999,Connected Network,Lumen,Gold,SUP037,Korea,2013-02-25,GST_STANDARD,Box,True,True
+PRD1000,Vela Pulse 1099,Accessory,Vela,364.05,272.78,2012.0,12.0,0.193,SKU-VEL01000,Mobile Accessory,Nova,Blue,SUP001,Australia,2012-07-21,GST_STANDARD,Box,True,True
