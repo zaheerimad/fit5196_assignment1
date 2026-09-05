@@ -1,19 +1,19 @@
-# Exported from Group018_solution.ipynb
-# This file reflects the executed Task 1 and Task 2 notebook.
+#!/usr/bin/env python
+# coding: utf-8
 
-# %% [markdown]
 # # FIT5196 Assessment 1 -
-#
+# 
 # **Group:** Group018  
 # **Members:** 
 
-# %% [markdown]
 # ## 0. Configuration and reproducibility
-#
+# 
 # All paths are kept in one place so that the notebook can be run on another computer without editing code throughout the notebook. Relative paths are used, and no network service is used.
-#
+# 
 
-# %%
+# In[1]:
+
+
 from pathlib import Path
 
 # Group name and folders
@@ -30,10 +30,12 @@ print(f"Analysing {GROUP_ID}.")
 print(f"Reading raw files from: {INPUT_DIR}")
 print(f"Using templates from: {TEMPLATE_DIR}")
 
-# %% [markdown]
+
 # ### 0.1 Environment and dependencies
 
-# %%
+# In[2]:
+
+
 # Standard-library imports for files, hashing, dates, counters and XML parsing.
 import hashlib
 import json
@@ -58,13 +60,15 @@ except ImportError:
 print(f"Python version: {platform.python_version()}")
 print(f"pandas version: {pd.__version__}")
 
-# %% [markdown]
-# ### 0.2 Package identity and integrity
-#
-# The manifest is inspected before the data is read. This is done because the assessment is group-specific, and every later result would be invalidated if another group's files were used.
-#
 
-# %%
+# ### 0.2 Package identity and integrity
+# 
+# The manifest is inspected before the data is read. This is done because the assessment is group-specific, and every later result would be invalidated if another group's files were used.
+# 
+
+# In[3]:
+
+
 # Define every supplied file from the configuration above.
 MANIFEST_PATH = DATA_DIR / "A1_manifest.json"
 README_PATH = DATA_DIR / "README.md"
@@ -126,23 +130,23 @@ print(f"Files passing size and SHA-256 checks: {passed_files} of {len(integrity_
 if passed_files != len(integrity_checks):
     raise ValueError("At least one supplied file does not match the manifest.")
 
-# %% [markdown]
+
 # **Observation and decision:** Four files were listed in the manifest. All four files matched their recorded byte sizes and SHA-256 hashes. Therefore, the supplied files were treated as unchanged.
-#
+# 
 
-# %% [markdown]
 # ## 1. Parse and profile the two sources
-#
+# 
 # Structure, grain, keys, formats, missing values, and overlap are inspected first. This is done before transformation so that evidence is available for the mapping and source problems are not hidden by cleaning decisions.
-#
+# 
 
-# %% [markdown]
 # ### 1.1 JSON structure and profile
-#
+# 
 # The commerce file is parsed with `json.load` because a structured JSON parser is required by the specification.
-#
+# 
 
-# %%
+# In[4]:
+
+
 # Parse the complete commerce export as JSON.
 with JSON_PATH.open("r", encoding="utf-8") as file:
     commerce_data = json.load(file)
@@ -152,11 +156,13 @@ print("JSON root type:", type(commerce_data).__name__)
 print("JSON top-level keys:", list(commerce_data.keys()))
 display(pd.DataFrame([commerce_data["exportMetadata"]]))
 
-# %% [markdown]
-# **Observation and decision:** The JSON root is a dictionary with four top-level keys: `exportMetadata`, `orderHeaders`, `productCatalog`, and `productReviews`. The source is identified by the metadata as `CommercePlatform` for Group018 and period 2018. Therefore, the three repeated lists are treated as separate source collections rather than one flat table.
-#
 
-# %%
+# **Observation and decision:** The JSON root is a dictionary with four top-level keys: `exportMetadata`, `orderHeaders`, `productCatalog`, and `productReviews`. The source is identified by the metadata as `CommercePlatform` for Group018 and period 2018. Therefore, the three repeated lists are treated as separate source collections rather than one flat table.
+# 
+
+# In[5]:
+
+
 # Count each repeated JSON collection without assuming an expected total.
 json_collection_rows = []
 
@@ -181,17 +187,18 @@ for row in json_collections.itertuples(index=False):
 
 display(json_collections)
 
-# %% [markdown]
+
 # **Observation and decision:** The calculated counts show 1,100 order headers, 1,000 products, and 7,000 reviews. It was observed that `orderHeaders` contains one raw JSON order header per list element, `productCatalog` contains one raw product per element, and `productReviews` contains one raw review per element. Therefore, each collection is profiled at its own grain.
-#
+# 
 
-# %% [markdown]
 # #### 1.1.1 JSON nesting and example fields
-#
+# 
 # Field names and small examples are inspected instead of complete records being printed. This is done because review text is long and the structure can be audited more easily in a compact view.
-#
+# 
 
-# %%
+# In[6]:
+
+
 # Keep clear names for the three JSON record collections.
 json_orders = commerce_data["orderHeaders"]
 json_products = commerce_data["productCatalog"]
@@ -232,17 +239,18 @@ json_examples = pd.DataFrame(
 )
 display(json_examples)
 
-# %% [markdown]
+
 # **Observation and decision:** It was observed that `orderID`, `productID`, and `reviewID` are present in their respective example records and are possible candidate keys.
-#
+# 
 
-# %% [markdown]
 # #### 1.1.2 JSON field profile
-#
+# 
 # Missing values, Python types, and unique values are counted for every field. Both `None` and an empty string are treated as source-level missing representations. They are kept separate from the required literal `NaN` output rule, which belongs to later transformation work.
-#
+# 
 
-# %%
+# In[7]:
+
+
 def profile_dictionary_records(records):
     """Create a simple field profile for a list of dictionary records.
 
@@ -286,7 +294,10 @@ def profile_dictionary_records(records):
 
     return pd.DataFrame(profile_rows)
 
-# %%
+
+# In[8]:
+
+
 # Profile each JSON collection separately so its grain remains clear.
 json_order_profile = profile_dictionary_records(json_orders)
 json_product_profile = profile_dictionary_records(json_products)
@@ -306,17 +317,18 @@ display(json_product_profile)
 print("JSON review profile")
 display(json_review_profile)
 
-# %% [markdown]
+
 # **Observation and decision:** The field profiles show that JSON order headers have 688 empty `couponCode` values, while the profiled product and review fields have no empty or `None` values. Native JSON numeric and boolean types were also observed. Therefore, empty coupon values are kept visible during profiling, and the prescribed output `NaN` treatment is deferred to transformation.
-#
+# 
 
-# %% [markdown]
 # ### 1.2 XML structure and profile
-#
+# 
 # The operations file is parsed with `ElementTree.parse`. Repeated elements are inspected without using regular expressions to rebuild the XML hierarchy.
-#
+# 
 
-# %%
+# In[9]:
+
+
 # Parse the XML document and keep its root element.
 xml_tree = ET.parse(XML_PATH)
 xml_root = xml_tree.getroot()
@@ -325,11 +337,13 @@ print("XML root tag:", xml_root.tag)
 print("XML root attributes:", xml_root.attrib)
 print("XML root child tags:", [child.tag for child in xml_root])
 
-# %% [markdown]
-# **Observation and decision:** The root tag `OperationsExport` with Group018, `OperationsERP`, and period 2018 attributes. Its major child sections are metadata, customers, orders, product reviews, and the warehouse directory. 
-#
 
-# %%
+# **Observation and decision:** The root tag `OperationsExport` with Group018, `OperationsERP`, and period 2018 attributes. Its major child sections are metadata, customers, orders, product reviews, and the warehouse directory. 
+# 
+
+# In[10]:
+
+
 # Select the major repeated XML entity elements using structural paths.
 xml_customer_elements = xml_root.findall("./Customers/Customer")
 xml_order_elements = xml_root.findall("./Orders/Order")
@@ -369,17 +383,18 @@ for row in xml_collection_summary.itertuples(index=False):
 
 display(xml_collection_summary)
 
-# %% [markdown]
+
 # **Observation and decision:** The calculated XML counts show 500 customers, 5,000 order headers, 15,618 order items, 5,000 deliveries, 1,260 reviews, and 3 warehouse records. It was observed that there is one raw XML customer per `Customer`, one raw order header per `Header`, one item per repeated `Item`, one delivery per `Delivery`, and one review per `Review`. Therefore, these are kept as separate source grains.
-#
+# 
 
-# %% [markdown]
 # #### 1.2.1 XML nesting and repeated elements
-#
+# 
 # The children of one XML order are inspected, and the numbers of item and delivery elements in each order are calculated. The grain decision is explained after the calculated output.
-#
+# 
 
-# %%
+# In[11]:
+
+
 # Inspect the structure of one order without changing it.
 first_xml_order = xml_order_elements[0]
 
@@ -415,17 +430,18 @@ print(f"Items per order range: {min(item_counts_per_order)} to {max(item_counts_
 print(f"Deliveries per order range: {min(delivery_counts_per_order)} to {max(delivery_counts_per_order)}")
 display(xml_repetition_summary)
 
-# %% [markdown]
+
 # **Observation and decision:** The calculated range shows between 1 and 5 cart items per order and exactly 1 delivery per order in this source. It was also observed that each order contains separate `Header`, `Shopping_Cart`, and `Delivery` children. Therefore, an order is not flattened into one wide row, and the one-to-many item relationship is retained.
-#
+# 
 
-# %% [markdown]
 # #### 1.2.2 Convert XML elements into profiling dictionaries
-#
+# 
 # Only direct child elements are converted into small dictionaries after structured parsing. This keeps field profiling readable while preserving the parent-child paths found in the XML.
-#
+# 
 
-# %%
+# In[12]:
+
+
 def direct_children_to_dictionary(element):
     """Convert one XML element's direct children into a simple dictionary.
 
@@ -456,7 +472,10 @@ xml_deliveries = [direct_children_to_dictionary(element) for element in xml_deli
 xml_reviews = [direct_children_to_dictionary(element) for element in xml_review_elements]
 xml_warehouses = [direct_children_to_dictionary(element) for element in xml_warehouse_elements]
 
-# %%
+
+# In[13]:
+
+
 # Profile each XML entity collection at its own grain.
 xml_customer_profile = profile_dictionary_records(xml_customers)
 xml_header_profile = profile_dictionary_records(xml_headers)
@@ -486,16 +505,17 @@ display(xml_delivery_profile)
 print("XML review profile")
 display(xml_review_profile)
 
-# %% [markdown]
+
 # **Observation and decision:** The XML field profiles show 3,155 empty `Coupon_Code` values in the order headers. The profiled customer, item, delivery, and review fields have no empty text values. 
 
-# %% [markdown]
 # ### 1.3 Source formats and missing-value conventions
-#
+# 
 # Representative raw values are printed before normalisation. The following markdown observation is used to explain what these calculated examples mean for later transformations.
-#
+# 
 
-# %%
+# In[14]:
+
+
 # Place equivalent JSON and XML values side by side.
 format_examples = pd.DataFrame(
     [
@@ -509,17 +529,18 @@ format_examples = pd.DataFrame(
 
 display(format_examples)
 
-# %% [markdown]
+
 # **Observation and decision:** ISO-style JSON timestamps and day-first XML timestamps, native JSON booleans and XML `Y`/`N`, numeric JSON money and XML `AUD` strings with separators, and numeric JSON discounts versus XML percent strings were observed. Therefore, separate and explicit normalisation rules are used before cross-source comparison.
-#
+# 
 
-# %% [markdown]
 # ### 1.4 Candidate primary keys
-#
+# 
 # Completeness and uniqueness are calculated for each candidate key. 
-#
+# 
 
-# %%
+# In[15]:
+
+
 def check_candidate_key(source_name, records, key_field):
     """Measure whether a candidate key is complete and unique.
 
@@ -578,17 +599,18 @@ display(candidate_key_checks)
 print("Total missing candidate keys:", int(candidate_key_checks["missing_key_count"].sum()))
 print("Total duplicate candidate-key groups:", int(candidate_key_checks["duplicate_key_count"].sum()))
 
-# %% [markdown]
+
 # **Observation and decision:** The calculated key checks show zero missing values and zero duplicate groups for all eight candidate source keys. Their unique non-missing counts equal their row counts. Therefore, they are accepted as candidate primary keys for mapping and relationship checks, while retaining executable duplicate checks for reproducibility.
-#
+# 
 
-# %% [markdown]
 # ### 1.5 Candidate foreign-key relationships
-#
+# 
 # The existence of child identifiers in their expected parent collections is checked. The broader source is used for overlapping entities so that false orphan results are not created by source-coverage differences.
-#
+# 
 
-# %%
+# In[16]:
+
+
 # Create parent-key sets once so each relationship check is easy to read.
 xml_order_ids = {record["Order_ID"] for record in xml_headers}
 xml_customer_ids = {record["Customer_ID"] for record in xml_customers}
@@ -649,17 +671,18 @@ display(foreign_key_checks)
 print("Total missing child keys:", int(foreign_key_checks["missing_child_keys"].sum()))
 print("Total distinct orphan keys across checks:", int(foreign_key_checks["distinct_orphan_keys"].sum()))
 
-# %% [markdown]
+
 # **Observation and decision:** The calculated relationship checks show zero missing child keys and zero orphan keys for all eight required relationships. Therefore, the source records support the proposed relational links at the observed grains.
-#
+# 
 
-# %% [markdown]
 # ### 1.6 Within-source duplicates
-#
+# 
 # The candidate-key results are reused to report duplicate key groups within each source collection. These values are calculated rather than obtained from a hard-coded identifier list.
-#
+# 
 
-# %%
+# In[17]:
+
+
 # Keep only the columns needed to understand within-source duplication.
 within_source_duplicates = candidate_key_checks[
     ["source_collection", "candidate_key", "row_count", "duplicate_key_count", "maximum_key_frequency"]
@@ -671,17 +694,18 @@ display(within_source_duplicates)
 total_duplicate_key_groups = int(within_source_duplicates["duplicate_key_count"].sum())
 print("Total duplicate candidate-key groups:", total_duplicate_key_groups)
 
-# %% [markdown]
+
 # **Observation and decision:** There are zero duplicate candidate-key groups within the profiled source collections. Therefore, no rows are removed during Task 1, but data-driven duplicate checks are retained for the later canonicalisation workflow.
-#
+# 
 
-# %% [markdown]
 # ### 1.7 Cross-source overlap
-#
+# 
 # Stable order and review identifier overlap across JSON and XML is calculated. This is done because overlapping records would be counted twice if they were appended.
-#
+# 
 
-# %%
+# In[18]:
+
+
 # Build unique key sets for the two entities present in both sources.
 json_order_ids = {record["orderID"] for record in json_orders}
 xml_order_ids = {record["Order_ID"] for record in xml_headers}
@@ -718,17 +742,18 @@ for row in overlap_summary.itertuples(index=False):
         f"{row.JSON_only:,} JSON-only, {row.XML_only:,} XML-only keys"
     )
 
-# %% [markdown]
+
 # **Observation and decision:** 1,100 overlapping order keys were observed, with 3,900 XML-only orders and no JSON-only orders. 1,260 overlapping review keys were also observed, with 5,740 JSON-only reviews and no XML-only reviews. Therefore, orders and reviews will be reconciled by stable key instead of the sources being concatenated or automatic source precedence being applied.
-#
+# 
 
-# %% [markdown]
 # ### 1.8 Normalised comparison of overlapping orders
-#
+# 
 # Only the comparable formats needed for profiling are normalised. Each rule is kept in a separate function so that its purpose is visible and testable.
-#
+# 
 
-# %%
+# In[19]:
+
+
 def normalise_text_for_comparison(value):
     """Trim a value for comparison and represent None as an empty string."""
     if value is None:
@@ -769,7 +794,10 @@ def normalise_number_for_comparison(value):
     """Convert a numeric source value to float for a like-for-like comparison."""
     return float(str(value).strip())
 
-# %%
+
+# In[20]:
+
+
 # Index both order sources by their stable order ID.
 json_orders_by_id = {record["orderID"]: record for record in json_orders}
 xml_orders_by_id = {record["Order_ID"]: record for record in xml_headers}
@@ -839,17 +867,18 @@ order_overlap_comparison = pd.DataFrame(order_comparison_rows)
 display(order_overlap_comparison)
 print("Total order-field mismatches:", int(order_overlap_comparison["mismatch_count"].sum()))
 
-# %% [markdown]
+
 # **Observation and decision:** 1,100 overlapping orders were compared for every listed comparable field, and zero normalised mismatches were observed. Therefore, equal normalised values can be retained once. Any future different non-missing value will still be recorded as a conflict instead of a source being chosen silently.
-#
+# 
 
-# %% [markdown]
 # ### 1.9 Normalised comparison of overlapping reviews
-#
+# 
 # The same field-level approach is applied to reviews. Raw review text is compared here only to test source overlap; the full published text-cleaning contract belongs to the later text-processing task.
-#
+# 
 
-# %%
+# In[21]:
+
+
 # Index both review sources by their stable review ID.
 json_reviews_by_id = {record["reviewID"]: record for record in json_reviews}
 xml_reviews_by_id = {record["Review_ID"]: record for record in xml_reviews}
@@ -912,17 +941,18 @@ review_overlap_comparison = pd.DataFrame(review_comparison_rows)
 display(review_overlap_comparison)
 print("Total review-field mismatches:", int(review_overlap_comparison["mismatch_count"].sum()))
 
-# %% [markdown]
+
 # **Observation and decision:** 1,260 overlapping reviews were compared for every listed comparable field, and zero normalised mismatches were observed. Therefore, one canonical review can be retained per stable key after normalisation while the same no-precedence conflict rule is kept.
-#
+# 
 
-# %% [markdown]
 # ### 1.10 Source comparison and assumptions
-#
+# 
 # The structural collection that supplies each target table is shown. The grain, candidate key, and reconciliation decisions are stated in markdown after the code output.
-#
+# 
 
-# %%
+# In[22]:
+
+
 # Show source coverage only; grain and key decisions are documented below.
 source_inventory = pd.DataFrame(
     [
@@ -937,35 +967,35 @@ source_inventory = pd.DataFrame(
 
 display(source_inventory)
 
-# %% [markdown]
+
 # **Observation and decisions:**
-#
+# 
 # - It was observed that orders and reviews occur in both sources. Their target grains are defined as one canonical order (`order_id`) and one canonical review (`review_id`), and they are reconciled by stable key.
 # - It was observed that repeated order items, customers, and deliveries occur only in XML. Their target grains are defined as one order item (`order_item_id`), one customer (`customer_id`), and one completed-order delivery (`delivery_id`).
 # - It was observed that products occur only in JSON. The target grain is defined as one product (`product_id`).
 # - If different non-missing values are found for the same normalised field and key in a future comparison, a conflict will be recorded rather than JSON or XML being chosen silently.
-#
+# 
 
-# %% [markdown]
 # ## 2. Source-to-target mapping
-#
+# 
 # The official mapping is completed because it is the full field-lineage record. All 111 mapping IDs, target rows, and their order are preserved. `|` is used only when several input paths contribute to one target field.
-#
+# 
 # The completed file is `Group018_source_to_target_mapping.csv`.
-#
+# 
 
-# %% [markdown]
 # ### 2.1 Table-level mapping evidence
-#
+# 
 # - **Orders:** Fields are mapped from both order-header structures, and a no-precedence conflict rule is used.
 # - **Order items:** Repeated XML cart items are mapped at one-row-per-item grain.
 # - **Customers:** XML customer elements are mapped at one-row-per-customer grain.
 # - **Deliveries:** The XML delivery child is mapped while its order relationship is retained.
 # - **Products:** JSON product-catalog records are mapped at one-row-per-product grain.
 # - **Product reviews:** Both review sources are mapped, and fields derived from raw multilingual review text are identified.
-#
+# 
 
-# %%
+# In[23]:
+
+
 # Load the completed mapping, untouched template and public dictionary.
 mapping_path = Path(f"{GROUP_ID}_source_to_target_mapping.csv")
 mapping_template_path = TEMPLATE_DIR / "A1_source_to_target_mapping_template.csv"
@@ -977,17 +1007,18 @@ public_dictionary = pd.read_csv(DICTIONARY_PATH, keep_default_na=False)
 print("Completed mapping rows:", len(mapping))
 display(mapping.head())
 
-# %% [markdown]
+
 # **Observation and decision:** The completed mapping contains 111 rows, matching the number of target fields in the public data dictionary. The official mapping IDs, table order, and target-field order are retained, and all required explanation columns are validated below.
-#
+# 
 
-# %% [markdown]
 # ### 2.2 Mapping completeness checks
-#
+# 
 # The completed mapping is validated against the official template and public data dictionary. This is done because a readable mapping can still be incomplete or out of order.
-#
+# 
 
-# %%
+# In[24]:
+
+
 # Compare target rows with the public dictionary in their required order.
 expected_pairs = list(zip(public_dictionary["output_table"], public_dictionary["field_name"]))
 actual_pairs = list(zip(mapping["output_table"], mapping["target_field"]))
@@ -1039,31 +1070,30 @@ print("Passed mapping checks:", int(mapping_validation["passed"].sum()), "of", l
 if not mapping_validation["passed"].all():
     raise ValueError("The completed mapping failed at least one completeness check.")
 
-# %% [markdown]
+
 # **Observation and decision:** All mapping checks passed. It was observed that there are 111 unique mapping IDs, the same target-row order as the public dictionary, valid source-format values, complete transformation and conflict explanations, complete section references, and all required structural paths. Therefore, this CSV is retained as the Task 1 field-lineage record.
-#
+# 
 
-# %% [markdown]
 # ## Task 1 conclusion
-#
+# 
 # Both source files have been structurally parsed, their grains and relationships have been documented, formats and missing values have been profiled, candidate keys have been tested, duplication and overlap have been measured, and the official field mapping has been completed. This notebook now ends after Task 1 so that unfinished later-task placeholders cannot be confused with completed work.
-#
+# 
 
-# %% [markdown]
 # ## 3. Task 2 - Relational transformation
-#
+# 
 # Six interim relational tables are built in this section. The tables are built in dependency order so that child and parent relationships can be checked clearly. The 11 fields that require the published Task 3 text functions are intentionally omitted until those functions are implemented.
-#
+# 
 # Each conversion is kept explicit. Helper fields are retained only in staging tables and are not written to the interim CSV files.
-#
+# 
 
-# %% [markdown]
 # ### 3.1 Small normalisation functions
-#
+# 
 # Separate functions are used for each source representation. This makes each conversion visible and prevents source-specific formats from being mixed together.
-#
+# 
 
-# %%
+# In[25]:
+
+
 def normalise_identifier(value):
     """Return an identifier with surrounding whitespace removed."""
     return str(value).strip()
@@ -1151,17 +1181,18 @@ def values_match(first_value, second_value, tolerance=0.0):
 
 print("Normalisation functions prepared: 11")
 
-# %% [markdown]
+
 # **Observation and decision:** Eleven small normalisation functions were prepared. A separate function was retained for each source-specific date, timestamp, boolean, currency, percentage and missing-string representation so that each conversion can be inspected independently.
-#
+# 
 
-# %% [markdown]
 # ### 3.2 Build `order_items`
-#
+# 
 # The repeated XML `Item` elements are converted first because their rounded line revenues are needed to calculate order prices. This follows `MAP-order_items-01` to `MAP-order_items-06`.
-#
+# 
 
-# %%
+# In[26]:
+
+
 # Convert the parsed XML item dictionaries into a staging DataFrame.
 xml_items_raw = pd.DataFrame(xml_items)
 order_items_stage = pd.DataFrame()
@@ -1203,17 +1234,18 @@ print("Order-item rows created:", len(order_items_table))
 print("Line-revenue mismatches above 0.01:", line_revenue_mismatches)
 display(order_items_table.head())
 
-# %% [markdown]
+
 # **Observation and decision:** 15,618 order-item rows were created from the repeated XML items. Zero calculated line revenues differed from the supplied values by more than 0.01. Therefore, the calculated and rounded `line_revenue` values were retained.
-#
+# 
 
-# %% [markdown]
 # ### 3.3 Build `customers`
-#
+# 
 # The XML customer records are converted at one-row-per-customer grain. All 20 fields are available directly from XML. This follows `MAP-customers-01` to `MAP-customers-20`.
-#
+# 
 
-# %%
+# In[27]:
+
+
 # Convert the parsed XML customer dictionaries into a staging DataFrame.
 xml_customers_raw = pd.DataFrame(xml_customers)
 customers_table = pd.DataFrame()
@@ -1246,17 +1278,18 @@ print("Customer rows created:", len(customers_table))
 print("Customer fields created:", len(customers_table.columns))
 display(customers_table.head())
 
-# %% [markdown]
+
 # **Observation and decision:** 500 customer rows and all 20 customer fields were created. The one-row-per-customer grain was retained, and no text-processing field was deferred in this table.
-#
+# 
 
-# %% [markdown]
 # ### 3.4 Build `deliveries`
-#
+# 
 # The XML delivery records are converted at one-row-per-completed-order-delivery grain. The raw delivery note is kept only in staging for Task 3. This follows `MAP-deliveries-01` to `MAP-deliveries-20`.
-#
+# 
 
-# %%
+# In[28]:
+
+
 # Convert the parsed XML delivery dictionaries into a staging DataFrame.
 xml_deliveries_raw = pd.DataFrame(xml_deliveries)
 deliveries_stage = pd.DataFrame()
@@ -1315,17 +1348,18 @@ print("Delivery fields created now:", len(deliveries_table.columns))
 print("Delivery statuses:", sorted(deliveries_table["delivery_status"].unique()))
 display(deliveries_table.head())
 
-# %% [markdown]
+
 # **Observation and decision:** 5,000 delivery rows were created, and every row had the `Delivered` status. Nineteen Task 2 fields were retained. `delivery_note_clean` was omitted because its published cleaning rule belongs to Task 3.
-#
+# 
 
-# %% [markdown]
 # ### 3.5 Build `products`
-#
+# 
 # The JSON product catalogue is converted at one-row-per-product grain. The raw product description is kept only in staging for Task 3. This follows `MAP-products-01` to `MAP-products-21`.
-#
+# 
 
-# %%
+# In[29]:
+
+
 # Convert the parsed JSON product records into a staging DataFrame.
 json_products_raw = pd.DataFrame(json_products)
 products_stage = pd.DataFrame()
@@ -1385,17 +1419,18 @@ print("Product rows created:", len(products_table))
 print("Product fields created now:", len(products_table.columns))
 display(products_table.head())
 
-# %% [markdown]
+
 # **Observation and decision:** 1,000 product rows and 20 Task 2 fields were created. `product_description_clean` was omitted because its published cleaning rule belongs to Task 3.
-#
+# 
 
-# %% [markdown]
 # ### 3.6 Normalise and reconcile `orders`
-#
+# 
 # JSON and XML order headers are normalised into the same field names before they are compared. Equal overlapping values are retained once, and no source is given automatic precedence. This follows `MAP-orders-01` to `MAP-orders-23`.
-#
+# 
 
-# %%
+# In[30]:
+
+
 # Convert parsed JSON and XML order headers into source DataFrames.
 json_orders_raw = pd.DataFrame(json_orders)
 xml_orders_raw = pd.DataFrame(xml_headers)
@@ -1453,7 +1488,10 @@ xml_orders_stage["source_order_total"] = xml_orders_raw["Order_Total"].map(parse
 print("Normalised JSON order rows:", len(json_orders_stage))
 print("Normalised XML order rows:", len(xml_orders_stage))
 
-# %%
+
+# In[31]:
+
+
 # Merge the two normalised order sources by the stable order key.
 orders_merged = json_orders_stage.merge(
     xml_orders_stage,
@@ -1534,17 +1572,18 @@ if not order_conflicts.empty:
     display(order_conflicts.head())
     raise ValueError("Order reconciliation found different non-missing values.")
 
-# %% [markdown]
+
 # **Observation and decision:** 1,100 JSON orders and 5,000 XML orders were normalised before reconciliation. The outer reconciliation retained 5,000 canonical order keys and found zero unresolved field conflicts. Therefore, overlapping equal values were retained once without applying source precedence.
-#
+# 
 
-# %% [markdown]
 # ### 3.7 Calculate order arithmetic
-#
+# 
 # Order arithmetic is calculated from the completed order-item table rather than copied from the supplied order headers. Each published arithmetic step is kept separate so the calculation can be audited.
-#
+# 
 
-# %%
+# In[32]:
+
+
 # Sum the already-rounded line revenues for each order.
 calculated_order_prices = (
     order_items_table.groupby("order_id", as_index=False)["line_revenue"]
@@ -1640,17 +1679,18 @@ print("Order rows created:", len(orders_table))
 print("Order fields created now:", len(orders_table.columns))
 display(order_arithmetic_check)
 
-# %% [markdown]
+
 # **Observation and decision:** 5,000 order rows and 21 Task 2 fields were created. The calculated `order_price`, included `tax_amount`, and discounted `order_total` were compared with the supplied values. No mismatch exceeded the published tolerance of 0.01. `customer_note_clean` and `promo_code` were omitted until Task 3.
-#
+# 
 
-# %% [markdown]
 # ### 3.8 Normalise and reconcile `product_reviews`
-#
+# 
 # JSON and XML reviews are normalised before reconciliation by `review_id`. The raw review text is reconciled and retained only in staging for Task 3. This follows `MAP-product_reviews-01` to `MAP-product_reviews-21`.
-#
+# 
 
-# %%
+# In[33]:
+
+
 # Convert parsed JSON and XML reviews into source DataFrames.
 json_reviews_raw = pd.DataFrame(json_reviews)
 xml_reviews_raw = pd.DataFrame(xml_reviews)
@@ -1694,7 +1734,10 @@ xml_reviews_stage["review_text_raw"] = xml_reviews_raw["Review_Text"].map(normal
 print("Normalised JSON review rows:", len(json_reviews_stage))
 print("Normalised XML review rows:", len(xml_reviews_stage))
 
-# %%
+
+# In[34]:
+
+
 # Merge the two normalised review sources by the stable review key.
 reviews_merged = json_reviews_stage.merge(
     xml_reviews_stage,
@@ -1780,17 +1823,18 @@ print("Review fields created now:", len(product_reviews_table.columns))
 print("Unresolved review conflicts:", len(review_conflicts))
 display(product_reviews_table.head())
 
-# %% [markdown]
+
 # **Observation and decision:** 7,000 JSON reviews and 1,260 XML reviews were normalised before reconciliation. The reconciliation retained 7,000 canonical reviews and found zero unresolved field conflicts. Fourteen Task 2 fields were retained. The seven fields derived from cleaned review text were omitted until Task 3.
-#
+# 
 
-# %% [markdown]
 # ## 4. Task 2 verification
-#
+# 
 # The completed Task 2 fields are checked before export. These checks cover structure, keys, relationships, row flow, formats, ranges, arithmetic, overlap and temporal ordering. The complete 111-field schema is recorded separately as deferred rather than reported as passing.
-#
+# 
 
-# %%
+# In[35]:
+
+
 # Keep all six interim tables together for consistent checks and export.
 task2_tables = {
     "orders": orders_table,
@@ -1845,7 +1889,10 @@ for table_name in task2_tables:
 print("Implemented Task 2 fields:", sum(len(table.columns) for table in task2_tables.values()))
 print("Deferred Task 3 fields:", sum(len(fields) for fields in deferred_task3_fields.values()))
 
-# %%
+
+# In[36]:
+
+
 task2_check_rows = []
 
 
@@ -1924,7 +1971,10 @@ display(task2_verification)
 if task2_verification["status"].eq("FAIL").any():
     raise ValueError("At least one Task 2 structure, key, flow or overlap check failed.")
 
-# %%
+
+# In[37]:
+
+
 # Check every implemented field against its public-dictionary data type.
 field_type_check_rows = []
 
@@ -1980,7 +2030,10 @@ if not task2_field_type_checks["passed"].all():
     display(task2_field_type_checks[~task2_field_type_checks["passed"]])
     raise ValueError("At least one implemented field failed its dictionary type check.")
 
-# %%
+
+# In[38]:
+
+
 # Define the eight required foreign-key relationships.
 foreign_key_rules = [
     ("orders.customer_id", orders_table["customer_id"], customers_table["customer_id"]),
@@ -2015,7 +2068,10 @@ display(task2_foreign_key_checks)
 if task2_foreign_key_checks["status"].eq("FAIL").any():
     raise ValueError("At least one Task 2 foreign-key check failed.")
 
-# %%
+
+# In[39]:
+
+
 # Check arithmetic and sensible numeric ranges separately.
 range_check_rows = [
     {"check": "quantity is positive", "passed": order_items_table["quantity"].gt(0).all()},
@@ -2041,7 +2097,10 @@ display(task2_range_checks)
 if not arithmetic_passed or not task2_range_checks["passed"].all():
     raise ValueError("At least one Task 2 arithmetic or range check failed.")
 
-# %%
+
+# In[40]:
+
+
 # Convert comparable dates and timestamps only for temporal checks.
 order_times = orders_table[["order_id", "order_timestamp"]].copy()
 order_times["order_timestamp_check"] = pd.to_datetime(
@@ -2101,11 +2160,13 @@ display(task2_temporal_checks)
 if not task2_temporal_checks["passed"].all():
     raise ValueError("At least one Task 2 temporal check failed.")
 
-# %% [markdown]
-# **Observation and decision:** All completed Task 2 structure, primary-key, foreign-key, row-flow, overlap, arithmetic, range and temporal checks passed. The checks were calculated from the source and interim tables rather than from hard-coded canonical answers.
-#
 
-# %%
+# **Observation and decision:** All completed Task 2 structure, primary-key, foreign-key, row-flow, overlap, arithmetic, range and temporal checks passed. The checks were calculated from the source and interim tables rather than from hard-coded canonical answers.
+# 
+
+# In[41]:
+
+
 # Record completion separately from the deferred Task 3 schema work.
 task2_readiness = pd.DataFrame(
     [
@@ -2129,19 +2190,19 @@ task2_readiness = pd.DataFrame(
 
 display(task2_readiness)
 
-# %% [markdown]
-# <h3 style="color: red;">Warning: Task 2 outputs are incomplete</h3>
-#
-# Eleven Task 3-dependent fields have been omitted. The six CSV files below are interim outputs and must not be submitted. The missing fields must be added during Task 3, and the same six files must then be regenerated.
-#
 
-# %% [markdown]
+# ### Task 3 completed
+# 
+# All eleven Task 3-dependent fields have been added in the section below. The six CSV files have been regenerated as final, complete outputs with all 111 required fields.
+
 # ## 5. Export the six interim CSV files
-#
+# 
 # Only the six required filenames are written. Helper fields, conflict tables and verification tables remain inside the notebook.
-#
+# 
 
-# %%
+# In[42]:
+
+
 # Define each required output path explicitly.
 orders_output_path = OUTPUT_DIR / f"{GROUP_ID}_orders_standardised.csv"
 order_items_output_path = OUTPUT_DIR / f"{GROUP_ID}_order_items_standardised.csv"
@@ -2172,13 +2233,15 @@ print("Interim CSV files written:", len(exported_paths))
 for exported_path in exported_paths:
     print(exported_path)
 
-# %% [markdown]
-# ### 5.1 Re-read the exported CSV files
-#
-# The exported files are read back with `keep_default_na=False`. This confirms that the written row counts and implemented column order agree with the in-memory tables.
-#
 
-# %%
+# ### 5.1 Re-read the exported CSV files
+# 
+# The exported files are read back with `keep_default_na=False`. This confirms that the written row counts and implemented column order agree with the in-memory tables.
+# 
+
+# In[43]:
+
+
 # Re-read each exported file without converting the literal NaN string.
 reloaded_task2_tables = {
     "orders": pd.read_csv(orders_output_path, keep_default_na=False),
@@ -2211,10 +2274,249 @@ display(task2_reload_checks)
 if not task2_reload_checks[["row_count_matches", "column_order_matches"]].all().all():
     raise ValueError("At least one exported Task 2 CSV failed the re-read check.")
 
-# %% [markdown]
+
 # **Observation and decision:** Six interim CSV files were written and read back successfully. Their row counts and implemented column order matched the in-memory tables. The files remain incomplete until Task 3 adds the 11 deferred fields.
-#
+# 
 # ## Task 2 conclusion
-#
+# 
 # The six relational grains, completed target fields, arithmetic rules and multi-source reconciliation have been implemented. All completed Task 2 checks passed. The interim outputs are not submission-ready because the Task 3 text-derived fields have not yet been created.
-#
+# 
+
+# ## 6. Task 3 - Regex and multilingual text preprocessing
+# 
+# Task 2 produced 100 of the required 111 target fields. The eleven fields that
+# depend on narrative-text cleaning and reference extraction were deliberately
+# deferred, since Task 1's structured JSON/XML parsers must not be replaced by
+# regex. The raw narrative values (`customer_note_raw`, `delivery_note_raw`,
+# `product_description_raw`, `review_text_raw`) were instead preserved inside
+# the existing staging DataFrames without being exported.
+# 
+# This section:
+# - imports the six fixed functions from `Group018_text_functions.py`
+#   (`clean_narrative_text`, `extract_order_reference`, `extract_product_sku`,
+#   `extract_promo_code`, `build_latin_analysis`, `contains_non_latin_script`);
+# - reuses the completed Task 2 staging DataFrames `orders_stage`,
+#   `deliveries_stage`, `products_stage`, and `product_reviews_stage` -- no
+#   JSON/XML is re-parsed here;
+# - derives the eleven deferred fields, following the published order:
+#   reference extraction on the raw value first, then decode/clean, then
+#   Latin-script analysis built from the cleaned (not raw) text;
+# - runs the supplied public text-function test cases together with additional
+#   student-designed cases; and
+# - rebuilds and re-exports all six standardised CSV files with the complete
+#   111-field schema.
+
+# In[44]:
+
+
+from Group018_text_functions import (
+    clean_narrative_text, extract_order_reference, extract_product_sku,
+    extract_promo_code, build_latin_analysis, contains_non_latin_script,
+)
+
+# --- orders: +2 fields ---
+orders_stage["customer_note_clean"] = orders_stage["customer_note_raw"].apply(clean_narrative_text)
+orders_stage["promo_code"] = orders_stage["customer_note_raw"].apply(extract_promo_code)
+order_columns_final = order_columns + ["customer_note_clean", "promo_code"]
+orders_table = orders_stage[order_columns_final].copy()
+orders_table = orders_table.sort_values("order_id", kind="stable").reset_index(drop=True)
+
+# --- deliveries: +1 field ---
+deliveries_stage["delivery_note_clean"] = deliveries_stage["delivery_note_raw"].apply(clean_narrative_text)
+delivery_columns_final = delivery_columns + ["delivery_note_clean"]
+deliveries_table = deliveries_stage[delivery_columns_final].copy()
+deliveries_table = deliveries_table.sort_values("delivery_id", kind="stable").reset_index(drop=True)
+
+# --- products: +1 field ---
+products_stage["product_description_clean"] = products_stage["product_description_raw"].apply(clean_narrative_text)
+product_columns_final = product_columns + ["product_description_clean"]
+products_table = products_stage[product_columns_final].copy()
+products_table = products_table.sort_values("product_id", kind="stable").reset_index(drop=True)
+
+# --- product_reviews: +7 fields (new fields are interleaved, not appended) ---
+raw = product_reviews_stage["review_text_raw"]
+product_reviews_stage["extracted_order_reference"] = raw.apply(extract_order_reference)
+product_reviews_stage["extracted_product_sku"] = raw.apply(extract_product_sku)
+product_reviews_stage["review_body_clean"] = raw.apply(clean_narrative_text)
+
+clean = product_reviews_stage["review_body_clean"]
+product_reviews_stage["review_body_latin_analysis"] = clean.apply(build_latin_analysis)
+product_reviews_stage["contains_non_latin_script"] = clean.apply(contains_non_latin_script)
+product_reviews_stage["review_length_chars"] = clean.apply(lambda t: 0 if t == "NaN" else len(t))
+product_reviews_stage["review_word_count"] = clean.apply(lambda t: 0 if t == "NaN" else len(t.split()))
+
+review_columns_final = [
+    "review_id","order_id","order_item_id","product_id","customer_id","review_timestamp","language_code",
+    "rating","review_title","review_body_clean","review_body_latin_analysis","verified_purchase",
+    "helpful_votes","review_length_chars","review_word_count","contains_non_latin_script",
+    "extracted_order_reference","extracted_product_sku","delivery_experience","value_experience","writing_style",
+]
+product_reviews_table = product_reviews_stage[review_columns_final].copy()
+product_reviews_table = product_reviews_table.sort_values("review_id", kind="stable").reset_index(drop=True)
+
+# --- fresh dict for final validation/export ---
+final_tables = {
+    "orders": orders_table, "order_items": order_items_table, "customers": customers_table,
+    "deliveries": deliveries_table, "products": products_table, "product_reviews": product_reviews_table,
+}
+
+for table_name, table in final_tables.items():
+    expected_cols = public_dictionary.loc[public_dictionary["output_table"] == table_name, "field_name"].tolist()
+    assert list(table.columns) == expected_cols, f"{table_name} column mismatch vs public dictionary"
+print("All six tables match the complete public dictionary field order.")
+
+for table_name, table in final_tables.items():
+    path = OUTPUT_DIR / f"{GROUP_ID}_{table_name}_standardised.csv"
+    table.to_csv(path, index=False, encoding="utf-8")
+print("Final CSVs written:", len(final_tables))
+
+
+# In[45]:
+
+
+public_text_cases_path = Path("templates/A1_public_text_test_cases.csv")  
+public_text_cases = pd.read_csv(public_text_cases_path, keep_default_na=False)
+print("Columns:", list(public_text_cases.columns))
+display(public_text_cases.head(10))
+
+
+# In[46]:
+
+
+FUNCTION_LOOKUP = {
+    "clean_narrative_text": clean_narrative_text,
+    "extract_order_reference": extract_order_reference,
+    "extract_product_sku": extract_product_sku,
+    "extract_promo_code": extract_promo_code,
+    "build_latin_analysis": build_latin_analysis,
+    "contains_non_latin_script": contains_non_latin_script,
+}
+
+public_test_rows = []
+for _, row in public_text_cases.iterrows():
+    func = FUNCTION_LOOKUP[row["function"]]
+    actual = func(row["input_value"])
+    expected = row["expected_output"]
+    # contains_non_latin_script returns a real bool; the CSV stores it as text
+    expected_cmp = (expected == "True") if row["function"] == "contains_non_latin_script" else expected
+    public_test_rows.append({
+        "case_id": row["case_id"],
+        "function": row["function"],
+        "purpose": row["purpose"],
+        "expected": expected,
+        "actual": actual,
+        "status": "PASS" if actual == expected_cmp else "FAIL",
+    })
+
+public_test_results = pd.DataFrame(public_test_rows)
+display(public_test_results)
+print("Public cases passed:", (public_test_results["status"] == "PASS").sum(), "of", len(public_test_results))
+
+if (public_test_results["status"] == "FAIL").any():
+    display(public_test_results[public_test_results["status"] == "FAIL"])
+    raise ValueError("At least one public text test case failed.")
+
+
+# In[47]:
+
+
+text_function_check_rows = []
+
+def record_text_check(check_id, description, actual, expected):
+    """Add one student-designed text-function check to the register."""
+    text_function_check_rows.append({
+        "check_id": check_id,
+        "description": description,
+        "actual": actual,
+        "expected": expected,
+        "status": "PASS" if actual == expected else "FAIL",
+    })
+
+record_text_check("TXT-CLEAN-01", "full pipeline strips markers/tags/emoji/entities/wrapper",
+    clean_narrative_text("[VERIFIED_PURCHASE] Great phone!! \U0001F60A Reference: HORD123456 | SKU: SKU-ABC123 #verified-buyer Visit http://example.com PROMO: B1SAVE-14 [RATING: 5/5] [SOURCE: catalogue-import] <b>Bold</b> claim &amp; more   spacing"),
+    "great phone!! visit bold claim & more spacing")
+record_text_check("TXT-CLEAN-02", "None input returns sentinel", clean_narrative_text(None), "NaN")
+record_text_check("TXT-CLEAN-03", "empty string returns sentinel", clean_narrative_text(""), "NaN")
+record_text_check("TXT-CLEAN-04", "markers-only text returns sentinel", clean_narrative_text("[SYSTEM] [CATALOGUE] #verified-buyer"), "NaN")
+record_text_check("TXT-CLEAN-05", "tags removed, content kept", clean_narrative_text("<p>Nice <i>item</i></p>"), "nice item")
+record_text_check("TXT-CLEAN-06", "multilingual letters preserved", clean_narrative_text("Amazing quality! 很好用 Très bien"), "amazing quality! 很好用 très bien")
+
+record_text_check("TXT-ORDREF-01", "matched HORD", extract_order_reference("Order was HORD123456 great"), "HORD123456")
+record_text_check("TXT-ORDREF-02", "matched CORD lower-case input", extract_order_reference("ref cord998877 here"), "CORD998877")
+record_text_check("TXT-ORDREF-03", "embedded near-match rejected", extract_order_reference("XHORD123456"), "NaN")
+record_text_check("TXT-ORDREF-04", "overlong near-match rejected", extract_order_reference("HORD1234567"), "NaN")
+record_text_check("TXT-ORDREF-05", "too-short near-match rejected", extract_order_reference("HORD12345"), "NaN")
+record_text_check("TXT-ORDREF-06", "absent reference returns sentinel", extract_order_reference("no reference here"), "NaN")
+record_text_check("TXT-ORDREF-07", "None input returns sentinel", extract_order_reference(None), "NaN")
+
+record_text_check("TXT-SKU-01", "matched SKU", extract_product_sku("item SKU-ABC123 in stock"), "SKU-ABC123")
+record_text_check("TXT-SKU-02", "embedded near-match rejected", extract_product_sku("XSKU-ABC123"), "NaN")
+record_text_check("TXT-SKU-03", "absent SKU returns sentinel", extract_product_sku("no sku here"), "NaN")
+
+record_text_check("TXT-PROMO-01", "matched B1SAVE", extract_promo_code("use code B1SAVE-14 today"), "B1SAVE-14")
+record_text_check("TXT-PROMO-02", "matched B5SAVE upper bound", extract_promo_code("B5SAVE-09"), "B5SAVE-09")
+record_text_check("TXT-PROMO-03", "out-of-range B6SAVE rejected", extract_promo_code("B6SAVE-14"), "NaN")
+record_text_check("TXT-PROMO-04", "three-digit code rejected", extract_promo_code("B1SAVE-145"), "NaN")
+record_text_check("TXT-PROMO-05", "embedded near-match rejected", extract_promo_code("XB1SAVE-14"), "NaN")
+record_text_check("TXT-PROMO-06", "absent promo code returns sentinel", extract_promo_code("no promo here"), "NaN")
+
+record_text_check("TXT-LATIN-01", "keeps Latin + diacritics, drops CJK letters",
+    build_latin_analysis("amazing quality! 很好用 très bien é"), "amazing quality! très bien é")
+record_text_check("TXT-LATIN-02", "all non-Latin letters returns sentinel", build_latin_analysis("很好用"), "NaN")
+record_text_check("TXT-LATIN-03", "sentinel input passes through", build_latin_analysis("NaN"), "NaN")
+record_text_check("TXT-LATIN-04", "Arabic diacritics stripped, not just base letters",
+    build_latin_analysis(clean_narrative_text("مَرْحَبًا vela spark 603 has a great screen")),
+    "vela spark 603 has a great screen")
+record_text_check("TXT-LATIN-05", "orphaned punctuation from removed non-Latin words dropped",
+    build_latin_analysis(clean_narrative_text("candle shift 898 को मैंने कमजोर, सिग्नल, candle shift 898")),
+    "candle shift 898 candle shift 898")
+
+record_text_check("TXT-SCRIPT-01", "mixed script detected as True", contains_non_latin_script("très bien 很好用"), True)
+record_text_check("TXT-SCRIPT-02", "pure Latin detected as False", contains_non_latin_script("very good, fast."), False)
+record_text_check("TXT-SCRIPT-03", "sentinel input detected as False", contains_non_latin_script("NaN"), False)
+record_text_check("TXT-SCRIPT-04", "Cyrillic detected as True", contains_non_latin_script("Привет мир"), True)
+
+text_function_checks = pd.DataFrame(text_function_check_rows)
+display(text_function_checks)
+
+if text_function_checks["status"].eq("FAIL").any():
+    raise ValueError("At least one student-designed text-function check failed.")
+
+
+# In[50]:
+
+
+reloaded_final_tables = {
+    name: pd.read_csv(OUTPUT_DIR / f"{GROUP_ID}_{name}_standardised.csv", keep_default_na=False)
+    for name in final_tables
+}
+
+for name, table in final_tables.items():
+    reloaded = reloaded_final_tables[name]
+    assert len(reloaded) == len(table), f"{name} row count mismatch after reload"
+    assert list(reloaded.columns) == list(table.columns), f"{name} column order mismatch after reload"
+
+print("All six final CSVs re-read successfully with matching row counts and column order.")
+
+
+# **Observation and decision:** All eleven deferred fields were created and
+# inserted into their public-dictionary positions. All supplied public
+# text-function test cases passed, and all student-designed matched,
+# unmatched, missing, multilingual and near-match cases passed. The six
+# standardised CSV files were regenerated with the complete 111-field schema
+# and re-read successfully with matching row counts and column order.
+# 
+# ## Task 3 conclusion
+# 
+# The eleven Task 3-dependent fields have been derived using the six fixed
+# functions in `Group018_text_functions.py`, following the published
+# extraction-before-cleaning order, the multilingual preservation contract,
+# and the literal `NaN` sentinel convention. All public and student-designed
+# text-function tests passed, and the six relational tables now contain the
+# complete 111-field public-dictionary schema.
+
+# In[ ]:
+
+
+
+
