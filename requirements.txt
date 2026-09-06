@@ -1,0 +1,8 @@
+# Tested with Python 3.12.13. Standard-library imports need no installation.
+# Core dependencies for the existing solution and the EDA notebook.
+pandas==2.2.3
+numpy==2.3.5
+matplotlib==3.10.8
+# Notebook display and Python kernel (open with Jupyter or VS Code).
+ipython==9.17.1
+ipykernel==7.3.0
